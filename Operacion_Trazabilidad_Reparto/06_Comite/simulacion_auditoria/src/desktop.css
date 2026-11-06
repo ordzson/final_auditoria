@@ -1,0 +1,228 @@
+@font-face {
+  font-family: TahomaXP;
+  src: url('/computers/fonts/tahoma-regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: TahomaXP;
+  src: url('/computers/fonts/tahoma-bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* El contenedor deja una franja de oficina real: no pinta un fondo que la imite. */
+.computer-dialog {
+  width: fit-content;
+  height: fit-content;
+  max-width: none;
+  max-height: none;
+  margin: auto;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  background: transparent;
+}
+.computer-dialog::backdrop { background: #101d2226; }
+.computer-session {
+  box-sizing: border-box;
+  width: calc(100vw - 192px);
+  height: calc(100dvh - 128px);
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+  color: #f4f0e6;
+}
+
+.computer-session *, .computer-session *::before, .computer-session *::after { box-sizing: border-box; }
+.computer-session [hidden] { display: none !important; }
+.computer-hud { display: flex; flex: 0 0 auto; min-height: 48px; align-items: center; gap: 16px; padding: 5px 10px; border-radius: 4px; background: #29383d; font: 14px/1.3 system-ui, sans-serif; }
+.computer-hud-title { display: grid; gap: 3px; margin-right: auto; }
+.computer-hud-title strong { font-size: 16px; }
+.computer-hud-title span { font-size: 12px; }
+.computer-hud nav { display: flex; flex-wrap: wrap; gap: 6px; }
+.computer-hud button { border: 1px solid #a6b3ac; border-radius: 4px; padding: 8px 12px; background: #f4f0e6; color: #29383d; font: inherit; cursor: pointer; text-shadow: none; }
+.computer-hud button:hover { background: #fffdf7; }
+.computer-hud button:focus-visible { outline: 3px solid #f3d386; outline-offset: 2px; }
+.computer-hud kbd { font-size: 11px; margin-left: 6px; }
+.computer-save-status { margin: 0; max-width: 180px; font-size: 13px; }
+.computer-save-status[data-status='session-only'] { color: #ffe6ab; }
+.computer-monitor { display: flex; flex: 1; min-height: 0; flex-direction: column; border: 1px solid #10171a; border-radius: 9px; padding: 9px 9px 0; background: #242c30; box-shadow: 0 12px 26px #10171a66; }
+.computer-monitor-foot { height: 20px; display: flex; align-items: center; justify-content: center; gap: 20px; color: #bdc4c5; font: 9px/1 system-ui, sans-serif; letter-spacing: .14em; }
+.computer-monitor-foot i { width: 5px; height: 5px; background: #9dd78b; border-radius: 50%; }
+
+.computer-desktop {
+  --pc-font: TahomaXP, Tahoma, sans-serif;
+  --pc-face: #ece9d8;
+  --pc-text: #000;
+  --pc-window: #fff;
+  --pc-title: #0054e3;
+  --pc-selection: #316ac5;
+  --pc-inactive: #7a96df;
+  --pc-taskbar: #245edb;
+  --pc-note: #fff2a6;
+  position: relative;
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  flex-direction: column;
+  isolation: isolate;
+  overflow: hidden;
+  font: 12px/1.4 var(--pc-font);
+  font-synthesis: none;
+  color: var(--pc-text);
+  background: var(--pc-taskbar);
+  text-shadow: none;
+  color-scheme: light;
+  scrollbar-color: #b9b6a7 var(--pc-face);
+  scrollbar-width: auto;
+}
+
+.computer-desktop ::selection { background: var(--pc-selection); color: #fff; }
+.computer-desktop button, .computer-desktop input, .computer-desktop select, .computer-desktop textarea { font: inherit; color: inherit; letter-spacing: normal; }
+.computer-desktop button { min-height: 0; border-radius: 0; cursor: pointer; }
+.computer-desktop button:disabled { cursor: default; opacity: .6; }
+.computer-desktop button:focus-visible { outline: 2px solid #000; outline-offset: -3px; }
+.computer-desktop input, .computer-desktop select, .computer-desktop textarea { caret-color: #000; }
+.pc-desktop-area { flex: 1; min-height: 0; position: relative; overflow: hidden; background-position: center; background-size: cover; }
+.pc-shortcuts { position: absolute; inset: 12px auto 12px 8px; display: flex; flex-flow: column wrap; align-content: flex-start; gap: 12px 6px; z-index: 0; }
+.computer-desktop .pc-shortcut { width: 86px; min-height: 72px; padding: 3px; border: 1px solid transparent; display: flex; align-items: center; flex-direction: column; gap: 5px; background: transparent; color: #fff; text-align: center; line-height: 1.2; text-shadow: 1px 1px 2px #000; }
+.pc-shortcut img { width: 32px; height: 32px; flex: 0 0 auto; }
+.pc-shortcut span { padding: 2px; }
+.pc-shortcut.is-selected span, .pc-shortcut:focus-visible span { background: #245ab5; }
+.pc-shortcut:hover { border-color: #ffffff88; }
+.computer-desktop .pc-shortcut:focus-visible { outline: 1px dotted #fff; outline-offset: 0; }
+.pc-note { position: absolute; z-index: 1; width: 204px; max-width: calc(100% - 10px); max-height: calc(100% - 10px); overflow: auto; background: var(--pc-note); color: #292512; box-shadow: 2px 5px 9px #0004; padding: 0 12px 12px; scrollbar-color: #9a873b var(--pc-note); }
+.pc-note h2 { font: 700 13px/1.3 var(--pc-font); margin: 8px 0 12px; }
+.computer-desktop .pc-note-handle { display: block; width: calc(100% + 24px); margin: 0 -12px; border: 0; border-bottom: 1px solid #a18b4244; background: #f1dc7f; padding: 6px 12px; font-size: 11px; font-weight: 700; color: #4b3d11; text-align: left; cursor: move; touch-action: none; }
+.pc-note ul { list-style: none; padding: 0; margin: 0; }
+.pc-note li + li { margin-top: 12px; }
+.computer-desktop .pc-note-task { display: block; border: 0; padding: 0; background: transparent; color: #292512; text-align: left; text-decoration: underline; text-underline-offset: 2px; }
+.pc-note-task:hover { color: #5b4300; }
+.pc-note small { display: block; font-size: 10px; margin-top: 3px; color: #5a4b1e; }
+.pc-note small.is-satisfied { color: #234c20; font-weight: 700; }
+.pc-note-hint { margin: 8px 0 0; font-size: 11px; line-height: 1.5; }
+
+.pc-window { position: absolute; display: flex; flex-direction: column; border: 3px solid #5877c5; border-top-width: 0; border-radius: 7px 7px 0 0; background: var(--pc-face); box-shadow: 2px 4px 9px #0005; overflow: hidden; }
+.pc-window.is-active { border-color: #0054e3; }
+.pc-window.is-maximized { border-radius: 0; }
+.pc-window-titlebar { height: 29px; flex: 0 0 29px; display: flex; align-items: center; gap: 5px; margin: 0 -1px; padding: 0 3px; border-top: 1px solid #bccbf3; background: linear-gradient(#9eb5ef, #7c9bde 12%, #7897dc 86%, #647fc4); color: #fff; }
+.is-active > .pc-window-titlebar { border-top-color: #79aaff; background: linear-gradient(#3d95ff, #0063ed 12%, #0055e7 65%, #0040bb 94%, #003dba); }
+.pc-window-titlebar > img { flex: 0 0 auto; width: 16px; height: 16px; }
+.pc-window-titlebar h2 { min-width: 0; flex: 1; margin: 0; font: 700 14px/1.2 var(--pc-font); }
+.computer-desktop .pc-window-title { border: 0; background: transparent; color: #fff; text-shadow: 1px 1px 1px #284b9b; font: inherit; display: block; width: 100%; padding: 4px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: left; cursor: move; touch-action: none; }
+.pc-window-title:focus-visible { outline: 1px dotted #fff !important; }
+.pc-window-controls { display: flex; flex: 0 0 auto; gap: 2px; }
+.computer-desktop .pc-window-controls button { width: 22px; height: 22px; padding: 0; border: 1px solid #e5efff; border-radius: 3px; background: linear-gradient(135deg, #8ebaff, #2260c5 65%, #174496); box-shadow: inset 1px 1px 2px #fff9; color: #fff; position: relative; }
+.computer-desktop .pc-window-controls button:hover { filter: brightness(1.16); }
+.computer-desktop .pc-window-controls button:active { filter: brightness(.85); }
+.computer-desktop .pc-window-controls .pc-window-close { background: linear-gradient(135deg, #efa285, #d44422 65%, #ac301b); }
+.pc-window-controls span { display: block; position: absolute; }
+.pc-glyph-minimize { width: 8px; height: 3px; background: currentColor; left: 5px; bottom: 5px; }
+.pc-glyph-maximize { width: 12px; height: 12px; border: 1px solid currentColor; border-top-width: 3px; top: 4px; left: 4px; }
+.is-restoring .pc-glyph-maximize { width: 9px; height: 9px; left: 7px; top: 4px; }
+.is-restoring .pc-glyph-maximize::after { content: ''; position: absolute; width: 9px; height: 9px; border: 1px solid currentColor; border-top-width: 3px; left: -4px; top: 0; background: #3164c7; }
+.pc-glyph-close { width: 14px; height: 14px; top: 3px; left: 3px; }
+.pc-glyph-close::before, .pc-glyph-close::after { content: ''; position: absolute; width: 15px; height: 2px; top: 6px; left: 0; background: currentColor; transform: rotate(45deg); }
+.pc-glyph-close::after { transform: rotate(-45deg); }
+.pc-window-body { flex: 1; min-height: 0; overflow: auto; background: var(--pc-face); }
+.computer-desktop .pc-window-resize { position: absolute; width: 14px; height: 14px; right: 0; bottom: 0; padding: 0; border: 0; background: transparent; cursor: nwse-resize; touch-action: none; }
+.pc-window-resize::after { content: ''; position: absolute; width: 8px; height: 8px; bottom: 2px; right: 2px; border-right: 3px double #79776a; border-bottom: 3px double #79776a; }
+.is-maximized > .pc-window-resize { display: none; }
+.is-dragging .pc-window-body { pointer-events: none; }
+.is-dragging { user-select: none; }
+
+.pc-taskbar { position: relative; display: flex; align-items: stretch; flex: 0 0 32px; height: 32px; gap: 5px; z-index: 100; background: linear-gradient(#4e99ff, #2868df 12%, #245bd7 88%, #1943a9); border-top: 1px solid #3d86ed; }
+.computer-desktop .pc-start { display: flex; align-items: center; justify-content: center; gap: 5px; flex: 0 0 99px; border: 0; border-radius: 0 10px 10px 0; padding: 0 12px 2px 6px; color: #fff; background: linear-gradient(#70b66d, #438f3d 16%, #388a32 80%, #266f28); box-shadow: inset 0 2px 4px #b0dca4; font: italic 700 18px/1 var(--pc-font); text-shadow: 1px 1px 2px #1e541a; }
+.pc-start img { width: 24px; height: 24px; object-fit: contain; }
+.computer-desktop .pc-start:hover, .pc-start[aria-expanded='true'] { filter: brightness(1.12); }
+.computer-desktop .pc-show-desktop { flex: 0 0 32px; border: 0; border-right: 1px solid #143a91; background: transparent; position: relative; }
+.pc-show-desktop span { display: block; width: 18px; height: 15px; border: 2px solid #d8e8ff; background: #458d98; box-shadow: 1px 2px 2px #163475; }
+.pc-show-desktop span::after { content: ''; display: block; width: 12px; border-top: 3px solid #1f3e87; }
+.pc-tasks { display: flex; flex: 1; min-width: 0; gap: 3px; padding: 3px 0; overflow-x: auto; scrollbar-width: thin; scrollbar-color: #a1c8ff #1b4ea7; }
+.computer-desktop .pc-task { display: flex; align-items: center; gap: 5px; flex: 0 1 180px; min-width: 88px; padding: 2px 7px; color: #fff; border: 1px solid #1d4bb6; border-radius: 3px; background: #3d80ee; box-shadow: inset 1px 1px 2px #86b4ff; text-align: left; }
+.pc-task img { width: 16px; height: 16px; }
+.pc-task span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.computer-desktop .pc-task.is-active { background: #174aab; box-shadow: inset 1px 1px 2px #133678; font-weight: 700; }
+.computer-desktop .pc-task:hover { background: #4e8cf7; }
+.pc-tray { display: flex; align-items: center; flex: 0 0 auto; padding: 0 12px; background: #0d96df; border-left: 1px solid #0c4ab5; box-shadow: inset 1px 1px 2px #56c8f6; color: #fff; font-size: 11px; }
+.pc-start-menu { position: absolute; bottom: 32px; left: 0; width: 330px; max-width: 100%; max-height: calc(100% - 40px); overflow: auto; z-index: 110; border: 2px solid #1d5bc7; border-radius: 7px 7px 0 0; background: #fff; box-shadow: 3px 4px 9px #0005; }
+.pc-start-heading { padding: 14px 12px; background: linear-gradient(#1f61d0, #4892ed); color: #fff; border-bottom: 2px solid #e3b670; font-size: 14px; font-weight: 700; }
+.pc-start-programs { padding: 5px; }
+.computer-desktop .pc-start-program { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 44px; border: 0; padding: 5px 8px; background: #fff; text-align: left; }
+.pc-start-program img { width: 32px; height: 32px; }
+.computer-desktop .pc-start-program:hover, .computer-desktop .pc-start-program:focus-visible { background: #316ac5; color: #fff; }
+.pc-start-footer { padding: 8px; text-align: right; background: #438bdf; }
+.computer-desktop .pc-start-footer button { background: transparent; border: 1px solid #c4ddff; color: #fff; padding: 5px 8px; }
+
+/* Server comparte motor y medidas, sustituyendo el relieve Luna por controles clásicos. */
+.computer-desktop[data-theme='server-classic'] { --pc-face: #d4d0c8; --pc-title: #0a246a; --pc-selection: #0a246a; --pc-inactive: #808080; --pc-taskbar: #d4d0c8; }
+[data-theme='server-classic'] .pc-window { border: 3px solid #d4d0c8; border-radius: 0; box-shadow: inset 1px 1px #fff, 2px 4px 9px #0005; }
+[data-theme='server-classic'] .pc-window-titlebar { height: 26px; flex-basis: 26px; margin: 0; border: 0; background: #808080; }
+[data-theme='server-classic'] .is-active > .pc-window-titlebar { background: linear-gradient(90deg, #0a246a, #a6caf0); }
+[data-theme='server-classic'] .pc-window-title { font-size: 12px; text-shadow: none; }
+.computer-desktop[data-theme='server-classic'] .pc-window-controls button { width: 19px; height: 19px; background: #d4d0c8; border: 1px solid; border-color: #fff #404040 #404040 #fff; border-radius: 0; box-shadow: inset -1px -1px #808080; color: #000; }
+[data-theme='server-classic'] .pc-glyph-close { top: 1px; left: 1px; }
+[data-theme='server-classic'] .pc-glyph-maximize { top: 2px; left: 2px; }
+[data-theme='server-classic'] .is-restoring .pc-glyph-maximize::after { background: #d4d0c8; }
+[data-theme='server-classic'] .pc-taskbar { background: #d4d0c8; border-top: 2px solid #fff; }
+.computer-desktop[data-theme='server-classic'] .pc-start, .computer-desktop[data-theme='server-classic'] .pc-task { background: #d4d0c8; border: 2px solid; border-color: #fff #404040 #404040 #fff; border-radius: 0; color: #000; box-shadow: none; text-shadow: none; }
+.computer-desktop[data-theme='server-classic'] .pc-start { font: 700 13px var(--pc-font); flex-basis: 90px; }
+[data-theme='server-classic'] .pc-start img { width: 20px; height: 20px; }
+.computer-desktop[data-theme='server-classic'] .pc-task.is-active { border-color: #404040 #fff #fff #404040; background: #ece9e2; }
+[data-theme='server-classic'] .pc-show-desktop { border-right-color: #808080; }
+[data-theme='server-classic'] .pc-tray { border: 1px solid; border-color: #808080 #fff #fff #808080; box-shadow: none; background: transparent; color: #000; }
+[data-theme='server-classic'] .pc-start-menu { border: 2px solid; border-color: #fff #404040 #404040 #fff; border-radius: 0; background: #d4d0c8; }
+[data-theme='server-classic'] .pc-start-heading { background: #0a246a; border: 0; }
+[data-theme='server-classic'] .pc-start-program { background: #d4d0c8; }
+[data-theme='server-classic'] .pc-start-footer { background: #d4d0c8; border-top: 1px solid #808080; }
+.computer-desktop[data-theme='server-classic'] .pc-start-footer button { color: #000; border-color: #808080; }
+
+[data-projector='true'] .computer-desktop { font-size: 15px; }
+[data-projector='true'] .pc-note { width: 240px; }
+[data-projector='true'] .pc-note h2, [data-projector='true'] .pc-note-hint { font-size: 14px; }
+[data-projector='true'] .pc-note small { font-size: 12px; }
+[data-single-window='true'] .pc-window-titlebar { height: 48px; flex-basis: 48px; }
+[data-single-window='true'] .pc-window-controls button { width: 44px; height: 44px; }
+[data-single-window='true'] .pc-window-controls span { margin: 11px; }
+[data-single-window='true'] .pc-window-title { cursor: default; padding-block: 10px; }
+[data-single-window='true'] .pc-note-task { min-height: 44px; }
+[data-single-window='true'] .pc-note-handle { min-height: 44px; }
+[data-single-window='true'] .pc-taskbar { height: 44px; flex-basis: 44px; }
+[data-single-window='true'] .pc-start-menu { bottom: 44px; }
+[data-single-window='true'] .pc-tray { display: none; }
+[data-single-window='true'] .pc-note { max-height: calc(100% - 12px); }
+
+@media (max-width: 760px) {
+  .computer-session { width: calc(100vw - 12px); height: calc(100dvh - 20px); gap: 6px; }
+  .computer-hud { flex-wrap: wrap; gap: 6px 12px; padding: 6px; }
+  .computer-hud-title { flex: 1; }
+  .computer-hud-title strong { font-size: 13px; }
+  .computer-hud nav { width: 100%; display: grid; grid-template-columns: auto auto 1fr; }
+  .computer-hud button { min-height: 44px; padding: 6px 8px; font-size: 12px; }
+  .computer-hud kbd { display: none; }
+  .computer-save-status { font-size: 11px; }
+  .computer-monitor { padding: 3px 3px 0; border-radius: 5px; }
+  .computer-monitor-foot { height: 12px; font-size: 7px; }
+  .pc-shortcuts { inset: 8px auto 8px 2px; gap: 8px; }
+  .pc-note { width: 206px; }
+  .computer-desktop .pc-start { flex-basis: 82px; font-size: 16px; padding-inline: 5px; }
+  .computer-desktop .pc-show-desktop { flex-basis: 44px; }
+  .computer-desktop .pc-task { min-width: 58px; padding-inline: 5px; }
+}
+
+@media (pointer: coarse) {
+  .computer-desktop .pc-shortcut { min-height: 80px; }
+  .computer-desktop .pc-window-controls button { min-width: 44px; min-height: 44px; }
+  .pc-window-titlebar { height: 48px; flex-basis: 48px; }
+  .pc-window-controls span { margin: 11px; }
+  .pc-note-task { min-height: 44px !important; }
+}
+
+@media (prefers-reduced-motion: reduce) { .computer-session *, .computer-session *::before, .computer-session *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; } }
+[data-reduced-motion='true'] *, [data-reduced-motion='true'] *::before, [data-reduced-motion='true'] *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }

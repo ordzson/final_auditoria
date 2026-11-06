@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "auditoria_oficina_v2.1",
+  "title": "RedNova: canon de referencia del incidente",
+  "scope": "Transcripción de resúmenes del curso para el diseño. No es extracción autenticada, resultado SQL ni juego implementado.",
+  "sources": [
+    {
+      "id": "curso",
+      "path": "00_Material_del_curso/Proyecto_Operacion_Trazabilidad_Auditoria_Sistemas.pdf",
+      "timelinePage": 4,
+      "evidencePage": 5
+    },
+    {
+      "id": "entregables",
+      "path": "00_Material_del_curso/Guia_Entregables_Operacion_Trazabilidad.pdf",
+      "relevantSteps": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ],
+  "time": {
+    "zone": "America/Guatemala",
+    "displayOffset": "-06:00",
+    "basis": "Horas preliminares del expediente; no corregidas por una investigación ya realizada.",
+    "auditVisitAt": null
+  },
+  "reportedFacts": {
+    "registeredCustomers": 85000,
+    "customerRecordsRead": 31840,
+    "outboundTransfer": {
+      "reportedValue": 1.6,
+      "unit": "GB",
+      "approximate": true,
+      "exactBytes": null,
+      "content": null,
+      "destinationClassification": "no clasificado"
+    },
+    "ordersModified": 216,
+    "ordersConfirmedFraudulent": null,
+    "ransomNote": {
+      "reported": true,
+      "originalText": null,
+      "appearedAt": null,
+      "provenance": {
+        "sourceId": "curso",
+        "page": 3,
+        "kind": "contexto_del_incidente"
+      }
+    },
+    "chatbotRiskScore": {
+      "value": 0.08,
+      "scale": null,
+      "threshold": null,
+      "calibration": null
+    }
+  },
+  "events": [
+    {
+      "id": "EVT-01",
+      "reportedAt": "2026-10-12T16:15:00-06:00",
+      "systemLabel": "Proveedor / API",
+      "description": "Proveedor solicita renovación de acceso privilegiado a una API; autorización pendiente.",
+      "account": null,
+      "originalTime": null,
+      "clockOffsetSeconds": null,
+      "clockOffsetVerified": false,
+      "evidenceIds": [],
+      "plannedQueryIds": [
+        "Q-12"
+      ],
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "resumen_del_expediente"
+      },
+      "causedByEventId": null
+    },
+    {
+      "id": "EVT-02",
+      "reportedAt": "2026-10-14T02:17:00-06:00",
+      "systemLabel": "VPN",
+      "description": "Inicio de sesión remoto de la cuenta ext_ops_04 sin MFA.",
+      "account": "ext_ops_04",
+      "originalTime": null,
+      "clockOffsetSeconds": null,
+      "clockOffsetVerified": false,
+      "evidenceIds": [
+        "E-02"
+      ],
+      "plannedQueryIds": [
+        "Q-03",
+        "Q-12"
+      ],
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "resumen_del_expediente"
+      },
+      "causedByEventId": null
+    },
+    {
+      "id": "EVT-03",
+      "reportedAt": "2026-10-14T02:26:00-06:00",
+      "systemLabel": "Identidad",
+      "description": "Servicio de identidad registra elevación de privilegios.",
+      "account": null,
+      "originalTime": null,
+      "clockOffsetSeconds": null,
+      "clockOffsetVerified": false,
+      "evidenceIds": [],
+      "plannedQueryIds": [
+        "Q-04",
+        "Q-12"
+      ],
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "resumen_del_expediente"
+      },
+      "causedByEventId": null
+    },
+    {
+      "id": "EVT-04",
+      "reportedAt": "2026-10-14T02:31:00-06:00",
+      "systemLabel": "SQL Server",
+      "description": "SQL Server registra lectura de 31,840 registros de clientes.",
+      "account": null,
+      "originalTime": null,
+      "clockOffsetSeconds": null,
+      "clockOffsetVerified": false,
+      "evidenceIds": [
+        "E-03"
+      ],
+      "plannedQueryIds": [
+        "Q-05",
+        "Q-12"
+      ],
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "resumen_del_expediente"
+      },
+      "causedByEventId": null
+    },
+    {
+      "id": "EVT-05",
+      "reportedAt": "2026-10-14T02:35:00-06:00",
+      "systemLabel": "Monitoreo de red",
+      "description": "Monitoreo identifica transferencia de aproximadamente 1.6 GB hacia destino externo no clasificado.",
+      "account": null,
+      "originalTime": null,
+      "clockOffsetSeconds": null,
+      "clockOffsetVerified": false,
+      "evidenceIds": [
+        "E-04"
+      ],
+      "plannedQueryIds": [
+        "Q-06",
+        "Q-12"
+      ],
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "resumen_del_expediente"
+      },
+      "causedByEventId": null
+    },
+    {
+      "id": "EVT-06",
+      "reportedAt": "2026-10-14T02:42:00-06:00",
+      "systemLabel": "CRM",
+      "description": "CRM registra cambios en 216 órdenes comerciales.",
+      "account": null,
+      "originalTime": null,
+      "clockOffsetSeconds": null,
+      "clockOffsetVerified": false,
+      "evidenceIds": [
+        "E-05"
+      ],
+      "plannedQueryIds": [
+        "Q-07",
+        "Q-12"
+      ],
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "resumen_del_expediente"
+      },
+      "causedByEventId": null
+    },
+    {
+      "id": "EVT-07",
+      "reportedAt": "2026-10-14T03:02:00-06:00",
+      "systemLabel": "Integración",
+      "description": "Se ejecuta despliegue de versión nueva del servicio de integración.",
+      "account": null,
+      "originalTime": null,
+      "clockOffsetSeconds": null,
+      "clockOffsetVerified": false,
+      "evidenceIds": [
+        "E-06"
+      ],
+      "plannedQueryIds": [
+        "Q-10",
+        "Q-12"
+      ],
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "resumen_del_expediente"
+      },
+      "causedByEventId": null
+    },
+    {
+      "id": "EVT-08",
+      "reportedAt": "2026-10-14T03:18:00-06:00",
+      "systemLabel": "Seguridad",
+      "description": "Sistema de seguridad emite alerta crítica sobre actividad sospechosa.",
+      "account": null,
+      "originalTime": null,
+      "clockOffsetSeconds": null,
+      "clockOffsetVerified": false,
+      "evidenceIds": [
+        "E-07"
+      ],
+      "plannedQueryIds": [
+        "Q-11",
+        "Q-12"
+      ],
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "resumen_del_expediente"
+      },
+      "causedByEventId": null
+    },
+    {
+      "id": "EVT-09",
+      "reportedAt": "2026-10-14T03:42:00-06:00",
+      "systemLabel": "CRM",
+      "description": "CRM deja de estar disponible; archivos aparentemente cifrados.",
+      "account": null,
+      "originalTime": null,
+      "clockOffsetSeconds": null,
+      "clockOffsetVerified": false,
+      "evidenceIds": [],
+      "plannedQueryIds": [
+        "Q-12"
+      ],
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "resumen_del_expediente"
+      },
+      "causedByEventId": null
+    },
+    {
+      "id": "EVT-10",
+      "reportedAt": "2026-10-14T04:05:00-06:00",
+      "systemLabel": "TI",
+      "description": "TI solicita activar recuperación ante desastres.",
+      "account": null,
+      "originalTime": null,
+      "clockOffsetSeconds": null,
+      "clockOffsetVerified": false,
+      "evidenceIds": [],
+      "plannedQueryIds": [
+        "Q-12"
+      ],
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "resumen_del_expediente"
+      },
+      "causedByEventId": null
+    },
+    {
+      "id": "EVT-11",
+      "reportedAt": "2026-10-14T08:57:00-06:00",
+      "systemLabel": "CRM",
+      "description": "CRM retorna en modo solo consulta.",
+      "account": null,
+      "originalTime": null,
+      "clockOffsetSeconds": null,
+      "clockOffsetVerified": false,
+      "evidenceIds": [],
+      "plannedQueryIds": [
+        "Q-12"
+      ],
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "resumen_del_expediente"
+      },
+      "causedByEventId": null
+    },
+    {
+      "id": "EVT-12",
+      "reportedAt": "2026-10-14T09:37:00-06:00",
+      "systemLabel": "CRM",
+      "description": "Se restablecen operaciones de escritura.",
+      "account": null,
+      "originalTime": null,
+      "clockOffsetSeconds": null,
+      "clockOffsetVerified": false,
+      "evidenceIds": [],
+      "plannedQueryIds": [
+        "Q-12"
+      ],
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "resumen_del_expediente"
+      },
+      "causedByEventId": null
+    },
+    {
+      "id": "EVT-13",
+      "reportedAt": "2026-10-14T11:15:00-06:00",
+      "systemLabel": "Finanzas",
+      "description": "Finanzas solicita conciliación de órdenes y facturación.",
+      "account": null,
+      "originalTime": null,
+      "clockOffsetSeconds": null,
+      "clockOffsetVerified": false,
+      "evidenceIds": [],
+      "plannedQueryIds": [
+        "Q-12"
+      ],
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "resumen_del_expediente"
+      },
+      "causedByEventId": null
+    }
+  ],
+  "evidenceSummaries": [
+    {
+      "id": "E-01",
+      "type": "Usuarios y privilegios",
+      "summary": "Cuentas activas sin recertificación reciente.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 5,
+        "kind": "resumen_no_autenticado"
+      },
+      "artifactPath": null,
+      "sha256": null
+    },
+    {
+      "id": "E-02",
+      "type": "Acceso VPN",
+      "summary": "Sesión externa sin MFA.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 5,
+        "kind": "resumen_no_autenticado"
+      },
+      "artifactPath": null,
+      "sha256": null
+    },
+    {
+      "id": "E-03",
+      "type": "Bitácora SQL Server",
+      "summary": "Lectura masiva de 31,840 filas.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 5,
+        "kind": "resumen_no_autenticado"
+      },
+      "artifactPath": null,
+      "sha256": null
+    },
+    {
+      "id": "E-04",
+      "type": "Tráfico cloud",
+      "summary": "Transferencia de aproximadamente 1.6 GB sin clasificación del contenido.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 5,
+        "kind": "resumen_no_autenticado"
+      },
+      "artifactPath": null,
+      "sha256": null
+    },
+    {
+      "id": "E-05",
+      "type": "Cambios del CRM",
+      "summary": "216 órdenes modificadas.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 5,
+        "kind": "resumen_no_autenticado"
+      },
+      "artifactPath": null,
+      "sha256": null
+    },
+    {
+      "id": "E-06",
+      "type": "Ticket de cambios",
+      "summary": "Aprobación final no documentada.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 5,
+        "kind": "resumen_no_autenticado"
+      },
+      "artifactPath": null,
+      "sha256": null
+    },
+    {
+      "id": "E-07",
+      "type": "Alertas de seguridad",
+      "summary": "Alerta crítica sin cierre documentado.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 5,
+        "kind": "resumen_no_autenticado"
+      },
+      "artifactPath": null,
+      "sha256": null
+    },
+    {
+      "id": "E-08",
+      "type": "Respaldos",
+      "summary": "Respaldos programados; restauración no probada recientemente.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 5,
+        "kind": "resumen_no_autenticado"
+      },
+      "artifactPath": null,
+      "sha256": null
+    },
+    {
+      "id": "E-09",
+      "type": "Contrato del tercero",
+      "summary": "SLA 99.9 % con exclusiones sujetas a interpretación.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 5,
+        "kind": "resumen_no_autenticado"
+      },
+      "artifactPath": null,
+      "sha256": null
+    },
+    {
+      "id": "E-10",
+      "type": "Chatbot con IA",
+      "summary": "Clasificación de una sesión anómala con valor de riesgo 0.08.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 5,
+        "kind": "resumen_no_autenticado"
+      },
+      "artifactPath": null,
+      "sha256": null
+    }
+  ],
+  "initialStatements": [
+    {
+      "id": "DECL-01",
+      "speakerRole": "Gerencia de Tecnología",
+      "summary": "La responsabilidad del incidente es exclusivamente del proveedor.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "declaracion_inicial_resumida"
+      },
+      "conclusiveByItself": false
+    },
+    {
+      "id": "DECL-02",
+      "speakerRole": "Proveedor cloud",
+      "summary": "La falla se originó en una configuración a cargo del cliente; nuestro SLA no se incumplió.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "declaracion_inicial_resumida"
+      },
+      "conclusiveByItself": false
+    },
+    {
+      "id": "DECL-03",
+      "speakerRole": "Desarrollo",
+      "summary": "El despliegue estaba autorizado verbalmente; no se presentó aprobación formal.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "declaracion_inicial_resumida"
+      },
+      "conclusiveByItself": false
+    },
+    {
+      "id": "DECL-04",
+      "speakerRole": "Administrador de BD",
+      "summary": "Los datos están intactos; la conciliación aún no ha concluido.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "declaracion_inicial_resumida"
+      },
+      "conclusiveByItself": false
+    },
+    {
+      "id": "DECL-05",
+      "speakerRole": "Seguridad Informática",
+      "summary": "Califica los 1.6 GB de tráfico como fuga; aún no identifica los datos transferidos.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "declaracion_inicial_resumida"
+      },
+      "conclusiveByItself": false
+    },
+    {
+      "id": "DECL-06",
+      "speakerRole": "Comité de Auditoría",
+      "summary": "El informe SOC 2 presentado por el tercero no cubre todos los servicios contratados.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "declaracion_inicial_resumida"
+      },
+      "conclusiveByItself": false
+    },
+    {
+      "id": "DECL-07",
+      "speakerRole": "Continuidad",
+      "summary": "La restauración documentada más reciente ocurrió varios meses antes del incidente.",
+      "provenance": {
+        "sourceId": "curso",
+        "page": 4,
+        "kind": "declaracion_inicial_resumida"
+      },
+      "conclusiveByItself": false
+    }
+  ],
+  "queryReferenceStatus": "Los Q-xx son vínculos previstos del agente P1. Este archivo no incluye ni afirma ejecución o resultados de consultas.",
+  "derivedIntervals": [
+    {
+      "label": "Acceso a alerta crítica",
+      "startEventId": "EVT-02",
+      "endEventId": "EVT-08",
+      "minutes": 61,
+      "basis": "Calculado sobre las horas preliminares; no equivale por sí solo a un incumplimiento de objetivo."
+    },
+    {
+      "label": "Caída a solicitud de recuperación",
+      "startEventId": "EVT-09",
+      "endEventId": "EVT-10",
+      "minutes": 23,
+      "basis": "Calculado sobre las horas preliminares; no equivale por sí solo a un incumplimiento de objetivo."
+    },
+    {
+      "label": "Caída a solo consulta",
+      "startEventId": "EVT-09",
+      "endEventId": "EVT-11",
+      "minutes": 315,
+      "basis": "Calculado sobre las horas preliminares; no equivale por sí solo a un incumplimiento de objetivo."
+    },
+    {
+      "label": "Caída a escritura",
+      "startEventId": "EVT-09",
+      "endEventId": "EVT-12",
+      "minutes": 355,
+      "basis": "Calculado sobre las horas preliminares; no equivale por sí solo a un incumplimiento de objetivo."
+    },
+    {
+      "label": "Caída a solicitud de conciliación",
+      "startEventId": "EVT-09",
+      "endEventId": "EVT-13",
+      "minutes": 453,
+      "basis": "Calculado sobre las horas preliminares; no equivale por sí solo a un incumplimiento de objetivo."
+    }
+  ],
+  "unresolved": [
+    "Persona que usó ext_ops_04 y relación con la solicitud del día 12.",
+    "Contenido transferido y conexión probada entre la lectura SQL y el flujo externo.",
+    "Identidad y sesión que explican los cambios de órdenes; conciliación e integridad final.",
+    "Relación causal del despliegue con el incidente.",
+    "Hora de primera acción ante la alerta y respuesta completa ejecutada.",
+    "Horas originales, fiabilidad y desfases de cada fuente.",
+    "Respaldo exacto usado, punto recuperable y cumplimiento de objetivos de negocio.",
+    "Cadena de custodia completa de extracciones no aportadas.",
+    "Escala y calibración del puntaje de IA."
+  ],
+  "presentation": {
+    "scope": "Puesta en escena ilustrativa autorizada por el usuario; no es contenido recuperado ni una nueva evidencia del incidente.",
+    "openingTargetSeconds": 110,
+    "ransomNote": {
+      "id": "ILUST-NOTA-01",
+      "title": "NOTA DE EXTORSIÓN",
+      "body": "Sus archivos están bloqueados.\nPara recuperarlos, debe realizar un pago.",
+      "visibleLabel": "Recreación ilustrativa · no es el texto original",
+      "provenanceText": "El expediente reporta una nota exigiendo pago; no aporta su contenido ni la hora de aparición.",
+      "shotId": "P08",
+      "showDuringEventId": "EVT-09",
+      "showAfterShotStartSeconds": 3,
+      "visibleForSeconds": 10,
+      "timingMeaning": "Ubicación narrativa durante la caída del CRM; 03:42 no se atribuye como hora acreditada de aparición de la nota.",
+      "usableAsAuditEvidence": false
+    }
+  },
+  "designBoundary": "Los datos adicionales de laboratorio, reglas de juego, criterios y diálogos deben identificarse por separado. No rellenar nulos ni inferir causalidad para animar los registros. El texto y el momento narrativo de la nota en presentation son ilustrativos; los trece events permanecen como registros preliminares del curso."
+}

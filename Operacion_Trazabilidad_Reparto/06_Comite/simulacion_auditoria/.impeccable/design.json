@@ -1,0 +1,586 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-05T06:36:59+00:00",
+  "title": "Design System: Operación Trazabilidad",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Verde de contraste",
+        "canonical": "#385f5c"
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Verde de acción activa",
+        "canonical": "#284e4c"
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Verde de reposo",
+        "canonical": "#517c78"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Marfil de tablita",
+        "canonical": "#f4f0e6"
+      },
+      "paper-bright": {
+        "role": "neutral",
+        "displayName": "Papel claro",
+        "canonical": "#fbfaf5"
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Grafito",
+        "canonical": "#29383d"
+      },
+      "night": {
+        "role": "neutral",
+        "displayName": "Noche azulada",
+        "canonical": "#17262e"
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Gris de lectura secundaria",
+        "canonical": "#5d6d6b"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Línea cálida",
+        "canonical": "#cfd2c7"
+      },
+      "warning": {
+        "role": "tertiary",
+        "displayName": "Ámbar de alerta",
+        "canonical": "#c49a52"
+      },
+      "critical": {
+        "role": "tertiary",
+        "displayName": "Rojo del CRM",
+        "canonical": "#b84a48"
+      },
+      "button-label": {
+        "role": "neutral",
+        "displayName": "Texto de botón",
+        "canonical": "#ffffff"
+      },
+      "status-done-bg": {
+        "role": "neutral",
+        "displayName": "Verde de estado documentado",
+        "canonical": "#d8e6dc"
+      },
+      "status-done-text": {
+        "role": "neutral",
+        "displayName": "Texto de estado documentado",
+        "canonical": "#294f47"
+      },
+      "program-bg": {
+        "role": "neutral",
+        "displayName": "Fondo del programa",
+        "canonical": "#edf0ed",
+        "tonalRamp": [
+          "oklch(15.00% 0.00509 145.54)",
+          "oklch(26.43% 0.00509 145.54)",
+          "oklch(37.86% 0.00509 145.54)",
+          "oklch(49.29% 0.00509 145.54)",
+          "oklch(60.71% 0.00509 145.54)",
+          "oklch(72.14% 0.00509 145.54)",
+          "oklch(83.57% 0.00509 145.54)",
+          "oklch(95.00% 0.00509 145.54)"
+        ]
+      },
+      "program-surface": {
+        "role": "neutral",
+        "displayName": "Área de investigación",
+        "canonical": "#fafbf8",
+        "tonalRamp": [
+          "oklch(15.00% 0.00408 121.56)",
+          "oklch(26.43% 0.00408 121.56)",
+          "oklch(37.86% 0.00408 121.56)",
+          "oklch(49.29% 0.00408 121.56)",
+          "oklch(60.71% 0.00408 121.56)",
+          "oklch(72.14% 0.00408 121.56)",
+          "oklch(83.57% 0.00408 121.56)",
+          "oklch(95.00% 0.00408 121.56)"
+        ]
+      },
+      "program-line": {
+        "role": "neutral",
+        "displayName": "Divisor del programa",
+        "canonical": "#cbd3ce",
+        "tonalRamp": [
+          "oklch(15.00% 0.01104 158.81)",
+          "oklch(26.43% 0.01104 158.81)",
+          "oklch(37.86% 0.01104 158.81)",
+          "oklch(49.29% 0.01104 158.81)",
+          "oklch(60.71% 0.01104 158.81)",
+          "oklch(72.14% 0.01104 158.81)",
+          "oklch(83.57% 0.01104 158.81)",
+          "oklch(95.00% 0.01104 158.81)"
+        ]
+      },
+      "program-muted": {
+        "role": "neutral",
+        "displayName": "Lectura secundaria del programa",
+        "canonical": "#536761",
+        "tonalRamp": [
+          "oklch(15.00% 0.02589 175.04)",
+          "oklch(26.43% 0.02589 175.04)",
+          "oklch(37.86% 0.02589 175.04)",
+          "oklch(49.29% 0.02589 175.04)",
+          "oklch(60.71% 0.02589 175.04)",
+          "oklch(72.14% 0.02589 175.04)",
+          "oklch(83.57% 0.02589 175.04)",
+          "oklch(95.00% 0.02589 175.04)"
+        ]
+      },
+      "program-chrome": {
+        "role": "neutral",
+        "displayName": "Explorador gris verdoso",
+        "canonical": "#e3e8e3",
+        "tonalRamp": [
+          "oklch(15.00% 0.00855 145.51)",
+          "oklch(26.43% 0.00855 145.51)",
+          "oklch(37.86% 0.00855 145.51)",
+          "oklch(49.29% 0.00855 145.51)",
+          "oklch(60.71% 0.00855 145.51)",
+          "oklch(72.14% 0.00855 145.51)",
+          "oklch(83.57% 0.00855 145.51)",
+          "oklch(95.00% 0.00855 145.51)"
+        ]
+      },
+      "program-header": {
+        "role": "secondary",
+        "displayName": "Petróleo de aplicación RN",
+        "canonical": "#21383f",
+        "tonalRamp": [
+          "oklch(15.00% 0.03136 219.11)",
+          "oklch(26.43% 0.03136 219.11)",
+          "oklch(37.86% 0.03136 219.11)",
+          "oklch(49.29% 0.03136 219.11)",
+          "oklch(60.71% 0.03136 219.11)",
+          "oklch(72.14% 0.03136 219.11)",
+          "oklch(83.57% 0.03136 219.11)",
+          "oklch(95.00% 0.03136 219.11)"
+        ]
+      },
+      "program-header-text": {
+        "role": "neutral",
+        "displayName": "Texto de cabecera RN",
+        "canonical": "#edf4f1",
+        "tonalRamp": [
+          "oklch(15.00% 0.00841 168.75)",
+          "oklch(26.43% 0.00841 168.75)",
+          "oklch(37.86% 0.00841 168.75)",
+          "oklch(49.29% 0.00841 168.75)",
+          "oklch(60.71% 0.00841 168.75)",
+          "oklch(72.14% 0.00841 168.75)",
+          "oklch(83.57% 0.00841 168.75)",
+          "oklch(95.00% 0.00841 168.75)"
+        ]
+      },
+      "program-heading": {
+        "role": "neutral",
+        "displayName": "Pregunta de investigación",
+        "canonical": "#243e3e",
+        "tonalRamp": [
+          "oklch(15.00% 0.03194 195.76)",
+          "oklch(26.43% 0.03194 195.76)",
+          "oklch(37.86% 0.03194 195.76)",
+          "oklch(49.29% 0.03194 195.76)",
+          "oklch(60.71% 0.03194 195.76)",
+          "oklch(72.14% 0.03194 195.76)",
+          "oklch(83.57% 0.03194 195.76)",
+          "oklch(95.00% 0.03194 195.76)"
+        ]
+      },
+      "program-inspector": {
+        "role": "neutral",
+        "displayName": "Papel del inspector",
+        "canonical": "#eef1e9",
+        "tonalRamp": [
+          "oklch(15.00% 0.01106 123.46)",
+          "oklch(26.43% 0.01106 123.46)",
+          "oklch(37.86% 0.01106 123.46)",
+          "oklch(49.29% 0.01106 123.46)",
+          "oklch(60.71% 0.01106 123.46)",
+          "oklch(72.14% 0.01106 123.46)",
+          "oklch(83.57% 0.01106 123.46)",
+          "oklch(95.00% 0.01106 123.46)"
+        ]
+      },
+      "program-table-head": {
+        "role": "neutral",
+        "displayName": "Cabecera tabular",
+        "canonical": "#e8ede8",
+        "tonalRamp": [
+          "oklch(15.00% 0.00851 145.51)",
+          "oklch(26.43% 0.00851 145.51)",
+          "oklch(37.86% 0.00851 145.51)",
+          "oklch(49.29% 0.00851 145.51)",
+          "oklch(60.71% 0.00851 145.51)",
+          "oklch(72.14% 0.00851 145.51)",
+          "oklch(83.57% 0.00851 145.51)",
+          "oklch(95.00% 0.00851 145.51)"
+        ]
+      },
+      "program-table-stripe": {
+        "role": "neutral",
+        "displayName": "Alternancia tabular",
+        "canonical": "#f1f4ee",
+        "tonalRamp": [
+          "oklch(15.00% 0.00854 128.56)",
+          "oklch(26.43% 0.00854 128.56)",
+          "oklch(37.86% 0.00854 128.56)",
+          "oklch(49.29% 0.00854 128.56)",
+          "oklch(60.71% 0.00854 128.56)",
+          "oklch(72.14% 0.00854 128.56)",
+          "oklch(83.57% 0.00854 128.56)",
+          "oklch(95.00% 0.00854 128.56)"
+        ]
+      },
+      "program-selection": {
+        "role": "neutral",
+        "displayName": "Registro seleccionado",
+        "canonical": "#dfece1",
+        "tonalRamp": [
+          "oklch(15.00% 0.02015 150.09)",
+          "oklch(26.43% 0.02015 150.09)",
+          "oklch(37.86% 0.02015 150.09)",
+          "oklch(49.29% 0.02015 150.09)",
+          "oklch(60.71% 0.02015 150.09)",
+          "oklch(72.14% 0.02015 150.09)",
+          "oklch(83.57% 0.02015 150.09)",
+          "oklch(95.00% 0.02015 150.09)"
+        ]
+      },
+      "query-bg": {
+        "role": "secondary",
+        "displayName": "Editor SQL azul noche",
+        "canonical": "#13252e",
+        "tonalRamp": [
+          "oklch(15.00% 0.02926 231.25)",
+          "oklch(26.43% 0.02926 231.25)",
+          "oklch(37.86% 0.02926 231.25)",
+          "oklch(49.29% 0.02926 231.25)",
+          "oklch(60.71% 0.02926 231.25)",
+          "oklch(72.14% 0.02926 231.25)",
+          "oklch(83.57% 0.02926 231.25)",
+          "oklch(95.00% 0.02926 231.25)"
+        ]
+      },
+      "query-text": {
+        "role": "secondary",
+        "displayName": "Texto de consulta",
+        "canonical": "#bde1d0",
+        "tonalRamp": [
+          "oklch(15.00% 0.04441 165.16)",
+          "oklch(26.43% 0.04441 165.16)",
+          "oklch(37.86% 0.04441 165.16)",
+          "oklch(49.29% 0.04441 165.16)",
+          "oklch(60.71% 0.04441 165.16)",
+          "oklch(72.14% 0.04441 165.16)",
+          "oklch(83.57% 0.04441 165.16)",
+          "oklch(95.00% 0.04441 165.16)"
+        ]
+      },
+      "siem-alert-bg": {
+        "role": "tertiary",
+        "displayName": "Fondo de alerta SIEM",
+        "canonical": "#f3ead3",
+        "tonalRamp": [
+          "oklch(15.00% 0.03190 89.14)",
+          "oklch(26.43% 0.03190 89.14)",
+          "oklch(37.86% 0.03190 89.14)",
+          "oklch(49.29% 0.03190 89.14)",
+          "oklch(60.71% 0.03190 89.14)",
+          "oklch(72.14% 0.03190 89.14)",
+          "oklch(83.57% 0.03190 89.14)",
+          "oklch(95.00% 0.03190 89.14)"
+        ]
+      },
+      "siem-alert-text": {
+        "role": "tertiary",
+        "displayName": "Texto de alerta SIEM",
+        "canonical": "#70532e",
+        "tonalRamp": [
+          "oklch(15.00% 0.06528 71.77)",
+          "oklch(26.43% 0.06528 71.77)",
+          "oklch(37.86% 0.06528 71.77)",
+          "oklch(49.29% 0.06528 71.77)",
+          "oklch(60.71% 0.06528 71.77)",
+          "oklch(72.14% 0.06528 71.77)",
+          "oklch(83.57% 0.06528 71.77)",
+          "oklch(95.00% 0.06528 71.77)"
+        ]
+      },
+      "crm-down-bg": {
+        "role": "tertiary",
+        "displayName": "Fondo de caída del CRM",
+        "canonical": "#f0e7e0",
+        "tonalRamp": [
+          "oklch(15.00% 0.01360 60.56)",
+          "oklch(26.43% 0.01360 60.56)",
+          "oklch(37.86% 0.01360 60.56)",
+          "oklch(49.29% 0.01360 60.56)",
+          "oklch(60.71% 0.01360 60.56)",
+          "oklch(72.14% 0.01360 60.56)",
+          "oklch(83.57% 0.01360 60.56)",
+          "oklch(95.00% 0.01360 60.56)"
+        ]
+      },
+      "crm-down-text": {
+        "role": "tertiary",
+        "displayName": "Hora de caída del CRM",
+        "canonical": "#8b4541",
+        "tonalRamp": [
+          "oklch(15.00% 0.09605 24.70)",
+          "oklch(26.43% 0.09605 24.70)",
+          "oklch(37.86% 0.09605 24.70)",
+          "oklch(49.29% 0.09605 24.70)",
+          "oklch(60.71% 0.09605 24.70)",
+          "oklch(72.14% 0.09605 24.70)",
+          "oklch(83.57% 0.09605 24.70)",
+          "oklch(95.00% 0.09605 24.70)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Hora reportada",
+        "purpose": "Hora y medición, nunca una hora original inventada."
+      },
+      "title": {
+        "displayName": "Título de diálogo",
+        "purpose": "Identificar estación, fuente y tablita."
+      },
+      "body": {
+        "displayName": "Lectura funcional",
+        "purpose": "Controles, explicaciones y revisión sin recursos remotos."
+      },
+      "data": {
+        "displayName": "Dato tabular",
+        "purpose": "Códigos, intervalos y referencias."
+      },
+      "program-title": {
+        "displayName": "Nombre de aplicación",
+        "purpose": "Cabecera del programa; se compacta en móvil."
+      },
+      "program-question": {
+        "displayName": "Pregunta de investigación",
+        "purpose": "Jerarquía principal del área de trabajo."
+      },
+      "program-body": {
+        "displayName": "Lectura del programa",
+        "purpose": "Instrucciones y observaciones breves, con medida de lectura contenida."
+      },
+      "program-table": {
+        "displayName": "Registro tabular",
+        "purpose": "Filas de datos legibles y densas."
+      },
+      "program-label": {
+        "displayName": "Contexto de programa",
+        "purpose": "Contexto, encabezados y acciones auxiliares."
+      },
+      "query": {
+        "displayName": "Consulta editable",
+        "purpose": "Código SQL local, separado de los resultados claros."
+      }
+    },
+    "shadows": [
+      {
+        "name": "menu",
+        "value": "0 16px 40px #17262e33",
+        "purpose": "Elevar el menú de ajustes sobre la escena."
+      },
+      {
+        "name": "dialog",
+        "value": "0 24px 80px #101d22aa",
+        "purpose": "Separar el documento de la escena atenuada."
+      },
+      {
+        "name": "toast",
+        "value": "0 10px 26px #17262e44",
+        "purpose": "Acompañar un aviso temporal sin competir con el contenido."
+      }
+    ],
+    "motion": [
+      {
+        "name": "toast",
+        "value": "opacity 180ms, transform 180ms",
+        "purpose": "Mostrar cambios de estado sin animar la lectura."
+      },
+      {
+        "name": "reticle",
+        "value": "opacity 150ms",
+        "purpose": "Indicar disponibilidad de interacción."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "Conservar el estado eliminando transiciones no esenciales."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "history-compact",
+        "value": "1400px"
+      },
+      {
+        "name": "panel-stacked",
+        "value": "1180px"
+      },
+      {
+        "name": "mobile-flat",
+        "value": "760px"
+      },
+      {
+        "name": "computer-wide",
+        "value": "1650px"
+      },
+      {
+        "name": "computer-compact",
+        "value": "1180px"
+      },
+      {
+        "name": "computer-single-column",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón primario",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Acción principal de entrada, contraste o exportación.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\">Abrir revisión</button>",
+      "css": ".ds-button-primary { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 10px 15px; border: 1px solid #385f5c; border-radius: 6px; background: #385f5c; color: #fff; font: 700 16px/1.3 ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; } .ds-button-primary:hover { background: #284e4c; } .ds-button-primary:focus-visible { outline: 3px solid #9a742e; outline-offset: 4px; } .ds-button-primary:disabled { cursor: not-allowed; opacity: .5; }"
+    },
+    {
+      "name": "Botón secundario",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Acción auxiliar que no debe competir con el flujo principal.",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\">Volver a la estación</button>",
+      "css": ".ds-button-secondary { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 10px 15px; border: 1px solid #aeb8af; border-radius: 6px; background: #fbfaf5; color: #29383d; font: 700 16px/1.3 ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; } .ds-button-secondary:hover { background: #e5e9e1; } .ds-button-secondary:focus-visible { outline: 3px solid #9a742e; outline-offset: 4px; } .ds-button-secondary:disabled { cursor: not-allowed; opacity: .5; }"
+    },
+    {
+      "name": "Campo de recomendación",
+      "kind": "input",
+      "description": "Texto editable no evaluado automáticamente.",
+      "html": "<label class=\"ds-field\">Acción propuesta<input class=\"ds-field-input\" type=\"text\" value=\"Solicitar trazabilidad de atención\"></label>",
+      "css": ".ds-field { display: grid; gap: 6px; color: #29383d; font: 650 13px/1.4 ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-field-input { width: 100%; padding: 10px; border: 1px solid #aeb8af; border-radius: 5px; background: #fbfaf5; color: #29383d; font: 16px/1.45 ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-field-input:focus-visible { outline: 3px solid #9a742e; outline-offset: 4px; }"
+    },
+    {
+      "name": "Barra de navegación",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Identidad y acceso persistente a reconstrucción y accesibilidad.",
+      "html": "<nav class=\"ds-navigation\" aria-label=\"Herramientas\"><strong>Operación Trazabilidad</strong><button class=\"ds-navigation-button\" type=\"button\">Accesibilidad y controles</button></nav>",
+      "css": ".ds-navigation { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; padding: 12px 28px; border-bottom: 1px solid #b8beb4; background: #f4f0e6; color: #29383d; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-navigation strong { font-size: 19px; } .ds-navigation-button { min-height: 42px; padding: 8px 12px; border: 1px solid #b9c0b7; border-radius: 6px; background: transparent; color: #29383d; font: 650 16px/1.3 ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; } .ds-navigation-button:hover { background: #e3e6dc; } .ds-navigation-button:focus-visible { outline: 3px solid #9a742e; outline-offset: 4px; }"
+    },
+    {
+      "name": "Estado documentado",
+      "kind": "chip",
+      "refersTo": "status-documented",
+      "description": "Acredita requisitos educativos, no una aprobación formal.",
+      "html": "<span class=\"ds-status\">Documentado</span>",
+      "css": ".ds-status { display: inline-flex; align-items: center; width: max-content; padding: 5px 8px; border-radius: 5px; background: #d8e6dc; color: #294f47; font: 750 13px/1.4 ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }"
+    },
+    {
+      "name": "Diálogo de revisión",
+      "kind": "custom",
+      "refersTo": "document-dialog",
+      "description": "Contenedor de lectura con encabezado y columnas desplazables.",
+      "html": "<section class=\"ds-review-dialog\" aria-label=\"Ejemplo de revisión\"><header class=\"ds-review-header\"><h2>B · SQL y red</h2><p>Resúmenes de lectura y transferencia.</p></header><div class=\"ds-review-body\"><h3>E-03 · Bitácora SQL Server</h3><p>Resumen del expediente · no autenticado.</p><span class=\"ds-review-status\">Por contrastar</span></div></section>",
+      "css": ".ds-review-dialog { overflow: hidden; width: 96vw; max-width: 1600px; height: 90vh; max-height: 900px; border-radius: 12px; background: #fbfaf5; color: #29383d; box-shadow: 0 24px 80px #101d22aa; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-review-header { padding: 18px 24px; border-bottom: 1px solid #cfd2c7; background: #f4f0e6; } .ds-review-header h2 { margin: 0 0 5px; font-size: 25px; letter-spacing: -.025em; } .ds-review-header p { margin: 0; color: #5d6d6b; line-height: 1.35; } .ds-review-body { height: calc(100% - 94px); overflow: auto; padding: 22px; } .ds-review-body h3 { font-size: 23px; line-height: 1.2; } .ds-review-body p { font-size: 18px; line-height: 1.55; } .ds-review-status { display: inline-block; padding: 5px 8px; border-radius: 5px; background: #e9e2d1; color: #5e5237; font-size: 13px; font-weight: 750; }"
+    },
+    {
+      "name": "Hora de reconstrucción",
+      "kind": "custom",
+      "refersTo": "intro-clock",
+      "description": "Dato temporal destacado que conserva la etiqueta de hora reportada.",
+      "html": "<div class=\"ds-intro-clock\"><span>14 OCT 2026</span><strong>03:18</strong><span>UTC−6 · Hora reportada</span></div>",
+      "css": ".ds-intro-clock { display: grid; gap: 2px; width: max-content; color: #f4f0e6; text-shadow: 0 2px 16px #17262e; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-intro-clock > span:first-child { font-size: 21px; font-weight: 650; letter-spacing: .04em; } .ds-intro-clock strong { font: 700 52px/1.1 ui-monospace, 'Cascadia Mono', monospace; letter-spacing: -.04em; font-variant-numeric: tabular-nums; } .ds-intro-clock > span:last-child { color: #d2dfd8; font-size: 17px; }"
+    },
+    {
+      "name": "Explorador del programa",
+      "kind": "nav",
+      "refersTo": "program-navigation",
+      "description": "Vistas propias y soportes del ordenador; en móvil las vistas forman una fila desplazable.",
+      "html": "<nav class=\"ds-program-nav\" aria-label=\"Herramientas del puesto\"><h3>Herramientas</h3><button type=\"button\" aria-current=\"page\">Sesiones y permisos</button><button type=\"button\">Directorio y solicitudes</button></nav>",
+      "css": ".ds-program-nav { display: grid; gap: 3px; padding: 20px 12px; background: #e3e8e3; color: #29383d; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-program-nav h3 { margin: 0 8px 10px; color: #496059; font-size: 13px; } .ds-program-nav button { min-height: 42px; padding: 10px; text-align: left; color: #344d48; background: transparent; border: 1px solid transparent; border-radius: 4px; font: 14px ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; } .ds-program-nav button:hover { background: #d4dfd7; } .ds-program-nav button[aria-current=\"page\"] { background: #f8faf5; border-color: #afbfb6; color: #264e46; font-weight: 750; } .ds-program-nav button:focus-visible { outline: 3px solid #9a742e; outline-offset: 4px; } @media (max-width: 760px) { .ds-program-nav { display: flex; overflow: auto; padding: 12px; } .ds-program-nav h3 { display: none; } .ds-program-nav button { flex: 1 0 auto; white-space: nowrap; font-size: 12px; text-align: center; } }"
+    },
+    {
+      "name": "Editor de consulta local",
+      "kind": "input",
+      "refersTo": "program-query-editor",
+      "description": "Consulta editable con acción de ejecución, código oscuro y alcance de solo lectura visible.",
+      "html": "<section class=\"ds-query\"><div class=\"ds-query-tab\">consulta_expediente.sql</div><div class=\"ds-query-toolbar\"><button type=\"button\">Ejecutar consulta</button><span>Solo lectura · expediente local</span></div><div class=\"ds-query-editor\"><span class=\"ds-query-lines\" aria-hidden=\"true\">1<br>2</span><textarea aria-label=\"Consulta SQL\" spellcheck=\"false\">SELECT hora, sistema, detalle\nFROM registros;</textarea></div></section>",
+      "css": ".ds-query { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-query-tab { padding: 10px 15px; color: #c6dfd4; background: #293f46; border-bottom: 1px solid #476066; font: 12px ui-monospace, monospace; } .ds-query-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding: 10px 12px; background: #e3eae3; } .ds-query-toolbar span { color: #526a5d; font-size: 11px; } .ds-query-toolbar button { min-height: 36px; padding: 7px 12px; border: 1px solid #385f5c; border-radius: 3px; background: #385f5c; color: #fff; font: 700 12px ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; } .ds-query-toolbar button:hover { background: #284e4c; } .ds-query-toolbar button:focus-visible { outline: 3px solid #9a742e; outline-offset: 4px; } .ds-query-editor { display: flex; min-height: 194px; background: #13252e; } .ds-query-lines { flex: 0 0 42px; padding: 20px 12px; text-align: right; color: #809e9c; font: 13px/1.85 ui-monospace, monospace; border-right: 1px solid #2d454a; } .ds-query-editor textarea { display: block; flex: 1; min-width: 0; min-height: 194px; padding: 20px 15px; resize: vertical; border: 0; border-radius: 0; outline-offset: -3px; color: #bde1d0; background: transparent; caret-color: #f1ddb2; font: 13px/1.85 ui-monospace, \"Cascadia Mono\", monospace; tab-size: 2; white-space: pre; } .ds-query-editor textarea::selection { color: #f2f6ed; background: #355b63; } .ds-query-editor textarea:focus-visible { outline: 3px solid #afc7ab; outline-offset: -3px; } @media (max-width: 760px) { .ds-query-editor textarea { font-size: 12px; padding-inline: 10px; } .ds-query-lines { flex-basis: 30px; padding-inline: 8px; font-size: 12px; } }"
+    },
+    {
+      "name": "Inspector del registro",
+      "kind": "card",
+      "refersTo": "program-record",
+      "description": "Detalle abierto con guardado, comparación y procedencia; plano tonal sin sombra propia.",
+      "html": "<aside class=\"ds-program-record\" aria-label=\"Detalle del registro\"><h3>Inspector</h3><h4>Lectura masiva de clientes</h4><p class=\"ds-record-context\">Registro · SQL Server</p><p class=\"ds-record-summary\">Abre los campos del registro y contrasta lo que permiten identificar.</p><div class=\"ds-record-actions\"><button type=\"button\">Guardar pista en la libreta</button><button type=\"button\" class=\"ds-record-compare\" aria-pressed=\"false\">Comparar con otro registro</button></div><details><summary>Referencia y procedencia</summary><p>La referencia conserva la versión y los límites del expediente.</p></details></aside>",
+      "css": ".ds-program-record { padding: 16px 20px 24px; border-left: 1px solid #cbd3ce; background: #eef1e9; color: #29383d; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-program-record h3 { margin: 0 0 22px; padding-bottom: 12px; border-bottom: 1px solid #c8d1c4; color: #53685b; font-size: 12px; font-weight: 650; } .ds-program-record h4 { margin: 0 0 8px; font-size: 22px; line-height: 1.2; letter-spacing: -.025em; } .ds-record-context { margin: 0; color: #4b675b; font-size: 12px; } .ds-record-summary { margin: 22px 0; color: #344d43; font-size: 15px; line-height: 1.65; } .ds-record-actions { display: grid; gap: 10px; margin: 22px 0; } .ds-record-actions button { min-height: 42px; padding: 10px 15px; border: 1px solid #385f5c; border-radius: 6px; background: #385f5c; color: #fff; font: 700 12px ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; } .ds-record-actions button:hover { background: #284e4c; } .ds-record-actions .ds-record-compare { border-color: #aeb8af; background: #fbfaf5; color: #29383d; } .ds-record-actions .ds-record-compare:hover { background: #e5e9e1; } .ds-program-record details { color: #4b6255; font-size: 12px; line-height: 1.6; } .ds-program-record summary { cursor: pointer; } .ds-program-record button:focus-visible, .ds-program-record summary:focus-visible { outline: 3px solid #9a742e; outline-offset: 4px; } @media (max-width: 760px) { .ds-program-record { border-left: 0; border-top: 1px solid #cbd3ce; padding: 18px 20px 28px; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "La habitación que delimita lo que se sabe",
+    "overview": "Una oficina tridimensional de madera clara y grafito contiene los resúmenes del incidente. La interfaz de marfil y verde grisáceo ayuda a leerlos sin hacerse pasar por la evidencia. La madrugada azul grisácea da paso a una visita cálida: cambia la presentación, no la certeza de los hechos.\n\nLa experiencia combina una apertura de cámara fija con una herramienta de trabajo densa y tranquila. La habitación, los monitores y la tablita física son el motivo memorable; los diálogos HTML hacen legibles las fuentes, comprobaciones y limitaciones. El color y el movimiento comunican estado, no alarma espectacular. Los ordenadores prolongan ese mundo mediante programas reconocibles, con herramientas propias y una libreta aparte: investigar precede a documentar el razonamiento.",
+    "keyCharacteristics": [
+      "Escena 3D local con mobiliario proporcionado por el usuario y respaldo procedural.",
+      "Jerarquía de lectura clara, con papel, datos monoespaciados y procedencia visible.",
+      "Un solo sistema de estado para las seis estaciones, la libreta y la exportación.",
+      "Programas con búsqueda, datos e inspector; preguntas legibles antes que códigos de referencia.",
+      "Accesibilidad sin depender de audio, WebGL o control del puntero."
+    ],
+    "rules": [
+      {
+        "name": "The Measured Alarm Rule",
+        "body": "El ámbar comunica revisión pendiente; el rojo intenso se reserva al CRM afectado. No convertir la reconstrucción en una consola de emergencia.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading First Rule",
+        "body": "La cámara permanece quieta mientras se lee. Ninguna animación, etiqueta estrecha o efecto de terminal puede competir con mensaje, fuente y procedencia.",
+        "section": "typography"
+      },
+      {
+        "name": "The Room Before Chrome Rule",
+        "body": "La escena es el contexto, pero no sustituye el documento. Abrir una fuente detiene el movimiento y muestra lectura HTML, sin obligar a leer texto diminuto en un monitor 3D.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Application Palette Rule",
+        "body": "Las superficies de aplicación pueden usar petróleo, editor oscuro y tablas claras sin cambiar el marfil y verde de la libreta. La variación identifica una herramienta; no inventa un nuevo nivel de certeza.",
+        "section": "colors"
+      },
+      {
+        "name": "The Investigate Before Documenting Rule",
+        "body": "Un ordenador abre herramientas y una pregunta. La revisión estructurada se realiza en la libreta; consultar, abrir o comparar no se presenta visualmente como una conclusión aprobada.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do conservar visible la diferencia entre registro, declaración, vista calculada y presentación ilustrativa.",
+      "Do mantener una cámara fija durante la lectura y usar cortes entre estaciones.",
+      "Do proporcionar foco visible, acceso de teclado, reducción de movimiento y alternativa plana.",
+      "Do usar monoespaciada para horas, identificadores y medidas.",
+      "Do registrar pendientes y límites incluso cuando las seis revisiones estén documentadas.",
+      "Do conservar nombre de actividad y contexto en primer plano, con referencias y procedencia accesibles en el inspector.",
+      "Do mantener la libreta accesible desde cada programa y conservar la mesa al volver a investigar."
+    ],
+    "donts": [
+      "Don't añadir glitch, texto letra por letra, alarmas continuas o flechas que sugieran causalidad.",
+      "Don't convertir la nota ilustrativa en evidencia ni inventar una hora de aparición.",
+      "Don't introducir fuentes web remotas, fondos de consola «hacker» o una estética de juego de puntuación.",
+      "Don't usar la sans funcional del sistema como una voz editorial decorativa; el protagonismo pertenece a la oficina y sus documentos.",
+      "Don't sustituir una fuente ausente por un archivo, hash, consulta o conciliación inventados."
+    ]
+  }
+}

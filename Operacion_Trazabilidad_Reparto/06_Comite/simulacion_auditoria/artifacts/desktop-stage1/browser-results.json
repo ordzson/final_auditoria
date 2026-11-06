@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "results": [
+    "Aplicaciones reales instrumentadas: instancia única, borradores, cierre/listeners, activación, minimizar/restaurar, maximizar/restaurar, selección/Enter, Mostrar escritorio, teclado, arrastre, redimensionado y Esc.",
+    "Apps B: SELECT editable y NULL sin inspección por resultados; inspección/comparación compartida SQL y red; borrador y reintento con DECL-05; conclusión/texto automáticos antes de navegar; error SQL; recarga real sin progreso por restaurar; foco conservado al abrir, vincular, comparar y cerrar detalle con Enter.",
+    "Adaptación móvil sin perder geometría amplia; XP y Server con recursos locales; fallo real de Storage.setItem comunica Solo en esta sesión.",
+    "Un toque abre los accesos con Touch API; botones de ventana de 44 px; proyector y modo plano."
+  ],
+  "errors": [],
+  "failedResources": []
+}

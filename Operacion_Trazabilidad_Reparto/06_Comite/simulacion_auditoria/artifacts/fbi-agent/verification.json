@@ -1,0 +1,96 @@
+[
+  {
+    "width": 1920,
+    "height": 1080,
+    "errors": [],
+    "failed": [],
+    "clipboardReceived": true,
+    "overflow": false,
+    "styles": {
+      "#panel-dialog": {
+        "color": "rgb(244, 240, 230)",
+        "visibility": "visible",
+        "textColor": "#f4f0e6"
+      },
+      ".dialogue-speaker h3": {
+        "color": "rgb(244, 240, 230)",
+        "visibility": "visible",
+        "textColor": "#f4f0e6"
+      },
+      ".dialogue-response blockquote": {
+        "color": "rgb(244, 240, 230)",
+        "visibility": "visible",
+        "textColor": "#f4f0e6"
+      },
+      ".topbar": {
+        "color": "rgb(41, 56, 61)",
+        "visibility": "hidden",
+        "textColor": ""
+      }
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "errors": [],
+    "failed": [],
+    "clipboardReceived": true,
+    "overflow": false,
+    "styles": {
+      "#panel-dialog": {
+        "color": "rgb(244, 240, 230)",
+        "visibility": "visible",
+        "textColor": "#f4f0e6"
+      },
+      ".dialogue-speaker h3": {
+        "color": "rgb(244, 240, 230)",
+        "visibility": "visible",
+        "textColor": "#f4f0e6"
+      },
+      ".dialogue-response blockquote": {
+        "color": "rgb(244, 240, 230)",
+        "visibility": "visible",
+        "textColor": "#f4f0e6"
+      },
+      ".topbar": {
+        "color": "rgb(41, 56, 61)",
+        "visibility": "hidden",
+        "textColor": ""
+      }
+    }
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "errors": [],
+    "failed": [],
+    "clipboardReceived": true,
+    "overflow": false,
+    "styles": {
+      "#panel-dialog": {
+        "color": "rgb(244, 240, 230)",
+        "visibility": "visible",
+        "textColor": "#f4f0e6"
+      },
+      ".dialogue-speaker h3": {
+        "color": "rgb(244, 240, 230)",
+        "visibility": "visible",
+        "textColor": "#f4f0e6"
+      },
+      ".dialogue-response blockquote": {
+        "color": "rgb(244, 240, 230)",
+        "visibility": "visible",
+        "textColor": "#f4f0e6"
+      },
+      ".topbar": {
+        "color": "rgb(41, 56, 61)",
+        "visibility": "hidden",
+        "textColor": ""
+      }
+    }
+  },
+  {
+    "fallback": true,
+    "interviewWorks": true
+  }
+]

@@ -1,0 +1,57 @@
+01. Hola. ¿Vienes por lo del CRM? Ya tienes la tablita. Pregúntame lo que necesites y vamos viendo qué dicen los registros.
+
+02. ¿Encontraste algo más? Dime qué quieres revisar y lo vemos juntos.
+
+03. Te escucho.
+
+04. Claro. ¿Te interesa quién la usó o qué acceso tenía permitido?
+
+05. No puedo darte un nombre. Tenemos la cuenta y una sesión sin MFA, pero eso no nos dice quién estaba detrás. Mira el registro de la sesión.
+
+06. Exacto. Podemos hablar de la actividad de esa cuenta. Para atribuírsela a alguien hace falta más evidencia que el nombre de usuario.
+
+07. Para responderte necesitaría la política de acceso y su alcance aprobado. No están entre los documentos que tenemos. El registro de la cuenta sí lo puedes consultar.
+
+08. Sin conocer la política y a quién aplicaba, no. Sí podemos señalar lo que muestra la sesión y pedir la política que falta.
+
+09. Sí, lo que Seguridad llamó una fuga. ¿Qué quieres revisar?
+
+10. Eso todavía no lo sabemos. Seguridad lo llamó una fuga en su declaración inicial, pero también dijo que no había identificado los datos transferidos. Te puedo mostrar esa declaración.
+
+11. Nos da una pista para investigar. No nos dice qué contenía la transferencia ni permite atribuirla por sí sola. Para eso hay que contrastar el flujo y la lectura SQL.
+
+12. No todavía. Nos falta identificar el contenido y enlazar el proceso, la lectura SQL y ese flujo. Que los registros estén ahí no demuestra por sí solo esa conexión.
+
+13. Hay dos cosas que conviene mirar por separado: las órdenes y la autorización del cambio. ¿Por dónde empezamos?
+
+14. El administrador de la base de datos dice que sí. El problema es que la conciliación aún no ha terminado. Por ahora tenemos su declaración; falta el soporte para comprobarla.
+
+15. Ojalá pudiera, pero no está en el expediente. Deja solicitado el historial y una conciliación reproducible de las órdenes y la facturación. Esa es la comprobación que nos falta.
+
+16. Desarrollo dice que recibió una autorización verbal. En el ticket no aparece una aprobación final documentada. Te enseño lo que declararon, y luego podemos mirar el ticket.
+
+17. Aquí lo tienes. Revisa qué aprobación quedó documentada y compárala con lo que declaró Desarrollo.
+
+18. No deja documentada una aprobación formal. Pero tampoco sería correcto decir que nunca hubo autorización solo porque no aparece ahí. Tenemos que conservar ese límite.
+
+19. Podemos revisar lo que quedó registrado de esa alerta. Dime.
+
+20. No te lo puedo confirmar con este resumen. La alerta figura como crítica y no tiene un cierre documentado, pero tampoco aparecen la asignación ni la primera acción. Eso no significa que nadie la atendiera.
+
+21. Eso sería ir más allá de lo que sabemos. Falta el registro de quién la recibió, qué hizo y cuándo. Podemos pedirlo; no dar por hecho que nadie actuó.
+
+22. El CRM volvió a estar disponible, sí. ¿Quieres ver qué quedó documentado de la restauración?
+
+23. Continuidad dice que la última restauración documentada fue varios meses antes. No tenemos una ejecución exacta para este incidente. Te paso su declaración.
+
+24. Que el servicio vuelva no demuestra que todos los datos estén completos. Para sostener eso necesitamos las comprobaciones de recuperación. Tampoco tenemos objetivos RTO y RPO aprobados para evaluar su cumplimiento.
+
+25. Bien. Aquí tenemos resúmenes del caso; hay cosas que tendremos que pedir. ¿Qué necesitas primero?
+
+26. Hay que tomarlas con cuidado. Nos faltan las horas originales y los desfases verificados. La vista de tiempos deja esos campos sin aportar; todavía no podemos dar los relojes por sincronizados.
+
+27. Podemos trabajar con las horas reportadas, dejando claro ese límite. Para confirmar el orden entre sistemas necesitamos sus horas originales y comprobar los desfases.
+
+28. No los tenemos aquí. Son resúmenes académicos del caso, y los campos de archivo y hash están sin aportar. Podemos dejar la solicitud en la libreta, pero no sustituirlos por estos resúmenes.
+
+29. Los archivos originales, sus hashes y el registro de custodia. Mientras no se aporten, deja constancia de que aquí solo pudiste revisar resúmenes.
