@@ -1,0 +1,18 @@
+{
+  "fecha_utc": "2026-11-07T22:46:47.333916+00:00",
+  "manifest_sha256": "756f2d06ddb7946c3f71f8eb8ee580fae1cc22569d9b1633e37441f421bfbb28",
+  "registro_sha256": "32e61804d640c2d4c942f48f8be07898b4afc38f49d2e0b3914b7730c614f468",
+  "zip_sha256": "ef67726b7fc68157b9869a8fcfea78d86bb00af0e971b34b6fc5371105a03724",
+  "archivos_correccion": 108,
+  "archivos_actualizados_o_registrados": 112,
+  "comprobaciones_documentales": 340,
+  "documentales_aprobadas": 340,
+  "SQL_Q06_controles": 10,
+  "zip_archivos": 1131,
+  "IA_y_datos_v2_conservados": true,
+  "cierres_I6_y_ZIP_v1_conservados": true,
+  "juego_revision_excluida": true,
+  "sin_nuevo_98_de_98": true,
+  "integracion_equipo": false,
+  "aprobacion_academica": false
+}

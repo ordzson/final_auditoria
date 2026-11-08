@@ -1,0 +1,19 @@
+Already up to date
+Done in 32ms using pnpm v11.2.2
+
+Running 8 tests using 1 worker
+
+(node:2630273) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2630273) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · siem: dos programas propios, estado y recursos locales (1.8s)
+  ✓  2 tests/e2e/desktop-stage3.spec.ts:69:1 › etapa 3 · Recovery Console móvil conserva controles y lectura dentro del monitor (891ms)
+  ✓  3 tests/e2e/investigation.spec.ts:19:1 › SQL editable: filtros reales, NULL, errores y trazabilidad sin completar por clics (1.1s)
+  ✓  4 tests/e2e/investigation.spec.ts:55:1 › comparar órdenes y despliegue permite descubrir el orden reportado (1.0s)
+  ✓  5 tests/e2e/investigation.spec.ts:71:1 › sesiones: buscar una cuenta conserva foco y no atribuye la elevación sin usuario (851ms)
+  ✓  6 tests/e2e/investigation.spec.ts:89:1 › recuperación: recorrer estados no acredita integridad ni ejecuta restauraciones (1.0s)
+  ✓  7 tests/e2e/investigation.spec.ts:110:1 › archivo: consultar metadatos ausentes documenta un límite, sin hashes inventados (1.2s)
+  ✓  8 tests/e2e/investigation.spec.ts:127:1 › SIEM: seguir la cuenta conserva una cronología válida y permite reabrir el puesto (1.1s)
+
+  8 passed (10.1s)

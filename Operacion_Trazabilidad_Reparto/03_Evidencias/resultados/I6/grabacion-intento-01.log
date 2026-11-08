@@ -1,0 +1,45 @@
+Already up to date
+Done in 32ms using pnpm v11.2.2
+$ node scripts/record-walkthrough.mjs
+Je [Error]: expect(locator).toContainText(expected) failed
+
+Locator: locator('#interaction-prompt')
+Expected substring: "Recibir la tablita"
+Received string:    ""
+Timeout: 5000ms
+
+Call log:
+  - Expect "to.have.text" with timeout 5000ms
+  - waiting for locator('#interaction-prompt')
+    6 × locator resolved to <div hidden="" id="interaction-prompt" class="interaction-prompt"></div>
+      - unexpected value ""
+
+    at Proxy.<anonymous> (/home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/node_modules/.pnpm/playwright@1.56.1/node_modules/playwright/lib/matchers/expect.js:221:24)
+    at file:///home/ordson/final%20auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/scripts/record-walkthrough.mjs:61:53 {
+  matcherResult: {
+    name: 'toContainText',
+    expected: 'Recibir la tablita',
+    message: 'expect(locator).toContainText(expected) failed\n' +
+      '\n' +
+      "Locator: locator('#interaction-prompt')\n" +
+      'Expected substring: "Recibir la tablita"\n' +
+      'Received string:    ""\n' +
+      'Timeout: 5000ms\n' +
+      '\n' +
+      'Call log:\n' +
+      '  - Expect "to.have.text" with timeout 5000ms\n' +
+      "  - waiting for locator('#interaction-prompt')\n" +
+      '    6 × locator resolved to <div hidden="" id="interaction-prompt" class="interaction-prompt"></div>\n' +
+      '      - unexpected value ""\n',
+    pass: false,
+    actual: '',
+    log: [
+      '  - Expect "to.have.text" with timeout 5000ms',
+      "  - waiting for locator('#interaction-prompt')",
+      '    6 × locator resolved to <div hidden="" id="interaction-prompt" class="interaction-prompt"></div>',
+      '      - unexpected value ""'
+    ],
+    timeout: 5000
+  }
+}
+[ELIFECYCLE] Command failed with exit code 1.

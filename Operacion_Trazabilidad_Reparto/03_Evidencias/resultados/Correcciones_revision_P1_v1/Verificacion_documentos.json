@@ -1,0 +1,1731 @@
+{
+  "fecha_utc": "2026-11-07T22:46:13.778476+00:00",
+  "total": 340,
+  "aprobadas": 340,
+  "alcance": "Solo correcciones y dependencias; no reemplaza 98/98 I6; revisión humana pendiente.",
+  "pdf": [
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.pdf",
+      "paginas": 5,
+      "sha256": "e600a486a906520d0d71462fb9c067cfb7f4f0bf7b8e0a70620782b4c1ca5b36"
+    },
+    {
+      "ruta": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "paginas": 7,
+      "sha256": "506479196564fcda0b15a82ca77e8c84ed52cbff6a85cf9e5872d6d6cc0f928a"
+    },
+    {
+      "ruta": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "paginas": 8,
+      "sha256": "5053f234224c56538cb9b0ab78b5918b5bed37b8ab76f04f0e5f5768d186b6a6"
+    }
+  ],
+  "comprobaciones": [
+    {
+      "comprobacion": "Copia previa 01_Informe/Seccion_forense_P1_v1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 01_Informe/Seccion_forense_P1_v1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 01_Informe/Seccion_forense_P1_v1.docx",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 01_Informe/Seccion_forense_P1_v1.docx",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 01_Informe/Seccion_forense_P1_v1.pdf",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 01_Informe/Seccion_forense_P1_v1.pdf",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 01_Informe/Informe_equipo_parcial_P1_v1.docx",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 01_Informe/Informe_equipo_parcial_P1_v1.docx",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 04_SQL/Analisis_Auditoria.sql",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 04_SQL/Analisis_Auditoria.sql",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 04_SQL/README.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 04_SQL/README.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 03_Evidencias/Consultas_resultados_v1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 03_Evidencias/Consultas_resultados_v1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 03_Evidencias/Papeles_P1_v1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 03_Evidencias/Papeles_P1_v1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 03_Evidencias/Indice_evidencias_v1.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 03_Evidencias/Indice_evidencias_v1.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 03_Evidencias/indice_evidencias.xlsx",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 03_Evidencias/indice_evidencias.xlsx",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 03_Evidencias/resultados/Ejecuciones_v1.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 03_Evidencias/resultados/Ejecuciones_v1.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 03_Evidencias/hashes_sha256_v1.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa LEEME_P1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo LEEME_P1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa index.html",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo index.html",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 03_Evidencias/analizar_I4.py",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 03_Evidencias/analizar_I4.py",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia previa 03_Evidencias/verificar_I6.py",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada coincidente con registro previo 03_Evidencias/verificar_I6.py",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 07_Referencias/Registro_uso_IA_v1.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 07_Referencias/Uso_IA.pdf",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 03_Evidencias/resultados/I6/manifest.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 03_Evidencias/resultados/I6/integridad-cierre.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 03_Evidencias/resultados/I6/Revision_contenido_I6.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 03_Evidencias/resultados/I6/Verificacion_paquete_I6.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 06_Comite/Paquete_portatil_P1_v1.zip",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 06_Comite/Paquete_portatil_P1_v1.zip.sha256",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/Sesiones.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/Alertas.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/FuentesTiempo.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/Validacion_generacion_v2.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/TransferenciasRed.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/Registro_generacion_IA_v2.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/Empleados.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/Diccionario_campos_sinteticos_v2.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/CambiosSistema.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/PruebasRestauracion.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/Privilegios.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/ProgramacionBackups.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/BitacoraSQL.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/Clientes.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/Ordenes.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/EventosExpediente.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/Backups.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/Manifest_datos_v2.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/HistorialOrdenes.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/Usuarios.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Entrada conservada 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Único cambio MD en H-B",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "DOCX solo criterio H-B Seccion_forense_P1_v1",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "DOCX cubre MD Seccion_forense_P1_v1",
+      "aprobado": true,
+      "detalle": 62
+    },
+    {
+      "comprobacion": "DOCX solo criterio H-B Informe_equipo_parcial_P1_v1",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "DOCX cubre MD Informe_equipo_parcial_P1_v1",
+      "aprobado": true,
+      "detalle": 62
+    },
+    {
+      "comprobacion": "PDF sin palabras fuera de página Seccion_forense_P1_v1.pdf",
+      "aprobado": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "PDF cubre MD Seccion_forense_P1_v1.pdf",
+      "aprobado": true,
+      "detalle": 62
+    },
+    {
+      "comprobacion": "PDF sin palabras fuera de página Informe_equipo_parcial_P1_v1.pdf",
+      "aprobado": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "PDF cubre MD Informe_equipo_parcial_P1_v1.pdf",
+      "aprobado": true,
+      "detalle": 62
+    },
+    {
+      "comprobacion": "PDF sin palabras fuera de página Papeles_Trabajo_P1_v1.pdf",
+      "aprobado": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "PT conserva índice de seis enlaces",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "PT incluye comprobación posterior Q-06",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "XLSX cubre CSV indice_evidencias",
+      "aprobado": true,
+      "detalle": {
+        "filas": 188,
+        "columnas": 25
+      }
+    },
+    {
+      "comprobacion": "XLSX hash de procedencia indice_evidencias",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "XLSX distingue comprobación posterior indice_evidencias",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "XLSX vínculos existentes indice_evidencias",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "XLSX cubre CSV Programa_pruebas_P1_v1",
+      "aprobado": true,
+      "detalle": {
+        "filas": 14,
+        "columnas": 15
+      }
+    },
+    {
+      "comprobacion": "XLSX hash de procedencia Programa_pruebas_P1_v1",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "XLSX distingue comprobación posterior Programa_pruebas_P1_v1",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "XLSX vínculos existentes Programa_pruebas_P1_v1",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/Laboratorio_v1.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Q-01.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Q-02.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Q-03.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Q-04.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Q-05.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Q-06.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Q-07.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Q-08.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Q-09.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Q-10.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Q-11.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Q-12.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Q-S01.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Concesiones_SQL.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Permisos_rechazos.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Conexion_auditor.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Validacion_laboratorio_v1.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Validacion_laboratorio_v1.txt",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Contraste_independiente_I3.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Comparacion_reconstruccion.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Limites_umbrales.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Ejecuciones_v1.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Sesiones.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Alertas.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/FuentesTiempo.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Validacion_generacion_v2.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/TransferenciasRed.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Registro_generacion_IA_v2.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Empleados.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Diccionario_campos_sinteticos_v2.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/CambiosSistema.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/PruebasRestauracion.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Privilegios.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/ProgramacionBackups.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/BitacoraSQL.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Clientes.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Ordenes.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/EventosExpediente.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Backups.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Manifest_datos_v2.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/HistorialOrdenes.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Usuarios.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Diccionario_campos_sinteticos_v1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Sesiones.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Alertas.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/FuentesTiempo.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Manifest_datos_v1.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/TransferenciasRed.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Registro_generacion_IA_v1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Validacion_generacion_v1.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Empleados.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/CambiosSistema.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/PruebasRestauracion.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Privilegios.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/ProgramacionBackups.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/BitacoraSQL.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Clientes.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Ordenes.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/EventosExpediente.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Backups.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/HistorialOrdenes.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Usuarios.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/00_preparar_base.sql",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/01_esquema.sql",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/02_generar_datos.py",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/02_generar_datos_v2.py",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/03_carga.sql",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/04_usuario_lectura.sql",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/laboratorio.py",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/verificar_laboratorio.sql",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/Analisis_Auditoria.sql",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/Permisos_bitacora.sql",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/Diccionario_datos_v1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/Relaciones_v1.dot",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/Relaciones_v1.png",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/Sesiones.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/Alertas.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/FuentesTiempo.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/Validacion_generacion_v2.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/TransferenciasRed.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/Registro_generacion_IA_v2.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/Empleados.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/Diccionario_campos_sinteticos_v2.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/CambiosSistema.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/PruebasRestauracion.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/Privilegios.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/ProgramacionBackups.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/BitacoraSQL.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/Clientes.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/Ordenes.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/EventosExpediente.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/Backups.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/Manifest_datos_v2.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/HistorialOrdenes.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/Usuarios.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Rechazo_base_existente.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Verificacion_documentales_I2_I3.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/Incidencias_ejecucion_I2_I3.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Columnas_SQL.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Concesiones_SQL.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Conexion_auditor.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Ejecuciones_v1.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Limites_umbrales.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Permisos_rechazos.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Q-01.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Q-02.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Q-03.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Q-04.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Q-05.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Q-06.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Q-07.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Q-08.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Q-09.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Q-10.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Q-11.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Q-12.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Q-S01.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Validacion_laboratorio_v1.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_cierre/Validacion_laboratorio_v1.txt",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Columnas_SQL.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Concesiones_SQL.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Conexion_auditor.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Ejecuciones_v1.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Limites_umbrales.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Permisos_rechazos.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Q-01.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Q-02.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Q-03.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Q-04.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Q-05.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Q-06.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Q-07.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Q-08.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Q-09.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Q-10.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Q-11.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Q-12.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Q-S01.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Validacion_laboratorio_v1.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_repeticion/Validacion_laboratorio_v1.txt",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Columnas_SQL.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Concesiones_SQL.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Conexion_auditor.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Ejecuciones_v1.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Limites_umbrales.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Permisos_rechazos.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-01.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-02.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-03.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-04.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-05.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-06.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-07.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-08.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-09.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-10.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-11.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-12.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-S01.csv",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Validacion_laboratorio_v1.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/resultados/I2_I3_verificacion_cierre/Validacion_laboratorio_v1.txt",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Relaciones_v1.dot",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Laboratorio_v1.json",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Diccionario_datos_v1.md",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Índice hash 03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Relaciones_v1.png",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Q-06 versión SQL ejecutada",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Q-06 script identificado",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Diez escenarios aprobados",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Trece entradas de ejecución",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Versión SQL de Q-01",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Resultado de Q-01",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Manifest v2 de Q-01",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Hash de sentencia de Q-01",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Registro histórico sin alterar Q-01",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Versión SQL de Q-02",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Resultado de Q-02",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Manifest v2 de Q-02",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Hash de sentencia de Q-02",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Registro histórico sin alterar Q-02",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Versión SQL de Q-03",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Resultado de Q-03",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Manifest v2 de Q-03",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Hash de sentencia de Q-03",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Registro histórico sin alterar Q-03",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Versión SQL de Q-04",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Resultado de Q-04",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Manifest v2 de Q-04",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Hash de sentencia de Q-04",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Registro histórico sin alterar Q-04",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Versión SQL de Q-05",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Resultado de Q-05",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Manifest v2 de Q-05",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Hash de sentencia de Q-05",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Registro histórico sin alterar Q-05",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Versión SQL de Q-06",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Resultado de Q-06",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Manifest v2 de Q-06",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Hash de sentencia de Q-06",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Versión SQL de Q-07",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Resultado de Q-07",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Manifest v2 de Q-07",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Hash de sentencia de Q-07",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Registro histórico sin alterar Q-07",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Versión SQL de Q-08",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Resultado de Q-08",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Manifest v2 de Q-08",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Hash de sentencia de Q-08",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Registro histórico sin alterar Q-08",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Versión SQL de Q-09",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Resultado de Q-09",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Manifest v2 de Q-09",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Hash de sentencia de Q-09",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Registro histórico sin alterar Q-09",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Versión SQL de Q-10",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Resultado de Q-10",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Manifest v2 de Q-10",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Hash de sentencia de Q-10",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Registro histórico sin alterar Q-10",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Versión SQL de Q-11",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Resultado de Q-11",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Manifest v2 de Q-11",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Hash de sentencia de Q-11",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Registro histórico sin alterar Q-11",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Versión SQL de Q-12",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Resultado de Q-12",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Manifest v2 de Q-12",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Hash de sentencia de Q-12",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Registro histórico sin alterar Q-12",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Versión SQL de Q-S01",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Resultado de Q-S01",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Manifest v2 de Q-S01",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Hash de sentencia de Q-S01",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Registro histórico sin alterar Q-S01",
+      "aprobado": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "B1-1 localizador estable",
+      "aprobado": true,
+      "detalle": null
+    }
+  ]
+}

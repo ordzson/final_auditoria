@@ -1,4 +1,5 @@
 import type { AuditStore } from '../audit/store';
+import { sourceName, sourceSummary } from '../data/language';
 import { canon, eventById } from '../data/canon';
 import { getIntroFrame, introHistory, shotIndex, shots } from '../data/intro';
 import { getSimulationFrame } from '../data/simulation';
@@ -30,6 +31,7 @@ export class IntroPlayer {
     document.addEventListener('visibilitychange', () => {
       if (document.hidden && this.active) {
         this.playing = false;
+        this.lastTick = 0;
         this.renderFrame();
       }
     });
@@ -82,7 +84,7 @@ export class IntroPlayer {
 
   private tick(timestamp: number): void {
     if (!this.active) return;
-    const elapsed = this.lastTick ? Math.min(0.1, (timestamp - this.lastTick) / 1000) : 0;
+    const elapsed = this.lastTick ? Math.max(0, (timestamp - this.lastTick) / 1000) : 0;
     this.lastTick = timestamp;
     const previous = this.time;
     if (this.playing) {
@@ -107,12 +109,14 @@ export class IntroPlayer {
     const simulation = getSimulationFrame(this.time, this.store.state.settings.reducedMotion);
     this.getScene()?.setIntroTime(this.time);
     const overlay = this.root.querySelector<HTMLElement>('.intro-overlay')!;
+    const controls = this.root.querySelector<HTMLElement>('.intro-controls')!;
+    overlay.style.setProperty('--intro-controls-height', `${controls.offsetHeight}px`);
     const explaining = simulation.settled || frame.noteVisible || frame.shot.id === 'P01' || frame.visitLabel;
     overlay.dataset.phase = explaining ? 'explanation' : 'activity';
     this.setText('intro-operation', simulation.operation);
     this.setText('intro-phase', explaining ? 'Registro del caso' : 'Recreación en curso');
     const fallback = this.root.querySelector<HTMLElement>('#intro-flat-screen')!;
-    fallback.hidden = Boolean(this.getScene()) && window.innerWidth > 760;
+    fallback.hidden = Boolean(this.getScene()) && !this.store.state.settings.flatMode && window.innerWidth > 760;
     overlay.dataset.screenLayout = fallback.hidden ? 'spatial' : 'flat';
     if (!fallback.hidden) {
       this.fallbackScreen ??= new ScreenPainter();
@@ -125,25 +129,29 @@ export class IntroPlayer {
     this.setText('intro-time', frame.timeLabel);
     this.setText('intro-message', frame.message);
     this.setText('intro-provenance', frame.provenance);
-    this.setText('intro-shot', `${frame.shot.id} · ${shotIndex(this.time) + 1}/10`);
+    this.setText('intro-shot', `Plano ${shotIndex(this.time) + 1} de 10`);
     this.setText('intro-elapsed', `${formatElapsed(this.time)} / 1:50`);
     const timeline = this.root.querySelector<HTMLInputElement>('#intro-timeline');
     if (timeline) timeline.value = String(this.time);
     const play = this.root.querySelector<HTMLButtonElement>('[data-action="play"]');
-    if (play) {
+    if (play && play.dataset.playing !== String(this.playing)) {
+      play.dataset.playing = String(this.playing);
       play.innerHTML = `${icon(this.playing ? 'pause' : 'play')} ${this.playing ? 'Pausar' : 'Reproducir'}`;
       play.setAttribute('aria-label', this.playing ? 'Pausar reconstrucción' : 'Reanudar reconstrucción');
     }
     const speed = this.root.querySelector<HTMLButtonElement>('[data-action="speed"]');
-    if (speed) speed.textContent = `${this.speed}×`;
+    if (speed && speed.textContent !== `${this.speed}×`) speed.textContent = `${this.speed}×`;
     const audio = this.root.querySelector<HTMLButtonElement>('[data-action="audio"]');
-    if (audio) audio.innerHTML = `${icon(this.store.state.settings.audioEnabled ? 'sound' : 'muted')} ${this.store.state.settings.audioEnabled ? 'Aviso sonoro activado' : 'Sin sonido'}`;
+    if (audio && audio.dataset.enabled !== String(this.store.state.settings.audioEnabled)) {
+      audio.dataset.enabled = String(this.store.state.settings.audioEnabled);
+      audio.innerHTML = `${icon(this.store.state.settings.audioEnabled ? 'sound' : 'muted')} ${this.store.state.settings.audioEnabled ? 'Aviso sonoro activado' : 'Sin sonido'}`;
+    }
     const noteRoot = this.root.querySelector<HTMLElement>('#ransom-note');
     if (noteRoot) {
       noteRoot.hidden = !frame.noteVisible;
       if (frame.noteVisible && !this.noteShown) {
         const note = canon.presentation.ransomNote;
-        noteRoot.innerHTML = `<div class="ransom-card"><h2>${escapeHtml(note.title)}</h2>${note.body.split('\n').map((line) => `<p>${escapeHtml(line)}</p>`).join('')}<strong>${escapeHtml(note.visibleLabel)}</strong><small>${escapeHtml(note.provenanceText)} ${escapeHtml(note.timingMeaning)}</small></div>`;
+        noteRoot.innerHTML = `<div class="ransom-card"><h2>${escapeHtml(note.title)}</h2>${note.body.split('\n').map((line) => `<p>${escapeHtml(line)}</p>`).join('')}<strong>${escapeHtml(note.visibleLabel)}</strong><small>El caso reporta una nota, sin texto original ni hora de aparición. Su ubicación durante la caída del sistema comercial es ilustrativa; no acredita que apareciera a las 03:42.</small></div>`;
       }
       this.noteShown = frame.noteVisible;
     }
@@ -154,7 +162,7 @@ export class IntroPlayer {
       this.lastHistoryKey = historyKey;
       history.innerHTML = historyIds.map((id) => {
         const event = eventById(id)!;
-        return `<li><strong>${event.reportedAt.slice(11, 16)} · ${id}</strong><span>${escapeHtml(event.description)}</span></li>`;
+        return `<li><strong>${event.reportedAt.slice(11, 16)} · ${escapeHtml(sourceName(id))}</strong><span>${escapeHtml(sourceSummary(id))}</span></li>`;
       }).join('');
     }
     const fade = this.root.querySelector<HTMLElement>('.scene-fade');
@@ -168,11 +176,12 @@ export class IntroPlayer {
     const button = (event.target as HTMLElement).closest<HTMLButtonElement>('[data-action]');
     if (!button) return;
     const action = button.dataset.action;
-    if (action === 'play') this.playing = !this.playing;
+    if (action === 'play') { this.playing = !this.playing; this.lastTick = 0; }
     if (action === 'previous') this.seek(shots[Math.max(0, shotIndex(this.time) - 1)].start);
     if (action === 'next') this.seek(shots[Math.min(shots.length - 1, shotIndex(this.time) + 1)].start);
     if (action === 'replay') {
       this.time = 0;
+      this.lastTick = 0;
       this.alertPlayed = false;
       this.playing = true;
     }

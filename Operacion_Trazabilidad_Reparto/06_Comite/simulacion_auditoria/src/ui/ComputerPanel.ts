@@ -1,3 +1,4 @@
+import { sourceSummary } from '../data/language';
 import type { AuditStore } from '../audit/store';
 import { evaluateReview } from '../audit/evaluate';
 import { reviewRules } from '../audit/rules';
@@ -115,7 +116,7 @@ export class ComputerPanel {
     const search = `<label class="record-search">${icon('search')}<span class="sr-only">Filtrar registros</span><input type="search" data-input="record-search" data-computer-focus="record-search" placeholder="Buscar una cuenta, hora o actividad…" value="${h(this.state.search)}"></label>`;
     if (this.state.view === 'timeline') return `${search}<div class="incident-timeline">${ids.map((id) => {
       const event = eventById(id)!;
-      return `<div class="incident-entry ${id === 'EVT-08' ? 'incident-alert' : ''}"><time>${h(event.reportedAt.slice(11, 16))}</time><button data-action="select-source" data-source="${id}"><strong>${h(sourceName(id))}</strong><span>${h(event.description)}</span></button><button class="compare-toggle" data-action="compare" data-source="${id}" aria-pressed="${this.state.comparison.includes(id)}" aria-label="Comparar ${h(sourceName(id))}">${icon('compare')}</button></div>`;
+      return `<div class="incident-entry ${id === 'EVT-08' ? 'incident-alert' : ''}"><time>${h(event.reportedAt.slice(11, 16))}</time><button data-action="select-source" data-source="${id}"><strong>${h(sourceName(id))}</strong><span>${h(sourceSummary(event.id))}</span></button><button class="compare-toggle" data-action="compare" data-source="${id}" aria-pressed="${this.state.comparison.includes(id)}" aria-label="Comparar ${h(sourceName(id))}">${icon('compare')}</button></div>`;
     }).join('')}</div>${!ids.length ? '<p class="workspace-empty">No hay registros con ese filtro. Prueba con otra hora o cuenta.</p>' : ''}`;
     const network = this.state.view === 'network' ? `<div class="network-observation"><h4>Lectura y tráfico son registros distintos</h4><div><span>SQL Server<br><strong>${canon.reportedFacts.customerRecordsRead.toLocaleString('en-US')} registros leídos</strong></span>${icon('compare')}<span>Destino externo no clasificado<br><strong>~${canon.reportedFacts.outboundTransfer.reportedValue} GB transferidos</strong></span></div><p>Abre ambos registros y busca una cuenta, un proceso o contenido que permita relacionarlos.</p></div>` : '';
     return `${network}${search}<div class="table-wrap program-table"><table><thead><tr><th>Hora / tipo</th><th>Actividad</th><th>Cuenta / soporte</th><th><span class="sr-only">Comparar registros</span></th></tr></thead><tbody>${ids.map((id) => {
@@ -139,11 +140,11 @@ export class ComputerPanel {
     const event = eventById(recoveryIds[step])!;
     const read = step >= 2;
     const write = step >= 3;
-    return `<div class="recovery-console"><h4>Estados reportados del CRM</h4><p>Recorre la secuencia para revisar qué se había recuperado en cada momento.</p><div class="recovery-stages">${recoveryIds.map((id, index) => `<button data-action="recovery-step" data-step="${index}" aria-pressed="${step === index}"><time>${eventById(id)!.reportedAt.slice(11, 16)}</time><span>${['Caída', 'Solicitud', 'Consulta', 'Escritura', 'Conciliación'][index]}</span></button>`).join('')}</div><label class="recovery-slider">Momento de la revisión<input type="range" min="0" max="4" step="1" value="${step}" data-input="recovery-step" data-computer-focus="recovery-step" aria-valuetext="${h(sourceName(event.id))}"></label><div class="recovery-snapshot ${step === 0 ? 'service-down' : ''}"><time>${event.reportedAt.slice(11, 16)}</time><h4>${h(sourceName(event.id))}</h4><p>${h(event.description)}</p><dl><div><dt>Consulta</dt><dd>${read ? 'Restablecida según el expediente' : 'Sin retorno reportado todavía'}</dd></div><div><dt>Escritura</dt><dd>${write ? 'Restablecida según el expediente' : 'Sin retorno reportado todavía'}</dd></div><div><dt>Integridad validada</dt><dd>No aportada</dd></div></dl><button class="secondary-button" data-action="select-source" data-source="${event.id}">Abrir registro de este momento</button></div><p class="workspace-observation">Volver a escribir no acredita una restauración validada. Compara la caída con el retorno y revisa los respaldos y sus pruebas.</p></div>`;
+    return `<div class="recovery-console"><h4>Estados reportados del CRM</h4><p>Recorre la secuencia para revisar qué se había recuperado en cada momento.</p><div class="recovery-stages">${recoveryIds.map((id, index) => `<button data-action="recovery-step" data-step="${index}" aria-pressed="${step === index}"><time>${eventById(id)!.reportedAt.slice(11, 16)}</time><span>${['Caída', 'Solicitud', 'Consulta', 'Escritura', 'Conciliación'][index]}</span></button>`).join('')}</div><label class="recovery-slider">Momento de la revisión<input type="range" min="0" max="4" step="1" value="${step}" data-input="recovery-step" data-computer-focus="recovery-step" aria-valuetext="${h(sourceName(event.id))}"></label><div class="recovery-snapshot ${step === 0 ? 'service-down' : ''}"><time>${event.reportedAt.slice(11, 16)}</time><h4>${h(sourceName(event.id))}</h4><p>${h(sourceSummary(event.id))}</p><dl><div><dt>Consulta</dt><dd>${read ? 'Restablecida según el expediente' : 'Sin retorno reportado todavía'}</dd></div><div><dt>Escritura</dt><dd>${write ? 'Restablecida según el expediente' : 'Sin retorno reportado todavía'}</dd></div><div><dt>Integridad validada</dt><dd>No aportada</dd></div></dl><button class="secondary-button" data-action="select-source" data-source="${event.id}">Abrir registro de este momento</button></div><p class="workspace-observation">Volver a escribir no acredita una restauración validada. Compara la caída con el retorno y revisa los respaldos y sus pruebas.</p></div>`;
   }
 
   private custodyMarkup(): string {
-    return `<div class="inventory-toolbar"><h4>Inventario recibido</h4><button class="secondary-button" data-action="select-source" data-source="META-CUSTODIA">Inspeccionar procedencia</button></div><div class="table-wrap program-table"><table><thead><tr><th>Material</th><th>Archivo original</th><th>SHA-256</th><th>Comprobación</th></tr></thead><tbody>${canon.evidenceSummaries.map((source) => `<tr><td>${h(source.type)}</td><td>${h(source.artifactPath ?? 'No aportado')}</td><td>${h(source.sha256 ?? 'No aportado')}</td><td><button class="text-button" data-action="verify-file" data-source="${source.id}">Comprobar archivo</button></td></tr>`).join('')}</tbody></table></div><p class="workspace-observation">Este inventario se calcula desde los resúmenes recibidos. Abre la procedencia antes de guardarlo como pista.</p>`;
+    return `<div class="inventory-toolbar"><h4>Inventario recibido</h4><button class="secondary-button" data-action="select-source" data-source="META-CUSTODIA">Inspeccionar procedencia</button></div><div class="table-wrap program-table"><table><thead><tr><th>Material</th><th>Archivo original</th><th>SHA-256</th><th>Comprobación</th></tr></thead><tbody>${canon.evidenceSummaries.map((source) => `<tr><td>${h(sourceName(source.id))}</td><td>${h(source.artifactPath ?? 'No aportado')}</td><td>${h(source.sha256 ?? 'No aportado')}</td><td><button class="text-button" data-action="verify-file" data-source="${source.id}">Ver metadatos</button></td></tr>`).join('')}</tbody></table></div><p class="workspace-observation">Este inventario se calcula desde los resúmenes recibidos. Abre la procedencia antes de guardarlo como pista.</p>`;
   }
 
   private clocksMarkup(): string {
@@ -165,7 +166,7 @@ export class ComputerPanel {
       <article class="source-document" data-document="${h(id)}">
         <h4 tabindex="-1">${h(sourceName(id))}</h4>
         <p class="inspector-context">${h(sourceContext(id))}</p>
-        <p class="inspector-summary">${h(source.summary)}</p>
+        <p class="inspector-summary">${h(source.summary)}</p>${source.readingNote ? `<p class="source-reading-note">${h(source.readingNote)}</p>` : ''}
         <div class="inspector-actions">
           ${pertinent ? `<button class="primary-button" data-action="pin-source" data-source="${id}" ${linked ? 'disabled' : ''}>${icon(linked ? 'check' : 'clipboard')}${linked ? 'Pista guardada en la libreta' : 'Guardar pista en la libreta'}</button>` : '<p class="context-note">Registro de contexto para este puesto. Puedes contrastarlo sin incorporarlo como sustento de este asunto.</p>'}
           <button class="secondary-button" data-action="compare" data-source="${id}" aria-pressed="${this.state.comparison.includes(id)}">${icon('compare')}${this.state.comparison.includes(id) ? 'Quitar de la comparación' : 'Comparar con otro registro'}</button>
@@ -178,7 +179,7 @@ export class ComputerPanel {
           <p><code>${h(id)}</code> · ${h(source.version)}</p>
           <p>${h(source.kindLabel)}. ${h(source.provenanceText)}</p>
           ${source.notes.map((note) => `<p>${h(note)}</p>`).join('')}
-          ${source.queryIds.length ? `<p>Consultas previstas del plan: ${source.queryIds.map(h).join(', ')}. No son resultados ejecutados.</p>` : ''}
+          ${source.queryIds.length ? `<p>Referencias de consultas académicas: ${source.queryIds.map(h).join(', ')}. No se ejecutan en el navegador; los resultados del laboratorio usan datos ficticios.</p>` : ''}
         </details>
       </article>
     </aside>`;
@@ -186,7 +187,7 @@ export class ComputerPanel {
 
   private nextLead(id: string): string {
     const leads: Record<string, string> = {
-      'EVT-02': 'Tenemos una cuenta. ¿Quién la usó y qué política de MFA le correspondía? Revisa el directorio; el nombre de usuario por sí solo no resuelve la atribución.',
+      'EVT-02': 'Tenemos una cuenta. ¿Quién la usó y qué política de verificación adicional a la contraseña le correspondía? Revisa el directorio; el nombre de usuario por sí solo no resuelve la atribución.',
       'EVT-03': 'El registro de elevación no aporta una cuenta. Comprueba ese campo antes de unirlo con la sesión remota.',
       'EVT-04': 'La lectura tiene una hora y un volumen. Busca la transferencia en el monitor de red y compara lo que cada registro permite identificar.',
       'EVT-05': 'No se identifica el contenido transferido. Consulta al enlace qué sostiene Seguridad sobre la relación con SQL.',

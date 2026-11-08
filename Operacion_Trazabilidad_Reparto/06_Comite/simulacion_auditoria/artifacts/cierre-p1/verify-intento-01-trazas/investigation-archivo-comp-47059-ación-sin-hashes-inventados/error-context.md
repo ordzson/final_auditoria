@@ -1,0 +1,252 @@
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - strong [ref=e6]: Operación Trazabilidad
+      - generic [ref=e7]: La oficina después del incidente
+    - generic [ref=e8]:
+      - 'button "Abrir tablita: 0 de 6 revisiones documentadas" [ref=e9] [cursor=pointer]':
+        - img [ref=e10]
+        - text: Tablita
+        - generic [ref=e12]: J
+      - button "Reconstrucción" [ref=e13] [cursor=pointer]
+      - group [ref=e14]:
+        - generic "Accesibilidad y controles" [ref=e15] [cursor=pointer]
+  - region "Controles de exploración"
+  - region "Sala de revisión en modo plano" [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - heading "Sala de revisión" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Acceso plano a las mismas fuentes y revisiones. No requiere WebGL ni bloqueo del puntero.
+      - button "Recibir tablita / hablar con TI" [ref=e21] [cursor=pointer]
+    - generic [ref=e22]:
+      - button "A Accesos e identidad Pendiente Usar ordenador" [ref=e23] [cursor=pointer]:
+        - generic [ref=e24]: A
+        - generic [ref=e25]:
+          - strong [ref=e26]: Accesos e identidad
+          - generic [ref=e27]: Pendiente
+        - generic [ref=e28]: Usar ordenador
+      - button "B SQL y red Pendiente Usar ordenador" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: B
+        - generic [ref=e31]:
+          - strong [ref=e32]: SQL y red
+          - generic [ref=e33]: Pendiente
+        - generic [ref=e34]: Usar ordenador
+      - button "C CRM y cambios Pendiente Usar ordenador" [ref=e35] [cursor=pointer]:
+        - generic [ref=e36]: C
+        - generic [ref=e37]:
+          - strong [ref=e38]: CRM y cambios
+          - generic [ref=e39]: Pendiente
+        - generic [ref=e40]: Usar ordenador
+      - button "D SIEM y tiempo Pendiente Usar ordenador" [ref=e41] [cursor=pointer]:
+        - generic [ref=e42]: D
+        - generic [ref=e43]:
+          - strong [ref=e44]: SIEM y tiempo
+          - generic [ref=e45]: Pendiente
+        - generic [ref=e46]: Usar ordenador
+      - button "E Respaldo y recuperación Pendiente Usar ordenador" [ref=e47] [cursor=pointer]:
+        - generic [ref=e48]: E
+        - generic [ref=e49]:
+          - strong [ref=e50]: Respaldo y recuperación
+          - generic [ref=e51]: Pendiente
+        - generic [ref=e52]: Usar ordenador
+      - button "F Custodia y archivo Pendiente Usar ordenador" [ref=e53] [cursor=pointer]:
+        - generic [ref=e54]: F
+        - generic [ref=e55]:
+          - strong [ref=e56]: Custodia y archivo
+          - generic [ref=e57]: Pendiente
+        - generic [ref=e58]: Usar ordenador
+    - paragraph [ref=e59]: La oficina concentra copias por conveniencia didáctica; no representa la infraestructura física de RedNova.
+  - status
+  - dialog [ref=e60]:
+    - region "F · Custodia y archivo" [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - strong [ref=e64]: F · Custodia y archivo
+          - generic [ref=e65]: Pendiente
+        - status [ref=e66]: Trabajo en este equipo
+        - navigation "Controles de la investigación" [ref=e67]:
+          - button "Libreta" [ref=e68] [cursor=pointer]
+          - button "Enlace de TI" [ref=e69] [cursor=pointer]
+          - button "Volver a la oficina Esc" [ref=e70] [cursor=pointer]
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - group "Programas del escritorio" [ref=e74]:
+              - button "Explorador del expediente" [ref=e75] [cursor=pointer]:
+                - generic [ref=e76]: Explorador del expediente
+              - button "Comparador de relojes" [ref=e77] [cursor=pointer]:
+                - generic [ref=e78]: Comparador de relojes
+              - button "Informe del puesto" [ref=e79] [cursor=pointer]:
+                - generic [ref=e80]: Informe del puesto
+              - button "Expediente local" [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]: Expediente local
+            - complementary "Asuntos del puesto" [ref=e83]:
+              - button "Asuntos del puesto" [ref=e84]
+              - heading "F · Custodia y archivo" [level=2] [ref=e85]
+              - list [ref=e86]:
+                - listitem [ref=e87]:
+                  - button "Revisar originales y hashes" [ref=e88] [cursor=pointer]
+                  - generic [ref=e89]: Por consultar
+                - listitem [ref=e90]:
+                  - button "Inspeccionar la procedencia" [ref=e91] [cursor=pointer]
+                  - generic [ref=e92]: Por consultar
+                - listitem [ref=e93]:
+                  - button "Comprobar los campos temporales" [ref=e94] [cursor=pointer]
+                  - generic [ref=e95]: Por consultar
+            - region "Explorador del expediente" [ref=e96]:
+              - generic [ref=e97]:
+                - heading "Explorador del expediente" [level=2] [ref=e98]:
+                  - button "Explorador del expediente" [ref=e99]
+                - generic [ref=e100]:
+                  - button "Minimizar Explorador del expediente" [ref=e101] [cursor=pointer]
+                  - button "Maximizar Explorador del expediente" [ref=e103] [cursor=pointer]
+                  - button "Cerrar Explorador del expediente" [ref=e105] [cursor=pointer]
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: Inventario recibido
+                  - button "Inspeccionar procedencia" [ref=e111] [cursor=pointer]
+                  - button "Informe del puesto" [ref=e112] [cursor=pointer]
+                - generic [ref=e113]:
+                  - complementary "Ayuda escrita de la revisión" [ref=e114]:
+                    - paragraph [ref=e115]: Metadatos son datos sobre un archivo, como su ruta y procedencia. SHA-256 es una huella calculada de sus bytes. Compararla con una referencia previamente registrada permite detectar cambios; no demuestra verdad ni completitud. Hay que conservar el origen de esa referencia.
+                    - group [ref=e116]:
+                      - generic "Alcance frente a I4 y pendientes" [ref=e117] [cursor=pointer]
+                  - paragraph [ref=e118]: El inventario se calcula desde los resúmenes recibidos. Consultar una entrada muestra sus metadatos; no lee archivos ni calcula o compara SHA-256.
+                  - generic [ref=e119]:
+                    - text: Buscar material
+                    - searchbox "Filtrar registros" [active] [ref=e120]
+                  - status [ref=e121]: 10 de 10 resúmenes de material
+                  - table [ref=e123]:
+                    - rowgroup [ref=e124]:
+                      - row "Material Archivo original SHA-256 Consulta" [ref=e125]:
+                        - columnheader "Material" [ref=e126]
+                        - columnheader "Archivo original" [ref=e127]
+                        - columnheader "SHA-256" [ref=e128]
+                        - columnheader "Consulta" [ref=e129]
+                    - rowgroup [ref=e130]:
+                      - row "Usuarios y privilegios E-01 No aportado No aportado Ver metadatos" [ref=e131]:
+                        - cell "Usuarios y privilegios E-01" [ref=e132]:
+                          - strong [ref=e133]: Usuarios y privilegios
+                          - generic [ref=e134]: E-01
+                        - cell "No aportado" [ref=e135]
+                        - cell "No aportado" [ref=e136]
+                        - cell "Ver metadatos" [ref=e137]:
+                          - button "Ver metadatos" [ref=e138] [cursor=pointer]
+                      - row "Acceso VPN E-02 No aportado No aportado Ver metadatos" [ref=e139]:
+                        - cell "Acceso VPN E-02" [ref=e140]:
+                          - strong [ref=e141]: Acceso VPN
+                          - generic [ref=e142]: E-02
+                        - cell "No aportado" [ref=e143]
+                        - cell "No aportado" [ref=e144]
+                        - cell "Ver metadatos" [ref=e145]:
+                          - button "Ver metadatos" [ref=e146] [cursor=pointer]
+                      - row "Bitácora SQL Server E-03 No aportado No aportado Ver metadatos" [ref=e147]:
+                        - cell "Bitácora SQL Server E-03" [ref=e148]:
+                          - strong [ref=e149]: Bitácora SQL Server
+                          - generic [ref=e150]: E-03
+                        - cell "No aportado" [ref=e151]
+                        - cell "No aportado" [ref=e152]
+                        - cell "Ver metadatos" [ref=e153]:
+                          - button "Ver metadatos" [ref=e154] [cursor=pointer]
+                      - row "Tráfico cloud E-04 No aportado No aportado Ver metadatos" [ref=e155]:
+                        - cell "Tráfico cloud E-04" [ref=e156]:
+                          - strong [ref=e157]: Tráfico cloud
+                          - generic [ref=e158]: E-04
+                        - cell "No aportado" [ref=e159]
+                        - cell "No aportado" [ref=e160]
+                        - cell "Ver metadatos" [ref=e161]:
+                          - button "Ver metadatos" [ref=e162] [cursor=pointer]
+                      - row "Cambios del CRM E-05 No aportado No aportado Ver metadatos" [ref=e163]:
+                        - cell "Cambios del CRM E-05" [ref=e164]:
+                          - strong [ref=e165]: Cambios del CRM
+                          - generic [ref=e166]: E-05
+                        - cell "No aportado" [ref=e167]
+                        - cell "No aportado" [ref=e168]
+                        - cell "Ver metadatos" [ref=e169]:
+                          - button "Ver metadatos" [ref=e170] [cursor=pointer]
+                      - row "Ticket de cambios E-06 No aportado No aportado Ver metadatos" [ref=e171]:
+                        - cell "Ticket de cambios E-06" [ref=e172]:
+                          - strong [ref=e173]: Ticket de cambios
+                          - generic [ref=e174]: E-06
+                        - cell "No aportado" [ref=e175]
+                        - cell "No aportado" [ref=e176]
+                        - cell "Ver metadatos" [ref=e177]:
+                          - button "Ver metadatos" [ref=e178] [cursor=pointer]
+                      - row "Alertas de seguridad E-07 No aportado No aportado Ver metadatos" [ref=e179]:
+                        - cell "Alertas de seguridad E-07" [ref=e180]:
+                          - strong [ref=e181]: Alertas de seguridad
+                          - generic [ref=e182]: E-07
+                        - cell "No aportado" [ref=e183]
+                        - cell "No aportado" [ref=e184]
+                        - cell "Ver metadatos" [ref=e185]:
+                          - button "Ver metadatos" [ref=e186] [cursor=pointer]
+                      - row "Respaldos E-08 No aportado No aportado Ver metadatos" [ref=e187]:
+                        - cell "Respaldos E-08" [ref=e188]:
+                          - strong [ref=e189]: Respaldos
+                          - generic [ref=e190]: E-08
+                        - cell "No aportado" [ref=e191]
+                        - cell "No aportado" [ref=e192]
+                        - cell "Ver metadatos" [ref=e193]:
+                          - button "Ver metadatos" [ref=e194] [cursor=pointer]
+                      - row "Contrato del tercero E-09 No aportado No aportado Ver metadatos" [ref=e195]:
+                        - cell "Contrato del tercero E-09" [ref=e196]:
+                          - strong [ref=e197]: Contrato del tercero
+                          - generic [ref=e198]: E-09
+                        - cell "No aportado" [ref=e199]
+                        - cell "No aportado" [ref=e200]
+                        - cell "Ver metadatos" [ref=e201]:
+                          - button "Ver metadatos" [ref=e202] [cursor=pointer]
+                      - row "Chatbot con IA E-10 No aportado No aportado Ver metadatos" [ref=e203]:
+                        - cell "Chatbot con IA E-10" [ref=e204]:
+                          - strong [ref=e205]: Chatbot con IA
+                          - generic [ref=e206]: E-10
+                        - cell "No aportado" [ref=e207]
+                        - cell "No aportado" [ref=e208]
+                        - cell "Ver metadatos" [ref=e209]:
+                          - button "Ver metadatos" [ref=e210] [cursor=pointer]
+                  - status [ref=e211]: Selecciona «Ver metadatos» para revisar qué metadatos están realmente aportados.
+                  - generic [ref=e212]:
+                    - generic [ref=e213]: Soportes de contexto
+                    - button "Abrir E-09" [ref=e214] [cursor=pointer]
+                    - button "Abrir E-10" [ref=e215] [cursor=pointer]
+                  - region "Detalle del material" [ref=e216]:
+                    - paragraph [ref=e218]: Abre un registro para consultar su detalle y procedencia.
+                  - generic [ref=e219]:
+                    - region "Mesa de comparación" [ref=e220]:
+                      - heading "Comparar registros" [level=3] [ref=e221]
+                      - paragraph [ref=e223]: Elige «Comparar registro» en dos fuentes. La mesa se comparte con los otros programas de esta PC.
+                    - region "Contrastes del puesto" [ref=e224]:
+                      - heading "Registrar un contraste" [level=3] [ref=e225]
+                      - paragraph [ref=e226]: La respuesta se incorpora a la libreta cuando dispone de sus fuentes. Si faltan, se conserva como borrador.
+                      - group "¿Puede tratarse este resumen como una extracción con custodia acreditada?" [ref=e227]:
+                        - generic [ref=e228]: ¿Puede tratarse este resumen como una extracción con custodia acreditada?
+                        - text: Mi respuesta
+                        - combobox "Mi respuesta" [ref=e229]:
+                          - option "Selecciona una respuesta…" [selected]
+                          - option "Sí; el código E acredita la extracción y custodia."
+                          - option "No; faltan originales, método, custodio y hashes."
+                          - option "Los campos no aportados demuestran manipulación."
+                        - status [ref=e230]: Aún no has elegido una respuesta.
+                      - group "¿Qué muestra la comparación entre hora reportada, original, desfase y verificación?" [ref=e231]:
+                        - generic [ref=e232]: ¿Qué muestra la comparación entre hora reportada, original, desfase y verificación?
+                        - text: Mi respuesta
+                        - combobox "Mi respuesta" [ref=e233]:
+                          - option "Selecciona una respuesta…" [selected]
+                          - option "Todos los relojes tienen desfase cero verificado."
+                          - option "La sincronización de las fuentes no está verificada."
+                          - option "Las horas reportadas establecen un orden temporal definitivo."
+                        - status [ref=e234]: Aún no has elegido una respuesta.
+                      - button "Continuar en Informe del puesto" [ref=e235] [cursor=pointer]
+              - button "Redimensionar Explorador del expediente" [ref=e236]
+          - group "Barra de tareas" [ref=e237]:
+            - button "Inicio" [ref=e238] [cursor=pointer]
+            - button "Mostrar escritorio" [ref=e239] [cursor=pointer]
+            - group "Ventanas abiertas" [ref=e241]:
+              - button "Explorador del expediente" [pressed] [ref=e242] [cursor=pointer]:
+                - generic [ref=e243]: Explorador del expediente
+            - generic "Expediente local · sin conexión a producción" [ref=e244]: Local
+        - generic [ref=e246]: REDNOVA
+```

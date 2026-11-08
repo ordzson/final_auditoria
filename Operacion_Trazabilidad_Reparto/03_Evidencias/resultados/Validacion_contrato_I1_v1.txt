@@ -1,0 +1,9 @@
+Comprobación realmente ejecutada en SQL Server 2022 Developer 16.0.4305.5.
+Base propia: P1_Diseno_Contrato_v1.
+
+Comandos: CREATE DATABASE P1_Diseno_Contrato_v1; sqlcmd -d P1_Diseno_Contrato_v1 -b < 01_esquema.sql; SELECT COUNT(*) FROM sys.tables; SELECT COUNT(*) FROM sys.foreign_keys; SELECT SUM(row_count) FROM sys.dm_db_partition_stats WHERE index_id IN (0,1) AND object_id IN (SELECT object_id FROM sys.tables).
+
+Resultado final: TablasContrato=16; ClavesForaneas=18; FilasTotales=0. Código de salida 0.
+
+Se corrigieron antes dos errores de la comprobación: corchetes en [Plan] y CHECK entre columnas declarados a nivel de tabla. No se generó ni insertó información operativa; no se ejecutó Q-01–Q-12.
+La clave de conexión se tomó del entorno del contenedor y no se transcribe.

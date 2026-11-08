@@ -4,9 +4,11 @@ import {
   availableInterviewQuestions, baseQuestions, followupQuestions, interviewTopics,
   type InterviewSession,
 } from '../data/interview';
+import { classroomText } from '../data/language';
 import { sourceName } from '../data/investigation';
 import { interviewAudioUrl } from '../data/interviewAudio';
 import { escapeHtml, icon } from './dom';
+import { reviewHelpMarkup } from './guidance';
 
 export class InterviewPanel {
   private readonly unsubscribe: () => void;
@@ -49,7 +51,7 @@ export class InterviewPanel {
     const current = questions.find((question) => question.id === this.session.questionId);
     const greeting = this.greetingId === 'TE-ESCUCHO' ? 'Te escucho.' : this.greetingId === 'SALUDO-REGRESO'
       ? '¿Encontraste algo más? Dime qué quieres revisar y lo vemos juntos.'
-      : 'Hola. ¿Vienes por lo del CRM? Ya tienes la tablita. Pregúntame lo que necesites y vamos viendo qué dicen los registros.';
+      : 'Hola. Revisamos la caída del sistema comercial de la empresa ficticia RedNova. Ya tienes la tablita. Pregúntame lo que necesites y contrastemos las fuentes.';
     const answer = current?.answer ?? topic?.answer ?? greeting;
     this.dialog.innerHTML = `
       <header class="dialog-header dialogue-header">
@@ -59,8 +61,9 @@ export class InterviewPanel {
       </header>
       <div class="dialogue-speaker"><h3>Enlace de TI</h3><p>Te escucho.</p></div>
       <section class="dialogue-response" aria-label="Respuesta del enlace de TI">
-        <p class="dialogue-player" ${!current ? 'hidden' : ''}>Tú: ${escapeHtml(current?.question)}</p>
-        <blockquote aria-live="polite" aria-atomic="true"><span class="sr-only">Enlace de TI: </span>${escapeHtml(answer)}</blockquote>
+        <p class="dialogue-player" ${!current ? 'hidden' : ''}>Tú: ${escapeHtml(classroomText(current?.question ?? ''))}</p>
+        <blockquote aria-live="polite" aria-atomic="true"><span class="sr-only">Enlace de TI: </span>${escapeHtml(classroomText(answer))}</blockquote>
+        ${topic ? reviewHelpMarkup(topic.id) : '<p class="dialogue-player">TI significa tecnología de la información. CRM es el sistema comercial de clientes y órdenes. Las respuestas orientan la investigación; no son entrevistas realizadas en la empresa. La ayuda escrita complementa la voz opcional.</p>'}
         <div class="dialogue-response-footer">
           <p>Conversación orientativa. Contrasta las declaraciones con sus fuentes.</p>
           ${current?.sourceId ? `<button class="dialogue-source" data-action="source" data-source="${escapeHtml(current.sourceId)}" data-review="${current.reviewId}" data-choice="source">${icon('folder')} Consultar ${escapeHtml(sourceName(current.sourceId))}</button>` : ''}
@@ -93,7 +96,7 @@ export class InterviewPanel {
   private choice(action: string, id: string, label: string, discussed = false, contextual = false): string {
     return `<button class="dialogue-choice${discussed ? ' is-discussed' : ''}" data-action="${action}" data-choice="${id}"${action === 'ask' ? ` data-question="${id}"` : ''}${action === 'topic' ? ` data-topic="${id}"` : ''}>
       <svg class="dialogue-cursor" viewBox="0 0 16 20" aria-hidden="true"><path d="m3 3 9 7-9 7" fill="none" stroke="currentColor" stroke-width="2" /></svg>
-      <span>${escapeHtml(label)}${contextual ? '<small>Sobre lo que encontraste</small>' : ''}</span>
+      <span>${escapeHtml(classroomText(label))}${contextual ? '<small>Sobre lo que encontraste</small>' : ''}</span>
       ${discussed ? `<span class="dialogue-discussed">${icon('check')}<span class="sr-only">Ya hablado</span></span>` : ''}
     </button>`;
   }
@@ -111,7 +114,10 @@ export class InterviewPanel {
       this.voice.currentTime = 0;
       void this.voice.play().catch(() => { /* El texto sigue disponible. */ });
     }
-    if (action === 'close') this.dialog.close();
+    if (action === 'close') {
+      this.voice.pause();
+      this.dialog.close();
+    }
     if (action === 'topic') {
       const topic = interviewTopics.find((item) => item.id === button.dataset.topic);
       if (!topic) return;

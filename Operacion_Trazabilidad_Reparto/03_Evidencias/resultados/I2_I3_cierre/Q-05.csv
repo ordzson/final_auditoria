@@ -1,0 +1,3 @@
+EventoSQLID,FechaHora,UsuarioID,Objeto,Accion,Filas,Aplicacion,IPOrigen,FuenteID,ClaseOrigen,ReferenciaExpediente,SupuestosAplicados,MaximoHabitual,DiasReferencia,Evaluacion
+141,2026-10-14T02:29:00,43,Clientes,SELECT,20000,Analitica_LAB,192.0.2.10,LAB_SQL,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-NOR,1000,7,supera 3x
+142,2026-10-14T02:31:00,\N,Clientes,SELECT,31840,\N,\N,CURSO_SQL,reproduccion_expediente,E-03,S-03,\N,\N,no evaluable

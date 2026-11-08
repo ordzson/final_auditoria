@@ -1,0 +1,14 @@
+AsignacionID,UsuarioID,Rol,Sistema,FechaHora,AsignadoPor,Ticket,Vence,FuenteID,ClaseOrigen,ReferenciaExpediente,SupuestosAplicados
+1,2,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,\N,2026-10-20T10:00:00,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC
+2,3,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,\N,2026-10-20T10:00:00,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC
+3,4,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,\N,2026-10-20T10:00:00,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC
+4,5,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,LAB-PRIV-004,\N,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC
+5,6,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,LAB-PRIV-005,\N,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC
+6,7,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,LAB-PRIV-006,\N,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC
+7,19,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,LAB-PRIV-007,2026-10-20T10:00:00,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC
+8,20,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,LAB-PRIV-008,2026-10-20T10:00:00,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC
+9,21,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,LAB-PRIV-009,2026-10-20T10:00:00,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC
+10,22,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,LAB-PRIV-010,2026-10-20T10:00:00,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC
+11,23,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,LAB-PRIV-011,2026-10-20T10:00:00,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC
+12,24,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,LAB-PRIV-012,2026-10-20T10:00:00,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC
+13,\N,\N,Identidad,2026-10-14T02:26:00,\N,\N,\N,CURSO_IDENTIDAD,reproduccion_expediente,\N,S-03

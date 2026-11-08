@@ -1,0 +1,128 @@
+APROBADO Archivo SHA256 04_SQL/datos/v2/Alertas.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/Backups.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/BitacoraSQL.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/CambiosSistema.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/Clientes.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/Empleados.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/EventosExpediente.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/FuentesTiempo.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/HistorialOrdenes.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/Ordenes.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/Privilegios.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/ProgramacionBackups.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/PruebasRestauracion.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/Sesiones.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/TransferenciasRed.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/Usuarios.csv
+APROBADO Archivo SHA256 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_01.md
+APROBADO Archivo SHA256 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_02.md
+APROBADO Archivo SHA256 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_03.md
+APROBADO Archivo SHA256 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_04.md
+APROBADO Archivo SHA256 04_SQL/02_generar_datos_v2.py
+APROBADO Archivo SHA256 04_SQL/validar_datos_v2.py
+APROBADO Archivo SHA256 04_SQL/01_esquema.sql
+APROBADO Archivo SHA256 03_Evidencias/Supuestos_P1_v1.csv
+APROBADO Contrato conservado 16 tablas vacías
+APROBADO SQL cantidad FuentesTiempo
+APROBADO SQL todas las celdas vs CSV FuentesTiempo
+APROBADO SQL cantidad Empleados
+APROBADO SQL todas las celdas vs CSV Empleados
+APROBADO SQL cantidad Usuarios
+APROBADO SQL todas las celdas vs CSV Usuarios
+APROBADO SQL cantidad Sesiones
+APROBADO SQL todas las celdas vs CSV Sesiones
+APROBADO SQL cantidad Privilegios
+APROBADO SQL todas las celdas vs CSV Privilegios
+APROBADO SQL cantidad Clientes
+APROBADO SQL todas las celdas vs CSV Clientes
+APROBADO SQL cantidad Ordenes
+APROBADO SQL todas las celdas vs CSV Ordenes
+APROBADO SQL cantidad HistorialOrdenes
+APROBADO SQL todas las celdas vs CSV HistorialOrdenes
+APROBADO SQL cantidad CambiosSistema
+APROBADO SQL todas las celdas vs CSV CambiosSistema
+APROBADO SQL cantidad ProgramacionBackups
+APROBADO SQL todas las celdas vs CSV ProgramacionBackups
+APROBADO SQL cantidad Backups
+APROBADO SQL todas las celdas vs CSV Backups
+APROBADO SQL cantidad PruebasRestauracion
+APROBADO SQL todas las celdas vs CSV PruebasRestauracion
+APROBADO SQL cantidad BitacoraSQL
+APROBADO SQL todas las celdas vs CSV BitacoraSQL
+APROBADO SQL cantidad TransferenciasRed
+APROBADO SQL todas las celdas vs CSV TransferenciasRed
+APROBADO SQL cantidad Alertas
+APROBADO SQL todas las celdas vs CSV Alertas
+APROBADO SQL cantidad EventosExpediente
+APROBADO SQL todas las celdas vs CSV EventosExpediente
+APROBADO SQL FK activas y confiables
+APROBADO SQL DBCC restricciones sin errores
+APROBADO SQL Cambios E05 sin atribucion
+APROBADO SQL Cambios ventana
+APROBADO SQL Clientes
+APROBADO SQL Eventos
+APROBADO SQL Eventos originales desconocidos
+APROBADO SQL Lectura E03 sin atribucion
+APROBADO SQL Ordenes distintas ventana
+APROBADO SQL Ordenes fuera periodo
+APROBADO SQL Red E04 aproximada
+APROBADO SQL Red fuera periodo
+APROBADO SQL Relojes curso verificados indebidamente
+APROBADO SQL Sesiones fuera periodo
+APROBADO SQL SQL fuera periodo
+APROBADO Login auditor real
+APROBADO Auditor rechazo real INSERT
+APROBADO Auditor rechazo real UPDATE
+APROBADO Auditor rechazo real DELETE
+APROBADO Auditor rechazo real ALTER
+APROBADO Auditor rechazo real ADMIN
+APROBADO Permisos efectivos admin_bitacora_lab
+APROBADO Permisos efectivos control_bitacora_lab
+APROBADO Permisos efectivos auditor_lectura
+APROBADO Q-01 repetición idéntica
+APROBADO Q-02 repetición idéntica
+APROBADO Q-03 repetición idéntica
+APROBADO Q-04 repetición idéntica
+APROBADO Q-05 repetición idéntica
+APROBADO Q-06 repetición idéntica
+APROBADO Q-07 repetición idéntica
+APROBADO Q-08 repetición idéntica
+APROBADO Q-09 repetición idéntica
+APROBADO Q-10 repetición idéntica
+APROBADO Q-11 repetición idéntica
+APROBADO Q-12 repetición idéntica
+APROBADO Consultas casos y controles
+APROBADO SQL límites estrictos
+{
+  "inicio_utc": "2026-11-07T06:12:04.728599+00:00",
+  "fin_utc": "2026-11-07T06:12:34.844538+00:00",
+  "base": "RedNova_P1_Lab_v2_repeticion",
+  "motor": {
+    "Motor": "Microsoft SQL Server 2022 (RTM-CU27-GDR) (KB5126934) - 16.0.4305.5 (X64) \n\tOct  2 2026 17:28:11 \n\tCopyright (C) 2022 Microsoft Corporation\n\tDeveloper Edition (64-bit) on Linux (Ubuntu 22.04.5 LTS) <X64>",
+    "Version": "16.0.4305.5"
+  },
+  "datos": "v2",
+  "semilla": 1410,
+  "corte": "2026-10-15T23:59:59-06:00",
+  "conteos_consultas": {
+    "Q-01": 6,
+    "Q-02": 18,
+    "Q-03": 3,
+    "Q-04": 7,
+    "Q-05": 2,
+    "Q-06": 3,
+    "Q-07": 216,
+    "Q-08": 10,
+    "Q-09": 9,
+    "Q-10": 3,
+    "Q-11": 4,
+    "Q-12": 13
+  },
+  "total_aprobadas": 95,
+  "captura": "pendiente; conexión real registrada en JSON y CSV, sin imagen fabricada",
+  "limites": [
+    "Datos sintéticos; no corroboran el caso",
+    "Restauración de julio es registro ficticio; no se ejecutó un restore",
+    "Revisión humana y traspasos P2/P3 pendientes"
+  ]
+}

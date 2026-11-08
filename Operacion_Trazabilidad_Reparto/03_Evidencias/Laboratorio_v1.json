@@ -1,0 +1,48 @@
+{
+  "fecha_utc": "2026-11-07T06:13:34.433861+00:00",
+  "datos": "v2",
+  "semilla": 1410,
+  "corte": "2026-10-15T23:59:59-06:00",
+  "motor": {
+    "Motor": "Microsoft SQL Server 2022 (RTM-CU27-GDR) (KB5126934) - 16.0.4305.5 (X64) \n\tOct  2 2026 17:28:11 \n\tCopyright (C) 2022 Microsoft Corporation\n\tDeveloper Edition (64-bit) on Linux (Ubuntu 22.04.5 LTS) <X64>",
+    "Version": "16.0.4305.5"
+  },
+  "base": "RedNova_P1_Lab_v2",
+  "reconstruccion": "resultados/I2_I3_repeticion/Validacion_laboratorio_v1.json",
+  "supuestos": "Supuestos_P1_v1.csv",
+  "entrada": "04_SQL/datos/v2/Manifest_datos_v2.json",
+  "sha256_manifest": "d5692448f8e6525bba0e34a497c12f81b32ba34bc1dce72c9f0b4fea20737747",
+  "conteos_tablas": {
+    "Alertas.csv": 6,
+    "Backups.csv": 9,
+    "BitacoraSQL.csv": 142,
+    "CambiosSistema.csv": 6,
+    "Clientes.csv": 85000,
+    "Empleados.csv": 114,
+    "EventosExpediente.csv": 13,
+    "FuentesTiempo.csv": 18,
+    "HistorialOrdenes.csv": 276,
+    "Ordenes.csv": 3000,
+    "Privilegios.csv": 13,
+    "ProgramacionBackups.csv": 9,
+    "PruebasRestauracion.csv": 1,
+    "Sesiones.csv": 3000,
+    "TransferenciasRed.csv": 73,
+    "Usuarios.csv": 120
+  },
+  "total_filas": 91800,
+  "comando_final": "python3 laboratorio.py --base RedNova_P1_Lab_v2 --salida I2_I3_cierre --solo-verificar",
+  "comando_reconstruccion": "python3 laboratorio.py --base RedNova_P1_Lab_v2_repeticion --salida I2_I3_repeticion",
+  "validacion": "resultados/Validacion_laboratorio_v1.json",
+  "archivo_copias_recepcion": "originales/recepcion_I2/Preservacion.json",
+  "custodio": "Anthony Samuel Ordoñez Son, 2401002033",
+  "ejecutor": "Codex con autorización del usuario; revisión humana pendiente",
+  "sha256_ejecutor": "6490a9818e5a07176c2abefbd79ab2ced87a92043ec5e1a807ae4197e90fcb3a",
+  "limites": [
+    "Datos sintéticos; no corroboran el caso",
+    "Restauración de julio es registro ficticio; no se ejecutó un restore",
+    "Revisión humana y traspasos P2/P3 pendientes"
+  ],
+  "verificacion_final": "resultados/I2_I3_verificacion_cierre/Validacion_laboratorio_v1.json",
+  "comando_verificacion_final": "python3 laboratorio.py --base RedNova_P1_Lab_v2 --salida I2_I3_verificacion_cierre --solo-verificar"
+}

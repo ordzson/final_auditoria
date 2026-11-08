@@ -1,0 +1,1489 @@
+{
+  "browser": "147.0.7727.137",
+  "intro": [
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 4,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 239,
+          "scrollHeight": 239,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "RedNova es una empresa ficticia de internet y televisión. El caso reporta una solicitud de acceso pendiente.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 12,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 239,
+          "scrollHeight": 239,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "La cuenta remota ext_ops_04 inicia sesión sin verificación adicional a la contraseña. Persona desconocida.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 20,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 239,
+          "scrollHeight": 239,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se reporta un aumento de permisos. No se identifica la cuenta ni su conexión con la sesión remota.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 27,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 172,
+          "scrollHeight": 172,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Lectura reportada: 31,840 registros de clientes.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 34,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 172,
+          "scrollHeight": 172,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Transferencia externa: contenido sin identificar.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 41,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 172,
+          "scrollHeight": 172,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se reportan cambios en 216 órdenes comerciales.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 49,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 205,
+          "scrollHeight": 205,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Las órdenes cambiaron antes de instalar software, según horas sin verificar. No prueba causa.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 57,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 239,
+          "scrollHeight": 239,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se reporta una alerta crítica de seguridad. Faltan asignación, primera acción y cierre documentados.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 66,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 239,
+          "scrollHeight": 239,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se sospecha ransomware: un programa que bloquea archivos y exige pago. Alcance sin verificar.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 357,
+          "scrollHeight": 357,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "NOTA DE EXTORSIÓN\n\nSus archivos están bloqueados.\n\nPara recuperarlos, debe realizar un pago.\n\nRecreación ilustrativa · no es el texto original\nEl caso reporta una nota, sin texto original ni hora de aparición. Su ubicación durante la caída del sistema comercial es ilustrativa; no acredita que apareciera a las 03:42."
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 81,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 138,
+          "scrollHeight": 138,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Recuperación solicitada.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 87,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 172,
+          "scrollHeight": 172,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Servicio parcial: sistema comercial en solo consulta.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 93,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 172,
+          "scrollHeight": 172,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Escritura restablecida; integridad por verificar.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 99,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 205,
+          "scrollHeight": 205,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Finanzas pide comparar órdenes y facturas. La comparación sigue pendiente.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": false,
+      "time": 107,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 172,
+          "scrollHeight": 172,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "El servicio volvió. ¿Qué podemos sostener con evidencia?\n\nLa iluminación es puesta en escena; el caso no asigna una hora a la visita."
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 4,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 271,
+          "scrollHeight": 271,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "RedNova es una empresa ficticia de internet y televisión. El caso reporta una solicitud de acceso pendiente.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 12,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 271,
+          "scrollHeight": 271,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "La cuenta remota ext_ops_04 inicia sesión sin verificación adicional a la contraseña. Persona desconocida.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 20,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 230,
+          "scrollHeight": 230,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se reporta un aumento de permisos. No se identifica la cuenta ni su conexión con la sesión remota.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 27,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 190,
+          "scrollHeight": 190,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Lectura reportada: 31,840 registros de clientes.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 34,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 190,
+          "scrollHeight": 190,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Transferencia externa: contenido sin identificar.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 41,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 190,
+          "scrollHeight": 190,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se reportan cambios en 216 órdenes comerciales.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 49,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 230,
+          "scrollHeight": 230,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Las órdenes cambiaron antes de instalar software, según horas sin verificar. No prueba causa.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 57,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 271,
+          "scrollHeight": 271,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se reporta una alerta crítica de seguridad. Faltan asignación, primera acción y cierre documentados.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 66,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 271,
+          "scrollHeight": 271,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se sospecha ransomware: un programa que bloquea archivos y exige pago. Alcance sin verificar.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 348,
+          "scrollHeight": 348,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "NOTA DE EXTORSIÓN\n\nSus archivos están bloqueados.\n\nPara recuperarlos, debe realizar un pago.\n\nRecreación ilustrativa · no es el texto original\nEl caso reporta una nota, sin texto original ni hora de aparición. Su ubicación durante la caída del sistema comercial es ilustrativa; no acredita que apareciera a las 03:42."
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 81,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 150,
+          "scrollHeight": 150,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Recuperación solicitada.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 87,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 190,
+          "scrollHeight": 190,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Servicio parcial: sistema comercial en solo consulta.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 93,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 190,
+          "scrollHeight": 190,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Escritura restablecida; integridad por verificar.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 99,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 230,
+          "scrollHeight": 230,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Finanzas pide comparar órdenes y facturas. La comparación sigue pendiente.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projector": true,
+      "time": 107,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 190,
+          "scrollHeight": 190,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "El servicio volvió. ¿Qué podemos sostener con evidencia?\n\nLa iluminación es puesta en escena; el caso no asigna una hora a la visita."
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 4,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 239,
+          "scrollHeight": 239,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "RedNova es una empresa ficticia de internet y televisión. El caso reporta una solicitud de acceso pendiente.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 12,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 239,
+          "scrollHeight": 239,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "La cuenta remota ext_ops_04 inicia sesión sin verificación adicional a la contraseña. Persona desconocida.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 20,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 239,
+          "scrollHeight": 239,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se reporta un aumento de permisos. No se identifica la cuenta ni su conexión con la sesión remota.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 27,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 172,
+          "scrollHeight": 172,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Lectura reportada: 31,840 registros de clientes.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 34,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 172,
+          "scrollHeight": 172,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Transferencia externa: contenido sin identificar.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 41,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 172,
+          "scrollHeight": 172,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se reportan cambios en 216 órdenes comerciales.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 49,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 205,
+          "scrollHeight": 205,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Las órdenes cambiaron antes de instalar software, según horas sin verificar. No prueba causa.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 57,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 239,
+          "scrollHeight": 239,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se reporta una alerta crítica de seguridad. Faltan asignación, primera acción y cierre documentados.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 66,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 239,
+          "scrollHeight": 239,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se sospecha ransomware: un programa que bloquea archivos y exige pago. Alcance sin verificar.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 752,
+          "scrollHeight": 752,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "NOTA DE EXTORSIÓN\n\nSus archivos están bloqueados.\n\nPara recuperarlos, debe realizar un pago.\n\nRecreación ilustrativa · no es el texto original\nEl caso reporta una nota, sin texto original ni hora de aparición. Su ubicación durante la caída del sistema comercial es ilustrativa; no acredita que apareciera a las 03:42."
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 81,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 138,
+          "scrollHeight": 138,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Recuperación solicitada.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 87,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 172,
+          "scrollHeight": 172,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Servicio parcial: sistema comercial en solo consulta.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 93,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 172,
+          "scrollHeight": 172,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Escritura restablecida; integridad por verificar.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 99,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 205,
+          "scrollHeight": 205,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Finanzas pide comparar órdenes y facturas. La comparación sigue pendiente.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": false,
+      "time": 107,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 172,
+          "scrollHeight": 172,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "El servicio volvió. ¿Qué podemos sostener con evidencia?\n\nLa iluminación es puesta en escena; el caso no asigna una hora a la visita."
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 4,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 271,
+          "scrollHeight": 271,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "RedNova es una empresa ficticia de internet y televisión. El caso reporta una solicitud de acceso pendiente.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 12,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 271,
+          "scrollHeight": 271,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "La cuenta remota ext_ops_04 inicia sesión sin verificación adicional a la contraseña. Persona desconocida.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 20,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 230,
+          "scrollHeight": 230,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se reporta un aumento de permisos. No se identifica la cuenta ni su conexión con la sesión remota.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 27,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 190,
+          "scrollHeight": 190,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Lectura reportada: 31,840 registros de clientes.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 34,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 190,
+          "scrollHeight": 190,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Transferencia externa: contenido sin identificar.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 41,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 190,
+          "scrollHeight": 190,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se reportan cambios en 216 órdenes comerciales.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 49,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 230,
+          "scrollHeight": 230,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Las órdenes cambiaron antes de instalar software, según horas sin verificar. No prueba causa.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 57,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 271,
+          "scrollHeight": 271,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se reporta una alerta crítica de seguridad. Faltan asignación, primera acción y cierre documentados.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 66,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 271,
+          "scrollHeight": 271,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Se sospecha ransomware: un programa que bloquea archivos y exige pago. Alcance sin verificar.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 752,
+          "scrollHeight": 752,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "NOTA DE EXTORSIÓN\n\nSus archivos están bloqueados.\n\nPara recuperarlos, debe realizar un pago.\n\nRecreación ilustrativa · no es el texto original\nEl caso reporta una nota, sin texto original ni hora de aparición. Su ubicación durante la caída del sistema comercial es ilustrativa; no acredita que apareciera a las 03:42."
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 81,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 150,
+          "scrollHeight": 150,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Recuperación solicitada.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 87,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 190,
+          "scrollHeight": 190,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Servicio parcial: sistema comercial en solo consulta.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 93,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 190,
+          "scrollHeight": 190,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Escritura restablecida; integridad por verificar.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 99,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 230,
+          "scrollHeight": 230,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "Finanzas pide comparar órdenes y facturas. La comparación sigue pendiente.\n\nDato reportado por el caso, p. 4 · Hora reportada UTC−6"
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projector": true,
+      "time": 107,
+      "regions": [
+        {
+          "selector": ".intro-message-wrap",
+          "clientHeight": 190,
+          "scrollHeight": 190,
+          "visible": true,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": "El servicio volvió. ¿Qué podemos sostener con evidencia?\n\nLa iluminación es puesta en escena; el caso no asigna una hora a la visita."
+        },
+        {
+          "selector": "#ransom-note",
+          "clientHeight": 0,
+          "scrollHeight": 0,
+          "visible": false,
+          "clipped": false,
+          "overlapsControls": false,
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "video": {
+    "container": "WebM",
+    "bytes": 4855217,
+    "duration": 39.4,
+    "width": 1280,
+    "height": 720,
+    "samples": [
+      {
+        "time": 7.903832,
+        "range": 254
+      },
+      {
+        "time": 19.723307,
+        "range": 255
+      },
+      {
+        "time": 37.460154,
+        "range": 229
+      }
+    ],
+    "playback": {
+      "ended": true,
+      "error": null,
+      "decodedFrames": 1221
+    },
+    "audio": "Grabación muda"
+  },
+  "physicalClassroomTested": false
+}

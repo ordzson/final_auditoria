@@ -1,0 +1,30 @@
+{
+  "criterio": "Git estaba limpio para estos PNG al iniciar I5; las capturas actuales se conservan en cierre-p1 antes de restituir las históricas.",
+  "rutas": [
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-b/flat-no-webgl.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-b/mobile-390.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-b/office-1280.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-b/office-1920.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-b/session-only.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-b/two-programs-saved.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-stage3/accesos.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-stage3/crm_cambios.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-stage3/mesa_auditor.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-stage3/rack-monitor.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-stage3/recovery-mobile.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-stage3/respaldos.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-stage3/server-desktop.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/desktop-stage3/siem.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/interview-audio/desktop.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/interview-audio/mobile.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/interview/entrevista-1280.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/interview/entrevista-1920.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/interview/entrevista-390.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/screenshots/a-au02-documentada.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/screenshots/b-seis-documentadas.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/screenshots/c-p08-nota-ilustrativa.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/screenshots/d-apertura-1280.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/screenshots/d-apertura-1920.png",
+    "Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/screenshots/d-movil-plano.png"
+  ]
+}

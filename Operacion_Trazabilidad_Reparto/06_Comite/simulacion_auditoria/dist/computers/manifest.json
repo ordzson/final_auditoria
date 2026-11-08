@@ -1,0 +1,817 @@
+{
+  "schemaVersion": 1,
+  "inventory": "docs/inventario-assets.json",
+  "stage": 0,
+  "files": [
+    {
+      "url": "/computers/wallpapers/xp-bliss.jpg",
+      "source": "xp-fondo-bliss-3840x2160.jpg",
+      "archiveMember": null,
+      "sourceSha256": "79eec9cc98eb410e070348408b0ddc423e39b1d547da6f20cc763fc04c0486fe",
+      "memberSha256": null,
+      "sha256": "79eec9cc98eb410e070348408b0ddc423e39b1d547da6f20cc763fc04c0486fe",
+      "bytes": 723862,
+      "transform": "copia exacta"
+    },
+    {
+      "url": "/computers/wallpapers/xp-professional-azul.jpg",
+      "source": "xp-fondo-professional-azul-3840x2160.jpg",
+      "archiveMember": null,
+      "sourceSha256": "87f6afbb4a239c7677b8249cf05c7eba61397578cf76369b37fc81c31c3861f5",
+      "memberSha256": null,
+      "sha256": "87f6afbb4a239c7677b8249cf05c7eba61397578cf76369b37fc81c31c3861f5",
+      "bytes": 154033,
+      "transform": "copia exacta"
+    },
+    {
+      "url": "/computers/wallpapers/xp-isla-tropical.jpg",
+      "source": "xp-fondo-isla-tropical-4341x2841.jpg",
+      "archiveMember": null,
+      "sourceSha256": "5e9e73ce01539851d64a0ca58074f1fac9f8edf78bce4714a0e5dbe71fbd606e",
+      "memberSha256": null,
+      "sha256": "5e9e73ce01539851d64a0ca58074f1fac9f8edf78bce4714a0e5dbe71fbd606e",
+      "bytes": 1470719,
+      "transform": "copia exacta"
+    },
+    {
+      "url": "/computers/wallpapers/stonehenge.jpg",
+      "source": "fondo-stonehenge-5600x2400.jpg",
+      "archiveMember": null,
+      "sourceSha256": "619339ac94b02cd797ba30b3f3fb71bd47a50bf5a8b67edcf8aa8fbeb5adeda1",
+      "memberSha256": null,
+      "sha256": "619339ac94b02cd797ba30b3f3fb71bd47a50bf5a8b67edcf8aa8fbeb5adeda1",
+      "bytes": 5817702,
+      "transform": "copia exacta"
+    },
+    {
+      "url": "/computers/wallpapers/camino-otonal.jpg",
+      "source": "fondo-camino-otonal-4200x2800.jpg",
+      "archiveMember": null,
+      "sourceSha256": "3e4be6eaf5f1cb1b52d09db6084df5d8a57da3220144909c0795de2175ff3eac",
+      "memberSha256": null,
+      "sha256": "3e4be6eaf5f1cb1b52d09db6084df5d8a57da3220144909c0795de2175ff3eac",
+      "bytes": 5447171,
+      "transform": "copia exacta"
+    },
+    {
+      "url": "/computers/wallpapers/duna-roja-luna.jpg",
+      "source": "fondo-duna-roja-luna-5120x2880.jpg",
+      "archiveMember": null,
+      "sourceSha256": "a13fe7534d3a06a02f2b1c48e76a4388af22d8250669d9fca78d4a35aaeb865d",
+      "memberSha256": null,
+      "sha256": "a13fe7534d3a06a02f2b1c48e76a4388af22d8250669d9fca78d4a35aaeb865d",
+      "bytes": 4401443,
+      "transform": "copia exacta"
+    },
+    {
+      "url": "/computers/fonts/tahoma-regular.ttf",
+      "source": "Tahoma-4styles-Font.zip",
+      "archiveMember": "Tahoma Regular font.ttf",
+      "sourceSha256": "223b20e55902fd56ad0b4dba891a7f1fffdd30dab025b2fd8f18fca0a49f0760",
+      "memberSha256": "6c699c428b608679c7ade6d9c0ff76664a1b59274c394cf0aba0ee2c33f89848",
+      "sha256": "6c699c428b608679c7ade6d9c0ff76664a1b59274c394cf0aba0ee2c33f89848",
+      "bytes": 265528,
+      "transform": "copia exacta"
+    },
+    {
+      "url": "/computers/fonts/tahoma-bold.ttf",
+      "source": "Tahoma-4styles-Font.zip",
+      "archiveMember": "TAHOMAB0.TTF",
+      "sourceSha256": "223b20e55902fd56ad0b4dba891a7f1fffdd30dab025b2fd8f18fca0a49f0760",
+      "memberSha256": "d4808235d09c73e312452ea69db1f18ffd12d4073be1123792f10e2d04f088a0",
+      "sha256": "d4808235d09c73e312452ea69db1f18ffd12d4073be1123792f10e2d04f088a0",
+      "bytes": 243684,
+      "transform": "copia exacta"
+    },
+    {
+      "url": "/computers/branding/windows-flag.webp",
+      "source": "windows logo.webp",
+      "archiveMember": null,
+      "sourceSha256": "616deaf0b74601cf9ed3364c0d54559348043054c3ff6b1df5527329a35b3225",
+      "memberSha256": null,
+      "sha256": "616deaf0b74601cf9ed3364c0d54559348043054c3ff6b1df5527329a35b3225",
+      "bytes": 98902,
+      "transform": "copia exacta"
+    },
+    {
+      "url": "/models/rack-monitor/scene.gltf",
+      "source": "monitor.zip",
+      "archiveMember": "scene.gltf",
+      "sourceSha256": "0ff4b79884990ac655576a0c2eb5f447441ad5a34d9be16f541d4efe655ac184",
+      "memberSha256": "7ea4c1d46e83fdb4080a40cd61d03be4a7c410d66973df0edbabb7e2f4d1a39e",
+      "sha256": "7ea4c1d46e83fdb4080a40cd61d03be4a7c410d66973df0edbabb7e2f4d1a39e",
+      "bytes": 13528,
+      "transform": "copia exacta"
+    },
+    {
+      "url": "/models/rack-monitor/scene.bin",
+      "source": "monitor.zip",
+      "archiveMember": "scene.bin",
+      "sourceSha256": "0ff4b79884990ac655576a0c2eb5f447441ad5a34d9be16f541d4efe655ac184",
+      "memberSha256": "4384f1d89bf827e6911ac426ce3ff6d25a75b04605a7ff048d671f0cc76ad696",
+      "sha256": "4384f1d89bf827e6911ac426ce3ff6d25a75b04605a7ff048d671f0cc76ad696",
+      "bytes": 28528,
+      "transform": "copia exacta"
+    },
+    {
+      "url": "/models/rack-monitor/textures/RenderMonitor_baseColor.png",
+      "source": "monitor.zip",
+      "archiveMember": "textures/RenderMonitor_baseColor.png",
+      "sourceSha256": "0ff4b79884990ac655576a0c2eb5f447441ad5a34d9be16f541d4efe655ac184",
+      "memberSha256": "8771d8c03280acb77825510acd9ee5ea6d586de2b0453c5e6b626b57716eea50",
+      "sha256": "8771d8c03280acb77825510acd9ee5ea6d586de2b0453c5e6b626b57716eea50",
+      "bytes": 821885,
+      "transform": "copia exacta"
+    },
+    {
+      "url": "/models/rack-monitor/license.txt",
+      "source": "monitor.zip",
+      "archiveMember": "license.txt",
+      "sourceSha256": "0ff4b79884990ac655576a0c2eb5f447441ad5a34d9be16f541d4efe655ac184",
+      "memberSha256": "0dc864d7963c4735521fa7c0ecaf89345b3dcc03361a54436722fd57deacef90",
+      "sha256": "0dc864d7963c4735521fa7c0ecaf89345b3dcc03361a54436722fd57deacef90",
+      "bytes": 648,
+      "transform": "copia exacta"
+    },
+    {
+      "url": "/computers/icons/xp/sessions-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_16.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "d40798e3f8df90a8ab6824ee776cbfc63da9a36dac2200961283982a3ba352a3",
+      "sha256": "4f895dd9d6865fef4e20630af429837c5678f5cf7d5568cf9639c7af48764a68",
+      "bytes": 235,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/sessions-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_16.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "d40798e3f8df90a8ab6824ee776cbfc63da9a36dac2200961283982a3ba352a3",
+      "sha256": "a7fcd209c3dfe67db9003531c5c9f7e0c363f0a6db97ce7cbda30db1012a896c",
+      "bytes": 566,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/sessions-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_16.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "d40798e3f8df90a8ab6824ee776cbfc63da9a36dac2200961283982a3ba352a3",
+      "sha256": "7f735fcaa87389faa3f567486d78187885451827c71b5f3a4f40fa86fd075b7b",
+      "bytes": 938,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/directory-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_220.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "9fba3b5e323d63b20c71c030d47d6b61e0c3624e441968650352e3d64ab3677f",
+      "sha256": "af4698f37d28261de1b07367657aa28f93ceeb0f600571f38a047de96747cddc",
+      "bytes": 261,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/directory-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_220.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "9fba3b5e323d63b20c71c030d47d6b61e0c3624e441968650352e3d64ab3677f",
+      "sha256": "01f2b138a4a933df2dcbf6125314a0b6f960d1fda0bf5d6323afd27ef5e537c3",
+      "bytes": 564,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/directory-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_220.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "9fba3b5e323d63b20c71c030d47d6b61e0c3624e441968650352e3d64ab3677f",
+      "sha256": "4b05364c357d7c1675cc872c97b1cf2d8800061a258b916fa2526a82cc5babc5",
+      "bytes": 857,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/query-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_153.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "848009ee8a8f5762a70e1d9eb906b2d7e077e698fbc4cd5ec9c964d190abab1d",
+      "sha256": "b1b162248c1f9838d117cbcec17f60058e3e9f2e32a036b6e156b9c449116f95",
+      "bytes": 210,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/query-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_153.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "848009ee8a8f5762a70e1d9eb906b2d7e077e698fbc4cd5ec9c964d190abab1d",
+      "sha256": "931ded9e648c7827effbf1685fafeb50bf34b08d1739d39322f31e1d6c3c4fee",
+      "bytes": 446,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/network-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_19.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "245fcf6faac2f6955694a92fe58fc8dcfc20de3f870728fa0c604809a62b067c",
+      "sha256": "f0d5e71a07e2f5d736252a574322a10ac989a96fb3dac1ffaebdb082184e723c",
+      "bytes": 196,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/network-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_19.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "245fcf6faac2f6955694a92fe58fc8dcfc20de3f870728fa0c604809a62b067c",
+      "sha256": "52a782c11d411ace46b0dd9baa4c110e585ee63f1a8a0c7c88a1c83dfb1168c1",
+      "bytes": 367,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/network-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_19.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "245fcf6faac2f6955694a92fe58fc8dcfc20de3f870728fa0c604809a62b067c",
+      "sha256": "bffc540dccd463aa3a32e0c913e74977790ca4d0e2abcc1c402e9befa96bf06d",
+      "bytes": 1777,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/orders-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_1.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "5f0cc0fe1b5a99a73d76c84ce8e687e8ac7e24ad6a5aa198c9c9145b798db059",
+      "sha256": "924a9065dbc16d03703215d61d8fdd4309e528c3f2f9543a8797f4763c3acb12",
+      "bytes": 221,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/orders-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_1.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "5f0cc0fe1b5a99a73d76c84ce8e687e8ac7e24ad6a5aa198c9c9145b798db059",
+      "sha256": "95a350323639436f32fd1b1effa9403fc76bbc000f5cef9ca828dc7e8bc38193",
+      "bytes": 366,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/orders-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_1.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "5f0cc0fe1b5a99a73d76c84ce8e687e8ac7e24ad6a5aa198c9c9145b798db059",
+      "sha256": "9eccd36dcef0acc3692a7d02abef03731a9727a615023f5d8d6eb5a5833c8d86",
+      "bytes": 517,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/changes-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_274.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "a4ef58039bc3e85775ee938e5743726a4a7992576a2fc0ee159baa726b959b9f",
+      "sha256": "8807e60699d64a3a597027daa069defd2727bcb4eb353aa7bba2bf02b7009bef",
+      "bytes": 597,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/changes-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_274.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "a4ef58039bc3e85775ee938e5743726a4a7992576a2fc0ee159baa726b959b9f",
+      "sha256": "60c76d0c28cf5e1219f092f230e728abd9e66ca5e4a7e01e25bd2f748a494a4f",
+      "bytes": 1735,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/changes-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_274.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "a4ef58039bc3e85775ee938e5743726a4a7992576a2fc0ee159baa726b959b9f",
+      "sha256": "c95c4f1689a654fdf93eb782cab0cd8f8f406e6bf2ea68fbd0ea0178e0d89e35",
+      "bytes": 2595,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/events-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_151.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "fb25b411aecba096602974cc542942c7af8dda474a4be8163890a8521a506e53",
+      "sha256": "3b08d03fac8d749d466f89b3a3c29b1aae44b3592d917baaa9fe59d6ee44c7c0",
+      "bytes": 211,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/events-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_151.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "fb25b411aecba096602974cc542942c7af8dda474a4be8163890a8521a506e53",
+      "sha256": "3ff676985da0481f97e5b952c9e201cc6e4ecd830370cdff954da487035c64b2",
+      "bytes": 338,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/events-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_151.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "fb25b411aecba096602974cc542942c7af8dda474a4be8163890a8521a506e53",
+      "sha256": "903632acf96fe44a26d1399097476f1d6cbc9ce51ad2b2e167b048ca7a82782c",
+      "bytes": 508,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/time-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_339.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "652e3f405e55c96c8a918184c02a5c1778d402e557bd1073645737675b7c4bd9",
+      "sha256": "bcf74d2d97959159df5ddda547473da3fed0c1c735a99d6835b84884a37364b6",
+      "bytes": 490,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/time-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_339.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "652e3f405e55c96c8a918184c02a5c1778d402e557bd1073645737675b7c4bd9",
+      "sha256": "b9fc8b635e0cc6a27858f0198f3728e083e2b99a73a6b52d90efec1ea6fbe5fe",
+      "bytes": 1431,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/time-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_339.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "652e3f405e55c96c8a918184c02a5c1778d402e557bd1073645737675b7c4bd9",
+      "sha256": "77f0034c4badcc0195be4da58f0a7733448f4b16add14b2a031950e9668dbf29",
+      "bytes": 1992,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/recovery-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_3.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "9515efee6182351da0e9073e51ef9013203794d137b7515ca480db299bf832e5",
+      "sha256": "cd1fdb635722a50581bbdca50987b387fa86c0a8148d79f6e76574590e88d290",
+      "bytes": 163,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/recovery-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_3.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "9515efee6182351da0e9073e51ef9013203794d137b7515ca480db299bf832e5",
+      "sha256": "48cff56b0f306dbea2c21c7a49002f0129b22fcf6a428c5e11dd502efe90d8c7",
+      "bytes": 202,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/backup-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_7.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "3fae8786df7e36828f3cbb821ccfd293604bb7c6baf70b2095290ff0ba35e121",
+      "sha256": "a9237d38e046fe264d18cad119bb8d5325d2a07bae7fcaf7b685e794595110f9",
+      "bytes": 210,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/backup-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_7.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "3fae8786df7e36828f3cbb821ccfd293604bb7c6baf70b2095290ff0ba35e121",
+      "sha256": "632f702f71359e572495a2b6352b8b2209f46c2ad2a408a5de409f4a3ff58f86",
+      "bytes": 308,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/backup-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_7.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "3fae8786df7e36828f3cbb821ccfd293604bb7c6baf70b2095290ff0ba35e121",
+      "sha256": "12d13ce123d162efbced8a322b6309ac8e61cd4a41aee00bc9031495e856d2a9",
+      "bytes": 2992,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/explorer-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_5.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "ef442998a538db7378d1b182e8ec5fe59fc7b376e1498740a06a178e3d02041c",
+      "sha256": "31bb1246d4f92626d682d19507b7d9b8eb64fbe012bad33268fd659e7935cdbf",
+      "bytes": 209,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/explorer-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_5.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "ef442998a538db7378d1b182e8ec5fe59fc7b376e1498740a06a178e3d02041c",
+      "sha256": "5309db1f906d8ea43d3c897463f84bc99e38bb9805bf43b524eeb9d75db35850",
+      "bytes": 299,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/explorer-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_5.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "ef442998a538db7378d1b182e8ec5fe59fc7b376e1498740a06a178e3d02041c",
+      "sha256": "fe95eec21cb7affb85abc61b581d865a44a404320c630e28a5c829b8fb9c8d90",
+      "bytes": 373,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/report-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_152.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "68a0822fb4a071f4845f88e8b7de2e887f54314e8bddba38c33cecb668931b29",
+      "sha256": "fe851e426af7574bd73f4431070eb5457fee6bd75f7096b1f51d56081f7e41f6",
+      "bytes": 157,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/report-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_152.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "68a0822fb4a071f4845f88e8b7de2e887f54314e8bddba38c33cecb668931b29",
+      "sha256": "1485b5b9840f5aeb7e31b9cac2c338ea1e95f24997a86b48855a933cccc88825",
+      "bytes": 228,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/report-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_152.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "68a0822fb4a071f4845f88e8b7de2e887f54314e8bddba38c33cecb668931b29",
+      "sha256": "aecd58208d4606ec986a263f58c6d53097733f2d3a38605695442743d13acf3f",
+      "bytes": 1958,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/folder-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_4.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "30d13311a8a34ac929aa23734cc6315d0bea35162c0b9314c7c050f603d6cfa4",
+      "sha256": "3c658399e91dbce2920c294fc262cbf948f78bc618f95d7beed9a6ba0de66481",
+      "bytes": 182,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/folder-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_4.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "30d13311a8a34ac929aa23734cc6315d0bea35162c0b9314c7c050f603d6cfa4",
+      "sha256": "5597abe8dcf60f82d1012ce050826359fa2cdf3b0b20bc5efb219779dfab9044",
+      "bytes": 205,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/folder-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_4.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "30d13311a8a34ac929aa23734cc6315d0bea35162c0b9314c7c050f603d6cfa4",
+      "sha256": "c1774676796e3c32d6bb53a7ff6c064672e8e2e6bdf45d2eb4251351513b69c9",
+      "bytes": 271,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/document-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_133.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "3471c37e7d4454d8b789624958fbdf3b49e0636aa0dcefedb34db3b92af6fffd",
+      "sha256": "cb8aec73dc9989af963b1d1c2a4ac8674bb0075cb71d3d9a390b844d81070954",
+      "bytes": 179,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/document-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_133.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "3471c37e7d4454d8b789624958fbdf3b49e0636aa0dcefedb34db3b92af6fffd",
+      "sha256": "631522e37bd459f628517f52a1c97285a3a97aeca1404225487824b3ee2b33ac",
+      "bytes": 281,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/search-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_23.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "81330733b4e41de2a4ddb5e71702d64a54e24f559b1683f1c657dd701de5c6b6",
+      "sha256": "696d84550d442ca89375ebecdc56df8bf104f5ced3a4522463a38276d7849592",
+      "bytes": 217,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/search-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_23.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "81330733b4e41de2a4ddb5e71702d64a54e24f559b1683f1c657dd701de5c6b6",
+      "sha256": "6562c3302898b63ebf457fb40ec5f9dfc9c5a23c77f40b11df812b7e6a759a1f",
+      "bytes": 422,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/search-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_23.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "81330733b4e41de2a4ddb5e71702d64a54e24f559b1683f1c657dd701de5c6b6",
+      "sha256": "3651cff0138f50bf1b15b5c85abf2cea4415779436ae8d99a97c2003a82ff63c",
+      "bytes": 625,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/help-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_24.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "df1cc734ec96a56ab957816dbc974a7e454d61e1d7347854920dd24c18c228df",
+      "sha256": "ce5d192ec5d8fd80372f02a6b1726ee62544444768ea95a9551ec9e325e412a6",
+      "bytes": 264,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/help-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_24.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "df1cc734ec96a56ab957816dbc974a7e454d61e1d7347854920dd24c18c228df",
+      "sha256": "f97fe2a3b0927e9c42da0c12953dd1579ac80c95c027adf0274f431c188cedc6",
+      "bytes": 553,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/xp/help-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/wxp_24.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "df1cc734ec96a56ab957816dbc974a7e454d61e1d7347854920dd24c18c228df",
+      "sha256": "ab5f3d45fa31b9f38628e6e34b0b5e5c2f59daf5fa045c6bdaa6638052f21423",
+      "bytes": 771,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/recovery-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_ms-dos_application.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "a00d49fd09c5980323369edc7ffda3c284228c3d1061bd4ccbb50347896da8b7",
+      "sha256": "cd1fdb635722a50581bbdca50987b387fa86c0a8148d79f6e76574590e88d290",
+      "bytes": 163,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/recovery-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_ms-dos_application.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "a00d49fd09c5980323369edc7ffda3c284228c3d1061bd4ccbb50347896da8b7",
+      "sha256": "48cff56b0f306dbea2c21c7a49002f0129b22fcf6a428c5e11dd502efe90d8c7",
+      "bytes": 202,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/backup-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_hard_drive.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "265b88db8fb28eb34d6b49e7cda00ef20dfb9d47cad91db7c997fd7e0601c153",
+      "sha256": "a4cb2a2589d05dddf10819565f91a51d478d50d1c9a431348d2f4e3105d45abc",
+      "bytes": 170,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/backup-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_hard_drive.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "265b88db8fb28eb34d6b49e7cda00ef20dfb9d47cad91db7c997fd7e0601c153",
+      "sha256": "42f9abc59db2433ce648b14a4c579ae47b2934bdf187fd368a5ad5669ceb38ab",
+      "bytes": 218,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/backup-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_hard_drive.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "265b88db8fb28eb34d6b49e7cda00ef20dfb9d47cad91db7c997fd7e0601c153",
+      "sha256": "cec6d7465d49f01ade3f87246ddb5f36aa572bfceb4db003bfa897088bcb9d2d",
+      "bytes": 263,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/explorer-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_folder_open.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "7aa4f12cd047789f54fea028627723f27bedfb79b3f9ed431011eee0dc810be7",
+      "sha256": "31bb1246d4f92626d682d19507b7d9b8eb64fbe012bad33268fd659e7935cdbf",
+      "bytes": 209,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/explorer-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_folder_open.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "7aa4f12cd047789f54fea028627723f27bedfb79b3f9ed431011eee0dc810be7",
+      "sha256": "5309db1f906d8ea43d3c897463f84bc99e38bb9805bf43b524eeb9d75db35850",
+      "bytes": 299,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/explorer-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_folder_open.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "7aa4f12cd047789f54fea028627723f27bedfb79b3f9ed431011eee0dc810be7",
+      "sha256": "fe95eec21cb7affb85abc61b581d865a44a404320c630e28a5c829b8fb9c8d90",
+      "bytes": 373,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/report-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_text_document.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "ef1417c5ebc29d6dad96a74923264f0c0598e3f57b388a91578f532676e91afb",
+      "sha256": "fe851e426af7574bd73f4431070eb5457fee6bd75f7096b1f51d56081f7e41f6",
+      "bytes": 157,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/report-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_text_document.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "ef1417c5ebc29d6dad96a74923264f0c0598e3f57b388a91578f532676e91afb",
+      "sha256": "1485b5b9840f5aeb7e31b9cac2c338ea1e95f24997a86b48855a933cccc88825",
+      "bytes": 228,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/report-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_text_document.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "ef1417c5ebc29d6dad96a74923264f0c0598e3f57b388a91578f532676e91afb",
+      "sha256": "5d87838643393303807aa2c2168f19ecd066d45eed0a397f731d01c19e78e997",
+      "bytes": 304,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/folder-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_closed_folder.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "6440fd7acba66eb33b729b5d9f180e1bb323e94a05980fa2c27738c05386a146",
+      "sha256": "3c658399e91dbce2920c294fc262cbf948f78bc618f95d7beed9a6ba0de66481",
+      "bytes": 182,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/folder-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_closed_folder.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "6440fd7acba66eb33b729b5d9f180e1bb323e94a05980fa2c27738c05386a146",
+      "sha256": "5597abe8dcf60f82d1012ce050826359fa2cdf3b0b20bc5efb219779dfab9044",
+      "bytes": 205,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/folder-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_closed_folder.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "6440fd7acba66eb33b729b5d9f180e1bb323e94a05980fa2c27738c05386a146",
+      "sha256": "c1774676796e3c32d6bb53a7ff6c064672e8e2e6bdf45d2eb4251351513b69c9",
+      "bytes": 271,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/document-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_text_file.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "9d08d74a59f7b5c1c3b24351833d6c816e25532d0956aad0550be47bd88d8ca6",
+      "sha256": "fe851e426af7574bd73f4431070eb5457fee6bd75f7096b1f51d56081f7e41f6",
+      "bytes": 157,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/document-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_text_file.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "9d08d74a59f7b5c1c3b24351833d6c816e25532d0956aad0550be47bd88d8ca6",
+      "sha256": "1485b5b9840f5aeb7e31b9cac2c338ea1e95f24997a86b48855a933cccc88825",
+      "bytes": 228,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/document-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_text_file.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "9d08d74a59f7b5c1c3b24351833d6c816e25532d0956aad0550be47bd88d8ca6",
+      "sha256": "5d87838643393303807aa2c2168f19ecd066d45eed0a397f731d01c19e78e997",
+      "bytes": 304,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/search-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_find.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "06e34b0ac31177691f4927486150fa7dc948fa8962d98c69d3fed52ad14d735b",
+      "sha256": "2dc499ea62b074bb051517039703f91e103a6738e93a793778eaffc4a825ce9d",
+      "bytes": 252,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/search-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_find.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "06e34b0ac31177691f4927486150fa7dc948fa8962d98c69d3fed52ad14d735b",
+      "sha256": "bea015ddde84ef76664c4d13c0a2bd1cdaea23bc5b6e8e25d0907512af71f7c4",
+      "bytes": 474,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/search-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_find.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "06e34b0ac31177691f4927486150fa7dc948fa8962d98c69d3fed52ad14d735b",
+      "sha256": "70269d69c7d6fbbfe4d1ba40e85213a1233cbd4ea4dbd7e1d086b061d8686e3c",
+      "bytes": 610,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/help-16.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_help.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "cd6b66636c77acf040a48d0c2c3bbceaf230e674844c8bf414f8b3addebd9dbb",
+      "sha256": "e28e268b0caf0663ea65f37f9bd0aae73675e131a999d1be1b53de805eb27c1e",
+      "bytes": 237,
+      "transform": "extracción del fotograma nativo 16×16 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/help-32.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_help.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "cd6b66636c77acf040a48d0c2c3bbceaf230e674844c8bf414f8b3addebd9dbb",
+      "sha256": "dde07305bef73ac25863d934194efdc1ef02848e239dd6acfe06035105013b4e",
+      "bytes": 365,
+      "transform": "extracción del fotograma nativo 32×32 a PNG RGBA, sin redimensionar"
+    },
+    {
+      "url": "/computers/icons/classic/help-48.png",
+      "source": "win95-winxp_icons-master.zip",
+      "archiveMember": "win95-winxp_icons-master/icons/w2k_help.ico",
+      "sourceSha256": "256b3064c837b3d7d29954ecdbdfb0d1ee7653d69832f2d6b441076b665d7905",
+      "memberSha256": "cd6b66636c77acf040a48d0c2c3bbceaf230e674844c8bf414f8b3addebd9dbb",
+      "sha256": "e004b601f066c53300b258152ba62a6783ce72d5df5607abc938b6ef9a44b2d6",
+      "bytes": 520,
+      "transform": "extracción del fotograma nativo 48×48 a PNG RGBA, sin redimensionar"
+    }
+  ]
+}

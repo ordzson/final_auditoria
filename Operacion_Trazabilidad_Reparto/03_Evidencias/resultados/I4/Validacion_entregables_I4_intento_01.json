@@ -1,0 +1,129 @@
+{
+  "fecha_utc": "2026-11-07T14:19:58.622045+00:00",
+  "sql_nuevo": false,
+  "alcance": "Archivos, estructura, trazabilidad y comprobantes históricos; no revisión humana ni aprobación académica.",
+  "total": 30,
+  "aprobadas": 29,
+  "comprobaciones": [
+    {
+      "comprobacion": "Siete archivos requeridos (seis entregables; mapa DOT/SVG)",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "PT-20 campos C y conclusión limitada",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "PT-21 campos C y conclusión limitada",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "PT-22 campos C y conclusión limitada",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "PT-23 campos C y conclusión limitada",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "PT-24 campos C y conclusión limitada",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "PT-25 campos C y conclusión limitada",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "13 eventos únicos EVT-01–13",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Originales, zona y normalización no inventados",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Identidad solo en EVT-02",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Fiabilidad y límites por evento",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "11 acciones y dos horizontes",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Campos de acción completos",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Plazos en rango y no ejecutadas",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Dependencias A-I4 existentes",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "B1-1 campos D",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "B1-2 campos D",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Dos causas distintas explícitas",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Sección ~cuatro páginas: rango editorial 1,600–2,200 palabras",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Enlace local 01_Informe/Seccion_forense_P1_v1.md → ../03_Evidencias/Mapa_causal_P1_v1.dot",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Enlace local 01_Informe/Seccion_forense_P1_v1.md → ../07_Referencias/Fuentes_P1_v1.md",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Enlace local 03_Evidencias/Borradores_hallazgos_P1_v1.md → ../07_Referencias/Fuentes_P1_v1.md",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "305 cotejos SHA-256 de entradas",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Histórico I2_I3_cierre: 95 comprobaciones aprobadas (sin SQL nuevo)",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Histórico I2_I3_repeticion: 95 comprobaciones aprobadas (sin SQL nuevo)",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Histórico I2_I3_verificacion_cierre: 95 comprobaciones aprobadas (sin SQL nuevo)",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "15 CSV reconstrucción idénticos: cotejo actual de archivos",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "216 órdenes, campos y atribución desconocida",
+      "aprobado": true
+    },
+    {
+      "comprobacion": "Sin nuevas E para derivados I4",
+      "aprobado": false
+    },
+    {
+      "comprobacion": "Hashes individuales del índice vigentes",
+      "aprobado": true
+    }
+  ]
+}

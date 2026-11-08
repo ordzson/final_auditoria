@@ -1,0 +1,907 @@
+{
+  "registro": {
+    "total_registros": 1046,
+    "comprobados_alcance": 442,
+    "excluidos_juego": 604,
+    "discrepancias": []
+  },
+  "documentales": {
+    "total_registros": 5,
+    "comprobados_alcance": 5,
+    "excluidos_juego": 0,
+    "discrepancias": []
+  },
+  "manifest_I6": {
+    "total": 1042,
+    "comprobados_alcance": 438,
+    "discrepancias": []
+  },
+  "zip": {
+    "sha256": "a7230e9280582a8e07555fec18c74e5e8d6bfc03acd6454b21943c83c950aab9",
+    "sha_externo": "a7230e9280582a8e07555fec18c74e5e8d6bfc03acd6454b21943c83c950aab9",
+    "crc_fallido": null,
+    "miembros": 1044,
+    "raiz_extraida": "/tmp/revision_p1/extraido/P1",
+    "archivos_manifest": 1043,
+    "discrepancias_hash": [],
+    "diferencias_documentos_vigentes": [],
+    "archivos_extra_no_listados": [
+      "P1/manifest-paquete.json"
+    ]
+  },
+  "xlsx": [
+    {
+      "archivo": "03_Evidencias/indice_evidencias.xlsx",
+      "filas": 188,
+      "columnas": 25,
+      "igual_csv": true,
+      "enlaces": 367,
+      "enlaces_rotos": [],
+      "celdas_formula": []
+    },
+    {
+      "archivo": "03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "filas": 14,
+      "columnas": 15,
+      "igual_csv": true,
+      "enlaces": 15,
+      "enlaces_rotos": [],
+      "celdas_formula": []
+    },
+    {
+      "archivo": "03_Evidencias/Cronologia_investigada_v1.xlsx",
+      "filas": 13,
+      "columnas": 25,
+      "igual_csv": true,
+      "enlaces": 14,
+      "enlaces_rotos": [],
+      "celdas_formula": []
+    }
+  ],
+  "pdf": [
+    {
+      "archivo": "01_Informe/Seccion_forense_P1_v1.pdf",
+      "paginas": 5,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 9.0,
+          "palabras": 443
+        },
+        {
+          "pagina": 2,
+          "min_pt": 9.0,
+          "palabras": 331
+        },
+        {
+          "pagina": 3,
+          "min_pt": 9.0,
+          "palabras": 321
+        },
+        {
+          "pagina": 4,
+          "min_pt": 9.0,
+          "palabras": 471
+        },
+        {
+          "pagina": 5,
+          "min_pt": 9.0,
+          "palabras": 392
+        }
+      ],
+      "enlaces": 4,
+      "marcadores": 0
+    },
+    {
+      "archivo": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "paginas": 7,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 16.0,
+          "palabras": 51
+        },
+        {
+          "pagina": 2,
+          "min_pt": 12.0,
+          "palabras": 212
+        },
+        {
+          "pagina": 3,
+          "min_pt": 12.0,
+          "palabras": 460
+        },
+        {
+          "pagina": 4,
+          "min_pt": 10.5,
+          "palabras": 324
+        },
+        {
+          "pagina": 5,
+          "min_pt": 10.5,
+          "palabras": 314
+        },
+        {
+          "pagina": 6,
+          "min_pt": 12.0,
+          "palabras": 464
+        },
+        {
+          "pagina": 7,
+          "min_pt": 12.0,
+          "palabras": 385
+        }
+      ],
+      "enlaces": 4,
+      "marcadores": 0
+    },
+    {
+      "archivo": "01_Informe/Plantilla_UdeO_v2.pdf",
+      "paginas": 2,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 16.0,
+          "palabras": 51
+        },
+        {
+          "pagina": 2,
+          "min_pt": 12.0,
+          "palabras": 211
+        }
+      ],
+      "enlaces": 0,
+      "marcadores": 0
+    },
+    {
+      "archivo": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "paginas": 8,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 8.0,
+          "palabras": 66
+        },
+        {
+          "pagina": 2,
+          "min_pt": 8.0,
+          "palabras": 318
+        },
+        {
+          "pagina": 3,
+          "min_pt": 8.0,
+          "palabras": 285
+        },
+        {
+          "pagina": 4,
+          "min_pt": 8.0,
+          "palabras": 252
+        },
+        {
+          "pagina": 5,
+          "min_pt": 8.0,
+          "palabras": 306
+        },
+        {
+          "pagina": 6,
+          "min_pt": 8.0,
+          "palabras": 332
+        },
+        {
+          "pagina": 7,
+          "min_pt": 8.0,
+          "palabras": 249
+        },
+        {
+          "pagina": 8,
+          "min_pt": 8.0,
+          "palabras": 403
+        }
+      ],
+      "enlaces": 6,
+      "marcadores": 8
+    },
+    {
+      "archivo": "03_Evidencias/Cronologia_investigada_v1.pdf",
+      "paginas": 2,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 8.0,
+          "palabras": 207
+        },
+        {
+          "pagina": 2,
+          "min_pt": 8.0,
+          "palabras": 66
+        }
+      ],
+      "enlaces": 0,
+      "marcadores": 0
+    },
+    {
+      "archivo": "06_Comite/Presentacion_P1_v1.pdf",
+      "paginas": 6,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 9.0,
+          "palabras": 65
+        },
+        {
+          "pagina": 2,
+          "min_pt": 9.0,
+          "palabras": 80
+        },
+        {
+          "pagina": 3,
+          "min_pt": 9.0,
+          "palabras": 80
+        },
+        {
+          "pagina": 4,
+          "min_pt": 9.0,
+          "palabras": 84
+        },
+        {
+          "pagina": 5,
+          "min_pt": 9.0,
+          "palabras": 78
+        },
+        {
+          "pagina": 6,
+          "min_pt": 9.0,
+          "palabras": 81
+        }
+      ],
+      "enlaces": 0,
+      "marcadores": 0
+    },
+    {
+      "archivo": "07_Referencias/Fuentes_P1_v1.pdf",
+      "paginas": 3,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 8.0,
+          "palabras": 278
+        },
+        {
+          "pagina": 2,
+          "min_pt": 8.0,
+          "palabras": 415
+        },
+        {
+          "pagina": 3,
+          "min_pt": 8.0,
+          "palabras": 500
+        }
+      ],
+      "enlaces": 4,
+      "marcadores": 0
+    },
+    {
+      "archivo": "07_Referencias/Uso_IA.pdf",
+      "paginas": 8,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 8.0,
+          "palabras": 206
+        },
+        {
+          "pagina": 2,
+          "min_pt": 8.0,
+          "palabras": 188
+        },
+        {
+          "pagina": 3,
+          "min_pt": 8.0,
+          "palabras": 260
+        },
+        {
+          "pagina": 4,
+          "min_pt": 8.0,
+          "palabras": 214
+        },
+        {
+          "pagina": 5,
+          "min_pt": 8.0,
+          "palabras": 274
+        },
+        {
+          "pagina": 6,
+          "min_pt": 8.0,
+          "palabras": 273
+        },
+        {
+          "pagina": 7,
+          "min_pt": 8.0,
+          "palabras": 337
+        },
+        {
+          "pagina": 8,
+          "min_pt": 8.0,
+          "palabras": 41
+        }
+      ],
+      "enlaces": 0,
+      "marcadores": 0
+    },
+    {
+      "archivo": "06_Comite/simulacion_auditoria/artifacts/entrega/libreta-respaldo.pdf",
+      "paginas": 12,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 9.997499465942383,
+          "palabras": 71
+        },
+        {
+          "pagina": 2,
+          "min_pt": 9.0,
+          "palabras": 223
+        },
+        {
+          "pagina": 3,
+          "min_pt": 9.0,
+          "palabras": 231
+        },
+        {
+          "pagina": 4,
+          "min_pt": 9.997499465942383,
+          "palabras": 22
+        },
+        {
+          "pagina": 5,
+          "min_pt": 9.0,
+          "palabras": 266
+        },
+        {
+          "pagina": 6,
+          "min_pt": 9.997499465942383,
+          "palabras": 73
+        },
+        {
+          "pagina": 7,
+          "min_pt": 9.0,
+          "palabras": 239
+        },
+        {
+          "pagina": 8,
+          "min_pt": 9.997499465942383,
+          "palabras": 7
+        },
+        {
+          "pagina": 9,
+          "min_pt": 9.0,
+          "palabras": 246
+        },
+        {
+          "pagina": 10,
+          "min_pt": 9.997499465942383,
+          "palabras": 45
+        },
+        {
+          "pagina": 11,
+          "min_pt": 9.0,
+          "palabras": 243
+        },
+        {
+          "pagina": 12,
+          "min_pt": 9.997499465942383,
+          "palabras": 168
+        }
+      ],
+      "enlaces": 0,
+      "marcadores": 0
+    }
+  ],
+  "docx": [
+    {
+      "archivo": "01_Informe/Seccion_forense_P1_v1.docx",
+      "parrafos": 27,
+      "tablas": 2,
+      "normal_fuente": "Times New Roman",
+      "normal_pt": 12.0,
+      "tamano_pulgadas": [
+        8.5,
+        11.0
+      ],
+      "margenes_pulgadas": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "archivo": "01_Informe/Informe_equipo_parcial_P1_v1.docx",
+      "parrafos": 65,
+      "tablas": 2,
+      "normal_fuente": "Times New Roman",
+      "normal_pt": 12.0,
+      "tamano_pulgadas": [
+        8.5,
+        11.0
+      ],
+      "margenes_pulgadas": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "archivo": "01_Informe/Plantilla_UdeO_v2.docx",
+      "parrafos": 35,
+      "tablas": 0,
+      "normal_fuente": "Times New Roman",
+      "normal_pt": 12.0,
+      "tamano_pulgadas": [
+        8.5,
+        11.0
+      ],
+      "margenes_pulgadas": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "ejecuciones": [
+    {
+      "consulta": "Q-01",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 6,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-02",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 18,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-03",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 3,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-04",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 7,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-05",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 2,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-06",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 3,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-07",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 216,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-08",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 10,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-09",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 9,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-10",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 3,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-11",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 4,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-12",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 13,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-S01",
+      "motor": "16.0.4305.5",
+      "usuario": "sa EXECUTE AS USER admin_bitacora_lab/control_bitacora_lab; auditor_lectura conexión propia",
+      "filas": 3,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    }
+  ],
+  "intervalos": [
+    {
+      "tramo": "remoto_a_alerta",
+      "desde": "EVT-02",
+      "hasta": "EVT-08",
+      "minutos": 61.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 61.0
+    },
+    {
+      "tramo": "alerta_a_caida",
+      "desde": "EVT-08",
+      "hasta": "EVT-09",
+      "minutos": 24.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 24.0
+    },
+    {
+      "tramo": "caida_a_solicitud_DR",
+      "desde": "EVT-09",
+      "hasta": "EVT-10",
+      "minutos": 23.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 23.0
+    },
+    {
+      "tramo": "caida_a_consulta",
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "minutos": 315.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 315.0
+    },
+    {
+      "tramo": "caida_a_escritura",
+      "desde": "EVT-09",
+      "hasta": "EVT-12",
+      "minutos": 355.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 355.0
+    },
+    {
+      "tramo": "consulta_a_escritura",
+      "desde": "EVT-11",
+      "hasta": "EVT-12",
+      "minutos": 40.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 40.0
+    },
+    {
+      "tramo": "caida_a_solicitud_conciliacion",
+      "desde": "EVT-09",
+      "hasta": "EVT-13",
+      "minutos": 453.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 453.0
+    },
+    {
+      "tramo": "ordenes_a_despliegue",
+      "desde": "EVT-06",
+      "hasta": "EVT-07",
+      "minutos": 20.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 20.0
+    },
+    {
+      "tramo": "lectura_a_flujo",
+      "desde": "EVT-04",
+      "hasta": "EVT-05",
+      "minutos": 4.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 4.0
+    }
+  ],
+  "sensibilidad": [
+    {
+      "desde": "EVT-04",
+      "hasta": "EVT-05",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "5",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "-6.0",
+      "intervalo_maximo": "14.0",
+      "invierte_posible": "True",
+      "empate_posible": "True",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-04",
+      "hasta": "EVT-05",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "10",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "-16.0",
+      "intervalo_maximo": "24.0",
+      "invierte_posible": "True",
+      "empate_posible": "True",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-04",
+      "hasta": "EVT-05",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "15",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "-26.0",
+      "intervalo_maximo": "34.0",
+      "invierte_posible": "True",
+      "empate_posible": "True",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-06",
+      "hasta": "EVT-07",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "5",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "10.0",
+      "intervalo_maximo": "30.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-06",
+      "hasta": "EVT-07",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "10",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "0.0",
+      "intervalo_maximo": "40.0",
+      "invierte_posible": "False",
+      "empate_posible": "True",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-06",
+      "hasta": "EVT-07",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "15",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "-10.0",
+      "intervalo_maximo": "50.0",
+      "invierte_posible": "True",
+      "empate_posible": "True",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-08",
+      "hasta": "EVT-09",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "5",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "14.0",
+      "intervalo_maximo": "34.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-08",
+      "hasta": "EVT-09",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "10",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "4.0",
+      "intervalo_maximo": "44.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-08",
+      "hasta": "EVT-09",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "15",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "-6.0",
+      "intervalo_maximo": "54.0",
+      "invierte_posible": "True",
+      "empate_posible": "True",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "5",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "305.0",
+      "intervalo_maximo": "325.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "5",
+      "modelo": "offset común constante (solo si mismo reloj)",
+      "intervalo_minimo": "315.0",
+      "intervalo_maximo": "315.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "10",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "295.0",
+      "intervalo_maximo": "335.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "10",
+      "modelo": "offset común constante (solo si mismo reloj)",
+      "intervalo_minimo": "315.0",
+      "intervalo_maximo": "315.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "15",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "285.0",
+      "intervalo_maximo": "345.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "15",
+      "modelo": "offset común constante (solo si mismo reloj)",
+      "intervalo_minimo": "315.0",
+      "intervalo_maximo": "315.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    }
+  ],
+  "volumen": [
+    {
+      "formato": "CSV UTF-8",
+      "bytes_recalculados": 2058909,
+      "hash_coincide": true,
+      "factor_GB": 777.1105959515452
+    },
+    {
+      "formato": "JSON Lines UTF-8",
+      "bytes_recalculados": 5115483,
+      "hash_coincide": true,
+      "factor_GB": 312.7759392417099
+    }
+  ],
+  "ordenes": {
+    "filas": 216,
+    "ordenes_distintas": 216,
+    "campos": {
+      "Monto": 144,
+      "Estado": 72
+    },
+    "desconocidos": {
+      "UsuarioID": 216,
+      "SesionID": 216,
+      "Via": 216
+    },
+    "coincide_historial": true,
+    "duplicados_grupos": 10,
+    "duplicados_ordenes": 20,
+    "interseccion": []
+  }
+}

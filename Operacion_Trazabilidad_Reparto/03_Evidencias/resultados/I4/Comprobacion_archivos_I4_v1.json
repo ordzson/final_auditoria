@@ -1,0 +1,21 @@
+{
+  "fecha_utc": "2026-11-07T14:11:21.239972+00:00",
+  "conteos": {
+    "Q-01": 6,
+    "Q-02": 18,
+    "Q-03": 3,
+    "Q-04": 7,
+    "Q-05": 2,
+    "Q-06": 3,
+    "Q-07": 216,
+    "Q-08": 10,
+    "Q-09": 9,
+    "Q-10": 3,
+    "Q-11": 4,
+    "Q-12": 13
+  },
+  "registros_ejecucion_cotejados": 13,
+  "sql_ejecutado_en_I4": false,
+  "nota": "Se reabrieron archivos y resultados históricos I2/I3; no se conectó ni se reconstruyó SQL Server.",
+  "todas_comprobaciones_aprobadas": true
+}

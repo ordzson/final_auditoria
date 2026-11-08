@@ -1,0 +1,47 @@
+{
+  "comprobado_en_utc": "2026-11-07T05:00:54+00:00",
+  "metodo": "Python hashlib.sha256 sobre los bytes actuales; contraste con hashes_documentales_v1.csv",
+  "archivos": [
+    {
+      "ruta": "00_Material_del_curso/Proyecto_Operacion_Trazabilidad_Auditoria_Sistemas.pdf",
+      "sha256_referencia": "85db978c0f3caa7d535971f637cc21379990ef6868107fdc8bb758ca54e1005f",
+      "sha256_actual": "85db978c0f3caa7d535971f637cc21379990ef6868107fdc8bb758ca54e1005f",
+      "coincide": true
+    },
+    {
+      "ruta": "00_Material_del_curso/Guia_Entregables_Operacion_Trazabilidad.pdf",
+      "sha256_referencia": "4158bae4b6c1acf11c5e506ad834b4ba0b953bf72c53fbec1c42784f25ba247f",
+      "sha256_actual": "4158bae4b6c1acf11c5e506ad834b4ba0b953bf72c53fbec1c42784f25ba247f",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Fuentes_curso_v1.csv",
+      "sha256_referencia": "ee1f5e22b87990a24a53b218d016a37ea4c00477a618530cc22996b6eeadb5c9",
+      "sha256_actual": "ee1f5e22b87990a24a53b218d016a37ea4c00477a618530cc22996b6eeadb5c9",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Indice_evidencias_inicial_v1.csv",
+      "sha256_referencia": "37a68ca91f8545c0327a124c45ea467a248357cfa1041988cf8e71d825655d13",
+      "sha256_actual": "37a68ca91f8545c0327a124c45ea467a248357cfa1041988cf8e71d825655d13",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Metodo_evidencia_y_laboratorio_v1.md",
+      "sha256_referencia": "a5722d281035ac27d229277e9b1a943d687735ff990cbfd7ed9ee40fcd92fb8b",
+      "sha256_actual": "a5722d281035ac27d229277e9b1a943d687735ff990cbfd7ed9ee40fcd92fb8b",
+      "coincide": true
+    }
+  ],
+  "motor_comprobado": "Microsoft SQL Server 2022 RTM-CU27-GDR 16.0.4305.5 Developer, Ubuntu 22.04.5",
+  "comando_motor": "docker exec p1-trazabilidad-sql2022 sh -c [SQLCMDPASSWORD desde el entorno del contenedor; sqlcmd -S localhost -U sa -C -b -Q SELECT @@VERSION y sys.databases]",
+  "bases_observadas": [
+    "master",
+    "model",
+    "msdb",
+    "tempdb"
+  ],
+  "imagen_digest": "sha256:cf8f0ab2ebe61feec2eed2629061a07d247f791c2a8ddda74a4ac9f06a291718",
+  "datos_generados": false,
+  "consultas_academicas_ejecutadas": false
+}

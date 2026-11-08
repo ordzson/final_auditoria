@@ -1,0 +1,65 @@
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - generic "Oficina 3D de revisión del incidente RedNova" [ref=e5]
+  - generic [ref=e6]:
+    - button "Entrar / continuar explorando" [ref=e7] [cursor=pointer]
+    - paragraph [ref=e8]: Un clic activa el mouse. Esc lo libera; tus documentos detienen la caminata.
+  - dialog "Conversación con el enlace de TI" [ref=e9]:
+    - generic [ref=e10]:
+      - heading "Enlace de TI · entrevista" [level=2] [ref=e11]
+      - generic [ref=e12]: RedNova · sala de revisión
+      - button "Cerrar entrevista" [ref=e13] [cursor=pointer]:
+        - text: Terminar conversación
+        - img [ref=e14]
+    - generic [ref=e16]:
+      - heading "Enlace de TI" [level=3] [ref=e17]
+      - paragraph [ref=e18]: Te escucho.
+    - region "Respuesta del enlace de TI" [ref=e19]:
+      - paragraph [ref=e20]: "Tú: Seguridad habló de una fuga. ¿Qué salió?"
+      - blockquote [ref=e21]:
+        - generic [ref=e22]: "Enlace de TI:"
+        - text: Eso todavía no lo sabemos. Seguridad lo llamó una fuga en su declaración inicial, pero también dijo que no había identificado los datos transferidos. Te puedo mostrar esa declaración.
+      - complementary "Ayuda escrita de la revisión" [ref=e23]:
+        - paragraph [ref=e24]: "SQL es el lenguaje de consulta de datos; SELECT permite leerlos. Exfiltración significa salida no autorizada de información: el volumen de tráfico no identifica el contenido ni su autorización."
+        - group [ref=e25]:
+          - generic "Alcance frente a I4 y pendientes" [ref=e26]
+      - generic [ref=e27]:
+        - paragraph [ref=e28]: Conversación orientativa. Contrasta las declaraciones con sus fuentes.
+        - button "Consultar Declaración de Seguridad Informática" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+          - text: Consultar Declaración de Seguridad Informática
+      - generic [ref=e32]:
+        - button "Repetir voz" [ref=e33] [cursor=pointer]:
+          - img [ref=e34]
+          - text: Repetir voz
+        - generic "Voz del enlace de TI" [ref=e36]
+    - region "Opciones de conversación" [ref=e37]:
+      - heading "Quiero entender lo del tráfico de red." [level=3] [ref=e38]
+      - generic [ref=e39]:
+        - button "Seguridad habló de una fuga. ¿Qué salió? Ya hablado" [active] [ref=e40] [cursor=pointer]:
+          - img [ref=e41]
+          - generic [ref=e43]: Seguridad habló de una fuga. ¿Qué salió?
+          - generic [ref=e44]:
+            - img [ref=e45]
+            - generic [ref=e47]: Ya hablado
+        - button "¿Y el volumen de tráfico no basta?" [ref=e48] [cursor=pointer]:
+          - img [ref=e49]
+          - generic [ref=e51]: ¿Y el volumen de tráfico no basta?
+        - button "Vi el flujo y la declaración. ¿Eso prueba qué salió? Sobre lo que encontraste" [ref=e52] [cursor=pointer]:
+          - img [ref=e53]
+          - generic [ref=e55]:
+            - text: Vi el flujo y la declaración. ¿Eso prueba qué salió?
+            - generic [ref=e56]: Sobre lo que encontraste
+        - button "Quería preguntarte por otra cosa." [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+          - generic [ref=e60]: Quería preguntarte por otra cosa.
+        - button "Eso es todo por ahora. Gracias." [ref=e61] [cursor=pointer]:
+          - img [ref=e62]
+          - generic [ref=e64]: Eso es todo por ahora. Gracias.
+      - paragraph [ref=e65]:
+        - generic [ref=e66]: ↑ ↓ Elegir
+        - generic [ref=e67]: Enter Hablar
+        - generic [ref=e68]: Esc Salir
+```

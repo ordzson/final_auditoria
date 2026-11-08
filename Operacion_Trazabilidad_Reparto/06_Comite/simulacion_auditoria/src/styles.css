@@ -309,7 +309,7 @@ textarea { width: 100%; resize: vertical; padding: 10px; color: var(--graphite);
 @media print {
   @page { size: A4; margin: 15mm; }
   html, body, #app, #experience { width: auto; height: auto; overflow: visible; background: #fff; }
-  body.printing-report { overflow: visible; color: #222; font-family: Arial, sans-serif; font-size: 10pt; }
+  body.printing-report { overflow: visible; color: #222; font-family: "Roboto Mono", monospace; font-size: 10pt; }
   body.printing-report #experience > :not(#print-report) { display: none !important; }
   body.printing-report #print-report { display: block; }
   .print-report-content header { border-bottom: 2px solid #29383d; margin-bottom: 18pt; }
@@ -317,7 +317,9 @@ textarea { width: 100%; resize: vertical; padding: 10px; color: var(--graphite);
   .print-report-content h2 { margin-top: 18pt; font-size: 15pt; break-after: avoid; }
   .print-report-content h2 span { font-size: 10pt; font-weight: 400; }
   .print-report-content h3 { margin: 12pt 0 4pt; font-size: 10pt; break-after: avoid; }
-  .print-report-content p, .print-report-content li { line-height: 1.45; }
+  .print-report-content p, .print-report-content li { line-height: 1.5; overflow-wrap: anywhere; }
+  .print-report-content li { break-inside: avoid; margin-bottom: 8pt; }
+  .print-report-content small { font-size: 9pt; }
   .print-boundary { padding: 10pt; background: #eee; }
   .print-review { break-before: page; }
   .print-report-content footer { margin-top: 22pt; padding-top: 8pt; border-top: 1px solid #999; }

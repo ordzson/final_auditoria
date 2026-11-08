@@ -1,0 +1,15 @@
+Already up to date
+Done in 31ms using pnpm v11.2.2
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Omitir y entrar a la oficina' })[22m
+
+    at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/scripts/verify-i6-media.mjs:41:71 {
+  name: 'TimeoutError'
+}
+
+Node.js v22.21.1

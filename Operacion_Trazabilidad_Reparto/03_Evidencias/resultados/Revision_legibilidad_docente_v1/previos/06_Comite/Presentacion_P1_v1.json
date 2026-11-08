@@ -1,0 +1,92 @@
+{
+  "alcance": "Fragmento propio de P1; coordinación propuesta, no acordada ni ensayada con el equipo.",
+  "reserva_equipo": [
+    {
+      "minutos": "00:00–03:00",
+      "responsable": "P2",
+      "contenido": "Reserva para sus aportes; no recibidos."
+    },
+    {
+      "minutos": "03:00–07:00",
+      "responsable": "P1",
+      "contenido": "Seis diapositivas, revisión jugable y límites."
+    },
+    {
+      "minutos": "07:00–11:00",
+      "responsable": "P3",
+      "contenido": "Reserva para sus aportes; no recibidos."
+    },
+    {
+      "minutos": "11:00–12:00",
+      "responsable": "Equipo",
+      "contenido": "Decisiones/cierre; integración pendiente."
+    }
+  ],
+  "diapositivas": [
+    {
+      "titulo": "Qué podemos sostener",
+      "tiempo": "P1 · 03:00–03:30 del equipo",
+      "puntos": [
+        "Expediente académico: 13 eventos reportados; faltan originales autenticados.",
+        "I2/I3: SQL Server 2022 y datos sintéticos v2; comprueban consultas, no el ataque.",
+        "Conclusión: exfiltración, autoría y causa raíz siguen no concluyentes."
+      ],
+      "fuentes": "Proyecto pp. 3–5 · PT-20–PT-25 · corte 15/10/2026 23:59:59 UTC−6"
+    },
+    {
+      "titulo": "Reconstrucción e intervalos",
+      "tiempo": "P1 · 03:30–04:15",
+      "puntos": [
+        "02:17 sesión → 02:31 lectura de 31,840 → 02:35 flujo de ~1.6 GB.",
+        "02:42: 216 órdenes → 03:02 despliegue → 03:18 alerta → 03:42 caída.",
+        "08:57 consulta: 315 min desde caída. 09:37 escritura: 355 min.",
+        "Son horas reportadas: 61 min hasta alerta y 24 hasta caída no prueban inacción."
+      ],
+      "fuentes": "Cronologia_investigada_v1.csv · PT-24/25 · Proyecto p. 4"
+    },
+    {
+      "titulo": "Tres hipótesis abiertas",
+      "tiempo": "P1 · 04:15–04:50",
+      "puntos": [
+        "H-A: credencial comprometida y cadena maliciosa; falta unir sesión, proceso y salida.",
+        "H-B: abuso por alguien con acceso legítimo; cuenta no identifica a una persona.",
+        "H-C: actividad legítima coincide con afectación por otra vía; falta autorización y contenido.",
+        "Certeza causal baja. El orden temporal por sí solo no identifica una causa."
+      ],
+      "fuentes": "Seccion_forense_P1_v1.md · Mapa_causal_P1_v1.svg · PT-20/21/22/25"
+    },
+    {
+      "titulo": "Una afirmación, toda su cadena",
+      "tiempo": "P1 · 04:50–05:50 · revisión AU-02",
+      "puntos": [
+        "E-03/E-04 → PT-22 → T-24/25 → Q-05/Q-06 → CSV v2 y origen declarado.",
+        "31,840 filas comerciales ficticias: CSV 2,058,909 B; JSONL 5,115,483 B.",
+        "~1.6 GB no identifica contenido. Pedir destino, objetos, equipo/proceso y autorización.",
+        "Juego: Ver metadatos, fijar fuentes, respuesta limitada y solicitud. Documentado es estado educativo."
+      ],
+      "fuentes": "Papeles_Trabajo_P1_v1.pdf, PT-22 · 04_SQL/Analisis_Auditoria.sql · resultados/Q-05.csv y Q-06.csv"
+    },
+    {
+      "titulo": "Órdenes, respuesta y decisiones",
+      "tiempo": "P1 · 05:50–06:40",
+      "puntos": [
+        "216 órdenes reportadas; 144 monto/72 estado son diseño sintético. Atribución desconocida.",
+        "B1-1 seguimiento de alerta y B1-2 integridad de logs: no concluyentes, revisión pendiente.",
+        "Once acciones propuestas: preservar, contener y recuperar con validación; ejecuta administración.",
+        "315/355 min no acreditan RTO/RPO ni integridad. Faltan BIA y objetivos de P3."
+      ],
+      "fuentes": "PT-23/24/25 · Borradores_hallazgos_P1_v1.md · Acciones_P1_0_72h_v1.csv"
+    },
+    {
+      "titulo": "Límites y enlace con el equipo",
+      "tiempo": "P1 · 06:40–07:00",
+      "puntos": [
+        "P2: sección forense, plantilla v2, índice, PT, referencias y registro IA disponibles localmente.",
+        "P3: cronología/intervalos, B1-1/B1-2 y once acciones disponibles localmente.",
+        "Faltan aportes, revisión cruzada y traspasos reales P2/P3; informe y presentación del equipo sin integrar.",
+        "Revisión humana y ensayo con equipo/proyector pendientes. No hay aprobación académica."
+      ],
+      "fuentes": "ESTADO_P1.md · paquete técnico propio de P1"
+    }
+  ]
+}

@@ -146,6 +146,8 @@ components:
 
 # Design System: Operación Trazabilidad
 
+Las cifras de pruebas y aceptaciones de etapas que siguen son históricas. La verificación y las capturas de la actualización para clase están en [el registro actual](artifacts/clase/README.md); no deben inferirse de los conteos anteriores.
+
 ## Identidad ambiental Red Nova · actualización solicitada
 
 La ventana incorpora ahora un exterior fotográfico ficticio solicitado por el usuario: Godzilla gigantesco conversa con Master Chief durante una cita con Samus Aran en la terraza de un edificio, con la ciudad al fondo. Recurso local `public/environment/city-godzilla-chief-samus.png`, generado con imagegen; prompt y procedencia en `public/environment/README.md`. El exterior se sitúa seis metros detrás de un hueco real en la pared: jambas de 44 cm, alféizar exterior, vidrio transparente y persiana más recogida. El marco y la ciudad tienen paralaje al moverse; la ciudad continúa siendo un decorado plano distante. Se conserva la imagen generada sin deformarla.
@@ -342,3 +344,9 @@ La tipografía solicitada es **Roboto Mono**, variable 100–700, incluida local
 El reinicio usa una confirmación integrada en la hoja, con foco inicial en «Conservar mi partida», en lugar del diálogo nativo del navegador. Cancelar conserva el estado y devuelve el foco. En móvil la acción de tablita se reduce a su icono, las acciones de revisión ocupan una segunda fila y las tablas conservan desplazamiento interno.
 
 Capturas de escritorio y móvil y validación: [menús integrados](artifacts/overlays/README.md).
+
+## Lectura ante la clase
+
+Se conserva la oficina industrial y los escritorios XP/Server. La capa editorial usa nombres de actividad como título, explica siglas junto al material y deja identificadores/versiones como referencia. Los párrafos de ayuda y de fuente tienen ajuste de palabras y desplazamiento dentro de la región de lectura. La entrada permite contexto en varias líneas; la reconstrucción limita su texto al área disponible sin reducir la tipografía. Libreta y PDF comparten hipótesis, límites y once acciones propuestas.
+
+Las capturas de esta actualización están en `artifacts/clase/`; las anteriores describen estados históricos. No se cambió el sidecar visual ni se realizó un ensayo físico con proyector.

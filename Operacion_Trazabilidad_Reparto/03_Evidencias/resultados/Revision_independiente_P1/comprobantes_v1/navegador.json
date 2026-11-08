@@ -1,0 +1,113 @@
+{
+  "links": [
+    {
+      "label": "Instrucciones y límites",
+      "path": "LEEME_P1.md",
+      "status": 200
+    },
+    {
+      "label": "Sección forense PDF",
+      "path": "01_Informe/Seccion_forense_P1_v1.pdf",
+      "status": 200
+    },
+    {
+      "label": "DOCX editable",
+      "path": "01_Informe/Seccion_forense_P1_v1.docx",
+      "status": 200
+    },
+    {
+      "label": "Plantilla vigente v2",
+      "path": "01_Informe/Plantilla_UdeO_v2.docx",
+      "status": 200
+    },
+    {
+      "label": "Borrador parcial del equipo",
+      "path": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "status": 200
+    },
+    {
+      "label": "Índice de evidencias",
+      "path": "03_Evidencias/indice_evidencias.xlsx",
+      "status": 200
+    },
+    {
+      "label": "Programa de pruebas",
+      "path": "03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "status": 200
+    },
+    {
+      "label": "Cronología XLSX",
+      "path": "03_Evidencias/Cronologia_investigada_v1.xlsx",
+      "status": 200
+    },
+    {
+      "label": "Cronología imprimible",
+      "path": "03_Evidencias/Cronologia_investigada_v1.pdf",
+      "status": 200
+    },
+    {
+      "label": "PT-20–PT-25 e índice",
+      "path": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "status": 200
+    },
+    {
+      "label": "Presentación P1",
+      "path": "06_Comite/Presentacion_P1_v1.pdf",
+      "status": 200
+    },
+    {
+      "label": "Guion y preguntas",
+      "path": "06_Comite/Guion_defensa_P1_v1.md",
+      "status": 200
+    },
+    {
+      "label": "Vídeo WebM sin audio",
+      "path": "06_Comite/simulacion_auditoria/artifacts/entrega/recorrido.webm",
+      "status": 200
+    },
+    {
+      "label": "Libreta PDF",
+      "path": "06_Comite/simulacion_auditoria/artifacts/entrega/libreta-respaldo.pdf",
+      "status": 200
+    },
+    {
+      "label": "Libreta JSON de ejemplo",
+      "path": "06_Comite/simulacion_auditoria/artifacts/entrega/libreta-ejemplo.json",
+      "status": 200
+    },
+    {
+      "label": "Referencias",
+      "path": "07_Referencias/Fuentes_P1_v1.pdf",
+      "status": 200
+    },
+    {
+      "label": "Declaración IA",
+      "path": "07_Referencias/Uso_IA.pdf",
+      "status": 200
+    },
+    {
+      "label": "Verificaciones y limitaciones",
+      "path": "03_Evidencias/resultados/I6/README.md",
+      "status": 200
+    },
+    {
+      "label": "Estado y cinco líneas para P1",
+      "path": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "status": 200
+    }
+  ],
+  "excluded": "Juego /dist/ no abierto ni revisado",
+  "info": {
+    "duration": 32.68,
+    "width": 1280,
+    "height": 720,
+    "canPlay": "probably"
+  },
+  "playback": {
+    "ended": true,
+    "time": 32.68,
+    "error": null,
+    "decoded": 817,
+    "dropped": 7
+  }
+}

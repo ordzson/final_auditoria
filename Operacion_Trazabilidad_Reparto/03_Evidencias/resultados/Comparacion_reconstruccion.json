@@ -1,0 +1,99 @@
+{
+  "fecha_utc": "2026-11-07T06:13:34.397031+00:00",
+  "bases": [
+    "RedNova_P1_Lab_v2",
+    "RedNova_P1_Lab_v2_repeticion"
+  ],
+  "comparaciones": [
+    {
+      "archivo": "Q-01.csv",
+      "sha256_principal": "e80aec671915ad3d4a4d15e1cc70ccf36239aec0af1d5625a23db5b586374e94",
+      "sha256_reconstruccion": "e80aec671915ad3d4a4d15e1cc70ccf36239aec0af1d5625a23db5b586374e94",
+      "identico": true
+    },
+    {
+      "archivo": "Q-02.csv",
+      "sha256_principal": "2c9f49103482ee80d62c44ddeb161e55945db66b82a099fe1b715b3637bcbc59",
+      "sha256_reconstruccion": "2c9f49103482ee80d62c44ddeb161e55945db66b82a099fe1b715b3637bcbc59",
+      "identico": true
+    },
+    {
+      "archivo": "Q-03.csv",
+      "sha256_principal": "17f9809ac7329ea375c0bc8b23b088135ca1fa5a4c8c8f0d2cabe69545b9cf4a",
+      "sha256_reconstruccion": "17f9809ac7329ea375c0bc8b23b088135ca1fa5a4c8c8f0d2cabe69545b9cf4a",
+      "identico": true
+    },
+    {
+      "archivo": "Q-04.csv",
+      "sha256_principal": "6bb4fddbf6ce46430e337b44e0a7f16cc962e8b5bb53e12de4b14194f246cd21",
+      "sha256_reconstruccion": "6bb4fddbf6ce46430e337b44e0a7f16cc962e8b5bb53e12de4b14194f246cd21",
+      "identico": true
+    },
+    {
+      "archivo": "Q-05.csv",
+      "sha256_principal": "b2a20e062ff0803eb91e44f702c8b4b25d0afd80792ce0b3d5c9d03d3a0e145f",
+      "sha256_reconstruccion": "b2a20e062ff0803eb91e44f702c8b4b25d0afd80792ce0b3d5c9d03d3a0e145f",
+      "identico": true
+    },
+    {
+      "archivo": "Q-06.csv",
+      "sha256_principal": "2e1b331de39de4d77cf96cf3ca590b5aa8de5096c8a99cfff4b13d91c995e43a",
+      "sha256_reconstruccion": "2e1b331de39de4d77cf96cf3ca590b5aa8de5096c8a99cfff4b13d91c995e43a",
+      "identico": true
+    },
+    {
+      "archivo": "Q-07.csv",
+      "sha256_principal": "79adc0e4ca119cc31fbce85e6e20169c4326b21e3bd35165e4117e82fede0d4f",
+      "sha256_reconstruccion": "79adc0e4ca119cc31fbce85e6e20169c4326b21e3bd35165e4117e82fede0d4f",
+      "identico": true
+    },
+    {
+      "archivo": "Q-08.csv",
+      "sha256_principal": "2dd4166fd1ca620f6aaac9441f41941327e36fc46289a197c00853a85baf4645",
+      "sha256_reconstruccion": "2dd4166fd1ca620f6aaac9441f41941327e36fc46289a197c00853a85baf4645",
+      "identico": true
+    },
+    {
+      "archivo": "Q-09.csv",
+      "sha256_principal": "7f6b9dc2ff5077e2780566a55e168bade4df5d1c36090db612ed846e3479ff0a",
+      "sha256_reconstruccion": "7f6b9dc2ff5077e2780566a55e168bade4df5d1c36090db612ed846e3479ff0a",
+      "identico": true
+    },
+    {
+      "archivo": "Q-10.csv",
+      "sha256_principal": "ab156c420ae1c45abe7e7991db2ee217b249bf3152d05a0ce63af65c3e82d509",
+      "sha256_reconstruccion": "ab156c420ae1c45abe7e7991db2ee217b249bf3152d05a0ce63af65c3e82d509",
+      "identico": true
+    },
+    {
+      "archivo": "Q-11.csv",
+      "sha256_principal": "caa8d1d5803392a63de4cbdb72079f19eeff5eaaf27a7dc0cca3efbb12324f80",
+      "sha256_reconstruccion": "caa8d1d5803392a63de4cbdb72079f19eeff5eaaf27a7dc0cca3efbb12324f80",
+      "identico": true
+    },
+    {
+      "archivo": "Q-12.csv",
+      "sha256_principal": "2f6f600d622d92009abf190efa419fc96e23886b4513e255021938b29deb1a99",
+      "sha256_reconstruccion": "2f6f600d622d92009abf190efa419fc96e23886b4513e255021938b29deb1a99",
+      "identico": true
+    },
+    {
+      "archivo": "Q-S01.csv",
+      "sha256_principal": "4054855813f9a74d36d58a5e563e4bcfabee9438304cd47b11c7155cc23fa3d5",
+      "sha256_reconstruccion": "4054855813f9a74d36d58a5e563e4bcfabee9438304cd47b11c7155cc23fa3d5",
+      "identico": true
+    },
+    {
+      "archivo": "Concesiones_SQL.csv",
+      "sha256_principal": "b01fdc8e3ed7be69754966f8e9fb7548e066312586bccffefca5cd37f668d5e3",
+      "sha256_reconstruccion": "b01fdc8e3ed7be69754966f8e9fb7548e066312586bccffefca5cd37f668d5e3",
+      "identico": true
+    },
+    {
+      "archivo": "Permisos_rechazos.csv",
+      "sha256_principal": "e6fcbc2167a690d487e73f6cceaab0f7c28e0c5a0e414f60c3dbbb59d4d3b189",
+      "sha256_reconstruccion": "e6fcbc2167a690d487e73f6cceaab0f7c28e0c5a0e414f60c3dbbb59d4d3b189",
+      "identico": true
+    }
+  ]
+}

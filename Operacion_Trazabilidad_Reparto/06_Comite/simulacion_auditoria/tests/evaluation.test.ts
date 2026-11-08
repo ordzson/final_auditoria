@@ -140,7 +140,7 @@ describe('AU-02', () => {
     const inspected = completeAssessment('AU-02').sourceRefs;
     const result = evaluateReview(assessment, inspected);
     expect(result.isDocumented).toBe(false);
-    expect(result.missingReasons.join(' ')).toContain('Repite C02-CONTENIDO');
+    expect(result.missingReasons.join(' ')).toContain(`Repite «${reviewRules['AU-02'].checks[0].question}»`);
     expect(assessment.conclusionId).toBe('A02-TRANSFERENCIA');
     expect(assessment.freeNote).toBe(note);
   });
@@ -150,7 +150,7 @@ describe('AU-02', () => {
     assessment.sourceRefs = [ref('EVT-04'), ref('E-04'), ref('DECL-05')];
     const result = evaluateReview(assessment, [ref('E-03'), ref('EVT-04'), ref('E-04'), ref('DECL-05')]);
     expect(result.isDocumented).toBe(false);
-    expect(result.missingReasons.join(' ')).toContain('Repite C02-CONTENIDO');
+    expect(result.missingReasons.join(' ')).toContain(`Repite «${reviewRules['AU-02'].checks[0].question}»`);
   });
 
   it('retira la marca al cambiar una respuesta o quitar un límite', () => {

@@ -1,0 +1,74 @@
+[
+  {
+    "ruta_entrada": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+    "ruta_cotejada": "03_Evidencias/originales/previos_I4/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+    "sha256": "cd86b2ce7e5da693971c091823d3b5c233459a9ccb26fb03636ca55c1e05e73d",
+    "bytes": 13060,
+    "momento_utc": "2026-11-07T14:19:12.186218+00:00",
+    "alcance": "Hash de archivo local utilizado; cotejo de copias cuando existe Preservacion.json; no autenticación del caso"
+  },
+  {
+    "ruta_entrada": "P1_Incidente_evidencia_simulacion/Ejecucion_P1_por_instancias_v1.md",
+    "ruta_cotejada": "P1_Incidente_evidencia_simulacion/Ejecucion_P1_por_instancias_v1.md",
+    "sha256": "f38e490c82257ee3778da05d2d88825bb95da1ba06cb57616bfd8932eb313efc",
+    "bytes": 22860,
+    "momento_utc": "2026-11-07T14:19:12.186218+00:00",
+    "alcance": "Hash de archivo local utilizado; cotejo de copias cuando existe Preservacion.json; no autenticación del caso"
+  },
+  {
+    "ruta_entrada": "P1_Incidente_evidencia_simulacion/Agente_IA_P1_Incidente_evidencia_simulacion_v1.md",
+    "ruta_cotejada": "P1_Incidente_evidencia_simulacion/Agente_IA_P1_Incidente_evidencia_simulacion_v1.md",
+    "sha256": "bedc90c6a2b53ceda6366dfa95e59c1b22f98df47b6d52dcb400a4a056959977",
+    "bytes": 56489,
+    "momento_utc": "2026-11-07T14:19:12.186218+00:00",
+    "alcance": "Hash de archivo local utilizado; cotejo de copias cuando existe Preservacion.json; no autenticación del caso"
+  },
+  {
+    "ruta_entrada": "01_Informe/Plantilla_UdeO_v2.docx",
+    "ruta_cotejada": "01_Informe/Plantilla_UdeO_v2.docx",
+    "sha256": "0cea166dba53d742eaaaf64e8804ea3f70265f1b70bd2f42bd934fac391f5e1b",
+    "bytes": 161491,
+    "momento_utc": "2026-11-07T14:19:12.186218+00:00",
+    "alcance": "Hash de archivo local utilizado; cotejo de copias cuando existe Preservacion.json; no autenticación del caso"
+  },
+  {
+    "ruta_entrada": "03_Evidencias/Indice_evidencias_v1.csv",
+    "ruta_cotejada": "03_Evidencias/originales/previos_I4/03_Evidencias/Indice_evidencias_v1.csv",
+    "sha256": "0c2d54d7d3675e195d7d31b6cc5efebe6633a9af2c5f5499544cb08a226f4f96",
+    "bytes": 88646,
+    "momento_utc": "2026-11-07T14:19:12.186218+00:00",
+    "alcance": "Hash de archivo local utilizado; cotejo de copias cuando existe Preservacion.json; no autenticación del caso"
+  },
+  {
+    "ruta_entrada": "03_Evidencias/formulario_custodia.md",
+    "ruta_cotejada": "03_Evidencias/originales/previos_I4/03_Evidencias/formulario_custodia.md",
+    "sha256": "3780c23f98ad938a58386a8bfbf73f12f39839a4d8dff271f15c877da1154066",
+    "bytes": 2215,
+    "momento_utc": "2026-11-07T14:19:12.186218+00:00",
+    "alcance": "Hash de archivo local utilizado; cotejo de copias cuando existe Preservacion.json; no autenticación del caso"
+  },
+  {
+    "ruta_entrada": "03_Evidencias/Programa_pruebas_P1_v1.csv",
+    "ruta_cotejada": "03_Evidencias/originales/previos_I4/03_Evidencias/Programa_pruebas_P1_v1.csv",
+    "sha256": "25b43e875fce6fc4ab619df38a2b12c4ed937aaedc92b1548eb7910c78910aae",
+    "bytes": 8184,
+    "momento_utc": "2026-11-07T14:19:12.186218+00:00",
+    "alcance": "Hash de archivo local utilizado; cotejo de copias cuando existe Preservacion.json; no autenticación del caso"
+  },
+  {
+    "ruta_entrada": "07_Referencias/Fuentes_P1_v1.md",
+    "ruta_cotejada": "03_Evidencias/originales/previos_I4/07_Referencias/Fuentes_P1_v1.md",
+    "sha256": "54c5aa681e46999ff13d7a85119f900108dfdd7a6523d8c6de57292a34276fe6",
+    "bytes": 2083,
+    "momento_utc": "2026-11-07T14:19:12.186218+00:00",
+    "alcance": "Hash de archivo local utilizado; cotejo de copias cuando existe Preservacion.json; no autenticación del caso"
+  },
+  {
+    "ruta_entrada": "07_Referencias/Registro_uso_IA_v1.csv",
+    "ruta_cotejada": "03_Evidencias/originales/previos_I4/07_Referencias/Registro_uso_IA_v1.csv",
+    "sha256": "230d02bd8aa346a8f4ddb2f1f4788ab6bdfee230334740f8ae251934cbbfa225",
+    "bytes": 5263,
+    "momento_utc": "2026-11-07T14:19:12.186218+00:00",
+    "alcance": "Hash de archivo local utilizado; cotejo de copias cuando existe Preservacion.json; no autenticación del caso"
+  }
+]

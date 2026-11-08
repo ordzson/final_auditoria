@@ -1,0 +1,39 @@
+{
+  "container": "WebM (EBML DocType webm)",
+  "bytes": 4142199,
+  "info": {
+    "duration": 32.68,
+    "width": 1280,
+    "height": 720,
+    "canPlayWebM": "probably"
+  },
+  "samples": [
+    {
+      "time": 6.542907,
+      "range": 254,
+      "decoded": 44
+    },
+    {
+      "time": 16.351932,
+      "range": 255,
+      "decoded": 73
+    },
+    {
+      "time": 31.063428,
+      "range": 255,
+      "decoded": 86
+    }
+  ],
+  "playback": {
+    "ended": true,
+    "time": 32.68,
+    "error": null,
+    "decodedFrames": 903,
+    "droppedFrames": 5
+  },
+  "linksVerified": true,
+  "portableBundleStarted": true,
+  "environment": "147.0.7727.137",
+  "physicalDefenseHardwareTested": false,
+  "audio": "La captura Playwright no incluye una pista de audio; las 29 voces MP3 se conservan en el juego."
+}

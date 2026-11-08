@@ -1,0 +1,1298 @@
+{
+  "registro": {
+    "total_registros": 1046,
+    "comprobados_alcance": 442,
+    "excluidos_juego": 604,
+    "discrepancias": []
+  },
+  "documentales": {
+    "total_registros": 5,
+    "comprobados_alcance": 5,
+    "excluidos_juego": 0,
+    "discrepancias": []
+  },
+  "manifest_I6": {
+    "total": 1042,
+    "comprobados_alcance": 438,
+    "discrepancias": []
+  },
+  "zip": {
+    "sha256": "a7230e9280582a8e07555fec18c74e5e8d6bfc03acd6454b21943c83c950aab9",
+    "sha_externo": "a7230e9280582a8e07555fec18c74e5e8d6bfc03acd6454b21943c83c950aab9",
+    "crc_fallido": null,
+    "miembros": 1044,
+    "raiz_extraida": "/tmp/revision_p1/extraido/P1",
+    "archivos_manifest": 1043,
+    "discrepancias_hash": [],
+    "diferencias_documentos_vigentes": [],
+    "archivos_extra_no_listados": [
+      "P1/manifest-paquete.json"
+    ]
+  },
+  "xlsx": [
+    {
+      "archivo": "03_Evidencias/indice_evidencias.xlsx",
+      "filas": 188,
+      "columnas": 25,
+      "igual_csv": true,
+      "enlaces": 367,
+      "enlaces_rotos": [],
+      "celdas_formula": []
+    },
+    {
+      "archivo": "03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "filas": 14,
+      "columnas": 15,
+      "igual_csv": true,
+      "enlaces": 15,
+      "enlaces_rotos": [],
+      "celdas_formula": []
+    },
+    {
+      "archivo": "03_Evidencias/Cronologia_investigada_v1.xlsx",
+      "filas": 13,
+      "columnas": 25,
+      "igual_csv": true,
+      "enlaces": 14,
+      "enlaces_rotos": [],
+      "celdas_formula": []
+    }
+  ],
+  "pdf": [
+    {
+      "archivo": "01_Informe/Seccion_forense_P1_v1.pdf",
+      "paginas": 5,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 9.0,
+          "palabras": 443
+        },
+        {
+          "pagina": 2,
+          "min_pt": 9.0,
+          "palabras": 331
+        },
+        {
+          "pagina": 3,
+          "min_pt": 9.0,
+          "palabras": 321
+        },
+        {
+          "pagina": 4,
+          "min_pt": 9.0,
+          "palabras": 471
+        },
+        {
+          "pagina": 5,
+          "min_pt": 9.0,
+          "palabras": 392
+        }
+      ],
+      "enlaces": 4,
+      "marcadores": 0
+    },
+    {
+      "archivo": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "paginas": 7,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 16.0,
+          "palabras": 51
+        },
+        {
+          "pagina": 2,
+          "min_pt": 12.0,
+          "palabras": 212
+        },
+        {
+          "pagina": 3,
+          "min_pt": 12.0,
+          "palabras": 460
+        },
+        {
+          "pagina": 4,
+          "min_pt": 10.5,
+          "palabras": 324
+        },
+        {
+          "pagina": 5,
+          "min_pt": 10.5,
+          "palabras": 314
+        },
+        {
+          "pagina": 6,
+          "min_pt": 12.0,
+          "palabras": 464
+        },
+        {
+          "pagina": 7,
+          "min_pt": 12.0,
+          "palabras": 385
+        }
+      ],
+      "enlaces": 4,
+      "marcadores": 0
+    },
+    {
+      "archivo": "01_Informe/Plantilla_UdeO_v2.pdf",
+      "paginas": 2,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 16.0,
+          "palabras": 51
+        },
+        {
+          "pagina": 2,
+          "min_pt": 12.0,
+          "palabras": 211
+        }
+      ],
+      "enlaces": 0,
+      "marcadores": 0
+    },
+    {
+      "archivo": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "paginas": 8,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 8.0,
+          "palabras": 66
+        },
+        {
+          "pagina": 2,
+          "min_pt": 8.0,
+          "palabras": 318
+        },
+        {
+          "pagina": 3,
+          "min_pt": 8.0,
+          "palabras": 285
+        },
+        {
+          "pagina": 4,
+          "min_pt": 8.0,
+          "palabras": 252
+        },
+        {
+          "pagina": 5,
+          "min_pt": 8.0,
+          "palabras": 306
+        },
+        {
+          "pagina": 6,
+          "min_pt": 8.0,
+          "palabras": 332
+        },
+        {
+          "pagina": 7,
+          "min_pt": 8.0,
+          "palabras": 249
+        },
+        {
+          "pagina": 8,
+          "min_pt": 8.0,
+          "palabras": 403
+        }
+      ],
+      "enlaces": 6,
+      "marcadores": 8
+    },
+    {
+      "archivo": "03_Evidencias/Cronologia_investigada_v1.pdf",
+      "paginas": 2,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 8.0,
+          "palabras": 207
+        },
+        {
+          "pagina": 2,
+          "min_pt": 8.0,
+          "palabras": 66
+        }
+      ],
+      "enlaces": 0,
+      "marcadores": 0
+    },
+    {
+      "archivo": "06_Comite/Presentacion_P1_v1.pdf",
+      "paginas": 6,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 9.0,
+          "palabras": 65
+        },
+        {
+          "pagina": 2,
+          "min_pt": 9.0,
+          "palabras": 80
+        },
+        {
+          "pagina": 3,
+          "min_pt": 9.0,
+          "palabras": 80
+        },
+        {
+          "pagina": 4,
+          "min_pt": 9.0,
+          "palabras": 84
+        },
+        {
+          "pagina": 5,
+          "min_pt": 9.0,
+          "palabras": 78
+        },
+        {
+          "pagina": 6,
+          "min_pt": 9.0,
+          "palabras": 81
+        }
+      ],
+      "enlaces": 0,
+      "marcadores": 0
+    },
+    {
+      "archivo": "07_Referencias/Fuentes_P1_v1.pdf",
+      "paginas": 3,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 8.0,
+          "palabras": 278
+        },
+        {
+          "pagina": 2,
+          "min_pt": 8.0,
+          "palabras": 415
+        },
+        {
+          "pagina": 3,
+          "min_pt": 8.0,
+          "palabras": 500
+        }
+      ],
+      "enlaces": 4,
+      "marcadores": 0
+    },
+    {
+      "archivo": "07_Referencias/Uso_IA.pdf",
+      "paginas": 8,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 8.0,
+          "palabras": 206
+        },
+        {
+          "pagina": 2,
+          "min_pt": 8.0,
+          "palabras": 188
+        },
+        {
+          "pagina": 3,
+          "min_pt": 8.0,
+          "palabras": 260
+        },
+        {
+          "pagina": 4,
+          "min_pt": 8.0,
+          "palabras": 214
+        },
+        {
+          "pagina": 5,
+          "min_pt": 8.0,
+          "palabras": 274
+        },
+        {
+          "pagina": 6,
+          "min_pt": 8.0,
+          "palabras": 273
+        },
+        {
+          "pagina": 7,
+          "min_pt": 8.0,
+          "palabras": 337
+        },
+        {
+          "pagina": 8,
+          "min_pt": 8.0,
+          "palabras": 41
+        }
+      ],
+      "enlaces": 0,
+      "marcadores": 0
+    },
+    {
+      "archivo": "06_Comite/simulacion_auditoria/artifacts/entrega/libreta-respaldo.pdf",
+      "paginas": 12,
+      "limites_fuera_pagina": [],
+      "tipografia": [
+        {
+          "pagina": 1,
+          "min_pt": 9.997499465942383,
+          "palabras": 71
+        },
+        {
+          "pagina": 2,
+          "min_pt": 9.0,
+          "palabras": 223
+        },
+        {
+          "pagina": 3,
+          "min_pt": 9.0,
+          "palabras": 231
+        },
+        {
+          "pagina": 4,
+          "min_pt": 9.997499465942383,
+          "palabras": 22
+        },
+        {
+          "pagina": 5,
+          "min_pt": 9.0,
+          "palabras": 266
+        },
+        {
+          "pagina": 6,
+          "min_pt": 9.997499465942383,
+          "palabras": 73
+        },
+        {
+          "pagina": 7,
+          "min_pt": 9.0,
+          "palabras": 239
+        },
+        {
+          "pagina": 8,
+          "min_pt": 9.997499465942383,
+          "palabras": 7
+        },
+        {
+          "pagina": 9,
+          "min_pt": 9.0,
+          "palabras": 246
+        },
+        {
+          "pagina": 10,
+          "min_pt": 9.997499465942383,
+          "palabras": 45
+        },
+        {
+          "pagina": 11,
+          "min_pt": 9.0,
+          "palabras": 243
+        },
+        {
+          "pagina": 12,
+          "min_pt": 9.997499465942383,
+          "palabras": 168
+        }
+      ],
+      "enlaces": 0,
+      "marcadores": 0
+    }
+  ],
+  "docx": [
+    {
+      "archivo": "01_Informe/Seccion_forense_P1_v1.docx",
+      "parrafos": 27,
+      "tablas": 2,
+      "normal_fuente": "Times New Roman",
+      "normal_pt": 12.0,
+      "tamano_pulgadas": [
+        8.5,
+        11.0
+      ],
+      "margenes_pulgadas": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "archivo": "01_Informe/Informe_equipo_parcial_P1_v1.docx",
+      "parrafos": 65,
+      "tablas": 2,
+      "normal_fuente": "Times New Roman",
+      "normal_pt": 12.0,
+      "tamano_pulgadas": [
+        8.5,
+        11.0
+      ],
+      "margenes_pulgadas": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "archivo": "01_Informe/Plantilla_UdeO_v2.docx",
+      "parrafos": 35,
+      "tablas": 0,
+      "normal_fuente": "Times New Roman",
+      "normal_pt": 12.0,
+      "tamano_pulgadas": [
+        8.5,
+        11.0
+      ],
+      "margenes_pulgadas": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "ejecuciones": [
+    {
+      "consulta": "Q-01",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 6,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-02",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 18,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-03",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 3,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-04",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 7,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-05",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 2,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-06",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 3,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-07",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 216,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-08",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 10,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-09",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 9,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-10",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 3,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-11",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 4,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-12",
+      "motor": "16.0.4305.5",
+      "usuario": "auditor_lectura",
+      "filas": 13,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    },
+    {
+      "consulta": "Q-S01",
+      "motor": "16.0.4305.5",
+      "usuario": "sa EXECUTE AS USER admin_bitacora_lab/control_bitacora_lab; auditor_lectura conexión propia",
+      "filas": 3,
+      "filas_coinciden": true,
+      "hash_resultado": true,
+      "hash_sql": true,
+      "hash_manifest_datos": true,
+      "identico_vigente": true,
+      "identico_repeticion": true
+    }
+  ],
+  "intervalos": [
+    {
+      "tramo": "remoto_a_alerta",
+      "desde": "EVT-02",
+      "hasta": "EVT-08",
+      "minutos": 61.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 61.0
+    },
+    {
+      "tramo": "alerta_a_caida",
+      "desde": "EVT-08",
+      "hasta": "EVT-09",
+      "minutos": 24.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 24.0
+    },
+    {
+      "tramo": "caida_a_solicitud_DR",
+      "desde": "EVT-09",
+      "hasta": "EVT-10",
+      "minutos": 23.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 23.0
+    },
+    {
+      "tramo": "caida_a_consulta",
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "minutos": 315.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 315.0
+    },
+    {
+      "tramo": "caida_a_escritura",
+      "desde": "EVT-09",
+      "hasta": "EVT-12",
+      "minutos": 355.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 355.0
+    },
+    {
+      "tramo": "consulta_a_escritura",
+      "desde": "EVT-11",
+      "hasta": "EVT-12",
+      "minutos": 40.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 40.0
+    },
+    {
+      "tramo": "caida_a_solicitud_conciliacion",
+      "desde": "EVT-09",
+      "hasta": "EVT-13",
+      "minutos": 453.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 453.0
+    },
+    {
+      "tramo": "ordenes_a_despliegue",
+      "desde": "EVT-06",
+      "hasta": "EVT-07",
+      "minutos": 20.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 20.0
+    },
+    {
+      "tramo": "lectura_a_flujo",
+      "desde": "EVT-04",
+      "hasta": "EVT-05",
+      "minutos": 4.0,
+      "base": "horas reportadas; no normalización comprobada",
+      "recalculado": 4.0
+    }
+  ],
+  "sensibilidad": [
+    {
+      "desde": "EVT-04",
+      "hasta": "EVT-05",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "5",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "-6.0",
+      "intervalo_maximo": "14.0",
+      "invierte_posible": "True",
+      "empate_posible": "True",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-04",
+      "hasta": "EVT-05",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "10",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "-16.0",
+      "intervalo_maximo": "24.0",
+      "invierte_posible": "True",
+      "empate_posible": "True",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-04",
+      "hasta": "EVT-05",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "15",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "-26.0",
+      "intervalo_maximo": "34.0",
+      "invierte_posible": "True",
+      "empate_posible": "True",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-06",
+      "hasta": "EVT-07",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "5",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "10.0",
+      "intervalo_maximo": "30.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-06",
+      "hasta": "EVT-07",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "10",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "0.0",
+      "intervalo_maximo": "40.0",
+      "invierte_posible": "False",
+      "empate_posible": "True",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-06",
+      "hasta": "EVT-07",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "15",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "-10.0",
+      "intervalo_maximo": "50.0",
+      "invierte_posible": "True",
+      "empate_posible": "True",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-08",
+      "hasta": "EVT-09",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "5",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "14.0",
+      "intervalo_maximo": "34.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-08",
+      "hasta": "EVT-09",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "10",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "4.0",
+      "intervalo_maximo": "44.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-08",
+      "hasta": "EVT-09",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "15",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "-6.0",
+      "intervalo_maximo": "54.0",
+      "invierte_posible": "True",
+      "empate_posible": "True",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "5",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "305.0",
+      "intervalo_maximo": "325.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "5",
+      "modelo": "offset común constante (solo si mismo reloj)",
+      "intervalo_minimo": "315.0",
+      "intervalo_maximo": "315.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "10",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "295.0",
+      "intervalo_maximo": "335.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "10",
+      "modelo": "offset común constante (solo si mismo reloj)",
+      "intervalo_minimo": "315.0",
+      "intervalo_maximo": "315.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "15",
+      "modelo": "offsets independientes",
+      "intervalo_minimo": "285.0",
+      "intervalo_maximo": "345.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    },
+    {
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "escenario": "HIPOTETICO",
+      "desfase_por_reloj_mas_menos_minutos": "15",
+      "modelo": "offset común constante (solo si mismo reloj)",
+      "intervalo_minimo": "315.0",
+      "intervalo_maximo": "315.0",
+      "invierte_posible": "False",
+      "empate_posible": "False",
+      "correcto": true
+    }
+  ],
+  "volumen": [
+    {
+      "formato": "CSV UTF-8",
+      "bytes_recalculados": 2058909,
+      "hash_coincide": true,
+      "factor_GB": 777.1105959515452
+    },
+    {
+      "formato": "JSON Lines UTF-8",
+      "bytes_recalculados": 5115483,
+      "hash_coincide": true,
+      "factor_GB": 312.7759392417099
+    }
+  ],
+  "ordenes": {
+    "filas": 216,
+    "ordenes_distintas": 216,
+    "campos": {
+      "Monto": 144,
+      "Estado": 72
+    },
+    "desconocidos": {
+      "UsuarioID": 216,
+      "SesionID": 216,
+      "Via": 216
+    },
+    "coincide_historial": true,
+    "duplicados_grupos": 10,
+    "duplicados_ordenes": 20,
+    "interseccion": []
+  },
+  "fecha_revision_utc": "2026-11-07T21:52:08.302651+00:00",
+  "version_informe": 1,
+  "alcance": "Entregables de P1 y fuentes; juego excluido por instrucción posterior del usuario. Hashes del ZIP son comprobación mecánica de todos los miembros, no revisión del juego.",
+  "entradas_identificadas": 449,
+  "entradas_cambiadas": [],
+  "conteo_problemas": {
+    "confirmados": 4,
+    "bloqueantes": 0,
+    "importantes_confirmados": 2,
+    "menores_confirmados": 2,
+    "dudas": 1,
+    "editoriales_opcionales": 3
+  },
+  "reapertura_independiente": {
+    "Informe_equipo_parcial_P1_v1.pdf": {
+      "paginas": [
+        7,
+        7
+      ],
+      "texto_igual": true
+    },
+    "Seccion_forense_P1_v1.pdf": {
+      "paginas": [
+        5,
+        5
+      ],
+      "texto_igual": true
+    },
+    "Plantilla_UdeO_v2.pdf": {
+      "paginas": [
+        2,
+        2
+      ],
+      "texto_igual": true
+    },
+    "Programa_pruebas_P1_v1.xlsx": {
+      "hojas": [
+        "Datos",
+        "Lectura",
+        "Procedencia"
+      ],
+      "celdas_iguales": {
+        "Datos": true,
+        "Lectura": true,
+        "Procedencia": true
+      }
+    },
+    "Cronologia_investigada_v1.xlsx": {
+      "hojas": [
+        "Datos",
+        "Lectura",
+        "Procedencia"
+      ],
+      "celdas_iguales": {
+        "Datos": true,
+        "Lectura": true,
+        "Procedencia": true
+      }
+    },
+    "indice_evidencias.xlsx": {
+      "hojas": [
+        "Datos",
+        "Lectura",
+        "Procedencia"
+      ],
+      "celdas_iguales": {
+        "Datos": true,
+        "Lectura": true,
+        "Procedencia": true
+      }
+    }
+  },
+  "cobertura_textual": {
+    "Seccion_forense_P1_v1": {
+      "fragmentos": 62,
+      "faltan_docx": [],
+      "faltan_pdf": []
+    },
+    "Informe_equipo_parcial_P1_v1": {
+      "fragmentos": 62,
+      "faltan_docx": [],
+      "faltan_pdf": []
+    }
+  },
+  "navegador": {
+    "links": [
+      {
+        "label": "Instrucciones y límites",
+        "path": "LEEME_P1.md",
+        "status": 200
+      },
+      {
+        "label": "Sección forense PDF",
+        "path": "01_Informe/Seccion_forense_P1_v1.pdf",
+        "status": 200
+      },
+      {
+        "label": "DOCX editable",
+        "path": "01_Informe/Seccion_forense_P1_v1.docx",
+        "status": 200
+      },
+      {
+        "label": "Plantilla vigente v2",
+        "path": "01_Informe/Plantilla_UdeO_v2.docx",
+        "status": 200
+      },
+      {
+        "label": "Borrador parcial del equipo",
+        "path": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+        "status": 200
+      },
+      {
+        "label": "Índice de evidencias",
+        "path": "03_Evidencias/indice_evidencias.xlsx",
+        "status": 200
+      },
+      {
+        "label": "Programa de pruebas",
+        "path": "03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+        "status": 200
+      },
+      {
+        "label": "Cronología XLSX",
+        "path": "03_Evidencias/Cronologia_investigada_v1.xlsx",
+        "status": 200
+      },
+      {
+        "label": "Cronología imprimible",
+        "path": "03_Evidencias/Cronologia_investigada_v1.pdf",
+        "status": 200
+      },
+      {
+        "label": "PT-20–PT-25 e índice",
+        "path": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+        "status": 200
+      },
+      {
+        "label": "Presentación P1",
+        "path": "06_Comite/Presentacion_P1_v1.pdf",
+        "status": 200
+      },
+      {
+        "label": "Guion y preguntas",
+        "path": "06_Comite/Guion_defensa_P1_v1.md",
+        "status": 200
+      },
+      {
+        "label": "Vídeo WebM sin audio",
+        "path": "06_Comite/simulacion_auditoria/artifacts/entrega/recorrido.webm",
+        "status": 200
+      },
+      {
+        "label": "Libreta PDF",
+        "path": "06_Comite/simulacion_auditoria/artifacts/entrega/libreta-respaldo.pdf",
+        "status": 200
+      },
+      {
+        "label": "Libreta JSON de ejemplo",
+        "path": "06_Comite/simulacion_auditoria/artifacts/entrega/libreta-ejemplo.json",
+        "status": 200
+      },
+      {
+        "label": "Referencias",
+        "path": "07_Referencias/Fuentes_P1_v1.pdf",
+        "status": 200
+      },
+      {
+        "label": "Declaración IA",
+        "path": "07_Referencias/Uso_IA.pdf",
+        "status": 200
+      },
+      {
+        "label": "Verificaciones y limitaciones",
+        "path": "03_Evidencias/resultados/I6/README.md",
+        "status": 200
+      },
+      {
+        "label": "Estado y cinco líneas para P1",
+        "path": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+        "status": 200
+      }
+    ],
+    "excluded": "Juego /dist/ no abierto ni revisado",
+    "info": {
+      "duration": 32.68,
+      "width": 1280,
+      "height": 720,
+      "canPlay": "probably"
+    },
+    "playback": {
+      "ended": true,
+      "time": 32.68,
+      "error": null,
+      "decoded": 817,
+      "dropped": 7
+    }
+  },
+  "i5_historico": {
+    "log_hash_coincide": true,
+    "unitarias_en_log": 121,
+    "e2e_en_log": 42,
+    "compilacion_en_log": true,
+    "pruebas_repetidas_en_esta_revision": false,
+    "juego_actual_revisado": false
+  },
+  "cierre_I6_declarado": {
+    "contenido": {
+      "total": 98,
+      "aprobadas": 98,
+      "alcance_revision": "Registro y script reabiertos; no se reejecutó verificar_I6.py porque escribe en I6. Las comprobaciones independientes tienen su propio alcance.",
+      "recuento_reabierto": {
+        "comprobaciones": 98,
+        "aprobadas": 98
+      }
+    },
+    "cotejos_sha": {
+      "declarados": 1051,
+      "registro": 1046,
+      "documentales": 5,
+      "recalculados_alcance": 447,
+      "excluidos_por_juego": 604,
+      "nota": "No son fuentes independientes; el inventario inicial del manifiesto I5 no se revalida funcionalmente."
+    }
+  },
+  "metodos": {
+    "lectura_codigo": "SQL y scripts documentales/portátiles pertinentes; no código del juego.",
+    "sql_nuevo": false,
+    "datos_regenerados": false,
+    "calculos": "Derivados en memoria, sin reescribir resultados I4.",
+    "edicion_entradas": false,
+    "mensajes_externos": false
+  },
+  "no_comprobado": [
+    "Código, funcionamiento, reglas, escenas, voces y respuestas aceptadas del juego.",
+    "Ensayo humano y tiempos pronunciados; USB/proyector y equipo físico.",
+    "Presencia actual de bases/contenedor o nueva ejecución SQL; se revisaron registros y hashes históricos.",
+    "Autenticidad de sistemas empresariales y datos originales ausentes.",
+    "Recepción/revisión/traspasos P2/P3 o acuerdos de reparto.",
+    "Aprobación académica y aceptación docente de prompts no recuperables."
+  ],
+  "fuentes_externas": [
+    {
+      "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+      "version": "CSF 2.0; febrero 2024; 32 páginas PDF",
+      "localizadores": "pp. impresas 20, 22–23 / PDF 25, 27–28; PR.PS-04, RS.MA, RS.AN-06/07, RC.RP-03/05/06"
+    },
+    {
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf",
+      "version": "Rev. 3 final; abril 2025; 48 páginas PDF; sustituye Rev. 2",
+      "localizadores": "tabla 3, pp. impresas 27–29 y 34 / PDF 35–37 y 42"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/sql/linux/install-upgrade/quickstart-install-docker?view=sql-server-ver16",
+      "version": "Página multiversión; sección SQL Server 2022",
+      "localizadores": "Imagen 2022, herramientas mssql-tools18; no prueba del motor histórico."
+    }
+  ],
+  "comandos": [
+    {
+      "comando": "pwd; rg --files -g AGENTS.md y búsquedas por formatos/rutas; cat/sed/nl de archivos citados; git status --short",
+      "resultado": "Lecturas e inventario; cambios ajenos preexistentes observados, sin restaurarlos ni incorporarlos."
+    },
+    {
+      "comando": "python3: identificación SHA-256 de entradas y extracción de PDFs con pdftotext -layout",
+      "resultado": "449 archivos fuera del árbol del juego identificados antes de producir informes. PDF oficiales y guía interna extraídos en /tmp/revision_p1. No se alteraron entradas."
+    },
+    {
+      "comando": "PYTHONPATH=/tmp/i6-python python3 /tmp/revision_p1/checks.py",
+      "codigo": 0,
+      "resultado": "Revisión independiente de registros/manifiesto, ZIP, celdas, documentos, CSV, intervalos, relojes, volumen y órdenes. Script conservado en comprobantes."
+    },
+    {
+      "comando": "python3 /tmp/revision_p1/extraido/P1/verificar_paquete_P1.py",
+      "codigo": 0,
+      "resultado": "1043 archivos; discrepancias []."
+    },
+    {
+      "comando": "libreoffice --headless --convert-to pdf sobre copias temporales (dos intentos en sandbox)",
+      "codigo": 1,
+      "resultado": "Fallo de entorno/perfil dconf; no se considera defecto de los DOCX."
+    },
+    {
+      "comando": "libreoffice con escalación local, primer intento",
+      "resultado": "El revisor automático no terminó antes del plazo; no rechazo por riesgo. Se reintentó una vez mediante runtime.py."
+    },
+    {
+      "comando": "python3 /tmp/revision_p1/runtime.py, con permiso local; subcomandos LibreOffice en libreoffice.json",
+      "codigo": 0,
+      "resultado": "Writer abrió y exportó tres DOCX; Calc reabrió y guardó tres XLSX en /tmp. Parte navegador falló por resolución del módulo playwright; no se presentó como aprobada."
+    },
+    {
+      "comando": "python3 /tmp/revision_p1/runtime_media.py, primer intento",
+      "codigo": 0,
+      "resultado": "Servidor local iniciado; subproceso navegador código 1 por versión de Chromium esperada no instalada. Sin instalación de navegadores ni modificación de producto."
+    },
+    {
+      "comando": "python3 /tmp/revision_p1/runtime_media.py, con Chrome existente explícito",
+      "codigo": 0,
+      "resultado": "Subproceso pnpm exec node /tmp/revision_p1/runtime.mjs código 0: 19 enlaces documentales HTTP 200; WebM ended, sin error. Juego excluido."
+    },
+    {
+      "comando": "/home/ordson/.cache/ms-playwright/ffmpeg-1011/ffmpeg-linux -i …/recorrido.webm -f null -",
+      "codigo": 234,
+      "resultado": "El FFmpeg disponible carece del muxer null. Identificó WebM VP8 y la ausencia de audio; no se contó como decodificación completa."
+    },
+    {
+      "comando": "/home/ordson/.cache/ms-playwright/ffmpeg-1011/ffmpeg-linux -i …/recorrido.webm -f image2 /tmp/revision_p1/video-%04d.png",
+      "codigo": 0,
+      "resultado": "817 fotogramas PNG; 32.68 s; sin audio. Log y plancha de ocho muestras conservados."
+    },
+    {
+      "comando": "PYTHONPATH=/tmp/i6-python python3: cotejo de reaperturas, 62 fragmentos MD en cada DOCX/PDF, enlaces PDF, 13 hashes de sentencia y log I5",
+      "codigo": 0,
+      "resultado": "Cotejos coincidentes; 18 enlaces PDF incluidos locales/internos/exteriores, sin destino local ausente. Los 19 enlaces HTML excluyen /dist/."
+    },
+    {
+      "comando": "web.run: apertura de PDFs oficiales NIST CSWP 29 y SP 800-61r3; URL Microsoft exacta citada en Fuentes_P1",
+      "resultado": "Fuentes primarias abiertas, versiones y localizadores contrastados. Dos URL Microsoft exploratorias sin /install-upgrade/ fallaron; la URL exacta citada sí abrió."
+    },
+    {
+      "comando": "python3 /tmp/revision_p1/escribir_informes.py",
+      "resultado": "Solo crea informes nuevos y comprobantes propios; no reescribe entregables o cierres."
+    },
+    {
+      "comando": "libreoffice -env:UserInstallation=file:///tmp/revision_p1/perfil-lectura-xlsx --headless --convert-to pdf --outdir /tmp/revision_p1/lectura_xlsx /tmp/revision_p1/lectura_xlsx/indice_evidencias.xlsx /tmp/revision_p1/lectura_xlsx/Programa_pruebas_P1_v1.xlsx /tmp/revision_p1/lectura_xlsx/Cronologia_investigada_v1.xlsx",
+      "codigo": 0,
+      "resultado": "Exportación de copias temporales para inspección de las vistas Lectura; sin modificar libros entregados."
+    },
+    {
+      "comando": "python3 /tmp/revision_p1/verificacion_final.py",
+      "codigo": 0,
+      "resultado": "Comprobación de coherencia de informes, 18 FK por REFERENCES y entradas preservadas; comprobante en Verificacion_informes.json."
+    }
+  ],
+  "datos_csv_independiente": {
+    "tablas": 16,
+    "filas": 91800,
+    "por_tabla": {
+      "Sesiones.csv": 3000,
+      "Alertas.csv": 6,
+      "FuentesTiempo.csv": 18,
+      "TransferenciasRed.csv": 73,
+      "Empleados.csv": 114,
+      "CambiosSistema.csv": 6,
+      "PruebasRestauracion.csv": 1,
+      "Privilegios.csv": 13,
+      "ProgramacionBackups.csv": 9,
+      "BitacoraSQL.csv": 142,
+      "Clientes.csv": 85000,
+      "Ordenes.csv": 3000,
+      "EventosExpediente.csv": 13,
+      "Backups.csv": 9,
+      "HistorialOrdenes.csv": 276,
+      "Usuarios.csv": 120
+    },
+    "foreign_key_declaradas_sql": 18,
+    "registros_corridas": [
+      {
+        "corrida": "I2_I3_verificacion_cierre",
+        "comprobaciones": 95,
+        "aprobadas": 95
+      },
+      {
+        "corrida": "I2_I3_repeticion",
+        "comprobaciones": 95,
+        "aprobadas": 95
+      }
+    ],
+    "metodo_FK": "Recuento de 18 cláusulas REFERENCES dbo. en el esquema SQL; no se inspeccionó el motor actual."
+  },
+  "contraejemplo_Q06": {
+    "tipo": "hipotetico; evaluacion logica; no SQL ejecutado",
+    "clasificacion": null,
+    "dias_referencia": 7,
+    "maximo": 100,
+    "bytes": 100,
+    "WHERE_selecciona": true,
+    "CASE_actual": "supera 3x",
+    "supera_umbral_realmente": false
+  },
+  "lectura_visual_xlsx": {
+    "copias_temporales": true,
+    "fuentes_intactas": true,
+    "procedimiento": "Ocultar en copias temporales Datos/Procedencia y reexportar con Calc. La exportación conserva todas las áreas de impresión; se inspeccionaron las páginas correspondientes a Lectura. No se presentan las páginas Datos reducidas como vista legible.",
+    "paginas_inspeccionadas": {
+      "indice_evidencias": 4,
+      "Programa_pruebas_P1_v1": 2,
+      "Cronologia_investigada_v1": 2
+    },
+    "resultado": "Las muestras Lectura son legibles digitalmente y conservan encabezados, filas y columnas. El PDF de exportación total no se recomienda para imprimir Datos; seguir la instrucción del libro de usar Lectura. Sin prueba de impresión física."
+  }
+}

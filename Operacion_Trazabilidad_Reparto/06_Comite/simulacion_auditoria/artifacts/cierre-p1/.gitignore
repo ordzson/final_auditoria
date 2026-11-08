@@ -1,0 +1,7 @@
+/historico-test-results/
+/baseline-test-results/
+/especificas-*-trazas/
+/entrada-*-trazas/
+/verify-*-trazas/
+/diagnostico-*.zip
+/intro-cpu-profile.json

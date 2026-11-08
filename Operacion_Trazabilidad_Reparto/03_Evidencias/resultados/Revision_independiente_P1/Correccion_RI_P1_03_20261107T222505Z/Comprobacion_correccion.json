@@ -1,0 +1,22 @@
+{
+  "fecha_utc": "2026-11-07T22:25:05.334007+00:00",
+  "directorio": "Operacion_Trazabilidad_Reparto/03_Evidencias/resultados/Revision_independiente_P1/Correccion_RI_P1_03_20261107T222505Z",
+  "ruta": "03_Evidencias/Borradores_hallazgos_P1_v1.md",
+  "sha256_previo": "071ed1dbd8d4289b0e70b5b90033686237a8a6cc20cd0355b32f50708faed8ae",
+  "sha256_registro_previo": "9519393d70ef7908b8d04dde1205e8764329dbcad5659316ac426330d47a225a",
+  "Q11_sha256": "caa8d1d5803392a63de4cbdb72079f19eeff5eaaf27a7dc0cca3efbb12324f80",
+  "IA_sha256": "370a3100076a852955e8c797ac52b5825b142a4156fa4299f1b1f64176711531",
+  "SQL_sha256": "2314364fbaa9e18995a5b8211045e94acd3d9c29ad440929cfe333cc014c1da6",
+  "zip_sha256": "a7230e9280582a8e07555fec18c74e5e8d6bfc03acd6454b21943c83c950aab9",
+  "fecha_comprobacion_utc": "2026-11-07T22:25:05.874585+00:00",
+  "sha256_corregido": "005b35243266aef73de458b2bc690ea7e9be30cf684bcd54506145546cc55ea0",
+  "sha256_registro_corregido": "58e1edad1e03f0e8401e95839c13e1d6776d1c6e37d853a09cbe4e2d2a35abb6",
+  "correccion": "fila 6 → AlertaID=6 (cuarto registro de datos)",
+  "cambio_unico_documento_comprobado": true,
+  "Q11_sin_cambios": true,
+  "registro_IA_sin_cambios": true,
+  "SQL_sin_cambios": true,
+  "cierre_I6": "Histórico, intacto; su hash de este documento corresponde a la versión preservada en previos. No se declara nueva batería 98/98.",
+  "paquete_portatil": "ZIP v1 preservado sin cambios: todavía contiene el localizador anterior. La corrección se incorpora a la próxima consolidación de entregables.",
+  "SQL_nuevo": false
+}

@@ -1,0 +1,291 @@
+{
+  "fecha_copia_utc": "2026-11-07T06:06:35.617481+00:00",
+  "metodo": "shutil.copy2; comparación SHA-256; no acredita recepción histórica ni traspaso humano",
+  "archivos": [
+    {
+      "ruta": "04_SQL/datos/v1/Diccionario_campos_sinteticos_v1.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Diccionario_campos_sinteticos_v1.md",
+      "sha256": "ed1c7003708194f95611acad2d903fa02f92ca5ee116cd07004077ae53e175e7"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Sesiones.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Sesiones.csv",
+      "sha256": "481d54b6e91fa63dd8d930b7a4cdd23e240a8e3cfbf46b11d9bb6a1e54a6f00a"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Alertas.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Alertas.csv",
+      "sha256": "6ff35be519f7f1ed60b069c0c5da6869996a823b58513b6d92a8175310b588e8"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/FuentesTiempo.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/FuentesTiempo.csv",
+      "sha256": "d1c47f604bbc5f9f59b483e45d5e3bb9039d2c14453cf7f79d73b2200779fce6"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Manifest_datos_v1.json",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Manifest_datos_v1.json",
+      "sha256": "4c269734467f26a9099d6eb28aff95650f9637cd82203e56dae105f3e83f1903"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/TransferenciasRed.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/TransferenciasRed.csv",
+      "sha256": "01df5bcb3167fb8dbf4e1833d772ea2c1ae10535679592ef32fda18cd92b257d"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Registro_generacion_IA_v1.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Registro_generacion_IA_v1.md",
+      "sha256": "63cdbabf4be5bdf39de853dcf344e62f89a0b06321c2a26cd3a3d9497f6d7e26"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Validacion_generacion_v1.json",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Validacion_generacion_v1.json",
+      "sha256": "88b1e800b4b461178ab6ad660561c12cf526534270a22a610a1ccfedfa4ce6e1"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Empleados.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Empleados.csv",
+      "sha256": "fe8916347d033d58609c1a5322627372316845b187fd69ff3945db9b8cc2cd29"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/CambiosSistema.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/CambiosSistema.csv",
+      "sha256": "21804a5f4e4b3e4ffd3971f09faf1acfb4213739265be2eba4d2dcb0d9a1a2a1"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/PruebasRestauracion.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/PruebasRestauracion.csv",
+      "sha256": "973e042e96832c641d66f66517a873149db1ab1c58086416bfcfb0d986609fea"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Privilegios.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Privilegios.csv",
+      "sha256": "66977a95c7bcac313049ba74ce727d76c17aadb58db5a5228a19db0a4074cf62"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/ProgramacionBackups.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/ProgramacionBackups.csv",
+      "sha256": "33801254fb8fe85cf335d9ec135f3cbb7990e0529de8175a3dce54fb7ad78b13"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/BitacoraSQL.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/BitacoraSQL.csv",
+      "sha256": "bb8c2ba2856566854160616f3e7d578772edf26f1bdd15e2efd40f95ed2fc2af"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Clientes.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Clientes.csv",
+      "sha256": "8f4c973845aeeb31b22d386181b5dde673d608f91732766deef3dd2642da4bc1"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Ordenes.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Ordenes.csv",
+      "sha256": "bc7f4f249f752eabf1ab04e4e7db53c36dc4161f75aa3d032eeeb458fc49cda2"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/EventosExpediente.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/EventosExpediente.csv",
+      "sha256": "760d01d25fe03cefbbd3a5480c5605059cfa09513a3c63e00f0e3876b389b70a"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Backups.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Backups.csv",
+      "sha256": "e9da4a06548ba650d573a29375e8767fbaf1d15c69c76818d6fad9e3d497f4fd"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/HistorialOrdenes.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/HistorialOrdenes.csv",
+      "sha256": "42f48dde1b1330b56d937b47032a4e3c1367ffe35333297cf7d2bdac208478ec"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Usuarios.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Usuarios.csv",
+      "sha256": "30e70ad30e6b2afbc4b7efc3c446ffe8cd6651c902f9b4a87c209a0a1f48d7da"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "sha256": "04045b50a8a227d2de7b9d40f4ea3d343a23a8b836c7c39170762255ca755a8e"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "sha256": "7a358b3c868dffba04a769601ac0dcd2ad4d2b3631548ec9646bb89479d4715d"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "sha256": "0afc3809dc1c7217edf428dc71d993064ce69e4a4b0760b43083287e720e4865"
+    },
+    {
+      "ruta": "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "sha256": "26024306fbdd408e55fd55b50afe04f19265c4388c4ee5aa1c385883b25c69bb"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Sesiones.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Sesiones.csv",
+      "sha256": "3e9fe5d0d06162c5e56df5c47be10f9954cefacd2346be61604a71f3b31e0a48"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Alertas.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Alertas.csv",
+      "sha256": "6ff35be519f7f1ed60b069c0c5da6869996a823b58513b6d92a8175310b588e8"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/FuentesTiempo.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/FuentesTiempo.csv",
+      "sha256": "d1c47f604bbc5f9f59b483e45d5e3bb9039d2c14453cf7f79d73b2200779fce6"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Validacion_generacion_v2.json",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Validacion_generacion_v2.json",
+      "sha256": "0943dfcb99bf713334e5a41f67a6829d093be462099f4d366ae57e1902917eaa"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/TransferenciasRed.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/TransferenciasRed.csv",
+      "sha256": "01df5bcb3167fb8dbf4e1833d772ea2c1ae10535679592ef32fda18cd92b257d"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Registro_generacion_IA_v2.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Registro_generacion_IA_v2.md",
+      "sha256": "67c236d54d8a23eefff7ab6d3b03347552f72288c726a5d343fa9795ef95656a"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Empleados.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Empleados.csv",
+      "sha256": "fe8916347d033d58609c1a5322627372316845b187fd69ff3945db9b8cc2cd29"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Diccionario_campos_sinteticos_v2.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Diccionario_campos_sinteticos_v2.md",
+      "sha256": "0dbc59ad613af84b6fad9ac4980e2e18daff955bedae44ebc4a03b60401ac57b"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/CambiosSistema.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/CambiosSistema.csv",
+      "sha256": "bf27a9b89912c472991417d712f5ab091e2bb8b891840d70ff4b6ac1363ea80f"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/PruebasRestauracion.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/PruebasRestauracion.csv",
+      "sha256": "973e042e96832c641d66f66517a873149db1ab1c58086416bfcfb0d986609fea"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Privilegios.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Privilegios.csv",
+      "sha256": "66977a95c7bcac313049ba74ce727d76c17aadb58db5a5228a19db0a4074cf62"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/ProgramacionBackups.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/ProgramacionBackups.csv",
+      "sha256": "33801254fb8fe85cf335d9ec135f3cbb7990e0529de8175a3dce54fb7ad78b13"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/BitacoraSQL.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/BitacoraSQL.csv",
+      "sha256": "bb8c2ba2856566854160616f3e7d578772edf26f1bdd15e2efd40f95ed2fc2af"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Clientes.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Clientes.csv",
+      "sha256": "8f4c973845aeeb31b22d386181b5dde673d608f91732766deef3dd2642da4bc1"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Ordenes.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Ordenes.csv",
+      "sha256": "bc7f4f249f752eabf1ab04e4e7db53c36dc4161f75aa3d032eeeb458fc49cda2"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/EventosExpediente.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/EventosExpediente.csv",
+      "sha256": "760d01d25fe03cefbbd3a5480c5605059cfa09513a3c63e00f0e3876b389b70a"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Backups.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Backups.csv",
+      "sha256": "e9da4a06548ba650d573a29375e8767fbaf1d15c69c76818d6fad9e3d497f4fd"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Manifest_datos_v2.json",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Manifest_datos_v2.json",
+      "sha256": "d5692448f8e6525bba0e34a497c12f81b32ba34bc1dce72c9f0b4fea20737747"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/HistorialOrdenes.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/HistorialOrdenes.csv",
+      "sha256": "42f48dde1b1330b56d937b47032a4e3c1367ffe35333297cf7d2bdac208478ec"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Usuarios.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Usuarios.csv",
+      "sha256": "30e70ad30e6b2afbc4b7efc3c446ffe8cd6651c902f9b4a87c209a0a1f48d7da"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "sha256": "04045b50a8a227d2de7b9d40f4ea3d343a23a8b836c7c39170762255ca755a8e"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "sha256": "7a358b3c868dffba04a769601ac0dcd2ad4d2b3631548ec9646bb89479d4715d"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "sha256": "0afc3809dc1c7217edf428dc71d993064ce69e4a4b0760b43083287e720e4865"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "sha256": "26024306fbdd408e55fd55b50afe04f19265c4388c4ee5aa1c385883b25c69bb"
+    },
+    {
+      "ruta": "04_SQL/01_esquema.sql",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/01_esquema.sql",
+      "sha256": "1a54f28c9f2c730ef4fb7d1cc862c849e8e3ef3ecbc8f437ee3aa3e1df19d209"
+    },
+    {
+      "ruta": "04_SQL/02_generar_datos.py",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/02_generar_datos.py",
+      "sha256": "2e19dfd080aa645ee2a47efb313fc488026c019737ef44546f417fb0b47ffe52"
+    },
+    {
+      "ruta": "04_SQL/02_generar_datos_v2.py",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/02_generar_datos_v2.py",
+      "sha256": "4674d9470de88c659fecddc21c15581dd90a17f9f54d238ab1f16ea900ca7c2d"
+    },
+    {
+      "ruta": "04_SQL/validar_datos.py",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/validar_datos.py",
+      "sha256": "8dfaf0a55cc3c96c805396ada41dab7f01c220e8c544eb3507c7093aed9e9c0f"
+    },
+    {
+      "ruta": "04_SQL/validar_datos_v2.py",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/validar_datos_v2.py",
+      "sha256": "5505bce8b7d0051903cd1239f213e103350fbba47962a6f70f1446bfe170fa43"
+    },
+    {
+      "ruta": "04_SQL/Diseno_laboratorio_v1.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/04_SQL/Diseno_laboratorio_v1.md",
+      "sha256": "00e822de9fe2e0ad146b63e756df9946e63f5d1acbb777363ee24cb93a9dff44"
+    },
+    {
+      "ruta": "03_Evidencias/Supuestos_P1_v1.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/03_Evidencias/Supuestos_P1_v1.csv",
+      "sha256": "4d7b4f6231f17648ff3bdd141d1395b9980d2800489153f3a6a526ca30fd9ec4"
+    },
+    {
+      "ruta": "03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "copia": "03_Evidencias/originales/recepcion_I2/03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "sha256": "578b568be81047637fb3d9c84a0d27bc1db05d0463a82dcabd2acd545ff6ff43"
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "copia": "03_Evidencias/originales/recepcion_I2/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "sha256": "064d1c22e9ddfd44940c64407a1c5884638851eacaafea18e8b27de2072f6b9c"
+    }
+  ]
+}

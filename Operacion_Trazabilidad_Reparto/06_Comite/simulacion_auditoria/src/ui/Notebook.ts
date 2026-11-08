@@ -2,18 +2,20 @@ import { documentedCount, evaluateReview } from '../audit/evaluate';
 import { reviewRules, reviewIds } from '../audit/rules';
 import type { AuditStore } from '../audit/store';
 import type { Recommendation, ReviewId } from '../audit/types';
+import { actionBoundary, caseOverview, documentedMeaning, evidenceKinds, laboratoryComparison } from '../data/guidance';
 import { stationForReview } from '../data/stations';
 import { sourceName } from '../data/investigation';
 import { downloadNotebook, printNotebook } from '../export/report';
+import { actionsMarkup, hypothesesMarkup, observationsMarkup } from './guidance';
 import { escapeHtml, icon } from './dom';
 
 const recommendationSuggestions: Record<ReviewId, string> = {
-  'AU-01': 'Aplicar MFA y recertificar accesos; comprobar una muestra de sesiones y titularidad autorizada.',
-  'AU-02': 'Conservar flujo, proceso y contenido con correlación verificable; repetir el contraste sobre copias preservadas.',
-  'AU-03': 'Conciliar órdenes y formalizar cambios; reproducir diferencias y revisar aprobación y trazabilidad.',
+  'AU-01': 'Contener accesos en riesgo y comprobar titularidad, autorizaciones y verificación adicional a la contraseña.',
+  'AU-02': 'Preservar registros de lectura y transferencia; comprobar si comparten sesión, equipo y proceso e identificar el contenido. Una hora o IP coincidente no basta para afirmar exfiltración.',
+  'AU-03': 'Comparar órdenes con facturas, pagos y respaldo validado; justificar diferencias y revisar autorizaciones.',
   'AU-04': 'Documentar asignación, primera acción, escalamiento y cierre; probar el procedimiento con una alerta controlada.',
-  'AU-05': 'Realizar restauraciones controladas y aprobar RTO/RPO; verificar integridad, tiempos y conciliación.',
-  'AU-06': 'Preservar originales, custodia, hashes y sincronización; volver a calcular hashes y comparar horas originales.',
+  'AU-05': 'Restaurar en un entorno separado; verificar integridad y comparación de órdenes antes de habilitar escritura, con objetivos de recuperación aprobados.',
+  'AU-06': 'Preservar originales y copias con custodia; comparar SHA-256 con la referencia registrada al adquirirlos. Verificar relojes sin corregir los originales y revisar permisos de la copia protegida.',
 };
 
 export class Notebook {
@@ -43,18 +45,18 @@ export class Notebook {
         <div><h2>Tablita de auditoría</h2><p>Lo que encontraste, lo que puedes sostener y las preguntas que quedan abiertas.</p></div>
         <div class="dialog-header-actions"><strong>${count} / 6 documentadas</strong><button class="icon-button" data-action="close" aria-label="Bajar la tablita">${icon('close')}</button></div>
       </header>
-      <div class="notebook-body">
+      <div class="notebook-body"><p>${escapeHtml(caseOverview)}</p><p>${escapeHtml(evidenceKinds)}</p><details class="classroom-analysis"><summary>Tres explicaciones abiertas y dos observaciones pendientes</summary>${hypothesesMarkup()}${observationsMarkup()}</details><details class="classroom-analysis"><summary>Lectura y transferencia: comparación de tamaños</summary><p>${escapeHtml(laboratoryComparison)}</p></details>
         <div class="table-wrap notebook-table-wrap">
           <table class="notebook-table">
             <thead><tr><th>Asunto</th><th>Fuentes vinculadas</th><th>Comprobación</th><th>Estado</th><th>Acciones</th></tr></thead>
             <tbody>${reviewIds.map((reviewId) => this.row(reviewId)).join('')}</tbody>
           </table>
         </div>
-        <p class="notebook-boundary">«Documentado» acredita la actividad educativa dentro del expediente, no un hallazgo formal, una causa o un culpable.</p>
+        <p class="notebook-boundary">${escapeHtml(documentedMeaning)}</p>
         <details class="closing-section" ${closingWasOpen ? 'open' : ''}>
           <summary>Cierre, recomendaciones y exportación</summary>
-          <p>Las recomendaciones y sus pruebas de cierre son editables y no se califican por significado. No completan ni sustituyen las revisiones.</p>
-          <div class="recommendation-list">
+          <p>Propuestas del auditor: la administración decide y ejecuta. Indica acción, responsable, plazo desde la activación futura del plan y resultado aceptable para cerrar. Estos campos opcionales no se califican por significado ni completan revisiones. ${escapeHtml(actionBoundary)}</p>
+          <details class="classroom-analysis"><summary>Las once acciones propuestas y cómo comprobarlas</summary>${actionsMarkup()}</details><div class="recommendation-list">
             ${reviewIds.map((reviewId) => this.recommendation(reviewId)).join('')}
           </div>
           <div class="export-actions">
@@ -90,7 +92,8 @@ export class Notebook {
       <label>Recomendación<input list="suggestion-${reviewId}" data-review="${reviewId}" data-field="action" value="${escapeHtml(recommendation.action)}" placeholder="Acción concreta opcional" /></label>
       <datalist id="suggestion-${reviewId}"><option value="${escapeHtml(recommendationSuggestions[reviewId])}"></option></datalist>
       <label>Responsable<input data-review="${reviewId}" data-field="owner" value="${escapeHtml(recommendation.owner)}" placeholder="Rol responsable" /></label>
-      <label>Prueba de cierre<input data-review="${reviewId}" data-field="verification" value="${escapeHtml(recommendation.verification)}" placeholder="Cómo se verificaría" /></label>
+      <label>Plazo propuesto<input data-review="${reviewId}" data-field="deadline" value="${escapeHtml(recommendation.deadline ?? '')}" placeholder="Desde la activación futura del plan" /></label>
+      <label>Prueba de cierre<input data-review="${reviewId}" data-field="verification" value="${escapeHtml(recommendation.verification)}" placeholder="Procedimiento y resultado aceptable" /></label>
     </fieldset>`;
   }
 

@@ -1,0 +1,10 @@
+{
+  "fecha_utc": "2026-11-07T14:22:27.873333+00:00",
+  "metodo": "Python hashlib.sha256; lectura de bytes actuales",
+  "entradas": 306,
+  "registro": "03_Evidencias/hashes_sha256_v1.csv",
+  "autorreferencia": false,
+  "secretos_incluidos": false,
+  "nota": "Cotejo final de todas las entradas aprobado al generar el registro; no autentica datos del incidente. Registro previo en originales/previos_I4.",
+  "sql_nuevo": false
+}

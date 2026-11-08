@@ -1,0 +1,12 @@
+Already up to date
+Done in 33ms using pnpm v11.2.2
+$ node scripts/record-walkthrough.mjs
+locator.click: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('.source-link[data-action="select-source"][data-source="E-03"]').first()[22m
+
+    at pinSource (/home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/scripts/walkthrough.mjs:45:102)
+    at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/scripts/record-walkthrough.mjs:69:11 {
+  name: 'TimeoutError'
+}
+[ELIFECYCLE] Command failed with exit code 1.

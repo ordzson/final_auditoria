@@ -1,0 +1,38 @@
+Already up to date
+Done in 55ms using pnpm v11.2.2
+
+ RUN  v3.2.4 /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria
+
+ ✓ tests/store.test.ts (8 tests) 19ms
+ ✓ tests/report.test.ts (4 tests) 13ms
+ ❯ tests/intro.test.ts (8 tests | 1 failed) 40ms
+   × reconstrucción determinista > reutiliza las vistas idénticas sin congelar etapas, nota, retroceso ni luz 31ms
+     → expected 'P04:false:0:sql:31,840:false:1' not to be 'P04:false:0:sql:31,840:false:1' // Object.is equality
+   ✓ reconstrucción determinista > contiene diez planos, 110 segundos y trece registros sin evento adicional 2ms
+   ✓ reconstrucción determinista > muestra la nota del canon solo de 64 a 74 segundos 0ms
+   ✓ reconstrucción determinista > recompone los estados de P04, P09 y P10 al retroceder 0ms
+   ✓ reconstrucción determinista > mantiene P02 y P03 como registros separados 0ms
+   ✓ reconstrucción determinista > el historial contiene como máximo seis eventos reales 2ms
+   ✓ reconstrucción determinista > reproduce actividad antes del resultado y restablece la transferencia al retroceder 1ms
+   ✓ reconstrucción determinista > reduce el movimiento conservando los resultados y las etapas de recuperación 1ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/intro.test.ts > reconstrucción determinista > reutiliza las vistas idénticas sin congelar etapas, nota, retroceso ni luz
+AssertionError: expected 'P04:false:0:sql:31,840:false:1' not to be 'P04:false:0:sql:31,840:false:1' // Object.is equality
+ ❯ tests/intro.test.ts:11:38
+      9|     expect(simulationVisualKey(getSimulationFrame(0))).toBe(simulation…
+     10|     expect(introVisualKey(27)).toBe(introVisualKey(29.9));
+     11|     expect(introVisualKey(23.1)).not.toBe(introVisualKey(23.2));
+       |                                      ^
+     12|     expect(introVisualKey(29.9)).not.toBe(introVisualKey(30));
+     13|     expect(introVisualKey(63.99)).not.toBe(introVisualKey(64));
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 2 passed (3)
+      Tests  1 failed | 19 passed (20)
+   Start at  08:49:34
+   Duration  688ms (transform 339ms, setup 0ms, collect 570ms, tests 72ms, environment 1ms, prepare 471ms)
+

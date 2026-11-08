@@ -1,13 +1,13 @@
 import * as THREE from 'three';
 import { canon } from '../data/canon';
 import { getIntroFrame } from '../data/intro';
-import { getSimulationFrame } from '../data/simulation';
+import { getSimulationFrame, introVisualKey } from '../data/simulation';
 import { stations, stationForReview } from '../data/stations';
 import type { PlayerPose, ReviewId, StationId } from '../audit/types';
 import { nearestFreePoint, movementDelta, type Collider } from './collision';
 import { chairCollider, pushChairs, slideChairs, type ChairBody } from './chairPhysics';
 import { LiaisonAnimator } from './LiaisonAnimator';
-import { placeModel } from './models';
+import { placeModel, modelsLoading } from './models';
 import { ScreenPainter } from './screens';
 import { OfficeEnvironment } from './OfficeEnvironment';
 import { brandTexture } from './branding';
@@ -69,8 +69,9 @@ export class OfficeScene {
   private reducedMotion = false;
   private sensitivity = 1;
   private lastIntroShot = '';
-  private lastRenderedIntroTime: number | null = null;
+  private lastRenderedIntroKey: string | null = null;
   private needsRender = true;
+  private hasRendered = false;
 
   constructor(private readonly container: HTMLElement, private readonly callbacks: OfficeCallbacks) {
     this.renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: 'high-performance' });
@@ -386,7 +387,7 @@ export class OfficeScene {
 
   setMode(mode: 'intro' | 'visit', pose?: PlayerPose): void {
     this.mode = mode;
-    this.lastRenderedIntroTime = null;
+    this.lastRenderedIntroKey = null;
     this.needsRender = true;
     this.clearKeys();
     if (mode === 'intro') {
@@ -406,12 +407,14 @@ export class OfficeScene {
   }
 
   setClipboardReceived(received: boolean): void {
+    if (this.clipboardReceived === received) return;
     this.clipboardReceived = received;
     this.hand.visible = received && this.mode === 'visit' && !this.panelOpen;
     this.needsRender = true;
   }
 
   setDocumented(reviewIds: ReviewId[]): void {
+    if (reviewIds.length === this.documented.size && reviewIds.every((id) => this.documented.has(id))) return;
     this.documented.clear();
     reviewIds.forEach((id) => this.documented.add(id));
     if (this.mode === 'visit') this.showVisitScreens();
@@ -421,7 +424,7 @@ export class OfficeScene {
   setPreferences(reducedMotion: boolean, sensitivity: number): void {
     const motionChanged = this.reducedMotion !== reducedMotion;
     if (motionChanged) {
-      this.lastRenderedIntroTime = null;
+      this.lastRenderedIntroKey = null;
       this.needsRender = true;
     }
     this.reducedMotion = reducedMotion;
@@ -506,18 +509,23 @@ export class OfficeScene {
       this.lastFrame = 0;
       return;
     }
+    // Una vista inicial de respaldo; después se agrupan las cargas para evitar
+    // compilar/subir cada modelo por separado mientras el usuario usa los controles.
+    if (this.hasRendered && modelsLoading()) return;
     if (this.lastFrame && time - this.lastFrame < 1000 / 30) return;
     const elapsed = this.lastFrame ? Math.min(0.5, Math.max(0, (time - this.lastFrame) / 1000)) : 0;
     this.lastFrame = time;
     if (this.mode === 'intro') {
-      if (this.lastRenderedIntroTime === this.introTime && !this.needsRender && !this.renderer.shadowMap.needsUpdate) return;
-      this.lastRenderedIntroTime = this.introTime;
+      const visualKey = introVisualKey(this.introTime, this.reducedMotion);
+      if (this.lastRenderedIntroKey === visualKey && !this.needsRender && !this.renderer.shadowMap.needsUpdate) return;
+      this.lastRenderedIntroKey = visualKey;
       this.applyIntro(this.introTime);
     } else {
-      this.lastRenderedIntroTime = null;
-      const liaisonActive = !this.panelOpen || this.interviewCamera !== null;
-      const liaisonAnimating = liaisonActive && (this.liaisonAnimator?.update(elapsed, this.camera, this.interviewCamera !== null, this.reducedMotion) ?? false);
+      this.lastRenderedIntroKey = null;
       const controlled = !this.panelOpen && document.pointerLockElement === this.canvas;
+      // Esperar la entrada con el cursor libre no necesita una escena animada.
+      const liaisonActive = controlled || this.interviewCamera !== null;
+      const liaisonAnimating = liaisonActive && (this.liaisonAnimator?.update(elapsed, this.camera, this.interviewCamera !== null, this.reducedMotion) ?? false);
       const chairsMoving = !this.panelOpen && slideChairs(this.chairs, this.colliders, this.camera.position, elapsed);
       if (chairsMoving) this.syncChairs();
       if (!controlled) this.changeTarget(null);
@@ -533,6 +541,7 @@ export class OfficeScene {
     }
     this.needsRender = false;
     this.renderer.render(this.scene, this.camera);
+    this.hasRendered = true;
   }
 
   private applyIntro(time: number): void {
@@ -686,7 +695,7 @@ export class OfficeScene {
     this.camera.aspect = width / height;
     this.camera.updateProjectionMatrix();
     this.renderer.setSize(width, height, false);
-    this.lastRenderedIntroTime = null;
+    this.lastRenderedIntroKey = null;
     this.needsRender = true;
   }
 

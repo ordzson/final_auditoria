@@ -1,0 +1,54 @@
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - generic "Oficina 3D de revisión del incidente RedNova" [ref=e5]
+  - generic:
+    - region "Reconstrucción del incidente":
+      - generic:
+        - generic:
+          - generic: 12 oct 2026
+          - strong: 16:15
+          - generic: UTC−6 · Hora reportada
+        - generic:
+          - generic: P01 · 1/10
+          - generic: Reconstrucción del expediente · puesta en escena ilustrativa
+      - generic:
+        - generic: Solicitud de acceso
+        - generic: Registro del caso
+      - generic:
+        - paragraph: "RedNova: servicios de internet y televisión. Una solicitud de acceso seguía pendiente."
+        - paragraph: EVT-01 · Registro preliminar del curso, p. 4 · Hora reportada UTC−6
+      - group [ref=e6]:
+        - generic "Historial de registros" [ref=e7] [cursor=pointer]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Pausar reconstrucción" [ref=e10] [cursor=pointer]:
+            - img [ref=e11]
+            - text: Pausar
+          - button "Plano anterior" [ref=e13] [cursor=pointer]:
+            - img [ref=e14]
+            - text: Plano anterior
+          - button "Plano siguiente" [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+            - text: Plano siguiente
+          - button "Repetir" [ref=e19] [cursor=pointer]
+          - button "1×" [ref=e20] [cursor=pointer]
+          - button "Sin sonido" [ref=e21] [cursor=pointer]:
+            - img [ref=e22]
+            - text: Sin sonido
+        - generic [ref=e24]:
+          - generic [ref=e25]: Tiempo de la reconstrucción
+          - slider "Tiempo de la reconstrucción 0:01 / 1:50" [ref=e26]: "1.9"
+          - generic [ref=e27]: 0:01 / 1:50
+        - button "Omitir y entrar a la oficina" [ref=e28] [cursor=pointer]
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - strong [ref=e31]: Operación Trazabilidad
+      - generic [ref=e32]: La oficina después del incidente
+    - generic [ref=e33]:
+      - button "Reconstrucción" [ref=e34] [cursor=pointer]
+      - group [ref=e35]:
+        - generic "Accesibilidad y controles" [ref=e36] [cursor=pointer]
+  - status
+```

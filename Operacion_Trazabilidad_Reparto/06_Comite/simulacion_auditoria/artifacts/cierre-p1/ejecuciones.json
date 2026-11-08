@@ -1,0 +1,34 @@
+{
+  "fecha_cierre_utc": "2026-11-07T15:29:08.841119+00:00",
+  "operador": "Codex",
+  "revision_humana": "Pendiente",
+  "entorno": {
+    "node": "22.21.1",
+    "pnpm": "11.2.2",
+    "navegador": "Chrome 147, headless con SwiftShader permitido",
+    "servidor": "Vite local 127.0.0.1:4173"
+  },
+  "final": {
+    "comando": "pnpm verify",
+    "codigo_salida": 0,
+    "unitarias": 121,
+    "archivos_unitarias": 16,
+    "typescript_vite": true,
+    "e2e": 42,
+    "log": "verify-final.log",
+    "sha256_log": "b893eef095a0124c431a5f0a343a688d61f5b1d4262217c15b88bc872d737244"
+  },
+  "especificas": {
+    "unitarias": 22,
+    "log_unitarias": "unitarias-especificas.log",
+    "e2e_metadatos_y_reloj": 4,
+    "log_e2e": "metadatos-y-reloj.log"
+  },
+  "limites_prueba": {
+    "timeout_clics_historicos_s": 15,
+    "recorrido_fisico_completo_s": 180,
+    "resto_presupuesto_total_s": 120,
+    "motivo": "Tras corregir renderizado, los clics pasaron; el recorrido completo agotó 120 s cerca del final. Solo su presupuesto global se amplió; no se aumentaron las esperas por clic."
+  },
+  "sql_ejecutado_I5": false
+}

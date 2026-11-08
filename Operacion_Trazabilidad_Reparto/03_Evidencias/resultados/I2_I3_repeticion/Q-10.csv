@@ -1,0 +1,4 @@
+CambioSistemaID,Ticket,Sistema,Version,SolicitadoPor,AprobadoPor,FechaAprobacion,FechaHoraDespliegue,EjecutadoPor,EvidenciaPruebas,HashArtefacto,FuenteID,ClaseOrigen,ReferenciaExpediente,SupuestosAplicados,AprobacionNoAcreditada,SinPruebas
+4,LAB-CAMBIO-004,Integracion_LAB,lab-4,solicitante_LAB,\N,\N,2026-10-10T11:00:00,desplegador_LAB,04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_04.md,\N,LAB_CAMBIOS,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-CAS,1,0
+5,LAB-CAMBIO-005,Integracion_LAB,lab-5,solicitante_LAB,aprobador_LAB,2026-10-11T10:00:00,2026-10-11T11:00:00,desplegador_LAB,\N,\N,LAB_CAMBIOS,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-CAS,0,1
+6,\N,Integracion,\N,\N,\N,\N,2026-10-14T03:02:00,\N,\N,\N,CURSO_CAMBIOS,reproduccion_expediente,E-06,S-03,1,1

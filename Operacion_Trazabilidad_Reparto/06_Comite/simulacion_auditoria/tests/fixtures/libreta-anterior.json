@@ -1,0 +1,388 @@
+{
+  "schema": "rednova_libreta_v2",
+  "exportedAt": "2026-11-07T16:23:34.217Z",
+  "contentVersion": "auditoria_oficina_v2.1",
+  "rulesVersion": "auditoria_reglas_v2.1",
+  "scope": "Actividad educativa de revisión. No es un informe académico aprobado ni una conexión a SQL Server.",
+  "reviews": [
+    {
+      "reviewId": "AU-01",
+      "status": "Documentado",
+      "isDocumented": true,
+      "conclusionId": "A01-OBSERVACION",
+      "conclusionText": "Se reporta una sesión sin MFA y cuentas sin recertificación reciente; faltan criterio aplicable y atribución personal.",
+      "sourceRefs": [
+        {
+          "sourceId": "E-01",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "E-02",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        }
+      ],
+      "checkAnswers": [
+        {
+          "checkId": "C01-ALCANCE",
+          "answerId": "FALTAN_IDENTIDAD_Y_CRITERIO",
+          "sourceRefs": [
+            {
+              "sourceId": "E-01",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "E-02",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ]
+        }
+      ],
+      "limitationIds": [
+        "L01-ATRIBUCION",
+        "L01-CRITERIO"
+      ],
+      "requestIds": [
+        "S01-POLITICA"
+      ],
+      "pendingReasons": [],
+      "freeNote": "",
+      "recommendation": {
+        "action": "",
+        "owner": "",
+        "verification": ""
+      }
+    },
+    {
+      "reviewId": "AU-02",
+      "status": "Documentado",
+      "isDocumented": true,
+      "conclusionId": "A02-TRANSFERENCIA",
+      "conclusionText": "Se reportan lectura de 31,840 registros y transferencia de ~1.6 GB; contenido y vínculo no identificados.",
+      "sourceRefs": [
+        {
+          "sourceId": "DECL-05",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "E-03",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "E-04",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        }
+      ],
+      "checkAnswers": [
+        {
+          "checkId": "C02-CONTENIDO",
+          "answerId": "SIN_VINCULO_NI_CONTENIDO",
+          "sourceRefs": [
+            {
+              "sourceId": "DECL-05",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "E-03",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "E-04",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ]
+        }
+      ],
+      "limitationIds": [
+        "L02-CONTENIDO",
+        "L02-VINCULO",
+        "L02-ATRIBUCION"
+      ],
+      "requestIds": [
+        "S02-FLUJO"
+      ],
+      "pendingReasons": [],
+      "freeNote": "",
+      "recommendation": {
+        "action": "",
+        "owner": "",
+        "verification": ""
+      }
+    },
+    {
+      "reviewId": "AU-03",
+      "status": "Documentado",
+      "isDocumented": true,
+      "conclusionId": "A03-PENDIENTES",
+      "conclusionText": "Los cambios reportados preceden al despliegue; integridad, aprobación formal, autoría y relación causal siguen sin demostrarse.",
+      "sourceRefs": [
+        {
+          "sourceId": "EVT-06",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "EVT-07",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "E-06",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "DECL-03",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "DECL-04",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        }
+      ],
+      "checkAnswers": [
+        {
+          "checkId": "C03-ORDEN",
+          "answerId": "ORDENES_ANTES",
+          "sourceRefs": [
+            {
+              "sourceId": "EVT-06",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "EVT-07",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ]
+        },
+        {
+          "checkId": "C03-SOPORTES",
+          "answerId": "FALTAN_CONCILIACION_Y_APROBACION",
+          "sourceRefs": [
+            {
+              "sourceId": "EVT-06",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "E-06",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "DECL-03",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "DECL-04",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ]
+        }
+      ],
+      "limitationIds": [
+        "L03-CAUSA",
+        "L03-INTEGRIDAD",
+        "L03-ATRIBUCION",
+        "L03-APROBACION"
+      ],
+      "requestIds": [
+        "S03-CONCILIACION"
+      ],
+      "pendingReasons": [],
+      "freeNote": "",
+      "recommendation": {
+        "action": "",
+        "owner": "",
+        "verification": ""
+      }
+    },
+    {
+      "reviewId": "AU-04",
+      "status": "Documentado",
+      "isDocumented": true,
+      "conclusionId": "A04-INTERVALO",
+      "conclusionText": "Entre el acceso reportado y la alerta hay 61 minutos; no se conoce la trazabilidad completa de atención.",
+      "sourceRefs": [
+        {
+          "sourceId": "EVT-02",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "EVT-08",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "E-07",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        }
+      ],
+      "checkAnswers": [
+        {
+          "checkId": "C04-INTERVALO",
+          "answerId": "INTERVALO_ENTRE_REGISTROS",
+          "sourceRefs": [
+            {
+              "sourceId": "EVT-02",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "EVT-08",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "E-07",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ]
+        }
+      ],
+      "limitationIds": [
+        "L04-INICIO",
+        "L04-ATENCION",
+        "L04-OBJETIVO"
+      ],
+      "requestIds": [
+        "S04-ATENCION"
+      ],
+      "pendingReasons": [],
+      "freeNote": "",
+      "recommendation": {
+        "action": "",
+        "owner": "",
+        "verification": ""
+      }
+    },
+    {
+      "reviewId": "AU-05",
+      "status": "Documentado",
+      "isDocumented": true,
+      "conclusionId": "A05-NO_VERIFICADA",
+      "conclusionText": "Hay respaldos programados y recuperación por etapas reportada; no se demuestra restauración validada ni cumplimiento de RTO/RPO.",
+      "sourceRefs": [
+        {
+          "sourceId": "E-08",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "EVT-09",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "EVT-11",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "EVT-12",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "DECL-07",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        }
+      ],
+      "checkAnswers": [
+        {
+          "checkId": "C05-RECUPERACION",
+          "answerId": "FALTAN_PRUEBA_Y_OBJETIVOS",
+          "sourceRefs": [
+            {
+              "sourceId": "E-08",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "EVT-09",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "EVT-11",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "EVT-12",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "DECL-07",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ]
+        }
+      ],
+      "limitationIds": [
+        "L05-EJECUCION",
+        "L05-RESTAURACION",
+        "L05-OBJETIVOS"
+      ],
+      "requestIds": [
+        "S05-PRUEBA"
+      ],
+      "pendingReasons": [],
+      "freeNote": "",
+      "recommendation": {
+        "action": "",
+        "owner": "",
+        "verification": ""
+      }
+    },
+    {
+      "reviewId": "AU-06",
+      "status": "Documentado",
+      "isDocumented": true,
+      "conclusionId": "A06-LIMITACION",
+      "conclusionText": "La procedencia académica está identificada; custodia de extracciones y sincronización de fuentes no están acreditadas.",
+      "sourceRefs": [
+        {
+          "sourceId": "META-CUSTODIA",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        },
+        {
+          "sourceId": "META-TIEMPO",
+          "sourceVersion": "auditoria_oficina_v2.1"
+        }
+      ],
+      "checkAnswers": [
+        {
+          "checkId": "C06-CUSTODIA",
+          "answerId": "CUSTODIA_NO_ACREDITADA",
+          "sourceRefs": [
+            {
+              "sourceId": "META-CUSTODIA",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ]
+        },
+        {
+          "checkId": "C06-RELOJ",
+          "answerId": "SINCRONIZACION_NO_VERIFICADA",
+          "sourceRefs": [
+            {
+              "sourceId": "META-TIEMPO",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ]
+        }
+      ],
+      "limitationIds": [
+        "L06-RESUMEN",
+        "L06-HASH",
+        "L06-TIEMPO"
+      ],
+      "requestIds": [
+        "S06-EXTRACCIONES"
+      ],
+      "pendingReasons": [],
+      "freeNote": "",
+      "recommendation": {
+        "action": "",
+        "owner": "",
+        "verification": ""
+      }
+    }
+  ],
+  "unresolvedCanon": [
+    "Persona que usó ext_ops_04 y relación con la solicitud del día 12.",
+    "Contenido transferido y conexión probada entre la lectura SQL y el flujo externo.",
+    "Identidad y sesión que explican los cambios de órdenes; conciliación e integridad final.",
+    "Relación causal del despliegue con el incidente.",
+    "Hora de primera acción ante la alerta y respuesta completa ejecutada.",
+    "Horas originales, fiabilidad y desfases de cada fuente.",
+    "Respaldo exacto usado, punto recuperable y cumplimiento de objetivos de negocio.",
+    "Cadena de custodia completa de extracciones no aportadas.",
+    "Escala y calibración del puntaje de IA."
+  ]
+}

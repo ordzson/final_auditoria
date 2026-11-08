@@ -1,0 +1,8 @@
+AsignacionID,UsuarioID,Rol,Sistema,FechaHora,AsignadoPor,Ticket,Vence,FuenteID,ClaseOrigen,ReferenciaExpediente,SupuestosAplicados,SinTicket,SinVencimiento
+1,2,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,\N,2026-10-20T10:00:00,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,1,0
+2,3,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,\N,2026-10-20T10:00:00,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,1,0
+3,4,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,\N,2026-10-20T10:00:00,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,1,0
+4,5,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,LAB-PRIV-004,\N,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,0,1
+5,6,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,LAB-PRIV-005,\N,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,0,1
+6,7,Operador_LAB,Identidad,2026-10-10T10:00:00,administrador_LAB,LAB-PRIV-006,\N,LAB_IDENTIDAD,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,0,1
+13,\N,\N,Identidad,2026-10-14T02:26:00,\N,\N,\N,CURSO_IDENTIDAD,reproduccion_expediente,\N,S-03,1,1

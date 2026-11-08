@@ -1,0 +1,20 @@
+services:
+  sql2022:
+    image: mcr.microsoft.com/mssql/server@sha256:cf8f0ab2ebe61feec2eed2629061a07d247f791c2a8ddda74a4ac9f06a291718
+    container_name: p1-trazabilidad-sql2022
+    hostname: p1-trazabilidad-sql2022
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Developer
+      MSSQL_SA_PASSWORD: ${P1_SQL_SA_PASSWORD:?Definir P1_SQL_SA_PASSWORD en .env}
+      MSSQL_MEMORY_LIMIT_MB: "2048"
+    ports:
+      - "127.0.0.1:14331:1433"
+    volumes:
+      - p1_sql_data:/var/opt/mssql
+    mem_limit: 3g
+    cpus: 2
+
+volumes:
+  p1_sql_data:
+    name: p1_trazabilidad_sql2022_v1

@@ -1,0 +1,4 @@
+FlujoID,HoraReportadaLocal,InicioUTC,FinUTC,IPOrigen,IPDestino,Puerto,Protocolo,BytesEnviados,VolumenReportado,ClasificacionDestino,FuenteID,ClaseOrigen,ReferenciaExpediente,SupuestosAplicados,MaximoHabitualBytes,DiasReferencia,Evaluacion
+71,2026-10-14T02:34:00,2026-10-14T08:34:00Z,2026-10-14T08:34:10Z,192.0.2.10,203.0.113.10,443,TCP,1200000000,\N,operacion_autorizada_sintetica,LAB_RED,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-NOR,5000000,7,supera 3x
+72,2026-10-14T02:35:00,\N,\N,\N,\N,\N,\N,\N,~1.6 GB,\N,CURSO_RED,reproduccion_expediente,E-04,S-03,\N,\N,no evaluable
+73,2026-10-14T05:00:00,2026-10-14T11:00:00Z,2026-10-14T11:00:10Z,192.0.2.20,203.0.113.99,443,TCP,2000000,\N,\N,LAB_RED,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-NOR,\N,\N,no evaluable

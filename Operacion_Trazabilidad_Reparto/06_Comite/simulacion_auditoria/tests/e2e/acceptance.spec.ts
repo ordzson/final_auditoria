@@ -1,3 +1,4 @@
+import { openPcApp, pcWindow } from './desktop-helpers';
 import { test, expect, type Page } from '@playwright/test';
 
 async function enterFlat(page: Page): Promise<void> {
@@ -30,6 +31,7 @@ for (const [width, height] of [[1280, 720], [1920, 1080]]) {
     await page.getByRole('button', { name: 'Pausar reconstrucción' }).click();
     await seek(page, 64);
     await expect(page.locator('#ransom-note')).toBeVisible();
+    await page.evaluate(async () => { await document.fonts.ready; });
     const metrics = await page.evaluate(() => {
       const size = (selector: string) => Number.parseFloat(getComputedStyle(document.querySelector(selector)!).fontSize);
       const rect = (selector: string) => {
@@ -44,6 +46,9 @@ for (const [width, height] of [[1280, 720], [1920, 1080]]) {
         controls: size('.intro-controls'),
         messageBox: rect('.intro-message-wrap'),
         noteBox: rect('#ransom-note'),
+        controlsBox: rect('.intro-controls'),
+        messageClipped: document.querySelector('.intro-message-wrap')!.scrollHeight > document.querySelector('.intro-message-wrap')!.clientHeight + 2,
+        noteClipped: document.querySelector('#ransom-note')!.scrollHeight > document.querySelector('#ransom-note')!.clientHeight + 2,
       };
     });
     expect(metrics.horizontalOverflow).toBe(false);
@@ -56,6 +61,10 @@ for (const [width, height] of [[1280, 720], [1920, 1080]]) {
       && metrics.messageBox.top < metrics.noteBox.bottom
       && metrics.messageBox.bottom > metrics.noteBox.top;
     expect(overlaps).toBe(false);
+    expect(metrics.messageBox.bottom).toBeLessThan(metrics.controlsBox.top);
+    expect(metrics.noteBox.bottom).toBeLessThan(metrics.controlsBox.top);
+    expect(metrics.messageClipped).toBe(false);
+    expect(metrics.noteClipped).toBe(false);
     await page.screenshot({ path: `artifacts/screenshots/d-apertura-${width}.png` });
     await page.locator('.settings-menu > summary').click();
     await page.locator('[data-setting="projector"]').check();
@@ -191,21 +200,43 @@ test('D · inicio local sin acceso externo y revisión con el contexto offline',
     externalRequests.push(url);
     await route.abort();
   });
+  const requiredModels = [
+    'rack.glb', 'filing-cabinet.glb', 'desk.glb', 'chair.glb', 'lamp.glb',
+    'office-props/books.glb', 'office-props/cardboardBoxClosed.glb', 'office-props/cardboardBoxOpen.glb',
+    'office-props/computerKeyboard.glb', 'office-props/computerMouse.glb', 'office-props/radio.glb',
+    'fbi-agent/scene.gltf', 'rack-monitor/scene.gltf',
+  ].map((path) => `/models/${path}`);
+  let offline = false;
+  const loaded = new Set<string>();
+  const failed: string[] = [];
+  page.on('response', (response) => {
+    if (!response.ok()) failed.push(`${response.status()} ${response.url()}`);
+    else loaded.add(new URL(response.url()).pathname);
+  });
+  page.on('requestfailed', (request) => { if (!offline) failed.push(request.url()); });
+  page.on('console', (message) => {
+    if (message.type() === 'warning' && message.text().includes('No se pudo cargar el modelo')) failed.push(message.text());
+  });
   await page.goto('/');
-  await expect.poll(() => page.evaluate(() => performance.getEntriesByType('resource').filter((entry) => entry.name.endsWith('.glb')).length)).toBe(5);
+  await expect.poll(() => requiredModels.filter((path) => !loaded.has(path))).toEqual([]);
   await page.getByRole('button', { name: 'Pausar reconstrucción' }).click();
   await page.getByRole('button', { name: 'Omitir y entrar a la oficina' }).click();
   await page.locator('.settings-menu > summary').click();
   await page.locator('[data-setting="flatMode"]').check();
+  offline = true;
   await context.setOffline(true);
   await expect(page.locator('#flat-office')).toBeVisible();
   await page.locator('[data-flat="liaison"]').click();
   await page.keyboard.press('Escape');
-  for (const station of ['accesos', 'sql_red', 'crm_cambios', 'siem', 'respaldos', 'mesa_auditor']) {
+  for (const [station, source] of [['accesos', 'E-02'], ['sql_red', 'E-03'], ['crm_cambios', 'E-05'], ['siem', 'E-07'], ['respaldos', 'E-08'], ['mesa_auditor', 'META-CUSTODIA']]) {
     await page.locator(`[data-flat="${station}"]`).click();
-    await expect(page.locator('.pc-window.is-active')).toBeVisible();
+    await openPcApp(page, 'local-dossier', 'Expediente local');
+    const dossier = pcWindow(page, 'local-dossier');
+    await dossier.locator(`[data-pc-open="${source}"]`).click();
+    await expect(dossier.locator('.pc-app-document')).toHaveAttribute('data-document', source);
     await page.keyboard.press('Escape');
   }
+  expect(failed).toEqual([]);
   expect(externalRequests).toEqual([]);
   expect(errors).toEqual([]);
 });

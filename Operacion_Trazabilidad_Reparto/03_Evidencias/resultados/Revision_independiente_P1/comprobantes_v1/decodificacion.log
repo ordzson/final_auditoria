@@ -1,0 +1,32 @@
+ffmpeg version n7.0.1-playwright-build-1011 Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 9 (Ubuntu 9.4.0-1ubuntu1~20.04.2)
+  configuration: --pkg-config=pkg-config --pkg-config-flags=--static --extra-cflags=-I//root/prefix/include --extra-ldflags='-L//root/prefix/lib -static' --prefix=/root/prefix --bindir=/root/ffmpeg/bin --extra-version=playwright-build-1011 --disable-debug --disable-autodetect --disable-everything --enable-ffmpeg --enable-protocol=pipe --enable-protocol=file --enable-parser=mjpeg --enable-decoder=mjpeg --enable-demuxer=image2pipe --enable-filter=pad --enable-filter=crop --enable-filter=scale --enable-muxer=webm --enable-libvpx --enable-static --enable-encoder=libvpx_vp8 --enable-decoder=libvpx_vp8 --enable-demuxer=matroska --enable-encoder=png --enable-zlib --enable-muxer=image2 --disable-iconv --disable-bzlib
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+[libvpx @ 0x2060aa80] v1.14.1
+Input #0, matroska,webm, from 'Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/artifacts/entrega/recorrido.webm':
+  Metadata:
+    ENCODER         : Lavf61.1.100
+  Duration: 00:00:32.68, start: 0.000000, bitrate: 1014 kb/s
+  Stream #0:0: Video: vp8 (libvpx), yuv420p(tv, progressive), 1280x720, SAR 1:1 DAR 16:9, 25 fps, 25 tbr, 1k tbn
+      Metadata:
+        ENCODER         : Lavc61.3.100 libvpx
+        DURATION        : 00:00:32.680000000
+[libvpx @ 0x2061d800] v1.14.1
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp8 (libvpx) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/tmp/revision_p1/video-%04d.png':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn
+      Metadata:
+        DURATION        : 00:00:32.680000000
+        encoder         : Lavc61.3.100 png
+frame=   74 fps=0.0 q=-0.0 size=N/A time=00:00:02.96 bitrate=N/A speed=5.92x    frame=  144 fps=144 q=-0.0 size=N/A time=00:00:05.76 bitrate=N/A speed=5.75x    frame=  199 fps=133 q=-0.0 size=N/A time=00:00:07.96 bitrate=N/A speed= 5.3x    frame=  259 fps=129 q=-0.0 size=N/A time=00:00:10.36 bitrate=N/A speed=5.18x    frame=  325 fps=130 q=-0.0 size=N/A time=00:00:13.00 bitrate=N/A speed= 5.2x    frame=  394 fps=131 q=-0.0 size=N/A time=00:00:15.76 bitrate=N/A speed=5.25x    frame=  461 fps=132 q=-0.0 size=N/A time=00:00:18.44 bitrate=N/A speed=5.27x    frame=  521 fps=130 q=-0.0 size=N/A time=00:00:20.84 bitrate=N/A speed=5.21x    frame=  591 fps=131 q=-0.0 size=N/A time=00:00:23.64 bitrate=N/A speed=5.25x    frame=  650 fps=130 q=-0.0 size=N/A time=00:00:26.00 bitrate=N/A speed=5.19x    frame=  713 fps=129 q=-0.0 size=N/A time=00:00:28.52 bitrate=N/A speed=5.18x    frame=  761 fps=127 q=-0.0 size=N/A time=00:00:30.44 bitrate=N/A speed=5.07x    [out#0/image2 @ 0x2060d2c0] video:392623KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  817 fps=128 q=-0.0 Lsize=N/A time=00:00:32.68 bitrate=N/A speed=5.13x    

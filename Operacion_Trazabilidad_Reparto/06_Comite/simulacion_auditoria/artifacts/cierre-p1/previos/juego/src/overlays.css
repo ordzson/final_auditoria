@@ -1,0 +1,324 @@
+/* Los paneles pertenecen a la oficina: metal petróleo, cobre y expedientes. */
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('/fonts/roboto-mono/RobotoMono-Variable.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+}
+:root {
+  font-family: 'Roboto Mono', monospace;
+  --field-font: 'Roboto Mono', monospace;
+  --panel-bg: #192c30;
+  --panel-raised: #243b3e;
+  --panel-inset: #122327;
+  --panel-text: #eee8d8;
+  --panel-muted: #b4c3bc;
+  --panel-line: #425956;
+  --panel-copper: #dab483;
+}
+.intro-datetime strong, .intro-shot span:first-child, #intro-elapsed,
+.station-letter, .source-link strong, .version-tag, .save-note { font-family: var(--field-font); }
+.computer-hud, .computer-monitor-foot { font-family: var(--field-font); }
+.computer-desktop { --pc-font: 'Roboto Mono', monospace; font-size: 12px; line-height: 1.55; }
+.computer-desktop .pc-app textarea.pc-app-sql,
+.computer-desktop .pc-app-event > time,
+.computer-desktop .pc-app-recovery-snapshot > time { font-family: var(--field-font); }
+.brand strong { font-size: 17px; }
+.brand span { font-size: 12px; }
+.topbar-button, .settings-menu > summary { font-size: 13px; }
+
+.topbar {
+  color: var(--panel-text);
+  background: var(--panel-inset);
+  border-bottom-color: #55645a;
+}
+.brand span { color: var(--panel-muted); }
+.topbar-button, .settings-menu > summary {
+  color: var(--panel-text);
+  border-color: var(--panel-line);
+  border-radius: 3px;
+}
+.topbar-button:hover, .settings-menu > summary:hover,
+.settings-menu[open] > summary { color: var(--panel-copper); background: var(--panel-raised); }
+.shortcut { color: var(--panel-copper); border-color: #687768; }
+.settings-popover {
+  width: 350px;
+  max-height: calc(100dvh - 96px);
+  overflow: auto;
+  padding: 22px;
+  color: var(--panel-text);
+  background: #35433e;
+  border: 0;
+  border: 7px solid #596259;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 8px #111f2366, 0 18px 48px #08141780;
+  color-scheme: dark;
+}
+.settings-popover h2 { margin: 0 0 10px; padding-bottom: 16px; color: #eee4c7; border-bottom: 1px solid #7c8875; font-size: 17px; line-height: 1.5; font-weight: 600; }
+.settings-popover::before, .settings-popover::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  width: 7px;
+  height: 7px;
+  border: 1px solid #b8bdab;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #87917f 43%, #293832 44% 56%, #87917f 57%);
+}
+.settings-popover::before { left: 5px; }
+.settings-popover::after { right: 5px; }
+.settings-popover input[type='checkbox'] { appearance: none; width: 30px; height: 20px; border: 2px solid #a7b09b; border-radius: 2px; background: #1d2b27; position: relative; }
+.settings-popover input[type='checkbox']::after { content: ''; position: absolute; inset: 2px auto 2px 2px; width: 9px; background: #afb8a5; }
+.settings-popover input[type='checkbox']:checked { background: #66573c; border-color: #e3c48b; }
+.settings-popover input[type='checkbox']:checked::after { left: 15px; background: #e3c48b; }
+.settings-popover label { min-height: 48px; padding: 14px 0; border-bottom: 1px solid var(--panel-line); }
+.settings-popover label:has(input:checked) { color: var(--panel-copper); }
+.settings-popover input { accent-color: var(--panel-copper); }
+.settings-popover p { color: var(--panel-muted); border: 0; margin-top: 8px; font-size: 13px; }
+
+.app-dialog:not(.interview-dialog) {
+  --paper: var(--panel-bg);
+  --paper-bright: var(--panel-raised);
+  --graphite: var(--panel-text);
+  --muted: var(--panel-muted);
+  --line: var(--panel-line);
+  --accent: #a3c5b6;
+  --accent-dark: #b9d9ca;
+  color-scheme: dark;
+  color: var(--panel-text);
+  background: var(--panel-bg);
+  border-radius: 5px;
+  box-shadow: 0 28px 90px #061013b3;
+}
+.app-dialog::backdrop { background: #081519c9; }
+.app-dialog:not(.interview-dialog) .dialog-header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  color: var(--panel-text);
+  background: var(--panel-inset);
+  border-bottom: 1px solid #a18661;
+}
+.app-dialog:not(.interview-dialog) .dialog-header h2 { text-wrap: balance; }
+.app-dialog:not(.interview-dialog) .dialog-header p { color: var(--panel-muted); max-width: 70ch; }
+.app-dialog .dialog-header-actions > strong {
+  padding: 9px 12px;
+  color: var(--panel-copper);
+  background: var(--panel-raised);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.app-dialog:not(.interview-dialog) .icon-button {
+  color: var(--panel-text);
+  border-color: var(--panel-line);
+  border-radius: 3px;
+}
+.app-dialog:not(.interview-dialog) .icon-button:hover { color: var(--panel-copper); background: var(--panel-raised); }
+.app-dialog:not(.interview-dialog) .primary-button,
+.entry-overlay .primary-button {
+  color: #182a2c;
+  background: var(--panel-copper);
+  border-color: var(--panel-copper);
+  border-radius: 3px;
+}
+.app-dialog:not(.interview-dialog) .primary-button:hover,
+.entry-overlay .primary-button:hover { background: #e9c99e; border-color: #e9c99e; }
+.app-dialog:not(.interview-dialog) .secondary-button {
+  color: var(--panel-text);
+  background: var(--panel-raised);
+  border-color: #71877b;
+  border-radius: 3px;
+}
+.app-dialog:not(.interview-dialog) .secondary-button:hover { background: #36514e; }
+.app-dialog:not(.interview-dialog) .text-button { color: #c3dccb; }
+.app-dialog:not(.interview-dialog) .text-button:hover { color: #f0d3aa; }
+.app-dialog:not(.interview-dialog) .danger-text { color: #e6c596; }
+.app-dialog:not(.interview-dialog), .app-dialog:not(.interview-dialog) * {
+  scrollbar-color: #7c9384 #172a2d;
+}
+.app-dialog:not(.interview-dialog) :focus-visible,
+.settings-popover :focus-visible { outline-color: var(--panel-copper); }
+.app-dialog:not(.interview-dialog) input,
+.app-dialog:not(.interview-dialog) textarea { accent-color: #dab483; caret-color: #dab483; }
+.app-dialog:not(.interview-dialog) input::placeholder,
+.app-dialog:not(.interview-dialog) textarea::placeholder { color: #abbdb4; opacity: 1; }
+
+/* Tablita de madera: clip metálico, hoja sujeta y anotaciones mecanografiadas. */
+.app-dialog.notebook-dialog {
+  --panel-text: #30382f;
+  --panel-muted: #555c4c;
+  --panel-copper: #675031;
+  --panel-line: #b8b296;
+  --graphite: #30382f;
+  --muted: #555c4c;
+  --accent-dark: #315b4f;
+  --line: #b8b296;
+  --panel-raised: #d5ccb0;
+  --panel-inset: #e9e1c8;
+  --paper-bright: #e9e1c8;
+  max-width: 1400px;
+  max-height: 92dvh;
+  padding: 24px 14px 14px;
+  color: #30382f;
+  background: #71583d;
+  border-radius: 12px;
+  color-scheme: light;
+}
+.app-dialog.notebook-dialog .notebook-header {
+  position: relative;
+  padding: 30px 24px 22px;
+  background: #ded6b9;
+  border-bottom: 2px solid #73765f;
+}
+.notebook-header::before {
+  content: '';
+  position: absolute;
+  width: 124px;
+  height: 30px;
+  left: calc(50% - 62px);
+  top: -21px;
+  border: 5px solid #9da69e;
+  border-top: 9px solid #c0c4b6;
+  border-radius: 5px 5px 9px 9px;
+  background: #4d5954;
+  box-shadow: 0 5px 8px #272b3040;
+}
+.notebook-dialog .notebook-body { padding: 26px; background: #ded6b9; box-shadow: inset 0 -4px #b8ad8b; }
+.notebook-dialog .notebook-table-wrap { border: 1px solid #9c9d80; border-radius: 0; background: #e8e0c6; }
+.notebook-dialog .notebook-table th { padding: 14px; color: #eae3ca; background: #354b43; }
+.notebook-dialog .notebook-table td { padding: 18px 14px; border-color: #b8b296; }
+.notebook-dialog .notebook-table tbody tr:nth-child(even) { background: #d5ccb0; }
+.notebook-dialog .notebook-table tbody tr:hover { background: #ccc7a8; }
+.notebook-table td:first-child { min-width: 230px; }
+.notebook-table td:first-child strong { font-size: 16px; }
+.notebook-table td small { display: inline-block; margin-top: 7px; color: #555c4c; line-height: 1.6; }
+.app-dialog .status { border-radius: 3px; font-size: 12px; }
+.app-dialog .status-pending { color: #ecd1a5; background: #514836; }
+.app-dialog .status-done { color: #c6e4ca; background: #335748; }
+.app-dialog .empty-check { border-color: #d0b98e; }
+.notebook-dialog .notebook-boundary { padding: 4px 0; font-size: 13px; max-width: 75ch; }
+.notebook-dialog .closing-section { padding-top: 22px; border-top: 1px solid #8e8064; }
+.notebook-dialog .closing-section > summary { color: var(--panel-copper); }
+.notebook-dialog .recommendation-list { margin-top: 24px; gap: 24px; }
+.notebook-dialog .recommendation-card { padding: 16px 0; background: transparent; border: 0; border-top: 1px solid var(--panel-line); border-radius: 0; }
+.notebook-dialog .recommendation-card legend { padding: 0 10px 0 0; color: var(--panel-copper); }
+.notebook-dialog .recommendation-card input { color: #30382f; background: #e9e1c8; border-color: #888d73; border-radius: 2px; }
+.app-dialog.notebook-dialog input::placeholder { color: #64674f; }
+.app-dialog.notebook-dialog .text-button { color: #315b4f; }
+.app-dialog.notebook-dialog .text-button:hover { color: #203f35; }
+.app-dialog.notebook-dialog :focus-visible { outline-color: #765a2f; }
+.app-dialog.notebook-dialog input { caret-color: #315b4f; }
+.app-dialog.notebook-dialog, .app-dialog.notebook-dialog * { scrollbar-color: #7c8469 #d5ccb0; }
+.app-dialog.notebook-dialog .primary-button { color: #f4eedb; background: #354b43; border-color: #354b43; }
+.app-dialog.notebook-dialog .primary-button:hover { background: #253d35; }
+.app-dialog.notebook-dialog .secondary-button { color: #30382f; background: #d5ccb0; border-color: #888d73; }
+.app-dialog.notebook-dialog .secondary-button:hover { background: #c8bea0; }
+.app-dialog.notebook-dialog .danger-text { color: #675031; }
+.app-dialog.notebook-dialog .status-pending { color: #65502e; background: #d4c7a4; }
+.app-dialog.notebook-dialog .status-done { color: #294f3c; background: #becdb3; }
+.station-dialog textarea { color: var(--panel-text); background: var(--panel-inset); border-color: #71877b; border-radius: 3px; }
+
+/* Las fuentes se presentan sobre papel cálido, con contraste de documento. */
+.app-dialog.source-dialog { padding: 18px 12px 12px; background: #9c8559; border-radius: 9px 9px 4px 4px; }
+.app-dialog.source-dialog .dialog-header { position: relative; background: #c1ad7e; color: #30382f; border-color: #7c795e; border-radius: 3px; }
+.app-dialog.source-dialog .dialog-header p { color: #494f3d; }
+.app-dialog.source-dialog .dialog-header .icon-button { color: #30382f; border-color: #7c795e; }
+.source-dialog .standalone-document { padding: 22px 14px 14px; background: #b6a174; }
+.source-dialog .source-document,
+.station-dialog .document-pane:has(.source-document) {
+  --graphite: #30382f;
+  --muted: #555c4c;
+  --line: #b8b296;
+  --accent-dark: #315b4f;
+  color: #30382f;
+  background: #ded6b9;
+  color-scheme: light;
+}
+.source-dialog .source-document { padding: clamp(20px, 3vw, 38px); border-radius: 2px; }
+.source-document .document-heading { padding-bottom: 18px; border-bottom: 1px solid #a9a388; }
+.source-document .document-kind { color: #555c4c; }
+.source-document .source-summary { max-width: 70ch; }
+.source-document .table-wrap { border-color: #b8b296; border-radius: 2px; }
+.source-document th { color: #eae3ca; background: #354b43; }
+.source-document td { border-color: #b8b296; }
+.source-document tbody tr:nth-child(even) { background: #d0c9ac; }
+.app-dialog .source-document .provenance-details summary,
+.app-dialog .source-document .query-card summary,
+.app-dialog .source-document .text-button { color: #315b4f; }
+.app-dialog .source-document .primary-button { color: #f4eedc; background: #315b4f; border-color: #315b4f; }
+.app-dialog .source-document .primary-button:hover { background: #25483d; }
+.source-document :focus-visible { outline-color: #765a2f !important; }
+.source-dialog .standalone-document > .secondary-button { margin: 20px 8px 0 0; }
+.station-dialog .source-index { color: #30382f; background: #c8b88f; --muted: #505742; }
+.station-dialog .source-index .source-link { color: #30382f; border-radius: 2px 8px 8px 2px; }
+.station-dialog .source-index .source-link:hover { background: #ded6b9; }
+.station-dialog .source-index .source-link.selected { color: #f1e7cc; background: #43594b; border-color: #43594b; }
+.station-dialog .source-link.selected .inspection-label { color: #d3ddca; }
+.station-dialog .document-pane { background: #203538; }
+.app-dialog.station-dialog { padding: 8px; background: #596259; }
+.app-dialog.station-dialog[open] { display: flex; flex-direction: column; }
+.app-dialog.station-dialog > .dialog-header { background: #293a34; }
+.station-dialog .station-layout { flex: 1; min-height: 0; height: auto; max-height: none; }
+.station-dialog .review-pane { background: #243b3e; }
+.station-dialog .source-link:hover { background: #293f40; }
+.station-dialog .source-link.selected { color: #efd2aa; background: #354e49; border-color: #8c9d82; }
+.station-dialog .review-progress strong { color: var(--panel-copper); }
+.station-dialog .linked-sources li { border-color: var(--panel-line); }
+.station-dialog .calculation-note,
+.station-dialog .documented-note { color: #cde3d1; background: #345346; }
+.station-dialog .pending-details { color: #f1dab5; background: #4d4534; }
+.station-dialog .check-fieldset { border-color: #617567 !important; }
+.station-dialog .save-note { color: #b4c3bc; }
+
+/* La conversación retoma las placas y los controles de la sala. */
+.dialogue-menu { background: #122327f5; border-top: 2px solid #b99b59; box-shadow: 0 16px 40px #08141766; }
+.dialogue-choice { padding: 13px 8px; border-radius: 2px; }
+.dialogue-choice:hover, .dialogue-choice:focus-visible { background: #2b4140; }
+.dialogue-response { background: #122327f5; border-top: 1px solid #8e8064; }
+.dialogue-source { border-color: #b99b59; border-radius: 2px; }
+.entry-overlay { color: var(--panel-text); background: var(--panel-inset); border-radius: 4px; }
+.entry-overlay p { color: var(--panel-muted); }
+.journal-hint { color: var(--panel-copper); background: var(--panel-inset); border-color: #71877b; border-radius: 3px; }
+
+/* Los menús nativos conservan Luna y Server, sin paneles blancos. */
+.computer-hud button { color: #eee8d8; background: #354b4b; border-color: #819489; }
+.computer-hud button:hover { color: #f0d3aa; background: #415e58; }
+.computer-desktop .pc-start-menu { background: #ece9d8; }
+.computer-desktop .pc-start-program { background: #ece9d8; }
+.computer-desktop[data-theme='server-classic'] .pc-start-program { background: #d4d0c8; }
+.computer-desktop .pc-start-program:hover,
+.computer-desktop .pc-start-program:focus-visible { background: var(--pc-selection); color: #fff; }
+
+.reset-confirmation { margin-top: 24px; padding: 22px; background: #ccc09b; border: 1px dashed #786345; }
+.reset-confirmation h3 { margin: 0 0 10px; color: #59472f; font-size: 21px; }
+.reset-confirmation p { max-width: 65ch; margin: 0; color: #434833; line-height: 1.6; }
+
+@media (max-width: 760px) {
+  .topbar { gap: 8px; }
+  .brand strong { font-size: 14px; }
+  .topbar-actions { flex: 0 0 auto; gap: 6px; }
+  #experience[data-mode='visit'] .topbar-button[data-action='notebook'] { width: 40px; padding: 8px; gap: 0; font-size: 0; justify-content: center; }
+  .topbar-button[data-action='notebook'] .icon { width: 20px; height: 20px; }
+  .topbar-button[data-action='notebook'] .shortcut { display: none; }
+  .settings-menu > summary { max-width: 140px; padding: 8px; font-size: 12px; }
+  .app-dialog:not(.interview-dialog) { border-radius: 0; }
+  .app-dialog.notebook-dialog { padding: 24px 7px 7px; max-height: 100dvh; }
+  .app-dialog.source-dialog { padding: 10px 7px 7px; }
+  .app-dialog.station-dialog { padding: 0; }
+  .station-dialog .station-layout { max-height: none; }
+  .app-dialog:not(.interview-dialog) .dialog-header { gap: 12px; align-items: flex-start; }
+  .app-dialog.station-dialog > .dialog-header { flex-wrap: wrap; }
+  .station-dialog > .dialog-header > div:first-child { flex: 1 0 100%; }
+  .station-dialog .dialog-header-actions { width: 100%; justify-content: flex-end; }
+  .dialog-header > div:first-child { min-width: 0; }
+  .dialog-header-actions { gap: 8px; }
+  .notebook-header .dialog-header-actions { flex-direction: column-reverse; align-items: flex-end; }
+  .notebook-header .dialog-header-actions > strong { padding: 4px 6px; font-size: 11px; }
+  .notebook-dialog .notebook-body, .source-dialog .standalone-document { padding: 16px; }
+  .source-dialog .source-document { padding: 18px; }
+  .source-dialog .standalone-document > .secondary-button { width: 100%; margin-right: 0; }
+  .settings-popover { width: min(350px, calc(100vw - 28px)); }
+  .notebook-table-wrap { max-height: 54dvh; }
+}

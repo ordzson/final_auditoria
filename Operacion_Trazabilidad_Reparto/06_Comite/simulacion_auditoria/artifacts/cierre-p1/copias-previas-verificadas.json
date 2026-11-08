@@ -1,0 +1,516 @@
+{
+  "total": 102,
+  "discrepancias": 0,
+  "comprobaciones": [
+    {
+      "ruta": "README.md",
+      "sha256": "46272023eb29a7b2f985d03e226d638ff76e8d68df25c6eec19de6cd52d560d8",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "package.json",
+      "sha256": "5d456e80ac14293ecdb9a7d00b149c35d0f962c547965b9fa463e2aff6af09f9",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "playwright.config.ts",
+      "sha256": "1a0118c0f8dae2470ef890ca65897e3929043dcaf3fee5a4565dd707c33145de",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "PRODUCT.md",
+      "sha256": "0605c82ec5816b426ec91fd658e63eaefab1c7b7453869c44b0f5f984cc26c61",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "docs/plan-escritorios-pc.md",
+      "sha256": "e92704c4e74ccf8ae0395d61683fa58ee8641f0e08ab6c2c46081a20eaba474c",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "docs/guion-voz-enlace-ti.md",
+      "sha256": "7da52d7639506dacf79597f0e1d81c9a0191c0266c1b8ffe1674f612ee87a4c2",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "docs/inventario-assets.md",
+      "sha256": "a48f6c351d3e463cf58d385584d017daba696d3f6179bd2bdc900062a1462b98",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "docs/aceptacion-pc-b.md",
+      "sha256": "f15300b06b62030d5bf7b5bd3ff6fe6dd6756ce3c9ec39d4c79850123c744684",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "docs/voz-enlace-ti.md",
+      "sha256": "04429eeabd3d7965a45230b76f81963c2edd8734b9e16ab09d04d531caaf00f7",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "docs/contratos-escritorios-pc.md",
+      "sha256": "6ff2fb141abbfafdbd978393532c9178e343da21e121ad1684825ecbf3bedf60",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "docs/inventario-assets.json",
+      "sha256": "6190000804d8a30f85fa2e55e5aa02e9b2a0a16a855f008cbcccecb03a954665",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "docs/assets-pcs.md",
+      "sha256": "632ff51a6b29ae052ae0fdb718dcaae5ecae5155faa9fc67ea7c9f19e641b4aa",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/reviewBridge.test.ts",
+      "sha256": "dd43d0c341f4de7dd486b8e579372c136ae538f30ba1e2a2bd56a9460e99356c",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/taskProgress.test.ts",
+      "sha256": "214fb4eee72903d4d3dab62fdb92c78f7665cd3148262c53e3c8d0c11d578144",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/desktop.test.ts",
+      "sha256": "83ba8c520416e84c0759864b696ea95e3b64212ea88d63c9b80c99490386cdc8",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/interview.test.ts",
+      "sha256": "e5738f921258af86edf49c1ac5dae91ca1b7172fc792edc75cb5a9437cdb862f",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/report.test.ts",
+      "sha256": "5a00187cd3fe99b92c8d2c9cb4104810681e37dcaa7817dadd1a1c673cfdc02d",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/store.test.ts",
+      "sha256": "6ece435d36092e0b92afb91c3ac9e047f549760d34bc040e4ea5ca218488471e",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/chairPhysics.test.ts",
+      "sha256": "1ee8ccdcc75dbcde0140cf8faff15234a4db141c2bbdd90fa1de5f4f702e03d4",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/computer-apps.test.ts",
+      "sha256": "3aeff443750da604f48c90d950b8779bc2d47af824a1058cde557360884d208b",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/query.test.ts",
+      "sha256": "79e9e411b8b22fb5675777b0c5f584d8d2e4c543c869ee2fdebeed8d07cf23ab",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/models.test.ts",
+      "sha256": "c116f083fdb5a9c985e658d8581dad623075938f792f70750a5819dded5fc321",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/evaluation.test.ts",
+      "sha256": "2a9bc6ef6ebf0f267b52dd922f4ab23465f1098da9cef24494e17e0f6729540a",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/workspace.test.ts",
+      "sha256": "3651efb4ff259f853f52b2d336ab6f29596fab3c869c5901e9a054deca7bf47d",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/collision.test.ts",
+      "sha256": "c9d3bbae68d88ba850d8dac122af11d0588469c8aeb7530400126b8a1e0b97e4",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/computer-assets.test.mjs",
+      "sha256": "30d3a7a525e04cb22e7be6824353aef4914e8efd485efc3b645d10267ebf9c99",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/liaisonAnimator.test.ts",
+      "sha256": "f0ace07c767a3439619e767e2ef04279bb44787b3fbb953b764cd4f740e4dcff",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/intro.test.ts",
+      "sha256": "4329db12df039906ca6a3707843a0f3f4600746d2e93781910a2e5c6a37ffac1",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/interview.css",
+      "sha256": "e918e6a95a0672dfb091dc795e24b4b191f2fb3cc0290b913503d505e2e0f64b",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/overlays.css",
+      "sha256": "907c16ad48639c98e5569a39cc3e0e0bb453a3faf02ebb7554617e2851611930",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/main.ts",
+      "sha256": "ee7bc59f72a2ca085915d96578d8f750c6e69962183ce1f3e76c0eb986218bee",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/computer.css",
+      "sha256": "a7ee711d4c05c91328991cdb647f4d346a3febb747856f0372695e21f10fac7e",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/desktop.css",
+      "sha256": "375bea72afab364547afde5e68d002a9a4ff2d2ae716cd804bb8c8c274cac727",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/styles.css",
+      "sha256": "3ee37796b1b393dccecef61a42d7834fd2dc73df930150a5f3f935cc8be72325",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/e2e/interview-audio.spec.ts",
+      "sha256": "f99105b65944516737b958441c561e6e0b11c6baa46822fcda77f1384c0acb50",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/e2e/interview.spec.ts",
+      "sha256": "d55c59dfa26127ccfc0b3d84da9e59c3327a0b350e32d0403ecd3c43304c180f",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/e2e/interview-helpers.ts",
+      "sha256": "52990846ca2a8dfee42261227092c9dd135d6b076d0443d36aa57fec0b5c48e2",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/e2e/desktop-stage3.spec.ts",
+      "sha256": "f1bcb3ef2413ed6ceb6f6f655e7d1634ab85256e453a4920d42ddcae233f3840",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/e2e/office.spec.ts",
+      "sha256": "c66cbc1b478081c472f1077434477e13672a150f52891d06493ef3cc4778203a",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/e2e/chairs.spec.ts",
+      "sha256": "fbbad951ef90c46ae2c4f223923dc48611a12e09fbce98b3812c5edaf5bcc713",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/e2e/desktop-helpers.ts",
+      "sha256": "68dc79156464b579b1b9a5bed25c93c22ae05040c246a755d4767e6159063e44",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/e2e/acceptance.spec.ts",
+      "sha256": "71d1ba389cf33e29adbe91c487fa4cb5edf74945b82e2dedf80604a495547d8d",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/e2e/desktop-b.spec.ts",
+      "sha256": "318f33823192713db9f97ba10157c099ff8ff6f88b877e78c33f5ea2e0ad422f",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "tests/e2e/investigation.spec.ts",
+      "sha256": "df4f9c1e00f786f1868aca3f51dfe3b5433534cb3d4fc4bf55d009190bf93c70",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/investigation/query.ts",
+      "sha256": "0755b81d2adfe8fd83c3e52e3dc1103ad555e04ba88a165ccdeb05e7938eda80",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/computer/workspace.ts",
+      "sha256": "f86d59df8ff74df1cf63559a3f1c0d4fbf31d73e943376538e66276faf24d474",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/computer/types.ts",
+      "sha256": "7b6385bfc63aacc4f9acc8ed18db527dd191fad0befcc28cd5413ccd7d8f2df6",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/computer/registry.ts",
+      "sha256": "5a0f83547bcd96c03e061d80bab0b0fc176bac842de2f699b4722e8faae033ea",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/computer/taskProgress.ts",
+      "sha256": "cd49aab4c3057743d3f299c7878e8cee03e8fe6eaff9a23bb448b2278d4af217",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/computer/reviewBridge.ts",
+      "sha256": "40dbdfd24fd6219ac87902118100056d564ae6b81d43b84cd9ff9ac47c2f655e",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/data/canon.json",
+      "sha256": "e07c41258769469a0ba5a0a041707a3ee065852480baf02afcf9c4d5b0a7345c",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/data/interviewAudio.ts",
+      "sha256": "b9e5aaa958a1a17c847b803beb1e1ca351841d0e9de8464848e5335437d41552",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/data/documents.ts",
+      "sha256": "897900fb213632b56ca538a31b3030c01902d612437190655f3b6394ce1f61c7",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/data/stations.ts",
+      "sha256": "fb2c569d743d8bd86530945a95e9f1af4cde351bc1a79b80207e40db6a8bd3a7",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/data/computerAssets.ts",
+      "sha256": "b01dbc8b6a830757bbd9fc8b258976be84de567f444ea09c8f215356a5fc5a8d",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/data/canon.ts",
+      "sha256": "ad6a7d9a9e7b373191a867f689971a7a71ae2c164f82799f109d92b55968c544",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/data/intro.ts",
+      "sha256": "009af7ec2e580431dcbdbe965ff83de23f54dafae7a8de9168ec24013bf57bf4",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/data/interview.ts",
+      "sha256": "6850d71b006ff40b6c824a4771f2329c8ac0053382414e5002f8af28023a19e9",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/data/simulation.ts",
+      "sha256": "ca87011a3b52cd8c4c1de624d292c89a159d20a38fdcf2c754631b5f7fb8bd49",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/data/computers.ts",
+      "sha256": "25774d578bcb2eed76c5ea2cdd769c98464e3aaee6e6cae95cfcc7096eb6a150",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/data/investigation.ts",
+      "sha256": "0724b5f0b1c227cfbb996c9ea9c5cd6d39e5f9e92daefef6ca3d3a59ec44ebe5",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/ReviewPanel.ts",
+      "sha256": "5550d4b4d249c10a92d28949af668cd53160480e6b6c45301f409d532cb5bb47",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/ComputerPanel.ts",
+      "sha256": "2f55be823cd847bb9dc26a459a8ad834e11ab5104cb381d56c703c609c6253e2",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/dom.ts",
+      "sha256": "9075fb1dc856710279f57240d0782955ddb8a01cf43a70c6529debb31d233576",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/SourcePanel.ts",
+      "sha256": "f90aaea481ab442ee226fa267063bab89de3eb02f6a192275f81cf2f0f9aeb25",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/Notebook.ts",
+      "sha256": "5e7b9520f4a465e5d34cfb5cf50e56abace9d418a13861c02b286435bca3e525",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/InterviewPanel.ts",
+      "sha256": "04e0ce76aae4510c6fd6bbd770b23365b0b52e3eefae5f74a415270896932786",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/IntroPlayer.ts",
+      "sha256": "93d8c8f9162f12390bdd77091345e31367b7dba697aafb5ceabc82835289496d",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/audit/types.ts",
+      "sha256": "167a56a736c655e06129d942187d1b7e5a23e093f10b241295f1268cfc35fb2c",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/audit/store.ts",
+      "sha256": "320439e44ad04318eb9c98527fa184ab6e85741fdc94395180ec743319441c46",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/audit/evaluate.ts",
+      "sha256": "e84e57860aab470c19bc16a2eac975f735b19feb0634c52188a49b7f0127a78b",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/audit/rules.ts",
+      "sha256": "93d56e1aa69522f099de2661bf501284fff0bcd66368c2a0af265ae108e677b5",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/export/report.ts",
+      "sha256": "3192f66697edf304a2411c353a8b0ecbf35c0b650776cbb6c4d783572a190393",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/scene/models.ts",
+      "sha256": "b3e7207f077b223074e4f95e701addbe1aa29b5bb491993bb0d4ef44218e612f",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/scene/screens.ts",
+      "sha256": "1ab10a876ece83b4da2c51cc6fe64699499e55815f17adb2f80d38595785bf18",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/scene/LiaisonAnimator.ts",
+      "sha256": "a25211c98ffd8f516d4c20108e90cc0e4fa77c29013bca48ec7d0be1aeb1c0e9",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/scene/OfficeScene.ts",
+      "sha256": "e52f8661be5f280d4c7d66ccc2751bd881d571edb86315a26a4039b7b7c998fc",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/scene/branding.ts",
+      "sha256": "edf0c984696d75ba73690546c87484f9e2dd4b043ccdfc4866d132111d7f800b",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/scene/OfficeEnvironment.ts",
+      "sha256": "211593baf53ef10fb82fe1059e58b092df0501dae1cf748865f6622cf511baad",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/scene/chairPhysics.ts",
+      "sha256": "3fb10df46591024c0e533b33b9f5a23987c91cfda826d2498b32d5c4df500ee6",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/scene/collision.ts",
+      "sha256": "501199f7580fb16abf66e0bc5adda88373a6eceb782d2deb61f415d78aa1563b",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/desktop/ComputerDesktop.ts",
+      "sha256": "186dbb972c59570fd31b01f6c502a1b8227e23aba3f96d819d17cfe84ddd25b1",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/desktop/geometry.ts",
+      "sha256": "b02983fbcd32fa8092f1ad3c7664a532d53d09b6a9114eb00018766af30a6696",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/RecordBrowser.ts",
+      "sha256": "c1b475fa8e3a267e55d79a69a208b57c17f6ea0420b986d55cdc291c6da9ae6e",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/AccountDirectory.ts",
+      "sha256": "97c935f60dd34f32d68643794620715eceab52e214cd2bc2548d782a2f4e188e",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/QueryStudio.ts",
+      "sha256": "0b9da52f87f54bbe16069af4aa59bb600c9da0c04fd1f43577252062edbbeb64",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/EventDesk.ts",
+      "sha256": "8f8f78e953b8d0ee0c8845f861af32dba97651feda525a9603d1828936d472e3",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/LocalDossier.ts",
+      "sha256": "ac344ddbefa9a86022c265a5b2e1ff04b3f3031d2ed39c097f0da03dc643b869",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/NetworkMonitor.ts",
+      "sha256": "91cd77fe37e4f21424da661196a587522434440cb9381aea573990e2434476e0",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/apps.css",
+      "sha256": "c5c49b1a3e934b2667f78ec59eda10653b924cb6a7793f741f3dd7a49b2bad2b",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/utils.ts",
+      "sha256": "c73b9e9a0a9547467d5e27195dfa2ca25a0450d2aaf0c24f676b39939b1de0f3",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/SessionViewer.ts",
+      "sha256": "7faf84e0458117daeeec244c4637b0a9d7a4a0452b05b3dcb27b4038c285ce37",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/ClockComparator.ts",
+      "sha256": "d87979707b9d1203837b0e82c436ca602bbaeb231abe4013d827c6c44a18830b",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/OrderHistory.ts",
+      "sha256": "9c3da45fbe7c9e37efdf4f907dab95b7f8674b062e76bddbea29e604223dd2c5",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/FileExplorer.ts",
+      "sha256": "c8956d4f02de027d13b10e62133d0f0610dfeb767b9b90648b55612442193dc5",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/ChangeManager.ts",
+      "sha256": "817bfb70089699ffcc05c2ffcb1864940ffb86b1872fc310afafb6d26c2097b3",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/RecordViewer.ts",
+      "sha256": "a548b92bfb29c6959485feb6cc8ef6a35b5780735b32fd13885f983205500af3",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/TimeTracker.ts",
+      "sha256": "d9ffd9733ffbcf67f52107621613b28e3cb5b9f2d61f468c9b09b80ecf9eef2b",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/BackupManager.ts",
+      "sha256": "ac43ff34519ebfe15433250f21a51101cfeab8f8606eee8b126cb51a9b7f0c3b",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/RecoveryConsole.ts",
+      "sha256": "8b7074f87abfde481a5e035260ba658c35856b8adfa50910f00c0df675db5fcf",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/StationReport.ts",
+      "sha256": "7d8f8d83704908403370ad3893c5c5fe452aa8d0b65578720b8aca66699d0b44",
+      "coincide_con_entrada": true
+    },
+    {
+      "ruta": "src/ui/apps/RecordComparison.ts",
+      "sha256": "3714e661a891172dbc6dc4e51f8b4a06f092d38c19211e7958f6b31b3a621e7c",
+      "coincide_con_entrada": true
+    }
+  ]
+}

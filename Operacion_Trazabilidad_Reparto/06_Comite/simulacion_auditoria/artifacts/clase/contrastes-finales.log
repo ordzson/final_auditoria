@@ -1,0 +1,15 @@
+Already up to date
+Done in 32ms using pnpm v11.2.2
+
+Running 4 tests using 1 worker
+
+(node:2679469) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2679469) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/interview-audio.spec.ts:3:1 › reproduce la voz local, cambia de frase y detiene el audio al salir (1.3s)
+  ✓  2 tests/e2e/investigation.spec.ts:143:1 › móvil: editor, inspector y guardado funcionan sin desbordar la pantalla (1.2s)
+  ✓  3 tests/e2e/office.spec.ts:191:1 › C · diez planos, transporte, nota ilustrativa y estado intacto (26.4s)
+  ✓  4 tests/e2e/office.spec.ts:257:1 › C · guardar, editar, reevaluar versión, exportar JSON e imprimir (2.9s)
+
+  4 passed (32.8s)

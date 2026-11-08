@@ -1,4 +1,6 @@
 import { canon, CONTENT_VERSION, eventById, evidenceById, statementById } from './canon';
+import { classroomText, sourceName, sourceSummary } from './language';
+import { reviewGuidance } from './guidance';
 
 export type CellValue = string | number | boolean | null;
 export type DocumentRow = { values: CellValue[] };
@@ -13,7 +15,19 @@ export type SourceDocument = {
   rows: DocumentRow[];
   notes: string[];
   queryIds: string[];
+  readingNote?: string;
 };
+
+function readingNote(id: string): string | undefined {
+  if (['E-01', 'E-02', 'EVT-02', 'EVT-03'].includes(id)) return reviewGuidance['AU-01'].limit;
+  if (['E-03', 'E-04', 'EVT-04', 'EVT-05', 'DECL-05'].includes(id)) return reviewGuidance['AU-02'].limit;
+  if (['E-05', 'E-06', 'EVT-06', 'EVT-07', 'EVT-13', 'DECL-03', 'DECL-04'].includes(id)) return reviewGuidance['AU-03'].limit;
+  if (['E-07', 'EVT-08'].includes(id)) return `Faltan asignación, primera acción y cierre documentados. ${reviewGuidance['AU-04'].limit}`;
+  if (['E-08', 'EVT-09', 'EVT-10', 'EVT-11', 'EVT-12', 'DECL-07'].includes(id)) return reviewGuidance['AU-05'].limit;
+  if (id === 'E-09') return 'El caso resume un acuerdo de nivel de servicio: disponibilidad del 99.9 %, con exclusiones por interpretar. No basta para evaluar el contrato completo ni las necesidades de recuperación del negocio.';
+  if (id === 'E-10') return 'El puntaje de riesgo 0.08 no tiene escala, umbral ni calibración aportados: no se sabe cómo se relaciona con el riesgo observado. No demuestra seguridad ni sustituye la revisión humana.';
+  return undefined;
+}
 
 export function formatReportedAt(value: string): string {
   const [date, timeWithOffset] = value.split('T');
@@ -27,22 +41,23 @@ function eventDocument(id: string): SourceDocument | null {
   if (!event) return null;
   return {
     id,
-    title: `${id} · ${event.systemLabel}`,
-    kindLabel: 'Registro preliminar del expediente',
-    summary: event.description,
+    title: sourceName(id),
+    kindLabel: 'Dato reportado por el caso · resumen, no registro original',
+    summary: sourceSummary(id),
+    readingNote: readingNote(id),
     provenanceText: `Curso, p. ${event.provenance.page} · ${event.provenance.kind} · Hora reportada, no corrección forense.`,
     version: CONTENT_VERSION,
     columns: ['Campo', 'Contenido'],
     rows: [
       { values: ['Hora reportada', formatReportedAt(event.reportedAt)] },
       { values: ['Hora original', event.originalTime] },
-      { values: ['Sistema', event.systemLabel] },
-      { values: ['Cuenta', event.account] },
+      { values: ['Sistema', classroomText(event.systemLabel)] },
+      { values: ['Cuenta', event.account ? classroomText(event.account) : null] },
       { values: ['Desfase (segundos)', event.clockOffsetSeconds] },
       { values: ['Desfase verificado', event.clockOffsetVerified] },
       { values: ['Evidencias relacionadas', event.evidenceIds.join(', ') || null] },
     ],
-    notes: [canon.time.basis, 'La relación temporal no demuestra causalidad ni atribución.'],
+    notes: [canon.time.basis, 'La relación temporal no demuestra causalidad ni atribución.', `Texto del curso: ${event.description}`],
     queryIds: event.plannedQueryIds,
   };
 }
@@ -52,21 +67,22 @@ function evidenceDocument(id: string): SourceDocument | null {
   if (!evidence) return null;
   return {
     id,
-    title: `${id} · ${evidence.type}`,
+    title: sourceName(id),
     kindLabel: 'Resumen del expediente · no autenticado',
-    summary: evidence.summary,
+    summary: sourceSummary(id),
+    readingNote: readingNote(id),
     provenanceText: `Curso, p. ${evidence.provenance.page} · ${evidence.provenance.kind}.`,
     version: CONTENT_VERSION,
     columns: ['Campo', 'Contenido'],
     rows: [
-      { values: ['Tipo', evidence.type] },
-      { values: ['Señal observada', evidence.summary] },
+      { values: ['Tipo', sourceName(id)] },
+      { values: ['Señal reportada', sourceSummary(id)] },
       { values: ['Archivo', evidence.artifactPath] },
-      { values: ['SHA-256', evidence.sha256] },
+      { values: ['Huella digital SHA-256', evidence.sha256] },
       { values: ['Procedencia', evidence.provenance.sourceId] },
       { values: ['Página', evidence.provenance.page] },
     ],
-    notes: [canon.scope, 'Los identificadores E-01–E-10 pertenecen al resumen inicial del curso.'],
+    notes: ['Resumen del curso; no es una extracción autenticada de la empresa.', 'Los identificadores E-01–E-10 permiten localizar el material en la página 5 del Proyecto del curso.', `Texto del curso: ${evidence.summary}`],
     queryIds: [],
   };
 }
@@ -76,15 +92,16 @@ function statementDocument(id: string): SourceDocument | null {
   if (!statement) return null;
   return {
     id,
-    title: `${id} · ${statement.speakerRole}`,
+    title: sourceName(id),
     kindLabel: 'Declaración atribuida · no concluyente por sí sola',
-    summary: statement.summary,
+    summary: sourceSummary(id),
+    readingNote: readingNote(id),
     provenanceText: `Curso, p. ${statement.provenance.page} · ${statement.provenance.kind}.`,
     version: CONTENT_VERSION,
     columns: ['Campo', 'Contenido'],
     rows: [
-      { values: ['Rol que declara', statement.speakerRole] },
-      { values: ['Declaración resumida', statement.summary] },
+      { values: ['Rol que declara', classroomText(statement.speakerRole)] },
+      { values: ['Declaración resumida', sourceSummary(id)] },
       { values: ['Concluyente por sí sola', statement.conclusiveByItself] },
       { values: ['Fuente', statement.provenance.sourceId] },
       { values: ['Página', statement.provenance.page] },
@@ -97,22 +114,23 @@ function statementDocument(id: string): SourceDocument | null {
 function custodyDocument(): SourceDocument {
   return {
     id: 'META-CUSTODIA',
-    title: 'META-CUSTODIA · Procedencia y archivos',
-    kindLabel: 'Vista calculada del canon · no es una nueva evidencia',
-    summary: 'El inventario reúne los resúmenes recibidos y conserva la procedencia, el archivo y el SHA-256 de cada material, incluidos los campos no aportados.',
-    provenanceText: `Calculada localmente desde ${CONTENT_VERSION}: scope, provenance, artifactPath y sha256.`,
+    title: 'Procedencia y archivos disponibles',
+    kindLabel: 'Vista calculada del expediente de referencia · no es una nueva evidencia',
+    summary: 'El inventario reúne los resúmenes del curso. Los campos de archivo original y huella digital SHA-256 (valor para detectar cambios) no fueron aportados.',
+    readingNote: reviewGuidance['AU-06'].limit,
+    provenanceText: `Calculada localmente desde la versión ${CONTENT_VERSION}: alcance, procedencia, ruta y SHA-256 del resumen.`,
     version: CONTENT_VERSION,
-    columns: ['ID', 'Tipo', 'Procedencia', 'Archivo', 'SHA-256'],
+    columns: ['Referencia', 'Material', 'Procedencia', 'Archivo original', 'Huella SHA-256'],
     rows: canon.evidenceSummaries.map((evidence) => ({
       values: [
         evidence.id,
-        evidence.type,
+        sourceName(evidence.id),
         `${evidence.provenance.sourceId} · p. ${evidence.provenance.page} · ${evidence.provenance.kind}`,
         evidence.artifactPath,
         evidence.sha256,
       ],
     })),
-    notes: [canon.scope, '«No aportado» conserva un campo ausente; no demuestra manipulación ni convierte el resumen en extracción.'],
+    notes: ['«No aportado» conserva un campo ausente; no demuestra manipulación ni convierte el resumen en extracción.'],
     queryIds: [],
   };
 }
@@ -120,10 +138,11 @@ function custodyDocument(): SourceDocument {
 function timeDocument(): SourceDocument {
   return {
     id: 'META-TIEMPO',
-    title: 'META-TIEMPO · Hora reportada y verificación',
-    kindLabel: 'Vista calculada del canon · no es una nueva evidencia',
+    title: 'Horas reportadas y verificación de relojes',
+    kindLabel: 'Vista calculada del expediente de referencia · no es una nueva evidencia',
     summary: canon.time.basis,
-    provenanceText: `Calculada localmente desde ${CONTENT_VERSION}: reportedAt, originalTime, clockOffsetSeconds y clockOffsetVerified.`,
+    readingNote: 'Faltan horas originales y relojes verificados. Los intervalos entre sucesos seleccionados no demuestran pérdida o borrado de registros. Un desfase es la diferencia entre el reloj de un sistema y una referencia comprobada; no se ha calculado aquí.',
+    provenanceText: `Calculada localmente desde la versión ${CONTENT_VERSION}: hora reportada, hora original, desfase y estado de verificación.`,
     version: CONTENT_VERSION,
     columns: ['ID', 'Hora reportada', 'Hora original', 'Desfase (s)', 'Verificado'],
     rows: canon.events.map((event) => ({

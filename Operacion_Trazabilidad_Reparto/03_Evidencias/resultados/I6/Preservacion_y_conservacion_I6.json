@@ -1,0 +1,71 @@
+{
+  "fecha_utc": "2026-11-07T16:28:37.466534+00:00",
+  "entradas_modificadas_con_copia": [
+    {
+      "ruta_actual": "01_Informe/Seccion_forense_P1_v1.md",
+      "registro": "03_Evidencias/hashes_sha256_v1.csv",
+      "copia_previa": "03_Evidencias/originales/previos_I6/01_Informe/Seccion_forense_P1_v1.md",
+      "sha256_anterior": "25fc8739497ee2a91687ff70f01ad9e93a764fd7d3a9325c4d6ae00aba6d855e",
+      "sha256_actual": "8649d2a6928f87cb3f5eb48a718bf98eb3702b34e89c33d8263f5f24d22daf84"
+    },
+    {
+      "ruta_actual": "07_Referencias/Fuentes_P1_v1.md",
+      "registro": "03_Evidencias/hashes_sha256_v1.csv",
+      "copia_previa": "03_Evidencias/originales/previos_I6/07_Referencias/Fuentes_P1_v1.md",
+      "sha256_anterior": "148ae6f0470ecf1a4c0b7f1849a88d112f91338afc14cd3cb75e09ecd132091b",
+      "sha256_actual": "96a310288dd521020b560daaf12e0af61ac21ad396200a30d6aeadceb45775ac"
+    },
+    {
+      "ruta_actual": "07_Referencias/Registro_uso_IA_v1.csv",
+      "registro": "03_Evidencias/hashes_sha256_v1.csv",
+      "copia_previa": "03_Evidencias/originales/previos_I6/07_Referencias/Registro_uso_IA_v1.csv",
+      "sha256_anterior": "cbdf6a1d7a2a27574e562da05f449b27078ae21b7bb52977cfdc6e0acf7c6945",
+      "sha256_actual": "370a3100076a852955e8c797ac52b5825b142a4156fa4299f1b1f64176711531"
+    },
+    {
+      "ruta_actual": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "registro": "03_Evidencias/hashes_sha256_v1.csv",
+      "copia_previa": "03_Evidencias/originales/previos_I6/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "sha256_anterior": "0c53f34ba906d6986a1d656d1359da422bf71a0563ac3737d85043d7436ffede",
+      "sha256_actual": "a5789b6545bad295375c10c25deb30c2c82368fb88c2c163689dc3b2a8dfff42"
+    },
+    {
+      "ruta_actual": "06_Comite/simulacion_auditoria/README.md",
+      "registro": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/manifest.json",
+      "copia_previa": "03_Evidencias/originales/previos_I6/06_Comite/simulacion_auditoria/README.md",
+      "sha256_anterior": "1d2f5f99dba47f34c596c37d7b32bc42608caefb871fc829f7633081bcebc24d",
+      "sha256_actual": "f66dd860ed1bb08be78d4094166c1e4d8448fb5f70927b4baed4534f926345a1"
+    },
+    {
+      "ruta_actual": "06_Comite/simulacion_auditoria/scripts/record-walkthrough.mjs",
+      "registro": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/manifest.json",
+      "copia_previa": "03_Evidencias/originales/previos_I6/06_Comite/simulacion_auditoria/scripts/record-walkthrough.mjs",
+      "sha256_anterior": "f2b63a44fbccf6f84723da761a6e816238ddb04e2637c52b8e8c935b590a89cd",
+      "sha256_actual": "95a4c08ec99973fd62415f0771811329ee51c466f8aef84b896564f51009f265"
+    },
+    {
+      "ruta_actual": "06_Comite/simulacion_auditoria/scripts/walkthrough.mjs",
+      "registro": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/manifest.json",
+      "copia_previa": "03_Evidencias/originales/previos_I6/06_Comite/simulacion_auditoria/scripts/walkthrough.mjs",
+      "sha256_anterior": "58255cf208566d080b19802edb72fd8806109cf5bbcce1c84294cde87f7d42ea",
+      "sha256_actual": "1f0e34082df6fceb516633537cb048c88170e397771e75aa10b23a2d684e06fa"
+    },
+    {
+      "ruta_actual": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "registro": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/manifest.json",
+      "copia_previa": "03_Evidencias/originales/previos_I6/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "sha256_anterior": "0c53f34ba906d6986a1d656d1359da422bf71a0563ac3737d85043d7436ffede",
+      "sha256_actual": "a5789b6545bad295375c10c25deb30c2c82368fb88c2c163689dc3b2a8dfff42"
+    },
+    {
+      "ruta_actual": "07_Referencias/Registro_uso_IA_v1.csv",
+      "registro": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/manifest.json",
+      "copia_previa": "03_Evidencias/originales/previos_I6/07_Referencias/Registro_uso_IA_v1.csv",
+      "sha256_anterior": "cbdf6a1d7a2a27574e562da05f449b27078ae21b7bb52977cfdc6e0acf7c6945",
+      "sha256_actual": "370a3100076a852955e8c797ac52b5825b142a4156fa4299f1b1f64176711531"
+    }
+  ],
+  "resto_entradas_identicas": true,
+  "sql_nuevo": false,
+  "comportamiento_juego_modificado": false
+}

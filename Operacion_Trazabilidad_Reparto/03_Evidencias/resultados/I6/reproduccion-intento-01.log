@@ -1,0 +1,10 @@
+Already up to date
+Done in 30ms using pnpm v11.2.2
+file:///home/ordson/final%20auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/scripts/verify-i6-media.mjs:32
+  if(sample.range<30)throw Error('Fotograma vacío');samples.push(sample);
+                           ^
+
+Error: Fotograma vacío
+    at file:///home/ordson/final%20auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/scripts/verify-i6-media.mjs:32:28
+
+Node.js v22.21.1

@@ -1,0 +1,76 @@
+{
+  "registrado_en_utc": "2026-11-07T05:13:47+00:00",
+  "comprobaciones": {
+    "encabezados_16_tablas_coinciden_DDL": true,
+    "cantidades_previstas_91800_en_16_tablas": true,
+    "13_eventos_en_instructivo": true,
+    "no_se_generaron_datos": true,
+    "hashes_entrada_coinciden": true,
+    "nueve_supuestos_aprobados": true,
+    "14_pruebas_sin_resultados_fabricados": true,
+    "esquema_sin_cambio_desde_comprobacion": true,
+    "DOCX_zip_valido": true,
+    "plantilla_sin_texto_academico_previo": true,
+    "imagen_original_conservada": true,
+    "formato_carta_margenes_pulgada": true,
+    "PDF_dos_paginas_sin_pagina_vacia": true,
+    "script_plantilla_sintaxis_valida": true,
+    "original_plantilla_hash_conservado": true
+  },
+  "revision_visual_PDF": "Se inspeccionaron las dos páginas renderizadas: portada e instrucciones legibles; imagen conservada. No es validación humana de P1.",
+  "limite": "Sin datos, carga SQL, usuario auditor ni consultas académicas. Los conteos 91,800 corresponden al contrato previsto.",
+  "archivos_revisados": [
+    {
+      "ruta": "04_SQL/Instrucciones_generacion_datos_P1_v1.md",
+      "sha256": "1ccf23094e28563925c91574ac50e65c44bf9184282466f2db334a1fa382ad17"
+    },
+    {
+      "ruta": "04_SQL/Diseno_laboratorio_v1.md",
+      "sha256": "a222cbfcd57712d87902f68b2c8466e192aafc4bb8275e762e46cb9580e7adbe"
+    },
+    {
+      "ruta": "04_SQL/01_esquema.sql",
+      "sha256": "1a54f28c9f2c730ef4fb7d1cc862c849e8e3ef3ecbc8f437ee3aa3e1df19d209"
+    },
+    {
+      "ruta": "04_SQL/compose.yaml",
+      "sha256": "c8f24ee11d67dd29edd6e8dba715d784ade49539d0420a1e0d86f1d294514894"
+    },
+    {
+      "ruta": "04_SQL/README.md",
+      "sha256": "365f3ff1b0865a256bafb63363fad3af7b8eead705e4635c63f7ddb7ece3a260"
+    },
+    {
+      "ruta": "03_Evidencias/Supuestos_P1_v1.csv",
+      "sha256": "4d7b4f6231f17648ff3bdd141d1395b9980d2800489153f3a6a526ca30fd9ec4"
+    },
+    {
+      "ruta": "03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "sha256": "578b568be81047637fb3d9c84a0d27bc1db05d0463a82dcabd2acd545ff6ff43"
+    },
+    {
+      "ruta": "01_Informe/Plantilla_UdeO_v1.docx",
+      "sha256": "9383748f9d0f992a07171f0a3ffa4bbcc67cc5c231c47a510c58cc5af52c74fd"
+    },
+    {
+      "ruta": "01_Informe/Plantilla_UdeO_v1.pdf",
+      "sha256": "ae13a260bd079758a92d80c281b6b8893f8e85f05314f7e03fea0cbfb24fd445"
+    },
+    {
+      "ruta": "01_Informe/preparar_plantilla_UdeO_v1.py",
+      "sha256": "4911c744246d8d1c5a2aee5adaef87dd6389fa8fcaca2d483264175538ab51c0"
+    },
+    {
+      "ruta": "07_Referencias/Registro_uso_IA_v1.csv",
+      "sha256": "416b2fbbb9f5c594fdb50aecd2a3340e53fde4d1ac388abc3909804e6035f778"
+    },
+    {
+      "ruta": "07_Referencias/Fuentes_P1_v1.md",
+      "sha256": "54c5aa681e46999ff13d7a85119f900108dfdd7a6523d8c6de57292a34276fe6"
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "sha256": "ae443a69d4c21d5bdef8dad990ac05632b48120ca721509b1a1cc51f9e4f80ac"
+    }
+  ]
+}

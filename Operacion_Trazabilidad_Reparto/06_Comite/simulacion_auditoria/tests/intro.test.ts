@@ -1,9 +1,25 @@
 import { describe, expect, it } from 'vitest';
 import { canon } from '../src/data/canon';
 import { getIntroFrame, introHistory, shots } from '../src/data/intro';
-import { getSimulationFrame } from '../src/data/simulation';
+import { getSimulationFrame, introVisualKey, simulationVisualKey } from '../src/data/simulation';
 
- describe('reconstrucción determinista', () => {
+describe('reconstrucción determinista', () => {
+  it('reutiliza las vistas idénticas sin congelar etapas, nota, retroceso ni luz', () => {
+    expect(introVisualKey(0)).toBe(introVisualKey(7.9));
+    expect(simulationVisualKey(getSimulationFrame(0))).toBe(simulationVisualKey(getSimulationFrame(3.8)));
+    expect(introVisualKey(27)).toBe(introVisualKey(29.9));
+    expect(introVisualKey(23.15)).not.toBe(introVisualKey(23.35));
+    expect(introVisualKey(29.9)).not.toBe(introVisualKey(30));
+    expect(introVisualKey(63.99)).not.toBe(introVisualKey(64));
+    expect(introVisualKey(73.99)).not.toBe(introVisualKey(74));
+    expect(introVisualKey(77, true)).not.toBe(introVisualKey(83, true));
+    expect(introVisualKey(83, true)).not.toBe(introVisualKey(89, true));
+    expect(introVisualKey(105)).not.toBe(introVisualKey(106));
+    expect(introVisualKey(106)).not.toBe(introVisualKey(107));
+    expect(introVisualKey(108)).toBe(introVisualKey(109));
+    expect(introVisualKey(31)).toBe(introVisualKey(31));
+  });
+
   it('contiene diez planos, 110 segundos y trece registros sin evento adicional', () => {
     expect(shots).toHaveLength(10);
     expect(shots[shots.length - 1].end).toBe(canon.presentation.openingTargetSeconds);

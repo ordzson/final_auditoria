@@ -1,0 +1,91 @@
+{
+  "fecha_utc": "2026-11-07T22:50:31.226942+00:00",
+  "alcance": "Copias exactas de los doce entregables indicados para revisión manual. Originales conservados en sus rutas; juego excluido.",
+  "archivos": [
+    {
+      "archivo": "Seccion_forense_P1_v1.pdf",
+      "original": "01_Informe/Seccion_forense_P1_v1.pdf",
+      "sha256": "e600a486a906520d0d71462fb9c067cfb7f4f0bf7b8e0a70620782b4c1ca5b36",
+      "bytes": 79701,
+      "revisar": "Informe propio de P1; revisar razonamiento, hipótesis y límites."
+    },
+    {
+      "archivo": "Papeles_Trabajo_P1_v1.pdf",
+      "original": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "sha256": "5053f234224c56538cb9b0ab78b5918b5bed37b8ab76f04f0e5f5768d186b6a6",
+      "bytes": 63053,
+      "revisar": "PT-20–PT-25; seguir resultados y conclusiones."
+    },
+    {
+      "archivo": "Cronologia_investigada_v1.xlsx",
+      "original": "03_Evidencias/Cronologia_investigada_v1.xlsx",
+      "sha256": "f50e5e8d82cf83a6d26bf8507d6eb4d80379ec7e239eaac929698da960f4ccfd",
+      "bytes": 12918,
+      "revisar": "Trece eventos, fuentes, tiempos y desconocidos; comenzar por Lectura."
+    },
+    {
+      "archivo": "indice_evidencias.xlsx",
+      "original": "03_Evidencias/indice_evidencias.xlsx",
+      "sha256": "65d9ad48618597a509fda348e234351b919a061d002fd0ed7fc04860d450b8cd",
+      "bytes": 52781,
+      "revisar": "Localizar evidencia y sus archivos; comenzar por Lectura."
+    },
+    {
+      "archivo": "Programa_pruebas_P1_v1.xlsx",
+      "original": "03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "sha256": "38777e207d6d3d65b14e13fa9193d95f7a72cb8d21d73f9ea1cf552fd545d9de",
+      "bytes": 13198,
+      "revisar": "Pruebas y resultados; comenzar por Lectura."
+    },
+    {
+      "archivo": "Borradores_hallazgos_P1_v1.md",
+      "original": "03_Evidencias/Borradores_hallazgos_P1_v1.md",
+      "sha256": "005b35243266aef73de458b2bc690ea7e9be30cf684bcd54506145546cc55ea0",
+      "bytes": 7887,
+      "revisar": "B1-1/B1-2 no concluyentes; localizador AlertaID=6 corregido."
+    },
+    {
+      "archivo": "Acciones_P1_0_72h_v1.csv",
+      "original": "05_Plan/Acciones_P1_0_72h_v1.csv",
+      "sha256": "cd9103bfd7e815d0ffa25a9f3cc948bf585e459dd0ceb75019be20a0dd808a44",
+      "bytes": 10359,
+      "revisar": "Once propuestas; responsables, dependencias y cierre."
+    },
+    {
+      "archivo": "Presentacion_P1_v1.pdf",
+      "original": "06_Comite/Presentacion_P1_v1.pdf",
+      "sha256": "1421e9942949a254b0e8d72ddf8c0d7ac7486c9a367744e520538de02c45496c",
+      "bytes": 50378,
+      "revisar": "Seis diapositivas propias."
+    },
+    {
+      "archivo": "Guion_defensa_P1_v1.md",
+      "original": "06_Comite/Guion_defensa_P1_v1.md",
+      "sha256": "8911734284b62c7f9cdd23ae20f373bb243a7dcfbc8724044d208aac00993e91",
+      "bytes": 9856,
+      "revisar": "Ensayar cuatro minutos, respuestas y recorrido documental."
+    },
+    {
+      "archivo": "Fuentes_P1_v1.pdf",
+      "original": "07_Referencias/Fuentes_P1_v1.pdf",
+      "sha256": "0a00f4ddcff6489ea331e61bfd9e3a082da7c619cadf0d73674cd0b0dea20fa6",
+      "bytes": 52464,
+      "revisar": "Fuentes y aplicación de criterios."
+    },
+    {
+      "archivo": "Uso_IA.pdf",
+      "original": "07_Referencias/Uso_IA.pdf",
+      "sha256": "1ced022e9b14472015b6dc77f64eaa8b8cd1dcf1060390f683c561525535ef49",
+      "bytes": 58698,
+      "revisar": "Declaración y límites de uso de IA; conservada como se acordó."
+    },
+    {
+      "archivo": "Informe_equipo_parcial_P1_v1.pdf",
+      "original": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "sha256": "506479196564fcda0b15a82ca77e8c84ed52cbff6a85cf9e5872d6d6cc0f928a",
+      "bytes": 153291,
+      "revisar": "Revisar con P2/P3; borrador parcial, pendiente de integración."
+    }
+  ],
+  "discrepancias": []
+}

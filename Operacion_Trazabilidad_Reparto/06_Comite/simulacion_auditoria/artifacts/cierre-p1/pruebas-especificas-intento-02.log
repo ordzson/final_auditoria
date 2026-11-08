@@ -1,0 +1,97 @@
+Already up to date
+Done in 56ms using pnpm v11.2.2
+
+Running 7 tests using 1 worker
+
+(node:1907923) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1907923) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/e2e/acceptance.spec.ts:161:1 › D · bloqueo del puntero denegado activa la alternativa completa (25.8s)
+(node:1908906) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1908906) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 tests/e2e/acceptance.spec.ts:181:1 › D · inicio local sin acceso externo y revisión con el contexto offline (24.4s)
+  ✓  3 tests/e2e/i5.spec.ts:13:1 › I5 · ayuda escrita, retorno PC/libreta/TI y persistencia en los seis puestos (14.0s)
+  ✓  4 tests/e2e/i5.spec.ts:50:3 › I5 · metadatos y ayuda legibles a 1440px (2.3s)
+  ✓  5 tests/e2e/i5.spec.ts:50:3 › I5 · metadatos y ayuda legibles a 390px (1.9s)
+  ✓  6 tests/e2e/i5.spec.ts:76:1 › I5 · el reloj conserva el tiempo de un fotograma retrasado y la pausa lo congela (18.6s)
+  ✘  7 tests/e2e/office.spec.ts:102:1 › A · navegación real, entrega, AU-02 y dependencia de fuentes (2.1m)
+
+
+  1) tests/e2e/acceptance.spec.ts:161:1 › D · bloqueo del puntero denegado activa la alternativa completa 
+
+    TimeoutError: locator.click: Timeout 15000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Omitir y entrar a la oficina' })[22m
+    [2m    - locator resolved to <button data-action="skip" class="primary-button skip-button">Omitir y entrar a la oficina</button>[22m
+    [2m  - attempting click action[22m
+    [2m    - waiting for element to be visible, enabled and stable[22m
+    [2m    - element is visible, enabled and stable[22m
+    [2m    - scrolling into view if needed[22m
+    [2m    - done scrolling[22m
+    [2m    - performing click action[22m
+    [2m    - click action done[22m
+    [2m    - waiting for scheduled navigations to finish[22m
+
+
+      167 |   });
+      168 |   await page.goto('/');
+    > 169 |   await page.getByRole('button', { name: 'Omitir y entrar a la oficina' }).click();
+          |                                                                            ^
+      170 |   await page.locator('#enter-office').click();
+      171 |   await expect(page.locator('#flat-office')).toBeVisible();
+      172 |   await expect(page.locator('#toast')).toContainText('toda la revisión sigue disponible');
+        at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/acceptance.spec.ts:169:76
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    artifacts/test-results/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: artifacts/test-results/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    artifacts/test-results/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace artifacts/test-results/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/e2e/office.spec.ts:102:1 › A · navegación real, entrega, AU-02 y dependencia de fuentes ─
+
+    [31mTest timeout of 120000ms exceeded.[39m
+
+    Error: locator.count: Target page, context or browser has been closed
+
+       at interview-helpers.ts:8
+
+       6 |   if (!question) throw new Error(`La entrevista no ofrece ${sourceId}`);
+       7 |   const topics = page.locator('[data-action="topics"]');
+    >  8 |   if (await topics.count()) await topics.click();
+         |                    ^
+       9 |   await page.locator(`[data-topic="${question.reviewId}"]`).click();
+      10 |   await page.locator(`[data-question="${question.id}"]`).click();
+      11 |   await expect(page.locator(`[data-action="source"][data-source="${sourceId}"]`)).toBeVisible();
+        at selectInterviewSource (/home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/interview-helpers.ts:8:20)
+        at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/office.spec.ts:143:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    artifacts/test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: artifacts/test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    artifacts/test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace artifacts/test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests/e2e/acceptance.spec.ts:161:1 › D · bloqueo del puntero denegado activa la alternativa completa 
+    tests/e2e/office.spec.ts:102:1 › A · navegación real, entrega, AU-02 y dependencia de fuentes ──
+  5 passed (3.8m)

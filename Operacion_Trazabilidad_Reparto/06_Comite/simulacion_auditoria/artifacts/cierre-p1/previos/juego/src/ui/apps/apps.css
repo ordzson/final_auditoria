@@ -1,0 +1,165 @@
+.computer-desktop .pc-app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  color: #000;
+  background: var(--pc-face, #ece9d8);
+  font: 12px/1.45 var(--pc-font, TahomaXP, Tahoma, sans-serif);
+  font-synthesis: none;
+  text-align: left;
+}
+.computer-desktop .pc-app *, .computer-desktop .pc-app *::before, .computer-desktop .pc-app *::after { box-sizing: border-box; }
+.computer-desktop .pc-app :is(button, input, select, textarea) { font: inherit; letter-spacing: normal; }
+.computer-desktop .pc-app button {
+  min-height: 25px;
+  padding: 3px 9px;
+  border: 1px solid #7f9db9;
+  border-radius: 2px;
+  color: #000;
+  background: #f6f5ee;
+  box-shadow: inset 1px 1px #fff, inset -1px -1px #ddd9c4;
+  cursor: pointer;
+  white-space: normal;
+  text-transform: none;
+}
+.computer-desktop .pc-app button:hover:not(:disabled) { border-color: #003c74; background: #fff7d5; }
+.computer-desktop .pc-app button:active:not(:disabled) { background: #dfdfd5; box-shadow: inset 1px 1px #a6a69b; }
+.computer-desktop .pc-app button:disabled { color: #595955; cursor: default; background: #e8e6dc; }
+.computer-desktop .pc-app :is(button, input, select, textarea, summary):focus-visible { outline: 2px solid #003c74; outline-offset: 2px; }
+.computer-desktop .pc-app :is(input[type="search"], select, textarea) { border: 1px solid #7f9db9; color: #000; background: #fff; padding: 4px 6px; border-radius: 0; max-width: 100%; caret-color: #000; }
+.computer-desktop .pc-app input[type="search"] { min-width: 0; width: 100%; }
+.computer-desktop .pc-app :is(input[type="checkbox"], input[type="radio"]) { accent-color: #316ac5; flex: 0 0 auto; margin: 3px 0 0; }
+.computer-desktop .pc-app ::selection { color: #fff; background: #316ac5; }
+.computer-desktop .pc-app :is(h2, h3, h4, p, ul) { margin: 0 0 9px; }
+.computer-desktop .pc-app h2 { font-size: 18px; line-height: 1.3; font-weight: 700; }
+.computer-desktop .pc-app h3 { font-size: 13px; line-height: 1.4; font-weight: 700; }
+.computer-desktop .pc-app h4 { font-size: 12px; line-height: 1.4; font-weight: 700; }
+.computer-desktop .pc-app p { max-width: 76ch; }
+.computer-desktop .pc-app ul { padding-left: 19px; }
+.computer-desktop .pc-app small { display: block; font-size: 11px; color: #404040; }
+.computer-desktop .pc-app details { margin: 8px 0; }
+.computer-desktop .pc-app summary { cursor: pointer; }
+.computer-desktop .pc-app details p { margin-top: 8px; }
+.computer-desktop .pc-app [hidden] { display: none !important; }
+.computer-desktop .pc-app-icon { display: inline-block; vertical-align: middle; object-fit: contain; flex: 0 0 16px; }
+.computer-desktop .pc-app-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; padding: 5px 7px; border-bottom: 1px solid #aca899; background: var(--pc-face, #ece9d8); flex: 0 0 auto; }
+.computer-desktop .pc-app-toolbar > span:first-child { margin-right: auto; }
+.computer-desktop .pc-app-toolbar label { display: flex; align-items: center; flex-wrap: wrap; gap: 5px; min-width: 0; }
+.computer-desktop .pc-app-toolbar select { width: 210px; }
+.computer-desktop .pc-app-body { min-height: 0; min-width: 0; overflow: auto; padding: 10px; scrollbar-color: #c2c3c7 #f0eee3; scrollbar-width: auto; }
+.computer-desktop .pc-app-context { color: #404040; font-size: 11px; }
+.computer-desktop .pc-app-empty { padding: 12px; background: #fff; color: #404040; }
+.computer-desktop .pc-app-error, .computer-desktop .pc-app-query-error { margin: 9px 0; padding: 9px; border: 1px solid #a33c24; color: #711f14; background: #fff4df; overflow-wrap: anywhere; }
+.computer-desktop .pc-app-table-wrap { min-width: 0; max-height: 320px; overflow: auto; background: #fff; scrollbar-color: #c2c3c7 #f0eee3; font-variant-numeric: tabular-nums; }
+.computer-desktop .pc-app table { width: 100%; border-collapse: collapse; font: inherit; text-align: left; }
+.computer-desktop .pc-app th { position: sticky; top: 0; z-index: 1; padding: 4px 7px; background: #ece9d8; border: 1px solid #c5c2b4; font-weight: 400; white-space: nowrap; box-shadow: inset 1px 1px #fff; }
+.computer-desktop .pc-app td { padding: 5px 7px; border-bottom: 1px solid #e1e1e1; border-right: 1px solid #e6e6e6; vertical-align: top; overflow-wrap: anywhere; }
+.computer-desktop .pc-app-query .pc-app-results td { min-width: 95px; }
+.computer-desktop .pc-app-query .pc-app-results td:last-child { min-width: 200px; }
+.computer-desktop .pc-app .pc-app-record-link { min-height: 22px; padding: 0; color: #003c74; background: transparent; border: 0; box-shadow: none; text-align: left; text-decoration: underline; text-underline-offset: 2px; }
+.computer-desktop .pc-app .pc-app-record-link:hover { color: #002955; background: transparent; }
+.computer-desktop .pc-app-selected td { background: #dfebfd; }
+.computer-desktop .pc-app-null { color: #59523e; font-style: italic; }
+.computer-desktop .pc-app-query-layout { display: grid; grid-template-columns: 135px minmax(0, 1fr); gap: 10px; }
+.computer-desktop .pc-app-schema { padding: 9px 6px; border: 1px solid #aca899; background: #fff; }
+.computer-desktop .pc-app-schema h3 { font-size: 12px; }
+.computer-desktop .pc-app-schema ul { font-size: 11px; margin-top: 5px; }
+.computer-desktop .pc-app-schema button { margin-top: 9px; width: 100%; }
+.computer-desktop .pc-app-query-work { min-width: 0; }
+.computer-desktop .pc-app-editor-label { display: block; border: 1px solid #7f9db9; background: #fff; padding: 4px 6px 0; }
+.computer-desktop .pc-app textarea.pc-app-sql { display: block; min-width: 0; width: 100%; min-height: 125px; padding: 8px 0; resize: vertical; border: 0; color: #001c65; font: 13px/1.6 ui-monospace, "Cascadia Mono", monospace; tab-size: 2; }
+.computer-desktop .pc-app-help { flex: 1 0 130px; }
+.computer-desktop .pc-app-query-status { margin: 10px 0 5px; }
+.computer-desktop .pc-app-results > .pc-app-context { margin-top: 7px; }
+.computer-desktop .pc-app-inspector { border-top: 1px solid #aca899; margin-top: 12px; background: #fff; }
+.computer-desktop .pc-app-document { padding: 10px; }
+.computer-desktop .pc-app-document > header { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.computer-desktop .pc-app-document > header h3 { margin-bottom: 5px; }
+.computer-desktop .pc-app-document .pc-app-toolbar { padding-left: 0; border: 0; background: #fff; margin: 8px 0; }
+.computer-desktop .pc-app-document .pc-app-table-wrap { max-height: 250px; }
+.computer-desktop .pc-app-document details { padding-top: 8px; }
+.computer-desktop .pc-app-search { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 8px; margin: 12px 0 5px; }
+.computer-desktop .pc-app-count { color: #404040; font-size: 11px; }
+.computer-desktop .pc-app-record-layout { display: grid; grid-template-columns: minmax(0, 1fr); }
+.computer-desktop .pc-app-record-layout > .pc-app-table-wrap { border: 1px solid #aca899; }
+.computer-desktop .pc-app-record-layout td:first-child { min-width: 130px; }
+.computer-desktop .pc-app-no-matches { padding: 12px; }
+.computer-desktop .pc-app-comparison { margin-top: 15px; padding-top: 10px; border-top: 1px solid #aca899; }
+.computer-desktop .pc-app-comparison-records { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-bottom: 9px; }
+.computer-desktop .pc-app-comparison-records article { min-width: 0; padding: 8px; background: #fff; }
+.computer-desktop .pc-app-checks { margin-top: 18px; }
+.computer-desktop .pc-app fieldset { margin: 10px 0 14px; padding: 10px; min-width: 0; border: 1px solid #aca899; }
+.computer-desktop .pc-app legend { font-weight: 700; padding: 0 4px; white-space: normal; }
+.computer-desktop .pc-app-checks select { display: block; width: 100%; margin: 5px 0 8px; }
+.computer-desktop .pc-app-check-status { margin-bottom: 0; color: #333; }
+.computer-desktop .pc-app-report .pc-app-body { padding: 18px 22px; background: #fff; }
+.computer-desktop .pc-app-report-heading { margin-bottom: 20px; border-bottom: 1px solid #aca899; }
+.computer-desktop .pc-app-report section { margin-bottom: 22px; }
+.computer-desktop .pc-app-report .pc-app-report-status { color: #404040; }
+.computer-desktop .pc-app-report .pc-app-choice { display: flex; align-items: flex-start; gap: 7px; padding: 5px 0; }
+.computer-desktop .pc-app-free-note { width: 100%; display: block; resize: vertical; margin-top: 6px; }
+.computer-desktop .pc-app-report .pc-app-report-sources small { display: inline; }
+.computer-desktop .pc-app-report .pc-app-report-checks { margin: 12px 0; }
+.computer-desktop .pc-app-report .pc-app-report-disclaimer { margin-top: 10px; }
+.computer-desktop .pc-app-timeline { border: 1px solid #aca899; background: #fff; }
+.computer-desktop .pc-app-event { display: grid; grid-template-columns: 62px minmax(0, 1fr); gap: 10px; padding: 8px; border-bottom: 1px solid #d8d5c9; }
+.computer-desktop .pc-app-event:last-child { border-bottom: 0; }
+.computer-desktop .pc-app-event > time { font: 700 14px/1.3 ui-monospace, "Cascadia Mono", monospace; font-variant-numeric: tabular-nums; }
+.computer-desktop .pc-app-event > time small { margin-top: 2px; font: 11px/1.3 var(--pc-font); }
+.computer-desktop .pc-app-event p { margin: 3px 0; }
+.computer-desktop .pc-app-event-alert { background: #fff4d6; }
+.computer-desktop .pc-app-event-selected { outline: 2px solid #316ac5; outline-offset: -2px; }
+.computer-desktop .pc-app-recovery-stages { display: grid; grid-template-columns: repeat(5, minmax(74px, 1fr)); gap: 4px; margin: 12px 0; overflow-x: auto; }
+.computer-desktop .pc-app-recovery-stages button { min-width: 74px; padding: 6px 4px; }
+.computer-desktop .pc-app-recovery-stages time, .computer-desktop .pc-app-recovery-stages span { display: block; }
+.computer-desktop .pc-app-recovery-stages time { font-variant-numeric: tabular-nums; }
+.computer-desktop .pc-app-recovery-stages button[aria-pressed="true"],
+.computer-desktop .pc-app-recovery-stages button[aria-pressed="true"]:hover:not(:disabled) { color: #fff; background: #316ac5; box-shadow: inset 1px 1px #003c74; }
+.computer-desktop .pc-app-recovery-slider { display: grid; grid-template-columns: auto minmax(120px, 1fr); align-items: center; gap: 10px; margin: 12px 0; }
+.computer-desktop .pc-app-recovery-slider input { width: 100%; accent-color: #316ac5; }
+.computer-desktop .pc-app-recovery-snapshot { padding: 12px; border: 1px solid #7f9db9; background: #fff; }
+.computer-desktop .pc-app-recovery-snapshot > time { float: right; font: 700 18px/1 ui-monospace, "Cascadia Mono", monospace; }
+.computer-desktop .pc-app-recovery-snapshot dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; clear: both; }
+.computer-desktop .pc-app-recovery-snapshot dl div { padding: 6px; background: #f2f1ea; }
+.computer-desktop .pc-app-recovery-snapshot dt { font-weight: 700; }
+.computer-desktop .pc-app-recovery-snapshot dd { margin: 3px 0 0; }
+.computer-desktop .pc-app-service-down { background: #fff0e8; border-color: #9d5548; }
+.computer-desktop .pc-app-observation, .computer-desktop .pc-app-feedback { margin: 10px 0; padding: 8px; border: 1px solid #c5c2b4; background: #ffffe1; }
+.computer-desktop .pc-app-inventory, .computer-desktop .pc-app-clock-table { max-height: 300px; border: 1px solid #aca899; }
+.computer-desktop .pc-app-inventory td:nth-child(2), .computer-desktop .pc-app-inventory td:nth-child(3) { min-width: 120px; }
+.computer-desktop .pc-app-clock-table td:first-child { min-width: 170px; }
+.computer-desktop .pc-app-context-sources { margin-top: 10px; border: 1px solid #aca899; }
+@media (max-width: 700px) {
+  .computer-desktop .pc-app { font-size: 13px; }
+  .computer-desktop .pc-app button, .computer-desktop .pc-app select, .computer-desktop .pc-app input[type="search"] { min-height: 44px; }
+  .computer-desktop .pc-app :is(input[type="search"], select, textarea) { font-size: 16px; }
+  .computer-desktop .pc-app-query-layout { grid-template-columns: minmax(0, 1fr); }
+  .computer-desktop .pc-app-schema { display: flex; align-items: flex-start; flex-wrap: wrap; gap: 8px; }
+  .computer-desktop .pc-app-schema > h3 { width: 100%; margin-bottom: 0; }
+  .computer-desktop .pc-app-schema button { width: auto; margin: 0; }
+  .computer-desktop .pc-app-schema details { margin: 0; }
+  .computer-desktop .pc-app-toolbar { gap: 7px; }
+  .computer-desktop .pc-app-toolbar > span:first-child { width: 100%; }
+  .computer-desktop .pc-app-toolbar select { width: 100%; }
+  .computer-desktop .pc-app-document > header { flex-wrap: wrap; }
+  .computer-desktop .pc-app-search { grid-template-columns: minmax(0, 1fr); }
+  .computer-desktop .pc-app-comparison-records { grid-template-columns: minmax(0, 1fr); }
+  .computer-desktop .pc-app-report .pc-app-body { padding: 12px; }
+  .computer-desktop .pc-app-report .pc-app-choice { padding: 10px 0; }
+}
+[data-projector='true'] .computer-desktop .pc-app { font-size: 15px; }
+[data-projector='true'] .computer-desktop .pc-app :is(h3, h4) { font-size: 16px; }
+[data-projector='true'] .computer-desktop .pc-app :is(small, .pc-app-context, .pc-app-count, .pc-app-schema ul) { font-size: 13px; }
+[data-projector='true'] .computer-desktop .pc-app button,
+[data-projector='true'] .computer-desktop .pc-app select,
+[data-projector='true'] .computer-desktop .pc-app input[type='search'] { min-height: 44px; }
+[data-projector='true'] .computer-desktop .pc-app textarea.pc-app-sql { font-size: 15px; }
+@media (pointer: coarse) {
+  .computer-desktop .pc-app { font-size: 15px; }
+  .computer-desktop .pc-app button, .computer-desktop .pc-app select, .computer-desktop .pc-app input[type='search'] { min-height: 44px; }
+  .computer-desktop .pc-app :is(input[type='search'], select, textarea) { font-size: 16px; }
+  .computer-desktop .pc-app .pc-app-choice { min-height: 44px; }
+}

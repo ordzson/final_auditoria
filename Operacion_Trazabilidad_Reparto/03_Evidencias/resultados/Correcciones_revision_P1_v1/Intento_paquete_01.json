@@ -1,0 +1,11 @@
+{
+  "fecha_utc": "2026-11-07T22:44:33.667014+00:00",
+  "resultado": "Intento no cerrado; fallo en la comprobación adicional de conservación del juego.",
+  "causa": "ZipFile.writestr modifica header_offset del ZipInfo reutilizado. El cotejo releía el ZIP original con offsets del destino en memoria. Se usa copy.copy(ZipInfo) antes de escribir. El ZIP original no cambió.",
+  "CRC_y_hashes_paquete_provisional": "Habían pasado antes del fallo de comparación adicional; no se declararon cierre aprobado.",
+  "archivo_temporal_preservado": "/tmp/p1-correcciones-paquete-intento-01.zip",
+  "bytes": 174614979,
+  "sha256": "ef07b939c581748d77d8dbd78309c8fb510d4badf9d28ae639d7e0902127a229",
+  "ZIP_v1_conservado": true,
+  "intento_02": "La transferencia temporal entre sistemas de archivos con rename falló. Se usó shutil.move. El reintento rechazó correctamente un provisional existente antes de escribirlo."
+}

@@ -1,0 +1,494 @@
+[
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/Alertas.csv",
+    "observado": "6ff35be519f7f1ed60b069c0c5da6869996a823b58513b6d92a8175310b588e8",
+    "esperado": "6ff35be519f7f1ed60b069c0c5da6869996a823b58513b6d92a8175310b588e8",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/Backups.csv",
+    "observado": "e9da4a06548ba650d573a29375e8767fbaf1d15c69c76818d6fad9e3d497f4fd",
+    "esperado": "e9da4a06548ba650d573a29375e8767fbaf1d15c69c76818d6fad9e3d497f4fd",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/BitacoraSQL.csv",
+    "observado": "bb8c2ba2856566854160616f3e7d578772edf26f1bdd15e2efd40f95ed2fc2af",
+    "esperado": "bb8c2ba2856566854160616f3e7d578772edf26f1bdd15e2efd40f95ed2fc2af",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/CambiosSistema.csv",
+    "observado": "bf27a9b89912c472991417d712f5ab091e2bb8b891840d70ff4b6ac1363ea80f",
+    "esperado": "bf27a9b89912c472991417d712f5ab091e2bb8b891840d70ff4b6ac1363ea80f",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/Clientes.csv",
+    "observado": "8f4c973845aeeb31b22d386181b5dde673d608f91732766deef3dd2642da4bc1",
+    "esperado": "8f4c973845aeeb31b22d386181b5dde673d608f91732766deef3dd2642da4bc1",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/Empleados.csv",
+    "observado": "fe8916347d033d58609c1a5322627372316845b187fd69ff3945db9b8cc2cd29",
+    "esperado": "fe8916347d033d58609c1a5322627372316845b187fd69ff3945db9b8cc2cd29",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/EventosExpediente.csv",
+    "observado": "760d01d25fe03cefbbd3a5480c5605059cfa09513a3c63e00f0e3876b389b70a",
+    "esperado": "760d01d25fe03cefbbd3a5480c5605059cfa09513a3c63e00f0e3876b389b70a",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/FuentesTiempo.csv",
+    "observado": "d1c47f604bbc5f9f59b483e45d5e3bb9039d2c14453cf7f79d73b2200779fce6",
+    "esperado": "d1c47f604bbc5f9f59b483e45d5e3bb9039d2c14453cf7f79d73b2200779fce6",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/HistorialOrdenes.csv",
+    "observado": "42f48dde1b1330b56d937b47032a4e3c1367ffe35333297cf7d2bdac208478ec",
+    "esperado": "42f48dde1b1330b56d937b47032a4e3c1367ffe35333297cf7d2bdac208478ec",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/Ordenes.csv",
+    "observado": "bc7f4f249f752eabf1ab04e4e7db53c36dc4161f75aa3d032eeeb458fc49cda2",
+    "esperado": "bc7f4f249f752eabf1ab04e4e7db53c36dc4161f75aa3d032eeeb458fc49cda2",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/Privilegios.csv",
+    "observado": "66977a95c7bcac313049ba74ce727d76c17aadb58db5a5228a19db0a4074cf62",
+    "esperado": "66977a95c7bcac313049ba74ce727d76c17aadb58db5a5228a19db0a4074cf62",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/ProgramacionBackups.csv",
+    "observado": "33801254fb8fe85cf335d9ec135f3cbb7990e0529de8175a3dce54fb7ad78b13",
+    "esperado": "33801254fb8fe85cf335d9ec135f3cbb7990e0529de8175a3dce54fb7ad78b13",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/PruebasRestauracion.csv",
+    "observado": "973e042e96832c641d66f66517a873149db1ab1c58086416bfcfb0d986609fea",
+    "esperado": "973e042e96832c641d66f66517a873149db1ab1c58086416bfcfb0d986609fea",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/Sesiones.csv",
+    "observado": "3e9fe5d0d06162c5e56df5c47be10f9954cefacd2346be61604a71f3b31e0a48",
+    "esperado": "3e9fe5d0d06162c5e56df5c47be10f9954cefacd2346be61604a71f3b31e0a48",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/TransferenciasRed.csv",
+    "observado": "01df5bcb3167fb8dbf4e1833d772ea2c1ae10535679592ef32fda18cd92b257d",
+    "esperado": "01df5bcb3167fb8dbf4e1833d772ea2c1ae10535679592ef32fda18cd92b257d",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/Usuarios.csv",
+    "observado": "30e70ad30e6b2afbc4b7efc3c446ffe8cd6651c902f9b4a87c209a0a1f48d7da",
+    "esperado": "30e70ad30e6b2afbc4b7efc3c446ffe8cd6651c902f9b4a87c209a0a1f48d7da",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_01.md",
+    "observado": "26024306fbdd408e55fd55b50afe04f19265c4388c4ee5aa1c385883b25c69bb",
+    "esperado": "26024306fbdd408e55fd55b50afe04f19265c4388c4ee5aa1c385883b25c69bb",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_02.md",
+    "observado": "7a358b3c868dffba04a769601ac0dcd2ad4d2b3631548ec9646bb89479d4715d",
+    "esperado": "7a358b3c868dffba04a769601ac0dcd2ad4d2b3631548ec9646bb89479d4715d",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_03.md",
+    "observado": "04045b50a8a227d2de7b9d40f4ea3d343a23a8b836c7c39170762255ca755a8e",
+    "esperado": "04045b50a8a227d2de7b9d40f4ea3d343a23a8b836c7c39170762255ca755a8e",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_04.md",
+    "observado": "0afc3809dc1c7217edf428dc71d993064ce69e4a4b0760b43083287e720e4865",
+    "esperado": "0afc3809dc1c7217edf428dc71d993064ce69e4a4b0760b43083287e720e4865",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/02_generar_datos_v2.py",
+    "observado": "4674d9470de88c659fecddc21c15581dd90a17f9f54d238ab1f16ea900ca7c2d",
+    "esperado": "4674d9470de88c659fecddc21c15581dd90a17f9f54d238ab1f16ea900ca7c2d",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/validar_datos_v2.py",
+    "observado": "5505bce8b7d0051903cd1239f213e103350fbba47962a6f70f1446bfe170fa43",
+    "esperado": "5505bce8b7d0051903cd1239f213e103350fbba47962a6f70f1446bfe170fa43",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 04_SQL/01_esquema.sql",
+    "observado": "1a54f28c9f2c730ef4fb7d1cc862c849e8e3ef3ecbc8f437ee3aa3e1df19d209",
+    "esperado": "1a54f28c9f2c730ef4fb7d1cc862c849e8e3ef3ecbc8f437ee3aa3e1df19d209",
+    "aprobado": true
+  },
+  {
+    "prueba": "Archivo SHA256 03_Evidencias/Supuestos_P1_v1.csv",
+    "observado": "4d7b4f6231f17648ff3bdd141d1395b9980d2800489153f3a6a526ca30fd9ec4",
+    "esperado": "4d7b4f6231f17648ff3bdd141d1395b9980d2800489153f3a6a526ca30fd9ec4",
+    "aprobado": true
+  },
+  {
+    "prueba": "Contrato conservado 16 tablas vacías",
+    "observado": [
+      16,
+      0
+    ],
+    "esperado": [
+      16,
+      0
+    ],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad FuentesTiempo",
+    "observado": 18,
+    "esperado": 18,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV FuentesTiempo",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad Empleados",
+    "observado": 114,
+    "esperado": 114,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV Empleados",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad Usuarios",
+    "observado": 120,
+    "esperado": 120,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV Usuarios",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad Sesiones",
+    "observado": 3000,
+    "esperado": 3000,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV Sesiones",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad Privilegios",
+    "observado": 13,
+    "esperado": 13,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV Privilegios",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad Clientes",
+    "observado": 85000,
+    "esperado": 85000,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV Clientes",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad Ordenes",
+    "observado": 3000,
+    "esperado": 3000,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV Ordenes",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad HistorialOrdenes",
+    "observado": 276,
+    "esperado": 276,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV HistorialOrdenes",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad CambiosSistema",
+    "observado": 6,
+    "esperado": 6,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV CambiosSistema",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad ProgramacionBackups",
+    "observado": 9,
+    "esperado": 9,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV ProgramacionBackups",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad Backups",
+    "observado": 9,
+    "esperado": 9,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV Backups",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad PruebasRestauracion",
+    "observado": 1,
+    "esperado": 1,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV PruebasRestauracion",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad BitacoraSQL",
+    "observado": 142,
+    "esperado": 142,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV BitacoraSQL",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad TransferenciasRed",
+    "observado": 73,
+    "esperado": 73,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV TransferenciasRed",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad Alertas",
+    "observado": 6,
+    "esperado": 6,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV Alertas",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL cantidad EventosExpediente",
+    "observado": 13,
+    "esperado": 13,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL todas las celdas vs CSV EventosExpediente",
+    "observado": [],
+    "esperado": [],
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL FK activas y confiables",
+    "observado": 18,
+    "esperado": 18,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL DBCC restricciones sin errores",
+    "observado": "",
+    "esperado": "",
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL Cambios E05 sin atribucion",
+    "observado": 216,
+    "esperado": 216,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL Cambios ventana",
+    "observado": 216,
+    "esperado": 216,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL Clientes",
+    "observado": 85000,
+    "esperado": 85000,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL Eventos",
+    "observado": 13,
+    "esperado": 13,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL Eventos originales desconocidos",
+    "observado": 13,
+    "esperado": 13,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL Lectura E03 sin atribucion",
+    "observado": 1,
+    "esperado": 1,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL Ordenes distintas ventana",
+    "observado": 216,
+    "esperado": 216,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL Ordenes fuera periodo",
+    "observado": 0,
+    "esperado": 0,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL Red E04 aproximada",
+    "observado": 1,
+    "esperado": 1,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL Red fuera periodo",
+    "observado": 0,
+    "esperado": 0,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL Relojes curso verificados indebidamente",
+    "observado": 0,
+    "esperado": 0,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL Sesiones fuera periodo",
+    "observado": 0,
+    "esperado": 0,
+    "aprobado": true
+  },
+  {
+    "prueba": "SQL SQL fuera periodo",
+    "observado": 0,
+    "esperado": 0,
+    "aprobado": true
+  },
+  {
+    "prueba": "Login auditor real",
+    "observado": "auditor_lectura",
+    "esperado": "auditor_lectura",
+    "aprobado": true
+  },
+  {
+    "prueba": "Auditor rechazo real INSERT",
+    "observado": [
+      1,
+      229
+    ],
+    "esperado": [
+      1,
+      229
+    ],
+    "aprobado": true
+  },
+  {
+    "prueba": "Auditor rechazo real UPDATE",
+    "observado": [
+      1,
+      229
+    ],
+    "esperado": [
+      1,
+      229
+    ],
+    "aprobado": true
+  },
+  {
+    "prueba": "Auditor rechazo real DELETE",
+    "observado": [
+      1,
+      229
+    ],
+    "esperado": [
+      1,
+      229
+    ],
+    "aprobado": true
+  },
+  {
+    "prueba": "Auditor rechazo real ALTER",
+    "observado": [
+      1,
+      1088
+    ],
+    "esperado": [
+      1,
+      4902
+    ],
+    "aprobado": false
+  }
+]

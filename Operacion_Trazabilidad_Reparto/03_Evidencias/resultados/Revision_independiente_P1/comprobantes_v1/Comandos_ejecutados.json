@@ -1,0 +1,77 @@
+[
+  {
+    "comando": "pwd; rg --files -g AGENTS.md y búsquedas por formatos/rutas; cat/sed/nl de archivos citados; git status --short",
+    "resultado": "Lecturas e inventario; cambios ajenos preexistentes observados, sin restaurarlos ni incorporarlos."
+  },
+  {
+    "comando": "python3: identificación SHA-256 de entradas y extracción de PDFs con pdftotext -layout",
+    "resultado": "449 archivos fuera del árbol del juego identificados antes de producir informes. PDF oficiales y guía interna extraídos en /tmp/revision_p1. No se alteraron entradas."
+  },
+  {
+    "comando": "PYTHONPATH=/tmp/i6-python python3 /tmp/revision_p1/checks.py",
+    "codigo": 0,
+    "resultado": "Revisión independiente de registros/manifiesto, ZIP, celdas, documentos, CSV, intervalos, relojes, volumen y órdenes. Script conservado en comprobantes."
+  },
+  {
+    "comando": "python3 /tmp/revision_p1/extraido/P1/verificar_paquete_P1.py",
+    "codigo": 0,
+    "resultado": "1043 archivos; discrepancias []."
+  },
+  {
+    "comando": "libreoffice --headless --convert-to pdf sobre copias temporales (dos intentos en sandbox)",
+    "codigo": 1,
+    "resultado": "Fallo de entorno/perfil dconf; no se considera defecto de los DOCX."
+  },
+  {
+    "comando": "libreoffice con escalación local, primer intento",
+    "resultado": "El revisor automático no terminó antes del plazo; no rechazo por riesgo. Se reintentó una vez mediante runtime.py."
+  },
+  {
+    "comando": "python3 /tmp/revision_p1/runtime.py, con permiso local; subcomandos LibreOffice en libreoffice.json",
+    "codigo": 0,
+    "resultado": "Writer abrió y exportó tres DOCX; Calc reabrió y guardó tres XLSX en /tmp. Parte navegador falló por resolución del módulo playwright; no se presentó como aprobada."
+  },
+  {
+    "comando": "python3 /tmp/revision_p1/runtime_media.py, primer intento",
+    "codigo": 0,
+    "resultado": "Servidor local iniciado; subproceso navegador código 1 por versión de Chromium esperada no instalada. Sin instalación de navegadores ni modificación de producto."
+  },
+  {
+    "comando": "python3 /tmp/revision_p1/runtime_media.py, con Chrome existente explícito",
+    "codigo": 0,
+    "resultado": "Subproceso pnpm exec node /tmp/revision_p1/runtime.mjs código 0: 19 enlaces documentales HTTP 200; WebM ended, sin error. Juego excluido."
+  },
+  {
+    "comando": "/home/ordson/.cache/ms-playwright/ffmpeg-1011/ffmpeg-linux -i …/recorrido.webm -f null -",
+    "codigo": 234,
+    "resultado": "El FFmpeg disponible carece del muxer null. Identificó WebM VP8 y la ausencia de audio; no se contó como decodificación completa."
+  },
+  {
+    "comando": "/home/ordson/.cache/ms-playwright/ffmpeg-1011/ffmpeg-linux -i …/recorrido.webm -f image2 /tmp/revision_p1/video-%04d.png",
+    "codigo": 0,
+    "resultado": "817 fotogramas PNG; 32.68 s; sin audio. Log y plancha de ocho muestras conservados."
+  },
+  {
+    "comando": "PYTHONPATH=/tmp/i6-python python3: cotejo de reaperturas, 62 fragmentos MD en cada DOCX/PDF, enlaces PDF, 13 hashes de sentencia y log I5",
+    "codigo": 0,
+    "resultado": "Cotejos coincidentes; 18 enlaces PDF incluidos locales/internos/exteriores, sin destino local ausente. Los 19 enlaces HTML excluyen /dist/."
+  },
+  {
+    "comando": "web.run: apertura de PDFs oficiales NIST CSWP 29 y SP 800-61r3; URL Microsoft exacta citada en Fuentes_P1",
+    "resultado": "Fuentes primarias abiertas, versiones y localizadores contrastados. Dos URL Microsoft exploratorias sin /install-upgrade/ fallaron; la URL exacta citada sí abrió."
+  },
+  {
+    "comando": "python3 /tmp/revision_p1/escribir_informes.py",
+    "resultado": "Solo crea informes nuevos y comprobantes propios; no reescribe entregables o cierres."
+  },
+  {
+    "comando": "libreoffice -env:UserInstallation=file:///tmp/revision_p1/perfil-lectura-xlsx --headless --convert-to pdf --outdir /tmp/revision_p1/lectura_xlsx /tmp/revision_p1/lectura_xlsx/indice_evidencias.xlsx /tmp/revision_p1/lectura_xlsx/Programa_pruebas_P1_v1.xlsx /tmp/revision_p1/lectura_xlsx/Cronologia_investigada_v1.xlsx",
+    "codigo": 0,
+    "resultado": "Exportación de copias temporales para inspección de las vistas Lectura; sin modificar libros entregados."
+  },
+  {
+    "comando": "python3 /tmp/revision_p1/verificacion_final.py",
+    "codigo": 0,
+    "resultado": "Comprobación de coherencia de informes, 18 FK por REFERENCES y entradas preservadas; comprobante en Verificacion_informes.json."
+  }
+]

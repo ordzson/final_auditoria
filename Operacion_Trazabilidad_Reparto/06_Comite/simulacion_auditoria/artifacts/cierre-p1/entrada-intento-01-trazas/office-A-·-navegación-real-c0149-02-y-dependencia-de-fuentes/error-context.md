@@ -1,0 +1,63 @@
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - generic "Oficina 3D de revisión del incidente RedNova" [ref=e5]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - strong [ref=e8]: Operación Trazabilidad
+      - generic [ref=e9]: La oficina después del incidente
+    - generic [ref=e10]:
+      - 'button "Abrir tablita: 0 de 6 revisiones documentadas" [ref=e11] [cursor=pointer]':
+        - img [ref=e12]
+        - text: Tablita
+        - generic [ref=e14]: J
+      - button "Reconstrucción" [ref=e15] [cursor=pointer]
+      - group [ref=e16]:
+        - generic "Accesibilidad y controles" [ref=e17] [cursor=pointer]
+  - region "Controles de exploración":
+    - button "J · Leer la tablita" [ref=e18] [cursor=pointer]
+  - generic [ref=e19]:
+    - button "Entrar / continuar explorando" [ref=e20] [cursor=pointer]
+    - paragraph [ref=e21]: Un clic activa el mouse. Esc lo libera; tus documentos detienen la caminata.
+  - status: "SQL y red: revisión documentada. El sustento y los límites se conservaron."
+  - dialog [active] [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - heading "Documento facilitado por el enlace" [level=2] [ref=e25]
+        - paragraph [ref=e26]: Guarda la pista y vuelve al ordenador para contrastarla.
+      - button "Cerrar documento" [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+    - generic [ref=e30]:
+      - article [ref=e31]:
+        - generic [ref=e33]:
+          - heading "Declaración de Seguridad Informática" [level=3] [ref=e34]
+          - paragraph [ref=e35]: Declaración atribuida · no concluyente por sí sola
+        - paragraph [ref=e36]: Califica los 1.6 GB de tráfico como fuga; aún no identifica los datos transferidos.
+        - table [ref=e38]:
+          - rowgroup [ref=e39]:
+            - row "Campo Contenido" [ref=e40]:
+              - columnheader "Campo" [ref=e41]
+              - columnheader "Contenido" [ref=e42]
+          - rowgroup [ref=e43]:
+            - row "Rol que declara Seguridad Informática" [ref=e44]:
+              - cell "Rol que declara" [ref=e45]
+              - cell "Seguridad Informática" [ref=e46]
+            - row "Declaración resumida Califica los 1.6 GB de tráfico como fuga; aún no identifica los datos transferidos." [ref=e47]:
+              - cell "Declaración resumida" [ref=e48]
+              - cell "Califica los 1.6 GB de tráfico como fuga; aún no identifica los datos transferidos." [ref=e49]
+            - row "Concluyente por sí sola No" [ref=e50]:
+              - cell "Concluyente por sí sola" [ref=e51]
+              - cell "No" [ref=e52]
+            - row "Fuente curso" [ref=e53]:
+              - cell "Fuente" [ref=e54]
+              - cell "curso" [ref=e55]
+            - row "Página 4" [ref=e56]:
+              - cell "Página" [ref=e57]
+              - cell "4" [ref=e58]
+        - group [ref=e59]:
+          - generic "Referencia, procedencia y límites" [ref=e60] [cursor=pointer]
+        - button "Guardar pista en la libreta" [ref=e61] [cursor=pointer]
+      - button "Contrastar en B · SQL y red" [ref=e62] [cursor=pointer]
+      - button "Volver a la conversación" [ref=e63] [cursor=pointer]
+```

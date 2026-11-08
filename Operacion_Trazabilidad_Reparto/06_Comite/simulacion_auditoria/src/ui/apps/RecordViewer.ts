@@ -13,16 +13,17 @@ export function recordViewerMarkup(context: SharedContext, id: string): string {
   const canFollowAccount = account && ['session-viewer', 'query-studio', 'event-desk'].includes(context.appId);
   return `<article class="pc-app-document" data-document="${h(id)}">
     <header><h3>${h(sourceName(id))}</h3><button type="button" data-pc-viewer="close" aria-label="Cerrar detalle del registro">Cerrar detalle</button></header>
-    <p class="pc-app-context">${h(id)} · ${h(sourceContext(id))}</p><p>${h(source.summary)}</p>
+    <p class="pc-app-context">${h(id)} · ${h(sourceContext(id))}</p>
     <div class="pc-app-toolbar">
       ${isPertinent(context.reviewId, id) ? `<button type="button" data-pc-viewer="use" ${linked ? 'disabled' : ''}>${linked ? 'Vinculada a la revisión' : 'Usar como sustento'}</button>` : '<span>Registro de contexto del puesto</span>'}
       <button type="button" data-pc-viewer="compare" aria-pressed="${compared}">${compared ? 'Retirar de comparación' : 'Comparar registro'}</button>
       ${canFollowAccount ? `<button type="button" data-pc-viewer="follow-account" data-pc-account="${h(account)}">Buscar más actividad de ${h(account)}</button>` : ''}
     </div>
+    <p>${h(source.kindLabel)}</p><p>${h(source.summary)}</p>${source.readingNote ? `<p class="source-reading-note">${h(source.readingNote)}</p>` : ''}
     <div class="pc-app-table-wrap"><table><thead><tr>${source.columns.map((column) => `<th scope="col">${h(column)}</th>`).join('')}</tr></thead>
     <tbody>${source.rows.map((row) => `<tr>${row.values.map((value) => `<td>${h(displayCell(value))}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
     <details><summary>Referencia, procedencia y límites</summary><p>${h(source.version)} · ${h(source.kindLabel)}</p><p>${h(source.provenanceText)}</p>${source.notes.map((note) => `<p>${h(note)}</p>`).join('')}
-    ${source.queryIds.length ? `<p>Referencias previstas: ${source.queryIds.map(h).join(', ')}. No son consultas ejecutadas en SQL Server.</p>` : ''}</details>
+    ${source.queryIds.length ? `<p>Referencias del plan académico: ${source.queryIds.map(h).join(', ')}. No se ejecutan desde este juego. Las consultas académicas se probaron con datos ficticios; véanse los anexos de laboratorio.</p>` : ''}</details>
   </article>`;
 }
 

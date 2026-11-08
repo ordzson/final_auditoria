@@ -1,0 +1,22 @@
+Abrir http://127.0.0.1:38193/index.html · detener con Ctrl+C
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /LEEME_P1.md HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /01_Informe/Seccion_forense_P1_v1.pdf HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /01_Informe/Seccion_forense_P1_v1.docx HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /01_Informe/Plantilla_UdeO_v2.docx HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /01_Informe/Informe_equipo_parcial_P1_v1.pdf HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /03_Evidencias/indice_evidencias.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /03_Evidencias/Programa_pruebas_P1_v1.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /03_Evidencias/Cronologia_investigada_v1.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /03_Evidencias/Cronologia_investigada_v1.pdf HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /03_Evidencias/Papeles_Trabajo_P1_v1.pdf HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /06_Comite/Presentacion_P1_v1.pdf HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /06_Comite/Guion_defensa_P1_v1.md HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /06_Comite/simulacion_auditoria/artifacts/entrega/recorrido.webm HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /06_Comite/simulacion_auditoria/artifacts/entrega/libreta-respaldo.pdf HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /06_Comite/simulacion_auditoria/artifacts/entrega/libreta-ejemplo.json HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /07_Referencias/Fuentes_P1_v1.pdf HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /07_Referencias/Uso_IA.pdf HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /03_Evidencias/resultados/I6/README.md HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /P1_Incidente_evidencia_simulacion/ESTADO_P1.md HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2026 16:46:45] "GET /03_Evidencias/resultados/Correcciones_revision_P1_v1/README.md HTTP/1.1" 200 -

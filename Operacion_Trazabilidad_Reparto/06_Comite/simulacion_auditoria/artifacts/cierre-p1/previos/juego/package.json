@@ -1,0 +1,27 @@
+{
+  "name": "operacion-trazabilidad-oficina",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.2.2",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:desktop": "node scripts/check-desktop-stage1.mjs",
+    "test:e2e": "playwright test",
+    "verify": "pnpm test && pnpm build && pnpm test:e2e",
+    "record": "node scripts/record-walkthrough.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/three": "0.180.0",
+    "typescript": "5.9.3",
+    "vite": "7.1.9",
+    "vitest": "3.2.4"
+  }
+}

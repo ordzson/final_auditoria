@@ -7,6 +7,7 @@ import { computerAssets, computerIcons, type ComputerIconKey } from '../../data/
 import { getSourceDocument } from '../../data/documents';
 import { sourceContext, sourceName } from '../../data/investigation';
 import { escapeHtml } from '../dom';
+import { reviewHelpMarkup } from '../guidance';
 import './apps.css';
 
 export const h = escapeHtml;
@@ -48,6 +49,7 @@ export class AppLifetime<A extends AppId> implements MountedApplication {
   private disposed = false;
 
   constructor(readonly root: HTMLElement, readonly context: ApplicationContext<A>, private readonly focusSelector: string) {
+    root.querySelector('.pc-app-body')?.insertAdjacentHTML('afterbegin', reviewHelpMarkup(context.reviewId));
     root.addEventListener('scroll', (event) => {
       const target = event.target;
       if (!(target instanceof HTMLElement) || !target.dataset.pcScroll) return;

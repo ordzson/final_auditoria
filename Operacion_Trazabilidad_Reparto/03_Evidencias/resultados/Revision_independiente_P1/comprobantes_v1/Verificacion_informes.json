@@ -1,0 +1,26 @@
+{
+  "fecha_utc": "2026-11-07T21:55:01.669561+00:00",
+  "salidas_principales": [
+    {
+      "archivo": "Informe_revision_P1_v1.md",
+      "bytes": 38758,
+      "sha256": "671304ec09710623df7e94c48515bfb22b72ed807db0248761b759c7b3b86b83"
+    },
+    {
+      "archivo": "Hallazgos_revision_P1_v1.csv",
+      "bytes": 14444,
+      "sha256": "8fff8b13f91427eccad17ea17eee9f7176f8e865ccbb39be2b046d9ec3d257da"
+    },
+    {
+      "archivo": "Comprobaciones_revision_P1_v1.json",
+      "bytes": 35585,
+      "sha256": "5d400fbb211e45d47f2eea2854101e05d4bebdbc57be212057947681e24752ec"
+    }
+  ],
+  "hallazgos_confirmados": 4,
+  "dudas": 1,
+  "editoriales_opcionales": 3,
+  "entradas_controladas": 449,
+  "entradas_modificadas": [],
+  "validacion_salida": "JSON válido; CSV ocho registros con campos completos y claves únicas; recuentos y pruebas efectivas consistentes."
+}

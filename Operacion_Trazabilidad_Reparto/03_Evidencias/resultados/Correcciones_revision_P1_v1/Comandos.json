@@ -1,0 +1,46 @@
+{
+  "fecha_utc": "2026-11-07T22:42:42.346955+00:00",
+  "comandos": [
+    {
+      "comando": "docker inspect --format {{.State.Running}} p1-trazabilidad-sql2022",
+      "resultado": "Sandbox: acceso denegado a docker.sock; con permiso local: true. No se creó ni reinició el contenedor."
+    },
+    {
+      "comando": "python3 04_SQL/verificar_Q06_v2.py --salida 03_Evidencias/resultados/Correcciones_revision_P1_v1/SQL_Q06",
+      "resultado": "Código 0; 3 filas idénticas, 10 escenarios CTE aprobados, 73 filas de red sin cambios. Login auditor_lectura."
+    },
+    {
+      "comando": "python3 -m py_compile 04_SQL/verificar_Q06_v2.py 03_Evidencias/analizar_I4.py 03_Evidencias/verificar_I6.py",
+      "resultado": "Código 0. Se compiló el código; no se ejecutaron los cierres I4/I6."
+    },
+    {
+      "comando": "PYTHONPATH=/tmp/i6-python python3 /tmp/aplicar_correcciones_p1.py",
+      "resultado": "Código 0: cambio puntual en DOCX, metadatos por versión, programa/índice y PT afectados; no main() de generar_I6.py."
+    },
+    {
+      "comando": "libreoffice -env:UserInstallation=file:///tmp/correcciones-p1-lo --headless --convert-to pdf --outdir 01_Informe 01_Informe/Seccion_forense_P1_v1.docx 01_Informe/Informe_equipo_parcial_P1_v1.docx",
+      "resultado": "Dos exportaciones efectivas con código 0. Se precisó la redacción de H-B para mantener la paginación original, sin cambiar el significado: PDFs finales de 5 y 7 páginas."
+    },
+    {
+      "comando": "Generación selectiva del índice XLSX, intento con ruta relativa",
+      "resultado": "ValueError de path.relative_to antes de guardar el libro. Se corrigió pasando ruta absoluta; exportación y cotejo posteriores aprobados. No es defecto del producto."
+    },
+    {
+      "comando": "PYTHONPATH=/tmp/i6-python python3 03_Evidencias/resultados/Correcciones_revision_P1_v1/verificar_correcciones.py",
+      "resultado": "Comprobación documental y de metadatos, sin SQL. Resultado final en Verificacion_documentos.json. No reemplaza 98/98 I6."
+    },
+    {
+      "comando": "python3 03_Evidencias/resultados/Correcciones_revision_P1_v1/empaquetar_correcciones.py",
+      "resultado": "Crea ZIP v2 preservando v1; CRC, manifiesto/hash de todos los archivos, extracción, verificador incluido y HTTP local. Resultado efectivo en Verificacion_paquete_v2.json."
+    },
+    {
+      "comando": "empaquetar_correcciones.py, intentos 01/02",
+      "resultado": "Fallo por reutilizar ZipInfo; corregido con copia de metadatos. Tras fallo de traslado entre dispositivos, el guard rechazó el provisional existente. Se preservó con shutil.move. ZIP v1 intacto; detalle en Intento_paquete_01.json. Ningún intento se presentó como aprobado."
+    },
+    {
+      "comando": "Ajuste de Procedencia/Validación en dos XLSX y nueva emisión del ZIP v2",
+      "resultado": "Se sustituyó la etiqueta heredada Técnica I6 por comprobación posterior. El primer ZIP v2 verificado se preservó en temporal; versión final sometida nuevamente a CRC/hash/extracción/HTTP. Detalle en Ajuste_metadatos_XLSX.json."
+    }
+  ],
+  "limites": "No se modificó IA ni datos v2; no se revisó ni ejecutó el juego. Sin firmas, validación humana o aportes P2/P3 inventados."
+}

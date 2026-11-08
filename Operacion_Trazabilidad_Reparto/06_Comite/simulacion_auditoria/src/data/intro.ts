@@ -57,12 +57,12 @@ export function getIntroFrame(time: number): IntroFrame {
     eventId = localTime < 5.5 ? 'EVT-01' : null;
     eventIds = ['EVT-01'];
     message = localTime < 5.5
-      ? 'RedNova: servicios de internet y televisión. Una solicitud de acceso seguía pendiente.'
-      : '14 de octubre: comienzan los registros preliminares de la madrugada.';
+      ? 'RedNova es una empresa ficticia de internet y televisión. El caso reporta una solicitud de acceso pendiente.'
+      : '14 de octubre: investiga los sucesos reportados. No recibimos registros originales de la empresa.';
   } else if (shot.id === 'P02') {
-    message = 'Se registra una sesión remota sin segundo factor.';
+    message = 'La cuenta remota ext_ops_04 inicia sesión sin verificación adicional a la contraseña. Persona desconocida.';
   } else if (shot.id === 'P03') {
-    message = 'Identidad registra una elevación de privilegios. La cuenta no está aportada.';
+    message = 'Se reporta un aumento de permisos. No se identifica la cuenta ni su conexión con la sesión remota.';
   } else if (shot.id === 'P04') {
     eventId = localTime < 7 ? 'EVT-04' : 'EVT-05';
     eventIds = ['EVT-04', 'EVT-05'];
@@ -71,24 +71,24 @@ export function getIntroFrame(time: number): IntroFrame {
     message = 'Se reportan cambios en 216 órdenes comerciales.';
   } else if (shot.id === 'P06') {
     eventIds = ['EVT-06', 'EVT-07'];
-    message = 'El despliegue ocurre después de los cambios de órdenes. La secuencia no demuestra causalidad.';
+    message = 'Las órdenes cambiaron antes de instalar software, según horas sin verificar. No prueba causa.';
   } else if (shot.id === 'P07') {
-    message = 'Se emite una alerta crítica.';
+    message = 'Se reporta una alerta crítica de seguridad. Faltan asignación, primera acción y cierre documentados.';
   } else if (shot.id === 'P08') {
-    message = 'Ventas y facturación afectadas. Se sospecha ransomware; el alcance sigue por verificar.';
+    message = 'Se sospecha ransomware: un programa que bloquea archivos y exige pago. Alcance sin verificar.';
   } else if (shot.id === 'P09') {
     eventId = localTime < 6 ? 'EVT-10' : localTime < 12 ? 'EVT-11' : 'EVT-12';
     eventIds = ['EVT-10', 'EVT-11', 'EVT-12'];
     message = localTime < 6
       ? 'Recuperación solicitada.'
       : localTime < 12
-        ? 'Servicio parcial: CRM en solo consulta.'
+        ? 'Servicio parcial: sistema comercial en solo consulta.'
         : 'Escritura restablecida; integridad por verificar.';
   } else if (shot.id === 'P10') {
     eventId = localTime < 10 ? 'EVT-13' : null;
     eventIds = ['EVT-13'];
     visitLabel = localTime >= 10;
-    message = visitLabel ? 'El servicio volvió. ¿Qué podemos sostener con evidencia?' : 'Finanzas solicita conciliación de órdenes y facturación.';
+    message = visitLabel ? 'El servicio volvió. ¿Qué podemos sostener con evidencia?' : 'Finanzas pide comparar órdenes y facturas. La comparación sigue pendiente.';
   }
 
   const event = eventId ? eventById(eventId) : null;
@@ -106,7 +106,7 @@ export function getIntroFrame(time: number): IntroFrame {
     timeLabel: visitLabel ? 'SIN HORA ASIGNADA' : event ? event.reportedAt.slice(11, 16) : '—',
     message,
     provenance: event
-      ? `${event.id} · Registro preliminar del curso, p. 4 · Hora reportada UTC−6`
+      ? `Dato reportado por el caso, p. 4 · Hora reportada UTC−6`
       : visitLabel
         ? 'La iluminación es puesta en escena; el caso no asigna una hora a la visita.'
         : 'Reconstrucción del expediente · puesta en escena ilustrativa',

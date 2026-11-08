@@ -50,6 +50,7 @@ export type Settings = {
 };
 
 export type Recommendation = {
+  deadline?: string;
   action: string;
   owner: string;
   verification: string;

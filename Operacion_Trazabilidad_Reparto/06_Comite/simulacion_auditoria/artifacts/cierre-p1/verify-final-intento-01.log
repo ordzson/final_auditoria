@@ -1,0 +1,138 @@
+Already up to date
+Done in 52ms using pnpm v11.2.2
+$ pnpm test && pnpm build && pnpm test:e2e
+$ vitest run
+
+ RUN  v3.2.4 /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria
+
+ ✓ tests/query.test.ts (15 tests) 40ms
+ ✓ tests/store.test.ts (8 tests) 26ms
+ ✓ tests/evaluation.test.ts (34 tests) 29ms
+ ✓ tests/intro.test.ts (8 tests) 43ms
+ ✓ tests/models.test.ts (2 tests) 23ms
+ ✓ tests/computer-assets.test.mjs (5 tests) 98ms
+ ✓ tests/liaisonAnimator.test.ts (4 tests) 52ms
+ ✓ tests/workspace.test.ts (7 tests) 49ms
+ ✓ tests/reviewBridge.test.ts (4 tests) 82ms
+ ✓ tests/chairPhysics.test.ts (8 tests) 481ms
+   ✓ sillas con colisión y deslizamiento > resiste empujes diagonales repetidos con escritorios, esquinas y varias sillas  387ms
+ ✓ tests/computer-apps.test.ts (8 tests) 44ms
+ ✓ tests/interview.test.ts (4 tests) 16ms
+ ✓ tests/desktop.test.ts (4 tests) 9ms
+ ✓ tests/collision.test.ts (3 tests) 8ms
+ ✓ tests/taskProgress.test.ts (3 tests) 18ms
+ ✓ tests/report.test.ts (4 tests) 17ms
+
+ Test Files  16 passed (16)
+      Tests  121 passed (121)
+   Start at  09:06:51
+   Duration  1.43s (transform 1.56s, setup 0ms, collect 3.69s, tests 1.04s, environment 6ms, prepare 2.88s)
+
+$ tsc --noEmit && vite build
+vite v7.1.9 building for production...
+transforming...
+✓ 71 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.80 kB │ gzip:   0.46 kB
+dist/assets/index-BKyz4oxM.css   86.93 kB │ gzip:  18.16 kB
+dist/assets/index-uJ6GLalj.js   847.72 kB │ gzip: 228.81 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.63s
+$ playwright test
+
+Running 42 tests using 1 worker
+
+(node:1925613) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1925613) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/e2e/acceptance.spec.ts:28:3 › D · apertura legible y encuadrada a 1280×720 (14.2s)
+  ✓   2 tests/e2e/acceptance.spec.ts:28:3 › D · apertura legible y encuadrada a 1920×1080 (17.2s)
+  ✓   3 tests/e2e/acceptance.spec.ts:68:1 › D · acceso plano móvil, teclado, J y Esc (2.1s)
+  ✓   4 tests/e2e/acceptance.spec.ts:99:1 › D · silencio, aviso opcional y reducción de movimiento (23.6s)
+  ✓   5 tests/e2e/acceptance.spec.ts:138:1 › D · WebGL denegado conserva los seis accesos y la entrevista (2.1s)
+  ✓   6 tests/e2e/acceptance.spec.ts:161:1 › D · bloqueo del puntero denegado activa la alternativa completa (16.0s)
+  ✓   7 tests/e2e/acceptance.spec.ts:181:1 › D · inicio local sin acceso externo y revisión con el contexto offline (19.2s)
+  ✓   8 tests/e2e/chairs.spec.ts:3:1 › las sillas cargadas conservan su hitbox, orientación y posición al deslizarse (6.8s)
+  ✓   9 tests/e2e/desktop-b.spec.ts:33:1 › B integrada: acceso físico, pista, dos programas, TI, autosave, libreta y restauración (31.9s)
+  ✓  10 tests/e2e/desktop-b.spec.ts:168:1 › B a 1920: oficina y bisel visibles, retorno de TI y foco contenido (18.1s)
+  ✓  11 tests/e2e/desktop-b.spec.ts:185:1 › B móvil táctil: nota, aplicaciones, última frase y restauración (4.0s)
+  ✓  12 tests/e2e/desktop-b.spec.ts:222:1 › B sin WebGL y con almacenamiento bloqueado: trabajo en sesión sin falso guardado (1.9s)
+  ✓  13 tests/e2e/desktop-b.spec.ts:245:1 › B: reiniciar desde la tablita limpia la auditoría y el escritorio (14.4s)
+  ✓  14 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · accesos: dos programas propios, estado y recursos locales (2.3s)
+  ✓  15 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · crm_cambios: dos programas propios, estado y recursos locales (2.3s)
+  ✓  16 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · siem: dos programas propios, estado y recursos locales (2.6s)
+  ✓  17 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · respaldos: dos programas propios, estado y recursos locales (2.6s)
+  ✓  18 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · mesa_auditor: dos programas propios, estado y recursos locales (2.6s)
+  ✓  19 tests/e2e/desktop-stage3.spec.ts:69:1 › etapa 3 · Recovery Console móvil conserva controles y lectura dentro del monitor (1.4s)
+  ✓  20 tests/e2e/desktop-stage3.spec.ts:81:1 › etapa 3 · monitor físico junto al rack abre Server sin atravesar muebles (44.1s)
+  ✓  21 tests/e2e/i5.spec.ts:13:1 › I5 · ayuda escrita, retorno PC/libreta/TI y persistencia en los seis puestos (13.5s)
+  ✓  22 tests/e2e/i5.spec.ts:50:3 › I5 · metadatos y ayuda legibles a 1440px (2.2s)
+  ✓  23 tests/e2e/i5.spec.ts:50:3 › I5 · metadatos y ayuda legibles a 390px (1.7s)
+  ✓  24 tests/e2e/i5.spec.ts:76:1 › I5 · el reloj conserva el tiempo de un fotograma retrasado y la pausa lo congela (1.3s)
+  ✓  25 tests/e2e/interview-audio.spec.ts:3:1 › reproduce la voz local, cambia de frase y detiene el audio al salir (1.9s)
+  ✓  26 tests/e2e/interview-audio.spec.ts:38:1 › los 29 MP3 se pueden cargar y decodificar (868ms)
+  ✓  27 tests/e2e/interview.spec.ts:19:1 › conversación por teclado: respuestas por turno, ramas y temas ya hablados (1.5s)
+  ✓  28 tests/e2e/interview.spec.ts:50:1 › consultar documentos conserva el turno y desbloquea solo las repreguntas pertinentes (2.2s)
+  ✓  29 tests/e2e/interview.spec.ts:76:3 › entrevista legible a 1280×720, con modo proyector (16.1s)
+  ✓  30 tests/e2e/interview.spec.ts:76:3 › entrevista legible a 1920×1080, con modo proyector (20.2s)
+  ✓  31 tests/e2e/interview.spec.ts:76:3 › entrevista legible a 390×844, con modo proyector (1.8s)
+  ✓  32 tests/e2e/investigation.spec.ts:19:1 › SQL editable: filtros reales, NULL, errores y trazabilidad sin completar por clics (1.9s)
+  ✓  33 tests/e2e/investigation.spec.ts:55:1 › comparar órdenes y despliegue permite descubrir el orden reportado (1.9s)
+  ✓  34 tests/e2e/investigation.spec.ts:71:1 › sesiones: buscar una cuenta conserva foco y no atribuye la elevación sin usuario (1.6s)
+  ✓  35 tests/e2e/investigation.spec.ts:89:1 › recuperación: recorrer estados no acredita integridad ni ejecuta restauraciones (1.8s)
+  ✘  36 tests/e2e/investigation.spec.ts:110:1 › archivo: comprobar un original ausente produce una limitación, sin hashes inventados (2.0m)
+(node:1937790) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1937790) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  37 tests/e2e/investigation.spec.ts:127:1 › SIEM: seguir la cuenta conserva una cronología válida y permite reabrir el puesto (2.1s)
+  ✓  38 tests/e2e/investigation.spec.ts:143:1 › móvil: editor, inspector y guardado funcionan sin desbordar la pantalla (1.7s)
+  ✓  39 tests/e2e/office.spec.ts:102:1 › A · navegación real, entrega, AU-02 y dependencia de fuentes (2.4m)
+  ✓  40 tests/e2e/office.spec.ts:157:1 › B · seis revisiones en distinto orden, entrevistas y libreta (18.8s)
+  ✓  41 tests/e2e/office.spec.ts:191:1 › C · diez planos, transporte, nota ilustrativa y estado intacto (42.3s)
+  ✓  42 tests/e2e/office.spec.ts:257:1 › C · guardar, editar, reevaluar versión, exportar JSON e imprimir (5.5s)
+
+
+  1) tests/e2e/investigation.spec.ts:110:1 › archivo: comprobar un original ausente produce una limitación, sin hashes inventados 
+
+    [31mTest timeout of 120000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 120000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('.pc-window[data-app-id="file-explorer"]').getByRole('button', { name: 'Comprobar archivo', exact: true }).first()[22m
+
+
+      111 |   await enterDesk(page, 'mesa_auditor');
+      112 |   const files = pcWindow(page, 'file-explorer');
+    > 113 |   await files.getByRole('button', { name: 'Comprobar archivo', exact: true }).first().click();
+          |                                                                                       ^
+      114 |   await expect(files.locator('.pc-app-feedback')).toContainText('No hay archivo original ni SHA-256');
+      115 |   await expect(files.locator('.pc-app-document')).toHaveAttribute('data-document', 'META-CUSTODIA');
+      116 |   await files.getByRole('button', { name: 'Usar como sustento', exact: true }).click();
+        at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/investigation.spec.ts:113:87
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    artifacts/test-results/investigation-archivo-comp-47059-ación-sin-hashes-inventados/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: artifacts/test-results/investigation-archivo-comp-47059-ación-sin-hashes-inventados/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    artifacts/test-results/investigation-archivo-comp-47059-ación-sin-hashes-inventados/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace artifacts/test-results/investigation-archivo-comp-47059-ación-sin-hashes-inventados/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests/e2e/investigation.spec.ts:110:1 › archivo: comprobar un original ausente produce una limitación, sin hashes inventados 
+  41 passed (10.7m)
+[ELIFECYCLE] Command failed with exit code 1.
+[ELIFECYCLE] Command failed with exit code 1.

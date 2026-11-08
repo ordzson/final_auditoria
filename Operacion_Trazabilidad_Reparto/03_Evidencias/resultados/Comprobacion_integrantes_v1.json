@@ -1,0 +1,44 @@
+{
+  "registrado_en_utc": "2026-11-07T05:18:02+00:00",
+  "confirmacion": "Mensaje del usuario: integrantes en el orden P1/P2/P3",
+  "comprobaciones": {
+    "orden_nombres_carnes_confirmados": true,
+    "portada_refleja_orden_confirmado": true,
+    "imagen_original_intacta": true,
+    "PDF_dos_paginas": true,
+    "version_anterior_docx_pdf_conservada": true,
+    "documentos_iniciales_sin_cambios": true,
+    "custodios_originales_de_sistema_no_inventados": true,
+    "sin_pendiente_obsoleto_de_identidad": true,
+    "sin_generacion_de_datos": true
+  },
+  "revision_visual": "Portada PDF inspeccionada: tres integrantes legibles, sin recortes; plantilla completa de dos páginas.",
+  "limite": "No acredita traspasos, firmas ni validación humana de resultados.",
+  "comprobacion_I1_previa": "Comprobacion_I1_v1.json se conserva como registro histórico de la versión anterior.",
+  "archivos": [
+    {
+      "ruta": "03_Evidencias/Responsables_equipo_v1.csv",
+      "sha256": "c830795743b3ceb5d62e8f45d8c6971df72277f04161e7e0a047ab1616ab44c2"
+    },
+    {
+      "ruta": "01_Informe/Plantilla_UdeO_v2.docx",
+      "sha256": "0cea166dba53d742eaaaf64e8804ea3f70265f1b70bd2f42bd934fac391f5e1b"
+    },
+    {
+      "ruta": "01_Informe/Plantilla_UdeO_v2.pdf",
+      "sha256": "a7f49d5a31e567609261b613aad69320296f1a7c7aef9d65ab02d7b3b999b148"
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "sha256": "d54d80c614fcf3223682978a5d4356309d4686031661781162a5281bb5995239"
+    },
+    {
+      "ruta": "04_SQL/Diseno_laboratorio_v1.md",
+      "sha256": "00e822de9fe2e0ad146b63e756df9946e63f5d1acbb777363ee24cb93a9dff44"
+    },
+    {
+      "ruta": "07_Referencias/Registro_uso_IA_v1.csv",
+      "sha256": "854ed7c0c80d3af4fff6367af3f95039449c50d81a1774ab118113e48f5de292"
+    }
+  ]
+}

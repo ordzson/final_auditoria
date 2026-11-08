@@ -26,14 +26,14 @@ test('SQL editable: filtros reales, NULL, errores y trazabilidad sin completar p
   await expect(query.locator('.pc-app-results table')).toHaveCount(0);
   await query.getByRole('button', { name: 'Ejecutar consulta', exact: true }).click();
   await expect(query.locator('.pc-app-results tbody tr')).toHaveCount(2);
-  await query.getByRole('button', { name: 'Abrir Lectura masiva de clientes', exact: true }).click();
+  await query.getByRole('button', { name: 'Abrir Lectura de 31,840 registros de clientes', exact: true }).click();
   await expect(query.locator('.pc-app-inspector')).toContainText('No aportado');
   await query.getByRole('button', { name: 'Usar como sustento', exact: true }).click();
   const state = await page.evaluate(() => JSON.parse(localStorage.getItem('rednova.auditoria.oficina.v2')!));
   expect(state.assessments['AU-02'].sourceRefs[0].sourceId).toBe('EVT-04');
   expect(state.assessments['AU-02'].conclusionId).toBe(null);
   await page.getByRole('button', { name: 'Libreta', exact: true }).click();
-  await expect(page.locator('.linked-sources')).toContainText('Lectura masiva de clientes');
+  await expect(page.locator('.linked-sources')).toContainText('Lectura de 31,840 registros de clientes');
   await page.getByRole('button', { name: 'Volver al ordenador', exact: true }).click();
   await expect(query.getByRole('textbox', { name: 'Consulta SQL' })).toHaveValue(/OR sistema = 'Monitoreo de red'/);
   const editor = query.getByRole('textbox', { name: 'Consulta SQL' });
@@ -62,7 +62,7 @@ test('comparar órdenes y despliegue permite descubrir el orden reportado', asyn
   await expect(orders.locator('.pc-app-comparison')).toContainText('20 minutos');
   await expect(orders.locator('.pc-app-comparison')).toContainText('no demuestra causalidad');
   await expect(orders.locator('.pc-app-comparison-records')).toContainText('Modificación de órdenes');
-  await expect(orders.locator('.pc-app-comparison-records')).toContainText('Despliegue de integración');
+  await expect(orders.locator('.pc-app-comparison-records')).toContainText('Instalación de una nueva versión de integración');
   await orders.getByRole('button', { name: 'Retirar de la mesa', exact: true }).first().click();
   await orders.getByRole('button', { name: 'Retirar de la mesa', exact: true }).click();
   await expect(orders.locator('[data-pc-comparison-records]')).toContainText('Elige «Comparar registro»');
@@ -77,7 +77,7 @@ test('sesiones: buscar una cuenta conserva foco y no atribuye la elevación sin 
   await search.pressSequentially('ext_ops_04');
   await expect(search).toBeFocused();
   await expect(sessions.locator('.pc-app-record-layout tbody tr')).toHaveCount(1);
-  await expect(sessions.locator('.pc-app-record-layout')).toContainText('Sesión remota sin MFA');
+  await expect(sessions.locator('.pc-app-record-layout')).toContainText('Sesión remota sin verificación adicional');
   await search.fill('');
   await inspect(page, 'EVT-03');
   await expect(sessions.locator('.pc-app-document')).toContainText('No aportado');
@@ -107,10 +107,10 @@ test('recuperación: recorrer estados no acredita integridad ni ejecuta restaura
   expect(errors).toEqual([]);
 });
 
-test('archivo: comprobar un original ausente produce una limitación, sin hashes inventados', async ({ page }) => {
+test('archivo: consultar metadatos ausentes documenta un límite, sin hashes inventados', async ({ page }) => {
   await enterDesk(page, 'mesa_auditor');
   const files = pcWindow(page, 'file-explorer');
-  await files.getByRole('button', { name: 'Comprobar archivo', exact: true }).first().click();
+  await files.getByRole('button', { name: 'Ver metadatos', exact: true }).first().click();
   await expect(files.locator('.pc-app-feedback')).toContainText('No hay archivo original ni SHA-256');
   await expect(files.locator('.pc-app-document')).toHaveAttribute('data-document', 'META-CUSTODIA');
   await files.getByRole('button', { name: 'Usar como sustento', exact: true }).click();
@@ -133,7 +133,7 @@ test('SIEM: seguir la cuenta conserva una cronología válida y permite reabrir 
   await events.getByRole('button', { name: 'Buscar más actividad de ext_ops_04', exact: true }).click();
   await expect(events.getByRole('searchbox', { name: 'Filtrar registros' })).toHaveValue('ext_ops_04');
   await expect(events.locator('.pc-app-event')).toHaveCount(1);
-  await expect(events.locator('.pc-app-event')).toContainText('Sesión remota sin MFA');
+  await expect(events.locator('.pc-app-event')).toContainText('Sesión remota sin verificación adicional');
   await page.keyboard.press('Escape');
   await page.locator('[data-flat="siem"]').click();
   await expect(events.locator('.pc-app-event')).toHaveCount(1);
@@ -148,7 +148,7 @@ test('móvil: editor, inspector y guardado funcionan sin desbordar la pantalla',
   await enterDesk(page, 'sql_red');
   const query = pcWindow(page, 'query-studio');
   await query.getByRole('button', { name: 'Ejecutar consulta', exact: true }).click();
-  await query.getByRole('button', { name: 'Abrir Lectura masiva de clientes', exact: true }).click();
+  await query.getByRole('button', { name: 'Abrir Lectura de 31,840 registros de clientes', exact: true }).click();
   await query.getByRole('button', { name: 'Usar como sustento', exact: true }).click();
   await expect(page.locator('.computer-save-status')).toHaveText('Libreta actualizada');
   await expect(query.locator('.pc-app-inspector h3')).toBeInViewport();

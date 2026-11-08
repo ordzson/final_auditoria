@@ -1,0 +1,158 @@
+[
+  {
+    "variant": "original",
+    "substitutions": [],
+    "errors": [],
+    "error": "locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Pausar reconstrucción' })\u001b[22m\n\u001b[2m    - locator resolved to <button data-action=\"play\" class=\"control-button\" aria-label=\"Pausar reconstrucción\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
+    "metrics": {
+      "frames": 17,
+      "mutations": 55,
+      "longTasks": [
+        420,
+        2898,
+        347,
+        781,
+        552,
+        266,
+        307,
+        292,
+        328,
+        346,
+        233,
+        1111,
+        1113,
+        5490,
+        2347,
+        5300,
+        2166,
+        2415,
+        2365
+      ]
+    }
+  },
+  {
+    "variant": "trace-no-screencast",
+    "substitutions": [],
+    "errors": [],
+    "error": "locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Pausar reconstrucción' })\u001b[22m\n\u001b[2m    - locator resolved to <button data-action=\"play\" class=\"control-button\" aria-label=\"Pausar reconstrucción\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
+    "metrics": {
+      "frames": 17,
+      "mutations": 55,
+      "longTasks": [
+        406,
+        3091,
+        308,
+        594,
+        832,
+        291,
+        270,
+        259,
+        268,
+        300,
+        268,
+        1314,
+        1167,
+        5454,
+        2111,
+        4956,
+        2033,
+        2032
+      ]
+    }
+  },
+  {
+    "variant": "stable-controls",
+    "substitutions": [
+      "controls"
+    ],
+    "errors": [],
+    "error": "locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Pausar reconstrucción' })\u001b[22m\n\u001b[2m    - locator resolved to <button data-action=\"play\" data-playing=\"true\" class=\"control-button\" aria-label=\"Pausar reconstrucción\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
+    "metrics": {
+      "frames": 17,
+      "mutations": 19,
+      "longTasks": [
+        319,
+        2819,
+        359,
+        52,
+        572,
+        763,
+        310,
+        272,
+        268,
+        262,
+        307,
+        276,
+        1041,
+        1153,
+        5570,
+        2252,
+        4828,
+        2138,
+        2183
+      ]
+    }
+  },
+  {
+    "variant": "paced-render",
+    "substitutions": [
+      "10fps"
+    ],
+    "errors": [],
+    "error": "locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Pausar reconstrucción' })\u001b[22m\n\u001b[2m    - locator resolved to <button data-action=\"play\" class=\"control-button\" aria-label=\"Pausar reconstrucción\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
+    "metrics": {
+      "frames": 16,
+      "mutations": 52,
+      "longTasks": [
+        341,
+        2650,
+        251,
+        851,
+        266,
+        262,
+        237,
+        244,
+        273,
+        262,
+        907,
+        4988,
+        2023,
+        4360,
+        2090,
+        1987,
+        1867
+      ]
+    }
+  },
+  {
+    "variant": "gpu-backpressure",
+    "substitutions": [
+      "gpu-fence"
+    ],
+    "errors": [],
+    "error": "locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Pausar reconstrucción' })\u001b[22m\n\u001b[2m    - locator resolved to <button data-action=\"play\" class=\"control-button\" aria-label=\"Pausar reconstrucción\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
+    "metrics": {
+      "frames": 17,
+      "mutations": 55,
+      "longTasks": [
+        295,
+        2634,
+        869,
+        332,
+        289,
+        201,
+        274,
+        272,
+        928,
+        1082,
+        5090,
+        1977,
+        1955,
+        4554,
+        2319,
+        2259,
+        2210
+      ]
+    }
+  }
+]

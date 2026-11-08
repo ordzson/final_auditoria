@@ -1,0 +1,120 @@
+{
+  "fecha_utc": "2026-11-07T22:46:45.968835+00:00",
+  "zip": "06_Comite/Paquete_portatil_P1_v2.zip",
+  "bytes": 174617449,
+  "sha256": "ef67726b7fc68157b9869a8fcfea78d86bb00af0e971b34b6fc5371105a03724",
+  "archivos_verificados": 1131,
+  "miembros": 1132,
+  "crc_aprobado": true,
+  "discrepancias": [],
+  "extraccion_y_verificador": {
+    "archivos": 1131,
+    "discrepancias": []
+  },
+  "enlaces_documentales": [
+    {
+      "ruta": "LEEME_P1.md",
+      "estado": 200,
+      "bytes": 5102
+    },
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.pdf",
+      "estado": 200,
+      "bytes": 79701
+    },
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.docx",
+      "estado": 200,
+      "bytes": 166462
+    },
+    {
+      "ruta": "01_Informe/Plantilla_UdeO_v2.docx",
+      "estado": 200,
+      "bytes": 161491
+    },
+    {
+      "ruta": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "estado": 200,
+      "bytes": 153291
+    },
+    {
+      "ruta": "03_Evidencias/indice_evidencias.xlsx",
+      "estado": 200,
+      "bytes": 52781
+    },
+    {
+      "ruta": "03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "estado": 200,
+      "bytes": 13198
+    },
+    {
+      "ruta": "03_Evidencias/Cronologia_investigada_v1.xlsx",
+      "estado": 200,
+      "bytes": 12918
+    },
+    {
+      "ruta": "03_Evidencias/Cronologia_investigada_v1.pdf",
+      "estado": 200,
+      "bytes": 45905
+    },
+    {
+      "ruta": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "estado": 200,
+      "bytes": 63053
+    },
+    {
+      "ruta": "06_Comite/Presentacion_P1_v1.pdf",
+      "estado": 200,
+      "bytes": 50378
+    },
+    {
+      "ruta": "06_Comite/Guion_defensa_P1_v1.md",
+      "estado": 200,
+      "bytes": 9856
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/entrega/recorrido.webm",
+      "estado": 200,
+      "bytes": 4142199
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/entrega/libreta-respaldo.pdf",
+      "estado": 200,
+      "bytes": 148668
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/entrega/libreta-ejemplo.json",
+      "estado": 200,
+      "bytes": 10783
+    },
+    {
+      "ruta": "07_Referencias/Fuentes_P1_v1.pdf",
+      "estado": 200,
+      "bytes": 52464
+    },
+    {
+      "ruta": "07_Referencias/Uso_IA.pdf",
+      "estado": 200,
+      "bytes": 58698
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/README.md",
+      "estado": 200,
+      "bytes": 11130
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "estado": 200,
+      "bytes": 28081
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Correcciones_revision_P1_v1/README.md",
+      "estado": 200,
+      "bytes": 4439
+    }
+  ],
+  "juego_bytes_identicos_al_ZIP_I6": 604,
+  "juego_revisado_o_ejecutado": false,
+  "zip_v1_conservado": true,
+  "revision_humana": "Pendiente"
+}

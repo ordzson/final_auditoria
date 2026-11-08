@@ -1,33 +1,13 @@
 import type { StationId } from '../audit/types';
-import { canon, eventById, evidenceById, statementById } from './canon';
+import { canon, eventById, statementById } from './canon';
 import { stationById } from './stations';
 
-const eventNames: Record<string, string> = {
-  'EVT-01': 'Renovación del acceso del proveedor',
-  'EVT-02': 'Sesión remota sin MFA',
-  'EVT-03': 'Elevación de privilegios',
-  'EVT-04': 'Lectura masiva de clientes',
-  'EVT-05': 'Transferencia hacia el exterior',
-  'EVT-06': 'Modificación de órdenes',
-  'EVT-07': 'Despliegue de integración',
-  'EVT-08': 'Alerta crítica de seguridad',
-  'EVT-09': 'Caída del CRM',
-  'EVT-10': 'Solicitud de recuperación',
-  'EVT-11': 'CRM disponible para consulta',
-  'EVT-12': 'Escritura restablecida',
-  'EVT-13': 'Conciliación solicitada por Finanzas',
-};
-
-export function sourceName(id: string): string {
-  if (id === 'META-CUSTODIA') return 'Inventario de archivos y custodia';
-  if (id === 'META-TIEMPO') return 'Relojes y horas originales';
-  return eventNames[id] ?? evidenceById(id)?.type
-    ?? (statementById(id) ? `Declaración de ${statementById(id)!.speakerRole}` : id);
-}
+import { classroomText, sourceName } from './language';
+export { sourceName } from './language';
 
 export function sourceContext(id: string): string {
   const event = eventById(id);
-  if (event) return `${event.reportedAt.slice(8, 10)}/${event.reportedAt.slice(5, 7)} · ${event.reportedAt.slice(11, 16)} · ${event.systemLabel}`;
+  if (event) return `${event.reportedAt.slice(8, 10)}/${event.reportedAt.slice(5, 7)} · ${event.reportedAt.slice(11, 16)} · ${classroomText(event.systemLabel)}`;
   if (statementById(id)) return 'Entrevista · declaración atribuida';
   return id.startsWith('META-') ? 'Vista de revisión' : 'Soporte resumido';
 }
@@ -51,7 +31,7 @@ export const workstations: Record<StationId, Workstation> = {
   },
   sql_red: {
     app: 'Query Studio', context: 'Expediente local / solo lectura',
-    question: '¿Salieron los datos que se leyeron en SQL?',
+    question: '¿Se enviaron los datos leídos en la base de datos?',
     prompt: 'Ejecuta la consulta, abre la lectura y busca qué pasó en la red. Puedes editar el SQL.',
     views: [
       { id: 'query', label: 'Editor SQL', sourceIds: [] },
@@ -60,8 +40,8 @@ export const workstations: Record<StationId, Workstation> = {
   },
   crm_cambios: {
     app: 'CRM · Control de cambios', context: 'Órdenes / historial de revisión',
-    question: '¿El despliegue explica los cambios en las órdenes?',
-    prompt: 'Compara la modificación de órdenes con el despliegue. Abre el ticket para revisar su aprobación.',
+    question: '¿La instalación de software explica los cambios de órdenes?',
+    prompt: 'Compara las órdenes con la instalación de software. Abre la solicitud de cambio para revisar su aprobación.',
     views: [
       { id: 'orders', label: 'Historial de órdenes', sourceIds: ['EVT-06', 'EVT-07', 'EVT-13', 'E-05'] },
       { id: 'releases', label: 'Versiones y ticket', sourceIds: ['EVT-07', 'E-06', 'EVT-08', 'EVT-05'] },
@@ -78,7 +58,7 @@ export const workstations: Record<StationId, Workstation> = {
   },
   respaldos: {
     app: 'Recovery Console', context: 'Continuidad / estados reportados',
-    question: 'El CRM volvió. ¿Eso prueba que el respaldo funcionó?',
+    question: 'El sistema comercial volvió. ¿Eso prueba que el respaldo funcionó?',
     prompt: 'Recorre los estados del servicio y revisa qué prueba de restauración acompaña al respaldo.',
     views: [
       { id: 'recovery', label: 'Recuperación del servicio', sourceIds: ['EVT-09', 'EVT-10', 'EVT-11', 'EVT-12', 'EVT-13'] },
@@ -88,7 +68,7 @@ export const workstations: Record<StationId, Workstation> = {
   mesa_auditor: {
     app: 'Archivo de investigación', context: 'Copias / procedencia y tiempo',
     question: '¿Tenemos originales o solo resúmenes?',
-    prompt: 'Inspecciona el inventario. Comprueba qué archivos y hashes están disponibles y revisa los relojes.',
+    prompt: 'Inspecciona el inventario. Comprueba qué archivos y huellas digitales están disponibles y revisa los relojes.',
     views: [
       { id: 'custody', label: 'Inventario de archivos', sourceIds: ['META-CUSTODIA', 'E-09', 'E-10'] },
       { id: 'clocks', label: 'Relojes y procedencia', sourceIds: ['META-TIEMPO', 'EVT-01', 'EVT-02'] },

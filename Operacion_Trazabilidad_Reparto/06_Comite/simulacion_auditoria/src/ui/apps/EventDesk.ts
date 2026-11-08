@@ -1,4 +1,5 @@
 import type { ApplicationDefinition } from '../../computer/types';
+import { sourceSummary, classroomText } from '../../data/language';
 import { eventById } from '../../data/canon';
 import { getSourceDocument } from '../../data/documents';
 import { sourceContext, sourceName } from '../../data/investigation';
@@ -39,7 +40,7 @@ export const eventDesk: ApplicationDefinition<'event-desk'> = {
       const selected = context.workspace.getDraft().selectedSourceId;
       const markup = ids.map((id) => {
         const event = eventById(id)!;
-        return `<article class="pc-app-event ${id === 'EVT-08' ? 'pc-app-event-alert' : ''} ${id === selected ? 'pc-app-event-selected' : ''}"><time datetime="${h(event.reportedAt)}">${h(event.reportedAt.slice(11, 16))}<small>${h(event.reportedAt.slice(8, 10))}/${h(event.reportedAt.slice(5, 7))}</small></time><div><button type="button" class="pc-app-record-link" data-pc-open="${h(id)}">${h(sourceName(id))}</button><p>${h(event.description)}</p><small>${h(event.systemLabel)} · ${h(event.account ?? 'Cuenta no aportada')}</small></div></article>`;
+        return `<article class="pc-app-event ${id === 'EVT-08' ? 'pc-app-event-alert' : ''} ${id === selected ? 'pc-app-event-selected' : ''}"><time datetime="${h(event.reportedAt)}">${h(event.reportedAt.slice(11, 16))}<small>${h(event.reportedAt.slice(8, 10))}/${h(event.reportedAt.slice(5, 7))}</small></time><div><button type="button" class="pc-app-record-link" data-pc-open="${h(id)}">${h(sourceName(id))}</button><p>${h(sourceSummary(id))}</p><small>${h(classroomText(event.systemLabel))} · ${h(event.account ?? 'Cuenta no aportada')}</small></div></article>`;
       }).join('');
       if (markup !== signature) {
         const active = root.ownerDocument.activeElement;

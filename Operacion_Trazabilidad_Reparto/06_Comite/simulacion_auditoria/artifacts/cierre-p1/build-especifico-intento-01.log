@@ -1,0 +1,8 @@
+Already up to date
+Done in 106ms using pnpm v11.2.2
+$ tsc --noEmit && vite build
+tests/e2e/i5.spec.ts(79,25): error TS2352: Conversion of type 'Window & typeof globalThis' to type 'Window & { __testFrameLag: number; }' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property '__testFrameLag' is missing in type 'Window & typeof globalThis' but required in type '{ __testFrameLag: number; }'.
+tests/e2e/i5.spec.ts(88,32): error TS2352: Conversion of type 'Window & typeof globalThis' to type 'Window & { __testFrameLag: number; }' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property '__testFrameLag' is missing in type 'Window & typeof globalThis' but required in type '{ __testFrameLag: number; }'.
+[ELIFECYCLE] Command failed with exit code 2.

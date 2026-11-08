@@ -1,0 +1,19 @@
+{
+  "pregunta": "01",
+  "unidades_escritas": 88,
+  "variante_pronunciada": 111,
+  "sustituciones": {
+    "1.6 GB": "uno punto seis gigabytes",
+    "PT-22": "papel de trabajo veintidós",
+    "31,840": "treinta y un mil ochocientos cuarenta",
+    "2.06 MB": "dos punto cero seis megabytes",
+    "CSV": "ce ese uve",
+    "5.12 MB": "cinco punto doce megabytes",
+    "JSONL": "jota ese o ene ele",
+    "SQL": "ese cu ele"
+  },
+  "segundos_150ppm": 44.4,
+  "segundos_130ppm": 51.230769230769226,
+  "ensayo_humano": false,
+  "limite": "Es una variante de pronunciación, no una duración observada ni una obligación de leer letra por letra."
+}

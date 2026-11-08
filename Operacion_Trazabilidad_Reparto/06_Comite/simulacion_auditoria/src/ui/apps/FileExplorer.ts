@@ -1,4 +1,5 @@
 import type { ApplicationDefinition } from '../../computer/types';
+import { sourceName } from '../../data/language';
 import { canon } from '../../data/canon';
 import { RecordComparison } from './RecordComparison';
 import { RecordViewer } from './RecordViewer';
@@ -8,11 +9,11 @@ export const fileExplorer: ApplicationDefinition<'file-explorer'> = {
   id: 'file-explorer', title: 'Explorador del expediente', icon: 'explorer', minSize: { width: 470, height: 340 },
   mount(container, context) {
     container.innerHTML = `<div class="pc-app pc-app-files"><div class="pc-app-toolbar"><span>${appIcon(context.stationId, 'explorer')} Inventario recibido</span><button type="button" data-pc-open="META-CUSTODIA">Inspeccionar procedencia</button><button type="button" data-pc-navigate="report">Informe del puesto</button></div>
-      <div class="pc-app-body" data-pc-scroll="files-body"><p class="pc-app-introduction">El inventario se calcula desde los resúmenes recibidos. Comprobar una entrada no lee ni autentica un archivo original.</p>
+      <div class="pc-app-body" data-pc-scroll="files-body"><p class="pc-app-introduction">El inventario se calcula desde los resúmenes recibidos. Consultar una entrada muestra sus metadatos; no lee archivos ni calcula o compara huellas digitales SHA-256 (valores que permiten detectar cambios).</p>
       <label class="pc-app-search">Buscar material <input type="search" aria-label="Filtrar registros" placeholder="Tipo, ruta, hash o identificador…" maxlength="500"></label><p class="pc-app-count" role="status"></p>
-      <div class="pc-app-table-wrap pc-app-inventory" data-pc-scroll="inventory"><table><thead><tr><th scope="col">Material</th><th scope="col">Archivo original</th><th scope="col">SHA-256</th><th scope="col">Comprobación</th></tr></thead><tbody></tbody></table></div><p class="pc-app-no-matches" hidden>No hay material con ese filtro.</p>
-      <p class="pc-app-feedback" role="status">Selecciona «Comprobar archivo» para revisar qué metadatos están realmente aportados.</p>
-      <div class="pc-app-toolbar pc-app-context-sources"><span>Soportes de contexto</span><button type="button" data-pc-open="E-09">Abrir E-09</button><button type="button" data-pc-open="E-10">Abrir E-10</button></div>
+      <div class="pc-app-table-wrap pc-app-inventory" data-pc-scroll="inventory"><table><thead><tr><th scope="col">Material</th><th scope="col">Archivo original</th><th scope="col">SHA-256</th><th scope="col">Consulta</th></tr></thead><tbody></tbody></table></div><p class="pc-app-no-matches" hidden>No hay material con ese filtro.</p>
+      <p class="pc-app-feedback" role="status">Selecciona «Ver metadatos» para revisar qué metadatos están realmente aportados.</p>
+      <div class="pc-app-toolbar pc-app-context-sources"><span>Soportes de contexto</span><button type="button" data-pc-open="E-09">Abrir contrato del proveedor</button><button type="button" data-pc-open="E-10">Abrir clasificación por IA</button></div>
       <section class="pc-app-inspector" data-pc-scroll="files-inspector" aria-label="Detalle del material"></section><div class="pc-app-comparison-host"></div><p class="pc-app-error" role="alert" hidden></p></div></div>`;
     const root = container.querySelector<HTMLElement>('.pc-app')!;
     const lifetime = new AppLifetime(root, context, 'input[type="search"]');
@@ -31,7 +32,7 @@ export const fileExplorer: ApplicationDefinition<'file-explorer'> = {
     const refresh = () => {
       const search = context.workspace.getDraft().search.toLocaleLowerCase();
       const sources = canon.evidenceSummaries.filter((source) => `${source.id} ${source.type} ${source.artifactPath ?? ''} ${source.sha256 ?? ''}`.toLocaleLowerCase().includes(search));
-      const markup = sources.map((source) => `<tr><td><strong>${h(source.type)}</strong><small>${h(source.id)}</small></td><td>${h(source.artifactPath ?? 'No aportado')}</td><td>${h(source.sha256 ?? 'No aportado')}</td><td><button type="button" data-pc-verify-file="${h(source.id)}">Comprobar archivo</button></td></tr>`).join('');
+      const markup = sources.map((source) => `<tr><td><strong>${h(sourceName(source.id))}</strong><small>${h(source.id)}</small></td><td>${h(source.artifactPath ?? 'No aportado')}</td><td>${h(source.sha256 ?? 'No aportado')}</td><td><button type="button" data-pc-verify-file="${h(source.id)}">Ver metadatos</button></td></tr>`).join('');
       if (markup !== signature) { signature = markup; rows.innerHTML = markup; }
       count.textContent = `${sources.length} de ${canon.evidenceSummaries.length} resúmenes de material`;
       empty.hidden = sources.length > 0;

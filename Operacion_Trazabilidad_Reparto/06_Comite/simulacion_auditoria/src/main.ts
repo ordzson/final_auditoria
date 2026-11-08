@@ -9,6 +9,7 @@ import { registryForComputer } from './computer/registry';
 import type { PersistenceEvent } from './computer/types';
 import { WorkspaceStore } from './computer/workspace';
 import { computers, getComputer } from './data/computers';
+import { caseOverview, evidenceKinds } from './data/guidance';
 import { createInterviewSession } from './data/interview';
 import { stationById, stationForReview, stations } from './data/stations';
 import { OfficeScene, type InteractionTarget } from './scene/OfficeScene';
@@ -68,12 +69,12 @@ class App {
         </section>
         <section id="entry-overlay" class="entry-overlay" hidden>
           <button id="enter-office" class="primary-button">Entrar a la oficina</button>
-          <p>Un clic activa el mouse. Esc lo libera; tus documentos detienen la caminata.</p>
+          <p class="entry-context">${escapeHtml(caseOverview)}</p><p>Inspecciona fuentes, contrasta declaraciones y justifica seis revisiones. Una revisión documentada puede seguir siendo no concluyente.</p><p>Un clic activa el mouse. Esc lo libera; tus documentos detienen la caminata.</p>
         </section>
         <section id="flat-office" class="flat-office" hidden aria-label="Sala de revisión en modo plano">
-          <div class="flat-heading"><div><h1>Sala de revisión</h1><p>Acceso plano a las mismas fuentes y revisiones. No requiere WebGL ni bloqueo del puntero.</p></div><button class="secondary-button" data-flat="liaison">Recibir tablita / hablar con TI</button></div>
+          <div class="flat-heading"><div><h1>Sala de revisión</h1><p>${escapeHtml(caseOverview)}</p></div><button class="secondary-button" data-flat="liaison">Recibir tablita / hablar con TI</button></div>
           <div class="flat-stations">${stations.map((station) => `<button class="flat-station" data-flat="${station.id}"><span class="station-letter">${station.short}</span><span><strong>${escapeHtml(station.title)}</strong><small><span data-flat-status="${station.reviewId}">Pendiente</span></small></span><span>Usar ordenador</span></button>`).join('')}</div>
-          <p class="flat-note">La oficina concentra copias por conveniencia didáctica; no representa la infraestructura física de RedNova.</p>
+          <details class="flat-reading"><summary>Cómo distinguir la información</summary><p>${escapeHtml(evidenceKinds)}</p><p>Inspecciona fuentes, contrasta declaraciones y justifica seis revisiones. Completar la actividad no demuestra culpabilidad ni aprueba un hallazgo.</p></details><p class="flat-note">La oficina concentra copias por conveniencia didáctica; no representa la infraestructura física de RedNova.</p>
         </section>
         <div id="toast" class="toast" role="status" aria-live="polite"></div>
         <dialog id="panel-dialog"></dialog>
@@ -81,7 +82,7 @@ class App {
         <div id="print-report"></div>
       </main>`;
 
-    if (!this.store.state.settings.flatMode || !this.store.state.introSeen) this.initializeScene();
+    if (!this.store.state.settings.flatMode) this.initializeScene();
     this.intro = new IntroPlayer(this.root.querySelector('#intro-root')!, this.store, () => this.scene, () => this.enterVisit());
     this.bind();
     this.previousDocumented = this.documentedReviews();
@@ -187,7 +188,7 @@ class App {
     this.scene?.setDocumented([...this.documentedReviews()]);
     const flat = settings.flatMode || !this.scene;
     this.root.querySelector<HTMLElement>('#flat-office')!.hidden = !(this.mode === 'visit' && flat);
-    this.root.querySelector('#scene-container')!.classList.toggle('is-flat', flat && this.mode === 'visit');
+    this.root.querySelector('#scene-container')!.classList.toggle('is-flat', flat && (this.mode === 'visit' || settings.flatMode));
     this.root.querySelector<HTMLElement>('#visit-hud')!.classList.toggle('flat-active', flat);
     if (flat && document.pointerLockElement) document.exitPointerLock();
     this.renderFlatStatuses();

@@ -1,0 +1,42 @@
+{
+  "fecha_utc": "2026-11-07T14:11:09.757101+00:00",
+  "metodo": "shutil.copy2 y cotejo SHA-256; previo a editar en I4",
+  "actor": "Codex; custodio designado P1, sin firma ni revisión humana",
+  "archivos": [
+    {
+      "origen": "03_Evidencias/hashes_sha256_v1.csv",
+      "copia": "03_Evidencias/originales/previos_I4/03_Evidencias/hashes_sha256_v1.csv",
+      "sha256": "92bd96c1f4f675e460da4dccbebc1f6ab9320ec4a1bd27ddc10a39d6f99c881b"
+    },
+    {
+      "origen": "03_Evidencias/Indice_evidencias_v1.csv",
+      "copia": "03_Evidencias/originales/previos_I4/03_Evidencias/Indice_evidencias_v1.csv",
+      "sha256": "0c2d54d7d3675e195d7d31b6cc5efebe6633a9af2c5f5499544cb08a226f4f96"
+    },
+    {
+      "origen": "03_Evidencias/formulario_custodia.md",
+      "copia": "03_Evidencias/originales/previos_I4/03_Evidencias/formulario_custodia.md",
+      "sha256": "3780c23f98ad938a58386a8bfbf73f12f39839a4d8dff271f15c877da1154066"
+    },
+    {
+      "origen": "03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "copia": "03_Evidencias/originales/previos_I4/03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "sha256": "25b43e875fce6fc4ab619df38a2b12c4ed937aaedc92b1548eb7910c78910aae"
+    },
+    {
+      "origen": "07_Referencias/Fuentes_P1_v1.md",
+      "copia": "03_Evidencias/originales/previos_I4/07_Referencias/Fuentes_P1_v1.md",
+      "sha256": "54c5aa681e46999ff13d7a85119f900108dfdd7a6523d8c6de57292a34276fe6"
+    },
+    {
+      "origen": "07_Referencias/Registro_uso_IA_v1.csv",
+      "copia": "03_Evidencias/originales/previos_I4/07_Referencias/Registro_uso_IA_v1.csv",
+      "sha256": "230d02bd8aa346a8f4ddb2f1f4788ab6bdfee230334740f8ae251934cbbfa225"
+    },
+    {
+      "origen": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "copia": "03_Evidencias/originales/previos_I4/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "sha256": "cd86b2ce7e5da693971c091823d3b5c233459a9ccb26fb03636ca55c1e05e73d"
+    }
+  ]
+}

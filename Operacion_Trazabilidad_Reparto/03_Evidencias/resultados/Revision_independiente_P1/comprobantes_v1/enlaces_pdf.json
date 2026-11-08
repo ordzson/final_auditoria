@@ -1,0 +1,128 @@
+[
+  {
+    "archivo": "01_Informe/Seccion_forense_P1_v1.pdf",
+    "pagina": 4,
+    "tipo": 3,
+    "destino": "../03_Evidencias/Mapa_causal_P1_v1.dot",
+    "existe_local": true
+  },
+  {
+    "archivo": "01_Informe/Seccion_forense_P1_v1.pdf",
+    "pagina": 5,
+    "tipo": 2,
+    "destino": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf",
+    "existe_local": null
+  },
+  {
+    "archivo": "01_Informe/Seccion_forense_P1_v1.pdf",
+    "pagina": 5,
+    "tipo": 2,
+    "destino": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+    "existe_local": null
+  },
+  {
+    "archivo": "01_Informe/Seccion_forense_P1_v1.pdf",
+    "pagina": 5,
+    "tipo": 3,
+    "destino": "../07_Referencias/Fuentes_P1_v1.md",
+    "existe_local": true
+  },
+  {
+    "archivo": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+    "pagina": 6,
+    "tipo": 3,
+    "destino": "../03_Evidencias/Mapa_causal_P1_v1.dot",
+    "existe_local": true
+  },
+  {
+    "archivo": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+    "pagina": 7,
+    "tipo": 2,
+    "destino": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf",
+    "existe_local": null
+  },
+  {
+    "archivo": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+    "pagina": 7,
+    "tipo": 2,
+    "destino": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+    "existe_local": null
+  },
+  {
+    "archivo": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+    "pagina": 7,
+    "tipo": 3,
+    "destino": "../07_Referencias/Fuentes_P1_v1.md",
+    "existe_local": true
+  },
+  {
+    "archivo": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+    "pagina": 1,
+    "tipo": 1,
+    "destino": 2,
+    "existe_local": null
+  },
+  {
+    "archivo": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+    "pagina": 1,
+    "tipo": 1,
+    "destino": 3,
+    "existe_local": null
+  },
+  {
+    "archivo": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+    "pagina": 1,
+    "tipo": 1,
+    "destino": 4,
+    "existe_local": null
+  },
+  {
+    "archivo": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+    "pagina": 1,
+    "tipo": 1,
+    "destino": 5,
+    "existe_local": null
+  },
+  {
+    "archivo": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+    "pagina": 1,
+    "tipo": 1,
+    "destino": 6,
+    "existe_local": null
+  },
+  {
+    "archivo": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+    "pagina": 1,
+    "tipo": 1,
+    "destino": 7,
+    "existe_local": null
+  },
+  {
+    "archivo": "07_Referencias/Fuentes_P1_v1.pdf",
+    "pagina": 1,
+    "tipo": 2,
+    "destino": "https://learn.microsoft.com/en-us/sql/linux/install-upgrade/quickstart-install-docker?view=sql-server-ver16",
+    "existe_local": null
+  },
+  {
+    "archivo": "07_Referencias/Fuentes_P1_v1.pdf",
+    "pagina": 2,
+    "tipo": 2,
+    "destino": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+    "existe_local": null
+  },
+  {
+    "archivo": "07_Referencias/Fuentes_P1_v1.pdf",
+    "pagina": 2,
+    "tipo": 2,
+    "destino": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf",
+    "existe_local": null
+  },
+  {
+    "archivo": "07_Referencias/Fuentes_P1_v1.pdf",
+    "pagina": 2,
+    "tipo": 2,
+    "destino": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+    "existe_local": null
+  }
+]

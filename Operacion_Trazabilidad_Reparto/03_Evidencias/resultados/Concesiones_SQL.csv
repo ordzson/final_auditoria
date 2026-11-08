@@ -1,0 +1,13 @@
+Usuario,Estado,Permiso,Objeto
+admin_bitacora_lab,GRANT,CONNECT,\N
+admin_bitacora_lab,GRANT,DELETE,BitacoraSQL
+admin_bitacora_lab,GRANT,SELECT,BitacoraSQL
+admin_bitacora_lab,GRANT,UPDATE,BitacoraSQL
+auditor_lectura,DENY,ALTER,\N
+auditor_lectura,GRANT,CONNECT,\N
+auditor_lectura,DENY,DELETE,\N
+auditor_lectura,DENY,INSERT,\N
+auditor_lectura,DENY,UPDATE,\N
+auditor_lectura,GRANT,SELECT,\N
+control_bitacora_lab,GRANT,CONNECT,\N
+control_bitacora_lab,GRANT,SELECT,BitacoraSQL

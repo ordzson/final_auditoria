@@ -1,0 +1,19 @@
+FuenteID,Nombre,ZonaOriginal,DesfaseSegundos,Metodo,Verificado,ClaseOrigen,ReferenciaExpediente,SupuestosAplicados
+CURSO_PROVEEDOR,Proveedor,\N,\N,Hora reportada por el expediente; reloj original no verificado,0,reproduccion_expediente,\N,S-03
+CURSO_VPN,VPN,\N,\N,Hora reportada por el expediente; reloj original no verificado,0,reproduccion_expediente,\N,S-03
+CURSO_IDENTIDAD,Identidad,\N,\N,Hora reportada por el expediente; reloj original no verificado,0,reproduccion_expediente,\N,S-03
+CURSO_SQL,SQLServer,\N,\N,Hora reportada por el expediente; reloj original no verificado,0,reproduccion_expediente,\N,S-03
+CURSO_RED,Red,\N,\N,Hora reportada por el expediente; reloj original no verificado,0,reproduccion_expediente,\N,S-03
+CURSO_CRM,CRM,\N,\N,Hora reportada por el expediente; reloj original no verificado,0,reproduccion_expediente,\N,S-03
+CURSO_CAMBIOS,Cambios,\N,\N,Hora reportada por el expediente; reloj original no verificado,0,reproduccion_expediente,\N,S-03
+CURSO_SEGURIDAD,Seguridad,\N,\N,Hora reportada por el expediente; reloj original no verificado,0,reproduccion_expediente,\N,S-03
+CURSO_TI,TI,\N,\N,Hora reportada por el expediente; reloj original no verificado,0,reproduccion_expediente,\N,S-03
+CURSO_FINANZAS,Finanzas,\N,\N,Hora reportada por el expediente; reloj original no verificado,0,reproduccion_expediente,\N,S-03
+LAB_VPN,VPN sintética,-06:00,0,Consistencia interna del generador; no es medición de reloj real,1,laboratorio,\N,S-03;S-09;S-P1-PER
+LAB_IDENTIDAD,Identidad sintética,-06:00,0,Consistencia interna del generador; no es medición de reloj real,1,laboratorio,\N,S-03;S-09;S-P1-PER
+LAB_SQL,SQL sintético,-06:00,0,Consistencia interna del generador; no es medición de reloj real,1,laboratorio,\N,S-03;S-09;S-P1-PER
+LAB_RED,Red sintética,-06:00,0,Consistencia interna del generador; no es medición de reloj real,1,laboratorio,\N,S-03;S-09;S-P1-PER
+LAB_CRM,CRM sintético,-06:00,0,Consistencia interna del generador; no es medición de reloj real,1,laboratorio,\N,S-03;S-09;S-P1-PER
+LAB_BACKUPS,Respaldos sintéticos,-06:00,0,Consistencia interna del generador; no es medición de reloj real,1,laboratorio,\N,S-03;S-09;S-P1-PER
+LAB_SIEM,SIEM sintético,-06:00,0,Consistencia interna del generador; no es medición de reloj real,1,laboratorio,\N,S-03;S-09;S-P1-PER
+LAB_CAMBIOS,Cambios sintéticos,-06:00,0,Consistencia interna del generador; no es medición de reloj real,1,laboratorio,\N,S-03;S-09;S-P1-PER

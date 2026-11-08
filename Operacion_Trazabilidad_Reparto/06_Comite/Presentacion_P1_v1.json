@@ -1,0 +1,92 @@
+{
+  "alcance": "Intervención de Anthony Samuel Ordoñez Son sobre investigación del incidente. Coordinación y ensayo del equipo pendientes.",
+  "reserva_equipo": [
+    {
+      "minutos": "00:00–03:00",
+      "responsable": "María José Aldana Culajay",
+      "contenido": "Reserva para sus aportes; no recibidos."
+    },
+    {
+      "minutos": "03:00–07:00",
+      "responsable": "Anthony Samuel Ordoñez Son",
+      "contenido": "Seis diapositivas, revisión jugable y límites."
+    },
+    {
+      "minutos": "07:00–11:00",
+      "responsable": "Luis Antonio Vicente Zapón",
+      "contenido": "Reserva para sus aportes; no recibidos."
+    },
+    {
+      "minutos": "11:00–12:00",
+      "responsable": "Equipo",
+      "contenido": "Decisiones/cierre; integración pendiente."
+    }
+  ],
+  "diapositivas": [
+    {
+      "titulo": "Qué podemos concluir",
+      "tiempo": "03:00–03:30 · Investigación del incidente",
+      "puntos": [
+        "El caso reporta un incidente; faltan registros originales de la empresa.",
+        "Las consultas se probaron con datos ficticios: comprueban el método.",
+        "No se confirman autoría, causa ni extracción de información sin autorización."
+      ],
+      "fuentes": "Fuente: Proyecto del curso, páginas 3–5; papeles de trabajo adjuntos."
+    },
+    {
+      "titulo": "Qué ocurrió, según el caso",
+      "tiempo": "03:30–04:15 · Horas de Guatemala",
+      "puntos": [
+        "02:17 acceso remoto; 02:31 lectura de 31,840 registros; 02:35 transferencia externa.",
+        "02:42 cambios en 216 órdenes; 03:02 nueva versión; 03:18 alerta; 03:42 caída.",
+        "El sistema vuelve: solo consulta a las 08:57; escritura a las 09:37.",
+        "Los relojes no están verificados. La cercanía de eventos no demuestra causa."
+      ],
+      "fuentes": "Fuente: Proyecto, página 4; cronología adjunta."
+    },
+    {
+      "titulo": "Tres explicaciones abiertas",
+      "tiempo": "04:15–04:50 · Falta evidencia para decidir",
+      "puntos": [
+        "Robo de credenciales por una persona no autorizada.",
+        "Uso indebido por alguien que tenía acceso legítimo.",
+        "Actividad autorizada coincidente con un ataque por otra vía.",
+        "Para distinguirlas: conectar sesiones, procesos y archivos con registros originales."
+      ],
+      "fuentes": "Fuente: informe de reconstrucción; apartado de explicaciones alternativas."
+    },
+    {
+      "titulo": "El volumen no identifica los datos",
+      "tiempo": "04:50–05:50 · Comparación de magnitudes",
+      "puntos": [
+        "El caso reporta unos 1.6 gigabytes enviados; no identifica el contenido.",
+        "31,840 clientes ficticios, con siete campos: unos 2.06 o 5.12 megabytes según formato.",
+        "La comparación no confirma ni descarta una fuga.",
+        "Solicitar archivos, destino, proceso de origen y autorización del envío."
+      ],
+      "fuentes": "Soporte: papel de transferencia (PT-22); consultas de lectura y tráfico (Q-05/Q-06)."
+    },
+    {
+      "titulo": "Órdenes y acciones propuestas",
+      "tiempo": "05:50–06:40 · Decisiones para la administración",
+      "puntos": [
+        "216 órdenes reportadas; los campos modificados del laboratorio son supuestos.",
+        "Siguen sin acreditarse el seguimiento de la alerta y la protección de registros.",
+        "Once propuestas: preservar información, contener accesos y recuperar con validación.",
+        "El retorno del servicio no demuestra integridad ni cumplimiento de objetivos del negocio."
+      ],
+      "fuentes": "Soporte: papeles de órdenes, alerta e integridad (PT-23 a PT-25); observaciones y plan adjuntos."
+    },
+    {
+      "titulo": "Qué falta para cerrar",
+      "tiempo": "06:40–07:00 · Integración pendiente",
+      "puntos": [
+        "Registros originales, identidades y relojes comprobados.",
+        "Políticas, análisis de impacto y objetivos de recuperación aprobados.",
+        "Comparar órdenes, facturas y respaldo validado.",
+        "Revisión del estudiante, aportes del equipo y ensayo conjunto."
+      ],
+      "fuentes": "Responsables de integrar: María José Aldana Culajay y Luis Antonio Vicente Zapón."
+    }
+  ]
+}

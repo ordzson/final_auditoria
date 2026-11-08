@@ -1,0 +1,46 @@
+digraph P1 {
+  graph [rankdir=TB, bgcolor="white", label="P1 · mapa causal investigado · corte 2026-10-15T23:59:59-06:00\nReportado ≠ autenticado; enlaces causales pendientes · revisión humana pendiente", labelloc=t, fontsize=17, fontname="DejaVu Sans"];
+  node [shape=box, style="rounded,filled", fillcolor="#e5e7eb", fontname="DejaVu Sans", fontsize=11];
+  edge [fontname="DejaVu Sans", fontsize=9, color="#64748b"];
+  leyenda [shape=note, fillcolor="white", label="AZUL: dato reportado, certeza forense limitada\nÁMBAR: hipótesis causal, certeza baja\nGRIS: desconocido/dependencia\nVERDE: resultado comprobado SOLO en laboratorio\nAristas punteadas: enlace causal no demostrado\nSin porcentajes: no hay base para probabilidades"];
+  subgraph cluster_hechos {
+    label="Expediente único del curso · Proyecto pp. 3–5 · sin corroboración independiente";
+    color="#93c5fd";
+    vpn [fillcolor="#dbeafe", label="02:17 sesión ext_ops_04 sin MFA\nE-02 / PT-20 / EVT-02"];
+    elev [fillcolor="#dbeafe", label="02:26 elevación; cuenta desconocida\nPT-21 / EVT-03"];
+    sql [fillcolor="#dbeafe", label="02:31 lectura 31,840; login desconocido\nE-03 / PT-21 / EVT-04"];
+    red [fillcolor="#dbeafe", label="02:35 ~1.6 GB; contenido desconocido\nE-04 / PT-22 / EVT-05"];
+    ord [fillcolor="#dbeafe", label="02:42 cambios en 216 órdenes\nE-05 / PT-23 / EVT-06"];
+    dep [fillcolor="#dbeafe", label="03:02 despliegue; aprobación no documentada\nE-06 / Q-10 / EVT-07"];
+    alert [fillcolor="#dbeafe", label="03:18 alerta crítica; cierre no documentado\nE-07 / PT-24 / EVT-08"];
+    down [fillcolor="#dbeafe", label="03:42 CRM indisponible / cifrado aparente\nNota de extorsión; no prueba de exfiltración\nProyecto pp. 3–4 / EVT-09"];
+  }
+  ha [fillcolor="#fef3c7", label="H-A · credencial comprometida\ncausa inmediata propuesta; baja certeza"];
+  hb [fillcolor="#fef3c7", label="H-B · abuso por persona con acceso legítimo\ncausa inmediata propuesta; baja certeza"];
+  hc [fillcolor="#fef3c7", label="H-C · parte legítima y ataque por otra vía\ncausa inmediata alternativa; baja certeza"];
+  access [fillcolor="#fef3c7", label="Causa de control propuesta: autenticación/excepciones\nP2; falta configuración/política histórica"];
+  tracking [fillcolor="#fef3c7", label="Causa de control propuesta: seguimiento sin responsable verificable\nB1-1 no concluyente; pedir ticket/asignación/acciones"];
+  logs [fillcolor="#fef3c7", label="Causa de control propuesta: registros sin protección independiente\nB1-2 no concluyente; pedir ACL/colector/retención"];
+  gov [fillcolor="#e5e7eb", label="Causas de gobierno por investigar\nResponsabilidades, terceros y supervisión (P2/P3)\nNo se aportaron políticas, RACI ni decisiones"];
+  unknown [fillcolor="#e5e7eb", label="No determinado: persona, contenido, vector y causa raíz\nRelojes sin cota verificable; intervalos ≠ continuidad de logs"];
+  lab [fillcolor="#dcfce7", label="Laboratorio, rama separada\nQ-S01: admin ficticio UPDATE/DELETE efectivos\nControl/auditor sin esos permisos; no modificación ejecutada\nNo acredita permisos ni alteración en RedNova"];
+  gov -> access [style=dotted, label="hipótesis; pedir decisiones/recertificación"];
+  gov -> tracking [style=dotted, label="hipótesis; pedir procedimiento/roles"];
+  gov -> logs [style=dotted, label="hipótesis; pedir arquitectura/custodia"];
+  access -> ha [style=dotted, label="no probado; sesión/IdP/host"];
+  access -> hb [style=dotted, label="no probado; titulares/dispositivos"];
+  ha -> vpn [style=dotted, label="no probado; token/host/persona"];
+  hb -> vpn [style=dotted, label="no probado; identidad/uso autorizado"];
+  vpn -> elev [style=dotted, label="9 min reportados; falta vínculo sesión"];
+  elev -> sql [style=dotted, label="5 min; falta login/token/permisos"];
+  sql -> red [style=dotted, label="4 min; falta proceso/contenido/destino"];
+  elev -> ord [style=dotted, label="no probado; falta transaction/request ID"];
+  dep -> down [style=dotted, label="40 min reportados; falta binario/traza/proceso"];
+  ord -> down [style=dotted, label="60 min; integridad/causa sin demostrar"];
+  tracking -> down [style=dotted, label="no prueba que atención distinta evitara caída"];
+  alert -> tracking [style=dotted, label="evidencia incompleta; no demuestra inacción"];
+  logs -> unknown [style=dotted, label="no se sabe si hubo borrado; pedir duplicado/contadores"];
+  hc -> red [style=dotted, label="legitimidad posible; pedir job/autorización/objetos"];
+  hc -> dep [style=dotted, label="aprobación verbal alegada; pedir soporte"];
+  hc -> down [style=dotted, label="otra vía no identificada; pedir telemetría/artefactos"];
+}

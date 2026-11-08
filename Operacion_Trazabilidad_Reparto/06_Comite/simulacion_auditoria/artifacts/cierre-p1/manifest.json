@@ -1,0 +1,2471 @@
+{
+  "fecha_utc": "2026-11-07T15:29:08.841119+00:00",
+  "alcance": "Fuentes, pruebas, comprobantes I5 y bundle; son artefactos locales de software, no originales del incidente. Traces voluminosas generadas están disponibles localmente/excluidas de Git.",
+  "excluidos_para_evitar_circularidad": [
+    "03_Evidencias/hashes_sha256_v1.csv",
+    "06_Comite/simulacion_auditoria/artifacts/cierre-p1/manifest.json",
+    "06_Comite/simulacion_auditoria/artifacts/cierre-p1/integridad-cierre.json"
+  ],
+  "archivos": [
+    {
+      "ruta": "06_Comite/simulacion_auditoria/DESIGN.md",
+      "bytes": 29811,
+      "sha256": "fef8300650422c30eccf2b8f669a43fac1fb4d767e1f18cd4da02d5455816cc2"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/PRODUCT.md",
+      "bytes": 5681,
+      "sha256": "79b5372477bf0abfb202e2d4dd60e9fe32420bcbe3653bc839ea8e427841b613"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/README.md",
+      "bytes": 18261,
+      "sha256": "1d2f5f99dba47f34c596c37d7b32bc42608caefb871fc829f7633081bcebc24d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/.gitignore",
+      "bytes": 152,
+      "sha256": "b43ab795d71e096867ec8c3651ba8423976e67954b0adfddede5aadb17745a3f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/README.md",
+      "bytes": 11525,
+      "sha256": "09047fb18c46b38433322aaa3c3b47989647744f36cca2633a97af412c454aab"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/apertura-1280.png",
+      "bytes": 338033,
+      "sha256": "91b6d443ccd4d3022dd5fb21932fd3f4f909643ca080a8c336d1e13a59bee323"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/apertura-1920.png",
+      "bytes": 778883,
+      "sha256": "8a285af289354713de1afd6d9ecab8906103bc6d5c9fbc53b9790c0bdbdbe321"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/.last-run.json",
+      "bytes": 390,
+      "sha256": "84d21f5bec5dffb5868af6be6cfd7fe4aed21f65836949badc02fa6caccb81c2"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/acceptance-D-·-apertura-legible-y-encuadrada-a-1280×720/error-context.md",
+      "bytes": 2067,
+      "sha256": "cf465849cda7db61b7f445d8860469d6eda277c8358ddc2f69bd50b70a7d52f3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/acceptance-D-·-apertura-legible-y-encuadrada-a-1280×720/trace.zip",
+      "bytes": 41575295,
+      "sha256": "a3262683d1e07405daeb68609d664afd953da318b1f2762c2ae4469c85242f07"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/acceptance-D-·-apertura-legible-y-encuadrada-a-1920×1080/error-context.md",
+      "bytes": 2162,
+      "sha256": "21a8a758b527d529d758dcba00c2e94c27c42f44547358f61f7082fe96104438"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/acceptance-D-·-apertura-legible-y-encuadrada-a-1920×1080/trace.zip",
+      "bytes": 41485271,
+      "sha256": "cecff56905fe08c7dcb7a109013400f736029d5e4dafee37bd68d9245a1b9d56"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/error-context.md",
+      "bytes": 2162,
+      "sha256": "da6479d25b0edc01e83d127f494c493bfb2bad5f1b608d4d83868b0e2f3e46d4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/trace.zip",
+      "bytes": 41770715,
+      "sha256": "e8e9091d69eb40def952c275d6907bf7762c6843cc28e72961a6fb70992b2f1f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/acceptance-D-·-inicio-loca-277c1-ión-con-el-contexto-offline/error-context.md",
+      "bytes": 2162,
+      "sha256": "21a8a758b527d529d758dcba00c2e94c27c42f44547358f61f7082fe96104438"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/acceptance-D-·-inicio-loca-277c1-ión-con-el-contexto-offline/trace.zip",
+      "bytes": 41507623,
+      "sha256": "9489cd51f4d6b9f3677844c0eef8c76d62bf0af019498aabc131c9cef4bda477"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/acceptance-D-·-silencio-av-ab57e-l-y-reducción-de-movimiento/error-context.md",
+      "bytes": 2162,
+      "sha256": "24ed66fc23d20036a27ac28b3a40e1b575c28ee842c0f30d39e06da375d46fcb"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/acceptance-D-·-silencio-av-ab57e-l-y-reducción-de-movimiento/trace.zip",
+      "bytes": 41682844,
+      "sha256": "60ecb9b67842aa2c0fbfe54d92d55f3d2c383e0459f302a2a8f2736074a73821"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/chairs-las-sillas-cargadas-58b88-ón-y-posición-al-deslizarse/sillas-oficina.png",
+      "bytes": 1001268,
+      "sha256": "a53a6a3e8248417285db68796a81944f967935d0a2ee9d2b8a7a37e12668c59d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/error-context.md",
+      "bytes": 2162,
+      "sha256": "da6479d25b0edc01e83d127f494c493bfb2bad5f1b608d4d83868b0e2f3e46d4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/trace.zip",
+      "bytes": 41774286,
+      "sha256": "9f786bc54aa9e422d48690a9ff1c7ddcbf5c02318b9c37d509fbd8ca70561086"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/office-C-·-diez-planos-tra-d34f6-lustrativa-y-estado-intacto/error-context.md",
+      "bytes": 2162,
+      "sha256": "da6479d25b0edc01e83d127f494c493bfb2bad5f1b608d4d83868b0e2f3e46d4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/office-C-·-diez-planos-tra-d34f6-lustrativa-y-estado-intacto/trace.zip",
+      "bytes": 41771790,
+      "sha256": "e37d55601f5d0b964cfd83f4bbbcc105c170a5c04f37f09e8d522d75fba40669"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/baseline-test-results/office-C-·-guardar-editar--81662-ón-exportar-JSON-e-imprimir/libreta-incompleta-prueba.pdf",
+      "bytes": 56684,
+      "sha256": "a09b1315357359c4bb8ce3629dbfaa809b40a5efd77d11278e17a5f766e34fea"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/build-especifico-intento-01.log",
+      "bytes": 947,
+      "sha256": "40ffb27afe2c4609dcdd2fd1de62674dbeed198a11f40d153613b8d15dcc69a6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/build-especifico.log",
+      "bytes": 743,
+      "sha256": "f79c346a53aa5812b942dddb1d33fbbff81efe4f1f67c46d4dad556ad2c4f14f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/capturas-historicas-preservadas.json",
+      "bytes": 2901,
+      "sha256": "84a22024dcea8142eb1d583bc68e51c9d986445191fb1d7028f74b2e839d0625"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/conservacion-recursos.json",
+      "bytes": 269,
+      "sha256": "2b08a91b68c3031482ca7745591e89696b287be18b80d0b1ab328edf80259424"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/conservacion-reglas.json",
+      "bytes": 764,
+      "sha256": "4e8356bafaf20eedfbb12009ec47b146d944787e5c45551fa3e28cfc5657153c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/conservacion-voz.json",
+      "bytes": 8722,
+      "sha256": "3ab7aa62360366eeb00090cc35cf63d4c786e57ac2cdd96ca770b6fa7da125cc"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/copias-previas-verificadas.json",
+      "bytes": 17752,
+      "sha256": "7e9c0994ed323e5f0f626666b292e029495649d495a831d110bef3d40f9e5e8d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/detector-diseno.json",
+      "bytes": 122495,
+      "sha256": "6d0281ad5c6aa2d549f16d38cb81abc51c606eace0da8a16cd8bb351b7359c67"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-apertura.json",
+      "bytes": 5209,
+      "sha256": "a4c5316b6056a735cf0e26184dcf828f33fd1a43893a5536b8dfa53d713e6b20"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-apertura.log",
+      "bytes": 4052,
+      "sha256": "cd06d1c6f1d707d8e8ba011b62f342c255bbd91dc4f4b039ca825b1a008e84e7"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-gpu-backpressure.zip",
+      "bytes": 41817981,
+      "sha256": "b43b86acb51caa533bd1af3485780105fa41eb60d98752679fde372f33379435"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-half-resolution-shadow.zip",
+      "bytes": 41561825,
+      "sha256": "47739279814e39b5fbc6e733d00499d7a2b93b57f812d0ea5dbac8989224b898"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-half-resolution.zip",
+      "bytes": 41714651,
+      "sha256": "f5346983c3c3b6e88df30800ce5cf148a32efc71b31490e1c745e4f4d0c206e8"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-low-resolution.zip",
+      "bytes": 41532185,
+      "sha256": "ae93cd84d50d41e4b4d598edfeaddaea62b7ad28b3e439eabc03486ff6467f4c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-original.zip",
+      "bytes": 41815111,
+      "sha256": "a8fcf9a9b7bee2c0aef3ff617e97d157d0091eeafdd67821eac5c0ed79835488"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-paced-render.zip",
+      "bytes": 41737422,
+      "sha256": "63a9019ceb3c24029b6da7cc9bf0bfba32e1565806452dac28b41863ad6dc618"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-resolucion.json",
+      "bytes": 3247,
+      "sha256": "75a69b6f215f0982a3741227e9514a72231a76fe32da95af0618af74d5186bd6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-resolucion.log",
+      "bytes": 2548,
+      "sha256": "cd4d54af886794cc5dc79895bace86ac3cd4f5fc5b75f366cef8c7a87060f939"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-stable-controls.zip",
+      "bytes": 41814201,
+      "sha256": "f12d8c2d4ada8b2b66bb90825b9cad2b62458c031ede8dc48a37101fe7324c04"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-trace-no-screencast.zip",
+      "bytes": 40432678,
+      "sha256": "5774b8b50d5a41524bda81780a83422ed9ec414b5cdf52ca5539ecf1772b34b8"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/ejecuciones.json",
+      "bytes": 1108,
+      "sha256": "b10429b03864bf65491b22b52af0bac187d78e2b196eaa157e965669169d7f10"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/entrada-intento-01-trazas/.last-run.json",
+      "bytes": 96,
+      "sha256": "345940edcf1e5c8536b69d4734614938f624e7aa9fd24f8a965a1f2d725cdf35"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/entrada-intento-01-trazas/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/error-context.md",
+      "bytes": 3160,
+      "sha256": "606f5f79b49fe0e422ed25431993666a5b636a173aa67a2ea413d100e7c5c0b6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/entrada-intento-01-trazas/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/test-failed-1.png",
+      "bytes": 348902,
+      "sha256": "e4157881a828b48827cb84deef666ed8bfb8fca695bd77a247406df72d957a47"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/entrada-intento-01-trazas/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/trace.zip",
+      "bytes": 54446833,
+      "sha256": "5b0a78cce5a1f7128e486f36a601093c48ea1e3f7dc865a5dc4cfe9be551e0d2"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/entrada-y-navegacion-intento-01.log",
+      "bytes": 3249,
+      "sha256": "ffa3af9ac2fd5bd61bb5468a0d75f1fbb15ba37b5edbd0de11387d481855a769"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/entradas-verificadas.json",
+      "bytes": 104357,
+      "sha256": "96c0cdb837fbdc90036369a12503f712976bb8f9f0b38ddfb187fdc13d1753b7"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-01-trazas/.last-run.json",
+      "bytes": 194,
+      "sha256": "1c1d9417228192966038fcfe873df262751e08bb85e25d8f7bbd3ad1f80b5aa3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-01-trazas/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/error-context.md",
+      "bytes": 873,
+      "sha256": "e8d517ab788593e6ea3b2d52ffb2a73d4d752dec4387389f8771a8810c763f53"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-01-trazas/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/trace.zip",
+      "bytes": 42500626,
+      "sha256": "0af0562286e27387adaa5e08b937154d5d38ff34abf74d9d0a747d4b12fe1469"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-01-trazas/acceptance-D-·-inicio-loca-277c1-ión-con-el-contexto-offline/error-context.md",
+      "bytes": 1796,
+      "sha256": "0c009c796dfe5877aad3e56afadd6da82d0c726b6a81338a064a18f6cee01994"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-01-trazas/acceptance-D-·-inicio-loca-277c1-ión-con-el-contexto-offline/trace.zip",
+      "bytes": 42539128,
+      "sha256": "1ef8ccc67a3bea9f8c8226f0f2665b13f6ed0831c2196b62dee99717063e1910"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-01-trazas/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/error-context.md",
+      "bytes": 992,
+      "sha256": "8c010c80a54d36871316146fcb0d3b465668d012cc1d55829f10bd2d21bd4ac1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-01-trazas/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/trace.zip",
+      "bytes": 43865115,
+      "sha256": "6298aa355f2f332aafc5d44bc09be8146d2bca2ff25fbb88a8e7f403d3d60943"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-01-trazas/office-C-·-guardar-editar--81662-ón-exportar-JSON-e-imprimir/libreta-incompleta-prueba.pdf",
+      "bytes": 140477,
+      "sha256": "de55763b43fc6a84c17c09c7b54c5bee6e8a41b60a3405f0f2ef788c81a95696"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-02-trazas/.last-run.json",
+      "bytes": 145,
+      "sha256": "0916149e85a7c7c76251e05b0596e81747f40d89228c6498a3b80d28bb3b3c1e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-02-trazas/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/error-context.md",
+      "bytes": 873,
+      "sha256": "e8d517ab788593e6ea3b2d52ffb2a73d4d752dec4387389f8771a8810c763f53"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-02-trazas/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/test-failed-1.png",
+      "bytes": 771303,
+      "sha256": "4f1db1c04df47f6139a78dc36e250cdf647db6eeac7a30989f5431365a8869b7"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-02-trazas/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/trace.zip",
+      "bytes": 42477164,
+      "sha256": "c644571fc2adfa2488bf45419eca92035e83bb47c3cd01d2fddfb0c38faa964e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-02-trazas/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/error-context.md",
+      "bytes": 3540,
+      "sha256": "064df7db6562e216cd8a1827f74741a94d46417016092c9929bbaf06d15fe851"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-02-trazas/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/test-failed-1.png",
+      "bytes": 237639,
+      "sha256": "f2d348bb149487eedbc08c982f5dbda12e0f19ac79467b9eb1a98c6111b6bb8d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/especificas-intento-02-trazas/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/trace.zip",
+      "bytes": 52005785,
+      "sha256": "9212831704446f9f4093c26e1777612de3ebf2bce722fb81a3e7d6502b236893"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/.last-run.json",
+      "bytes": 390,
+      "sha256": "84d21f5bec5dffb5868af6be6cfd7fe4aed21f65836949badc02fa6caccb81c2"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/acceptance-D-·-apertura-legible-y-encuadrada-a-1280×720/error-context.md",
+      "bytes": 2067,
+      "sha256": "cf465849cda7db61b7f445d8860469d6eda277c8358ddc2f69bd50b70a7d52f3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/acceptance-D-·-apertura-legible-y-encuadrada-a-1280×720/trace.zip",
+      "bytes": 41578199,
+      "sha256": "6c63a4203aef3c5e3e61d0ae04180f366669d2c636550b0d069880e1f63dc803"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/acceptance-D-·-apertura-legible-y-encuadrada-a-1920×1080/error-context.md",
+      "bytes": 2162,
+      "sha256": "21a8a758b527d529d758dcba00c2e94c27c42f44547358f61f7082fe96104438"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/acceptance-D-·-apertura-legible-y-encuadrada-a-1920×1080/trace.zip",
+      "bytes": 41485232,
+      "sha256": "7dec8246849c3c9e0650275bb6d16b23f5914dc8427b47995d548df90cf3b1b3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/error-context.md",
+      "bytes": 2162,
+      "sha256": "da6479d25b0edc01e83d127f494c493bfb2bad5f1b608d4d83868b0e2f3e46d4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/trace.zip",
+      "bytes": 41770965,
+      "sha256": "4caebf9eeed3d9d35e8d0d7b4a6db3e970ad2d70f195970aee719a1d33b11993"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/acceptance-D-·-inicio-loca-277c1-ión-con-el-contexto-offline/error-context.md",
+      "bytes": 2162,
+      "sha256": "21a8a758b527d529d758dcba00c2e94c27c42f44547358f61f7082fe96104438"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/acceptance-D-·-inicio-loca-277c1-ión-con-el-contexto-offline/trace.zip",
+      "bytes": 41507626,
+      "sha256": "32faff52bcdf4e218000c9115f3dba6a208f9c5162f9aed47443f275ffa4f34a"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/acceptance-D-·-silencio-av-ab57e-l-y-reducción-de-movimiento/error-context.md",
+      "bytes": 2162,
+      "sha256": "24ed66fc23d20036a27ac28b3a40e1b575c28ee842c0f30d39e06da375d46fcb"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/acceptance-D-·-silencio-av-ab57e-l-y-reducción-de-movimiento/trace.zip",
+      "bytes": 41680256,
+      "sha256": "e6c09d23850786a629c3d437edf451a551135c223e61066c1e0c321913ae7d1c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/chairs-las-sillas-cargadas-58b88-ón-y-posición-al-deslizarse/sillas-oficina.png",
+      "bytes": 1001268,
+      "sha256": "a53a6a3e8248417285db68796a81944f967935d0a2ee9d2b8a7a37e12668c59d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/error-context.md",
+      "bytes": 2162,
+      "sha256": "da6479d25b0edc01e83d127f494c493bfb2bad5f1b608d4d83868b0e2f3e46d4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/trace.zip",
+      "bytes": 41770349,
+      "sha256": "4f6c447095834bee3d5269e81af7b9d74b55668e650ebde0c877a9b800f01279"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/office-C-·-diez-planos-tra-d34f6-lustrativa-y-estado-intacto/error-context.md",
+      "bytes": 2162,
+      "sha256": "24ed66fc23d20036a27ac28b3a40e1b575c28ee842c0f30d39e06da375d46fcb"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/office-C-·-diez-planos-tra-d34f6-lustrativa-y-estado-intacto/trace.zip",
+      "bytes": 41683881,
+      "sha256": "0d042d7da4781358ec19ab7aa0d94d2ba6664d22104106667a227e50cf4d3ea1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/historico-test-results/office-C-·-guardar-editar--81662-ón-exportar-JSON-e-imprimir/libreta-incompleta-prueba.pdf",
+      "bytes": 56684,
+      "sha256": "5fb4116e978a51f34c3b6e5868b0b72c38d99fa7d0e0940643776dda119cb461"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/impresion-muestra.png",
+      "bytes": 113215,
+      "sha256": "5d91b3f99684c367c00748282820465e438eb8733a6934db8fa1dd73e1587343"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/impresion-verificada.json",
+      "bytes": 1513,
+      "sha256": "e1ce6379caabc9ed44520699378134fdcd6dc26fc79a5e0d035f95e5f7c2186d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/intro-cpu-profile.json",
+      "bytes": 358147,
+      "sha256": "e1155db85079a958d6f46bc53f406740e35707e3aae30b219d0708bf18e9aea4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/juego-antes.json",
+      "bytes": 37056,
+      "sha256": "4acda167e2bce70c49debcca7aed0a2c8b2adb25b58bcca131941f9fe8232625"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/libreta-seis-revisiones.pdf",
+      "bytes": 149205,
+      "sha256": "055ee4b72a8f1b1d5f2740711bdc3ba5443ce56b91c2fd897ee6a9685ac918cd"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/libreta-texto.txt",
+      "bytes": 14806,
+      "sha256": "5696fc5767799753bb30681509b7f61a871f11a105ddb84acc377f20dc871a72"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/metadatos-1440.png",
+      "bytes": 584232,
+      "sha256": "7ddc726a3bb4ae19f1674257e4bef3495bf0988298dfd880a8f1e59688fb8f86"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/metadatos-390.png",
+      "bytes": 77231,
+      "sha256": "aaa2bb20dd6d7e03f3569ce5f2f1275695ef4cebf96d77eb089cc9192e8c33b5"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/metadatos-y-reloj.log",
+      "bytes": 878,
+      "sha256": "30e692b46e62f71e63b177c57b72fd9d7a1ffdd6a4b8f2d226c50caa8f98230a"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/movil-plano.png",
+      "bytes": 58947,
+      "sha256": "71ccad6dfc4d4541c7c25fabc2f10fd5bca9caf368479291dd5417b1a7a3e826"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/oficina-1280.png",
+      "bytes": 383666,
+      "sha256": "be0c8373cfa1e7aa1bb508a6cde72c2e34f6bec7d3ef7372304461b3f6836ee8"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/oficina-1920.png",
+      "bytes": 823599,
+      "sha256": "2be4840747b57243afb32069262e6523bb9c944d8c954e8c4509f7624cd7bdd1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/perfil-apertura.json",
+      "bytes": 6273,
+      "sha256": "06cbca5dd3bad1a695f9f9723e9d3f6fb220e859c16a5702fb3864be2b5616a8"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/perfil-apertura.log",
+      "bytes": 5456,
+      "sha256": "0b69ac8ab310137bc1648dcc2879d3ba8b988f80f1229a27fe0c9c078b7819c7"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/03_Evidencias/hashes_sha256_v1.csv",
+      "bytes": 87459,
+      "sha256": "dd699e4e18b21b13e5f530ecc302963046bd20c84d739d2f2be776da59daa860"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/07_Referencias/Registro_uso_IA_v1.csv",
+      "bytes": 6252,
+      "sha256": "4c70634ff055cba7401c44f56250dcfa597a7166a90be0d9db6f13cef07b98a8"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "bytes": 18991,
+      "sha256": "49960c2ebfca3dcd59e38e5e4a305e5130917fe2996d26879eedf46bb815d2e1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/PRODUCT.md",
+      "bytes": 5327,
+      "sha256": "0605c82ec5816b426ec91fd658e63eaefab1c7b7453869c44b0f5f984cc26c61"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/README.md",
+      "bytes": 15528,
+      "sha256": "46272023eb29a7b2f985d03e226d638ff76e8d68df25c6eec19de6cd52d560d8"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/aceptacion-pc-b.md",
+      "bytes": 6603,
+      "sha256": "f15300b06b62030d5bf7b5bd3ff6fe6dd6756ce3c9ec39d4c79850123c744684"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/assets-pcs.md",
+      "bytes": 11511,
+      "sha256": "632ff51a6b29ae052ae0fdb718dcaae5ecae5155faa9fc67ea7c9f19e641b4aa"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/contratos-escritorios-pc.md",
+      "bytes": 16738,
+      "sha256": "6ff2fb141abbfafdbd978393532c9178e343da21e121ad1684825ecbf3bedf60"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/guion-voz-enlace-ti.md",
+      "bytes": 6678,
+      "sha256": "7da52d7639506dacf79597f0e1d81c9a0191c0266c1b8ffe1674f612ee87a4c2"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/inventario-assets.json",
+      "bytes": 1257616,
+      "sha256": "6190000804d8a30f85fa2e55e5aa02e9b2a0a16a855f008cbcccecb03a954665"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/inventario-assets.md",
+      "bytes": 16453,
+      "sha256": "a48f6c351d3e463cf58d385584d017daba696d3f6179bd2bdc900062a1462b98"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/plan-escritorios-pc.md",
+      "bytes": 41382,
+      "sha256": "e92704c4e74ccf8ae0395d61683fa58ee8641f0e08ab6c2c46081a20eaba474c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/voz-enlace-ti.md",
+      "bytes": 1357,
+      "sha256": "04429eeabd3d7965a45230b76f81963c2edd8734b9e16ab09d04d531caaf00f7"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/package.json",
+      "bytes": 733,
+      "sha256": "5d456e80ac14293ecdb9a7d00b149c35d0f962c547965b9fa463e2aff6af09f9"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/playwright.config.ts",
+      "bytes": 850,
+      "sha256": "1a0118c0f8dae2470ef890ca65897e3929043dcaf3fee5a4565dd707c33145de"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/audit/evaluate.ts",
+      "bytes": 5059,
+      "sha256": "e84e57860aab470c19bc16a2eac975f735b19feb0634c52188a49b7f0127a78b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/audit/rules.ts",
+      "bytes": 17903,
+      "sha256": "93d56e1aa69522f099de2661bf501284fff0bcd66368c2a0af265ae108e677b5"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/audit/store.ts",
+      "bytes": 11641,
+      "sha256": "320439e44ad04318eb9c98527fa184ab6e85741fdc94395180ec743319441c46"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/audit/types.ts",
+      "bytes": 1554,
+      "sha256": "167a56a736c655e06129d942187d1b7e5a23e093f10b241295f1268cfc35fb2c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/computer/registry.ts",
+      "bytes": 1720,
+      "sha256": "5a0f83547bcd96c03e061d80bab0b0fc176bac842de2f699b4722e8faae033ea"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/computer/reviewBridge.ts",
+      "bytes": 5728,
+      "sha256": "40dbdfd24fd6219ac87902118100056d564ae6b81d43b84cd9ff9ac47c2f655e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/computer/taskProgress.ts",
+      "bytes": 2198,
+      "sha256": "cd49aab4c3057743d3f299c7878e8cee03e8fe6eaff9a23bb448b2278d4af217"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/computer/types.ts",
+      "bytes": 6191,
+      "sha256": "7b6385bfc63aacc4f9acc8ed18db527dd191fad0befcc28cd5413ccd7d8f2df6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/computer/workspace.ts",
+      "bytes": 17005,
+      "sha256": "f86d59df8ff74df1cf63559a3f1c0d4fbf31d73e943376538e66276faf24d474"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/computer.css",
+      "bytes": 19947,
+      "sha256": "a7ee711d4c05c91328991cdb647f4d346a3febb747856f0372695e21f10fac7e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/canon.json",
+      "bytes": 17868,
+      "sha256": "e07c41258769469a0ba5a0a041707a3ee065852480baf02afcf9c4d5b0a7345c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/canon.ts",
+      "bytes": 2979,
+      "sha256": "ad6a7d9a9e7b373191a867f689971a7a71ae2c164f82799f109d92b55968c544"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/computerAssets.ts",
+      "bytes": 5997,
+      "sha256": "b01dbc8b6a830757bbd9fc8b258976be84de567f444ea09c8f215356a5fc5a8d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/computers.ts",
+      "bytes": 5951,
+      "sha256": "25774d578bcb2eed76c5ea2cdd769c98464e3aaee6e6cae95cfcc7096eb6a150"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/documents.ts",
+      "bytes": 6199,
+      "sha256": "897900fb213632b56ca538a31b3030c01902d612437190655f3b6394ce1f61c7"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/interview.ts",
+      "bytes": 8443,
+      "sha256": "6850d71b006ff40b6c824a4771f2329c8ac0053382414e5002f8af28023a19e9"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/interviewAudio.ts",
+      "bytes": 1106,
+      "sha256": "b9e5aaa958a1a17c847b803beb1e1ca351841d0e9de8464848e5335437d41552"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/intro.ts",
+      "bytes": 5415,
+      "sha256": "009af7ec2e580431dcbdbe965ff83de23f54dafae7a8de9168ec24013bf57bf4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/investigation.ts",
+      "bytes": 5428,
+      "sha256": "0724b5f0b1c227cfbb996c9ea9c5cd6d39e5f9e92daefef6ca3d3a59ec44ebe5"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/simulation.ts",
+      "bytes": 4111,
+      "sha256": "ca87011a3b52cd8c4c1de624d292c89a159d20a38fdcf2c754631b5f7fb8bd49"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/stations.ts",
+      "bytes": 2225,
+      "sha256": "fb2c569d743d8bd86530945a95e9f1af4cde351bc1a79b80207e40db6a8bd3a7"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/desktop.css",
+      "bytes": 17655,
+      "sha256": "375bea72afab364547afde5e68d002a9a4ff2d2ae716cd804bb8c8c274cac727"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/export/report.ts",
+      "bytes": 5624,
+      "sha256": "3192f66697edf304a2411c353a8b0ecbf35c0b650776cbb6c4d783572a190393"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/interview.css",
+      "bytes": 5858,
+      "sha256": "e918e6a95a0672dfb091dc795e24b4b191f2fb3cc0290b913503d505e2e0f64b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/investigation/query.ts",
+      "bytes": 8585,
+      "sha256": "0755b81d2adfe8fd83c3e52e3dc1103ad555e04ba88a165ccdeb05e7938eda80"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/main.ts",
+      "bytes": 19489,
+      "sha256": "ee7bc59f72a2ca085915d96578d8f750c6e69962183ce1f3e76c0eb986218bee"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/overlays.css",
+      "bytes": 16482,
+      "sha256": "907c16ad48639c98e5569a39cc3e0e0bb453a3faf02ebb7554617e2851611930"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/LiaisonAnimator.ts",
+      "bytes": 7527,
+      "sha256": "a25211c98ffd8f516d4c20108e90cc0e4fa77c29013bca48ec7d0be1aeb1c0e9"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/OfficeEnvironment.ts",
+      "bytes": 16957,
+      "sha256": "211593baf53ef10fb82fe1059e58b092df0501dae1cf748865f6622cf511baad"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/OfficeScene.ts",
+      "bytes": 32555,
+      "sha256": "e52f8661be5f280d4c7d66ccc2751bd881d571edb86315a26a4039b7b7c998fc"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/branding.ts",
+      "bytes": 1586,
+      "sha256": "edf0c984696d75ba73690546c87484f9e2dd4b043ccdfc4866d132111d7f800b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/chairPhysics.ts",
+      "bytes": 3911,
+      "sha256": "3fb10df46591024c0e533b33b9f5a23987c91cfda826d2498b32d5c4df500ee6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/collision.ts",
+      "bytes": 2111,
+      "sha256": "501199f7580fb16abf66e0bc5adda88373a6eceb782d2deb61f415d78aa1563b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/models.ts",
+      "bytes": 2233,
+      "sha256": "b3e7207f077b223074e4f95e701addbe1aa29b5bb491993bb0d4ef44218e612f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/screens.ts",
+      "bytes": 13654,
+      "sha256": "1ab10a876ece83b4da2c51cc6fe64699499e55815f17adb2f80d38595785bf18"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/styles.css",
+      "bytes": 25459,
+      "sha256": "3ee37796b1b393dccecef61a42d7834fd2dc73df930150a5f3f935cc8be72325"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/ComputerPanel.ts",
+      "bytes": 29061,
+      "sha256": "2f55be823cd847bb9dc26a459a8ad834e11ab5104cb381d56c703c609c6253e2"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/InterviewPanel.ts",
+      "bytes": 9451,
+      "sha256": "04e0ce76aae4510c6fd6bbd770b23365b0b52e3eefae5f74a415270896932786"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/IntroPlayer.ts",
+      "bytes": 11179,
+      "sha256": "93d8c8f9162f12390bdd77091345e31367b7dba697aafb5ceabc82835289496d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/Notebook.ts",
+      "bytes": 8219,
+      "sha256": "5e7b9520f4a465e5d34cfb5cf50e56abace9d418a13861c02b286435bca3e525"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/ReviewPanel.ts",
+      "bytes": 15168,
+      "sha256": "5550d4b4d249c10a92d28949af668cd53160480e6b6c45301f409d532cb5bb47"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/SourcePanel.ts",
+      "bytes": 2617,
+      "sha256": "f90aaea481ab442ee226fa267063bab89de3eb02f6a192275f81cf2f0f9aeb25"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/AccountDirectory.ts",
+      "bytes": 696,
+      "sha256": "97c935f60dd34f32d68643794620715eceab52e214cd2bc2548d782a2f4e188e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/BackupManager.ts",
+      "bytes": 706,
+      "sha256": "ac43ff34519ebfe15433250f21a51101cfeab8f8606eee8b126cb51a9b7f0c3b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/ChangeManager.ts",
+      "bytes": 687,
+      "sha256": "817bfb70089699ffcc05c2ffcb1864940ffb86b1872fc310afafb6d26c2097b3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/ClockComparator.ts",
+      "bytes": 5338,
+      "sha256": "d87979707b9d1203837b0e82c436ca602bbaeb231abe4013d827c6c44a18830b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/EventDesk.ts",
+      "bytes": 6173,
+      "sha256": "8f8f78e953b8d0ee0c8845f861af32dba97651feda525a9603d1828936d472e3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/FileExplorer.ts",
+      "bytes": 5604,
+      "sha256": "c8956d4f02de027d13b10e62133d0f0610dfeb767b9b90648b55612442193dc5"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/LocalDossier.ts",
+      "bytes": 635,
+      "sha256": "ac344ddbefa9a86022c265a5b2e1ff04b3f3031d2ed39c097f0da03dc643b869"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/NetworkMonitor.ts",
+      "bytes": 669,
+      "sha256": "91cd77fe37e4f21424da661196a587522434440cb9381aea573990e2434476e0"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/OrderHistory.ts",
+      "bytes": 681,
+      "sha256": "9c3da45fbe7c9e37efdf4f907dab95b7f8674b062e76bddbea29e604223dd2c5"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/QueryStudio.ts",
+      "bytes": 8749,
+      "sha256": "0b9da52f87f54bbe16069af4aa59bb600c9da0c04fd1f43577252062edbbeb64"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/RecordBrowser.ts",
+      "bytes": 6242,
+      "sha256": "c1b475fa8e3a267e55d79a69a208b57c17f6ea0420b986d55cdc291c6da9ae6e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/RecordComparison.ts",
+      "bytes": 7763,
+      "sha256": "3714e661a891172dbc6dc4e51f8b4a06f092d38c19211e7958f6b31b3a621e7c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/RecordViewer.ts",
+      "bytes": 7256,
+      "sha256": "a548b92bfb29c6959485feb6cc8ef6a35b5780735b32fd13885f983205500af3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/RecoveryConsole.ts",
+      "bytes": 5417,
+      "sha256": "8b7074f87abfde481a5e035260ba658c35856b8adfa50910f00c0df675db5fcf"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/SessionViewer.ts",
+      "bytes": 690,
+      "sha256": "7faf84e0458117daeeec244c4637b0a9d7a4a0452b05b3dcb27b4038c285ce37"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/StationReport.ts",
+      "bytes": 7692,
+      "sha256": "7d8f8d83704908403370ad3893c5c5fe452aa8d0b65578720b8aca66699d0b44"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/TimeTracker.ts",
+      "bytes": 678,
+      "sha256": "d9ffd9733ffbcf67f52107621613b28e3cb5b9f2d61f468c9b09b80ecf9eef2b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/apps.css",
+      "bytes": 13804,
+      "sha256": "c5c49b1a3e934b2667f78ec59eda10653b924cb6a7793f741f3dd7a49b2bad2b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/utils.ts",
+      "bytes": 5061,
+      "sha256": "c73b9e9a0a9547467d5e27195dfa2ca25a0450d2aaf0c24f676b39939b1de0f3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/desktop/ComputerDesktop.ts",
+      "bytes": 28397,
+      "sha256": "186dbb972c59570fd31b01f6c502a1b8227e23aba3f96d819d17cfe84ddd25b1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/desktop/geometry.ts",
+      "bytes": 1715,
+      "sha256": "b02983fbcd32fa8092f1ad3c7664a532d53d09b6a9114eb00018766af30a6696"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/dom.ts",
+      "bytes": 1782,
+      "sha256": "9075fb1dc856710279f57240d0782955ddb8a01cf43a70c6529debb31d233576"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/chairPhysics.test.ts",
+      "bytes": 4572,
+      "sha256": "1ee8ccdcc75dbcde0140cf8faff15234a4db141c2bbdd90fa1de5f4f702e03d4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/collision.test.ts",
+      "bytes": 1379,
+      "sha256": "c9d3bbae68d88ba850d8dac122af11d0588469c8aeb7530400126b8a1e0b97e4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/computer-apps.test.ts",
+      "bytes": 7610,
+      "sha256": "3aeff443750da604f48c90d950b8779bc2d47af824a1058cde557360884d208b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/computer-assets.test.mjs",
+      "bytes": 5868,
+      "sha256": "30d3a7a525e04cb22e7be6824353aef4914e8efd485efc3b645d10267ebf9c99"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/desktop.test.ts",
+      "bytes": 1986,
+      "sha256": "83ba8c520416e84c0759864b696ea95e3b64212ea88d63c9b80c99490386cdc8"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/acceptance.spec.ts",
+      "bytes": 10680,
+      "sha256": "71d1ba389cf33e29adbe91c487fa4cb5edf74945b82e2dedf80604a495547d8d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/chairs.spec.ts",
+      "bytes": 3171,
+      "sha256": "fbbad951ef90c46ae2c4f223923dc48611a12e09fbce98b3812c5edaf5bcc713"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/desktop-b.spec.ts",
+      "bytes": 16447,
+      "sha256": "318f33823192713db9f97ba10157c099ff8ff6f88b877e78c33f5ea2e0ad422f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/desktop-helpers.ts",
+      "bytes": 962,
+      "sha256": "68dc79156464b579b1b9a5bed25c93c22ae05040c246a755d4767e6159063e44"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/desktop-stage3.spec.ts",
+      "bytes": 6146,
+      "sha256": "f1bcb3ef2413ed6ceb6f6f655e7d1634ab85256e453a4920d42ddcae233f3840"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/interview-audio.spec.ts",
+      "bytes": 3091,
+      "sha256": "f99105b65944516737b958441c561e6e0b11c6baa46822fcda77f1384c0acb50"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/interview-helpers.ts",
+      "bytes": 695,
+      "sha256": "52990846ca2a8dfee42261227092c9dd135d6b076d0443d36aa57fec0b5c48e2"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/interview.spec.ts",
+      "bytes": 5797,
+      "sha256": "d55c59dfa26127ccfc0b3d84da9e59c3327a0b350e32d0403ecd3c43304c180f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/investigation.spec.ts",
+      "bytes": 9928,
+      "sha256": "df4f9c1e00f786f1868aca3f51dfe3b5433534cb3d4fc4bf55d009190bf93c70"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/office.spec.ts",
+      "bytes": 16822,
+      "sha256": "c66cbc1b478081c472f1077434477e13672a150f52891d06493ef3cc4778203a"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/evaluation.test.ts",
+      "bytes": 10463,
+      "sha256": "2a9bc6ef6ebf0f267b52dd922f4ab23465f1098da9cef24494e17e0f6729540a"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/interview.test.ts",
+      "bytes": 2954,
+      "sha256": "e5738f921258af86edf49c1ac5dae91ca1b7172fc792edc75cb5a9437cdb862f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/intro.test.ts",
+      "bytes": 3353,
+      "sha256": "4329db12df039906ca6a3707843a0f3f4600746d2e93781910a2e5c6a37ffac1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/liaisonAnimator.test.ts",
+      "bytes": 3892,
+      "sha256": "f0ace07c767a3439619e767e2ef04279bb44787b3fbb953b764cd4f740e4dcff"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/models.test.ts",
+      "bytes": 2867,
+      "sha256": "c116f083fdb5a9c985e658d8581dad623075938f792f70750a5819dded5fc321"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/query.test.ts",
+      "bytes": 3528,
+      "sha256": "79e9e411b8b22fb5675777b0c5f584d8d2e4c543c869ee2fdebeed8d07cf23ab"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/report.test.ts",
+      "bytes": 2316,
+      "sha256": "5a00187cd3fe99b92c8d2c9cb4104810681e37dcaa7817dadd1a1c673cfdc02d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/reviewBridge.test.ts",
+      "bytes": 5737,
+      "sha256": "dd43d0c341f4de7dd486b8e579372c136ae538f30ba1e2a2bd56a9460e99356c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/store.test.ts",
+      "bytes": 4905,
+      "sha256": "6ece435d36092e0b92afb91c3ac9e047f549760d34bc040e4ea5ca218488471e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/taskProgress.test.ts",
+      "bytes": 2705,
+      "sha256": "214fb4eee72903d4d3dab62fdb92c78f7665cd3148262c53e3c8d0c11d578144"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/workspace.test.ts",
+      "bytes": 8480,
+      "sha256": "3651efb4ff259f853f52b2d336ab6f29596fab3c869c5901e9a054deca7bf47d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/pruebas-especificas-intento-01.log",
+      "bytes": 10967,
+      "sha256": "e2644821f434e87994dd904aa67fd31ca95ab82c6c1b357b4abc8147c8b431bb"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/pruebas-especificas-intento-02.log",
+      "bytes": 7334,
+      "sha256": "e66d4c41900c54896dddfcd3e8d50dee3a6a4f4468aafbf705fdf08c961afdd3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/recuperacion-ayuda-1440.png",
+      "bytes": 111891,
+      "sha256": "52f66c2c3d3fd78589fd938e91db13127670fdf04cce49a3c8c943139186fd23"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/recuperacion-ayuda-390.png",
+      "bytes": 76031,
+      "sha256": "b5b741fa2b66bda77b00ad20abdba5c0f6977d9aac8aefc12048d151bd241c8f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/revision-au02.png",
+      "bytes": 230542,
+      "sha256": "7fc8c5d37070ee909c52afd294a4362176ee714d924bfba57c9025284cfb95e4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/seis-documentadas.png",
+      "bytes": 163654,
+      "sha256": "2f947a1a17a66178ab4da7fe52440a66a1b087571211bbec18f56464c82c1454"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/unitarias-especificas-intento-01.log",
+      "bytes": 2332,
+      "sha256": "014d1a7651c8ca505a17f861e691cc9398a7f82e8083e4a84480be6fcf60e105"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/unitarias-especificas.log",
+      "bytes": 521,
+      "sha256": "ee6af99208e296a5e93b36a9b985f6d592fee1f2b92b2ac2d6836c1be0374fd6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-antes.log",
+      "bytes": 2091,
+      "sha256": "2c79f0bc97e931869e3dfb3adf5c5ab329655c37a9a49cad72d74f8cce5ae89a"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-baseline.log",
+      "bytes": 25677,
+      "sha256": "828e9bba01688a452a12009bf4c5e13016695408d92435c3b1cd3f8d6fc928fb"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-final-intento-01.log",
+      "bytes": 10818,
+      "sha256": "824d6ccf43a918e27569a038ce10dac86f21dcb1273b5febfeaf6ca4639f11e5"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-final.log",
+      "bytes": 7529,
+      "sha256": "b893eef095a0124c431a5f0a343a688d61f5b1d4262217c15b88bc872d737244"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-intento-01-trazas/.last-run.json",
+      "bytes": 96,
+      "sha256": "b2dc651751511af317c71b7884518c29e47856969ff3c27935c47d11c5824cc1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-intento-01-trazas/chairs-las-sillas-cargadas-58b88-ón-y-posición-al-deslizarse/sillas-oficina.png",
+      "bytes": 955504,
+      "sha256": "8a3837adc55e2b323d5084088bd3b414c8e6d739bfcb0e0169a655e402b4f5dc"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-intento-01-trazas/investigation-archivo-comp-47059-ación-sin-hashes-inventados/error-context.md",
+      "bytes": 15819,
+      "sha256": "f5a5fe562df05633e3e1ac01662131270de422050813e0b9839af824159441a1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-intento-01-trazas/investigation-archivo-comp-47059-ación-sin-hashes-inventados/test-failed-1.png",
+      "bytes": 584622,
+      "sha256": "9c1d3dbb9910d81f7f35bef7ff13a485811df22c9e75ff87594453ac4f442024"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-intento-01-trazas/investigation-archivo-comp-47059-ación-sin-hashes-inventados/trace.zip",
+      "bytes": 22036026,
+      "sha256": "53de08678779927aae79c9ea74a63e01d4194ec2896de0552141a5735eb7cd0e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-intento-01-trazas/office-C-·-guardar-editar--81662-ón-exportar-JSON-e-imprimir/libreta-incompleta-prueba.pdf",
+      "bytes": 140561,
+      "sha256": "761e22bcc94d53daf9cea259669ece93726758a4550f14965c55e0e2968ecce0"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/aceptacion-pc-b.md",
+      "bytes": 6603,
+      "sha256": "f15300b06b62030d5bf7b5bd3ff6fe6dd6756ce3c9ec39d4c79850123c744684"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/assets-pcs.md",
+      "bytes": 11511,
+      "sha256": "632ff51a6b29ae052ae0fdb718dcaae5ecae5155faa9fc67ea7c9f19e641b4aa"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/contratos-escritorios-pc.md",
+      "bytes": 16738,
+      "sha256": "6ff2fb141abbfafdbd978393532c9178e343da21e121ad1684825ecbf3bedf60"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/guion-voz-enlace-ti.md",
+      "bytes": 6678,
+      "sha256": "7da52d7639506dacf79597f0e1d81c9a0191c0266c1b8ffe1674f612ee87a4c2"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/inventario-assets.json",
+      "bytes": 1257616,
+      "sha256": "6190000804d8a30f85fa2e55e5aa02e9b2a0a16a855f008cbcccecb03a954665"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/inventario-assets.md",
+      "bytes": 16453,
+      "sha256": "a48f6c351d3e463cf58d385584d017daba696d3f6179bd2bdc900062a1462b98"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/plan-escritorios-pc.md",
+      "bytes": 41382,
+      "sha256": "e92704c4e74ccf8ae0395d61683fa58ee8641f0e08ab6c2c46081a20eaba474c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/voz-enlace-ti.md",
+      "bytes": 1736,
+      "sha256": "d7b9caac857240d043df63ef4c9465d2b4d4ad84ed8b20c8ba1a6828c7adde35"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/index.html",
+      "bytes": 700,
+      "sha256": "cd427545e8444e9b6246a2ee28161d467ab074a31160af8363783e335afa702b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/package.json",
+      "bytes": 733,
+      "sha256": "5d456e80ac14293ecdb9a7d00b149c35d0f962c547965b9fa463e2aff6af09f9"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/playwright.config.ts",
+      "bytes": 850,
+      "sha256": "1a0118c0f8dae2470ef890ca65897e3929043dcaf3fee5a4565dd707c33145de"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/pnpm-lock.yaml",
+      "bytes": 34749,
+      "sha256": "34e2849dc12ebfaf0a788d5b979aca7aa2f43b9e8ebae1bcb7fb0474c7e94d04"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/pnpm-workspace.yaml",
+      "bytes": 29,
+      "sha256": "ac02d96368617c760f093cfe61fdec64b6244007ab3553e0d6621f706f54a353"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_01.mp3",
+      "bytes": 162161,
+      "sha256": "dcf7779d10f7f6e2c05bad358de5177e320d0e5bfcffeb6fee5aabd3518efd4d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_02.mp3",
+      "bytes": 111420,
+      "sha256": "9d5c10a85dd50382de0386e14631492995ebee74f9efaf1129be609fe1db102a"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_03.mp3",
+      "bytes": 19778,
+      "sha256": "53172aaadfed5713c362d778f12e8962aa9bb7c2f73fb3a9f3896aba96bef47e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_04.mp3",
+      "bytes": 92986,
+      "sha256": "e10325990d0a75ffed43acb3e4a917ed476ba42315f491f81b2a856558ce142d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_05.mp3",
+      "bytes": 176005,
+      "sha256": "c13220c4acd1ddefc9936a32dffe0da6074a21cb334ffd2d93bb021822b195a1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_06.mp3",
+      "bytes": 201917,
+      "sha256": "c8b1b336ac29fcd9820f3869c9bf937f33907199ed6b46d6c2d612468b56dacd"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_07.mp3",
+      "bytes": 227872,
+      "sha256": "95c1ea24a761e12a8eb2d4830bbabe2ddd19a0251eb515fdf7d57bdde930e56f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_08.mp3",
+      "bytes": 169079,
+      "sha256": "80d6748f5372b61f474e70f38b0acdf3c66a533412e160333442e51c5f266e89"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_09.mp3",
+      "bytes": 96437,
+      "sha256": "7b68cdd1daf3d272973d356226dbe1bd5124eaafa0a92e3296e0835c9f00e44b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_10.mp3",
+      "bytes": 281460,
+      "sha256": "bb25ded1677245e6c18c24062a77accf3e5c38d79be77c206cbc70a6d53a498b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_11.mp3",
+      "bytes": 256095,
+      "sha256": "ff2340bae7fed01fa4b00b6c30a96c38c21c72fc65994663d6594b01274717c1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_12.mp3",
+      "bytes": 250335,
+      "sha256": "7e4eb46e2e772990214b8751509ddc3e08d678287a7c740993c840f4c961dbf0"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_13.mp3",
+      "bytes": 171945,
+      "sha256": "176ccb4a56677a0ef8cca8abe9e5fc31bc14acac0e949656f835f7fb1bdc5dfc"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_14.mp3",
+      "bytes": 229033,
+      "sha256": "eddee4806728dde8806d982e1daab25e5f0d2a9bc025c888ed371854d5d1543a"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_15.mp3",
+      "bytes": 235950,
+      "sha256": "31242a3fd82525d87a12eed2dc7829bdf68452a55ec281cfaf0695b7b0e627b6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_16.mp3",
+      "bytes": 243431,
+      "sha256": "875e0cce3e13880858fd86358b6a310188960b667718baa92e5b873c80704c8a"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_17.mp3",
+      "bytes": 162719,
+      "sha256": "1f9ea0b4b68683d555cb14a284f720bd5aaddb3908a4de66e284316c553be5da"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_18.mp3",
+      "bytes": 267618,
+      "sha256": "bc7b3ecdb06f5aa189a08d0311335844ef3c2ad32a1f415622e2801a3b690799"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_19.mp3",
+      "bytes": 101044,
+      "sha256": "12dbfbcc493444171c8908411f48dd27e6195cf01601c27af38cd6e7f5cdb584"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_20.mp3",
+      "bytes": 265927,
+      "sha256": "42f01edcebaa7d93026033f2a141c5e6b7f3cad7aa789d48e300ca98ab33e273"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_21.mp3",
+      "bytes": 271636,
+      "sha256": "9f4ad78da8c42fe44d36dfe414ecdef2bac2f5e89291644268890e2ff2a66542"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_22.mp3",
+      "bytes": 146009,
+      "sha256": "19f4bf39881b4f40fa9548c92bb2831586f30d4fba5f3c96897eb337ae2b758c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_23.mp3",
+      "bytes": 194455,
+      "sha256": "f1410bae2548515c55f05af05c74cd2f21c6eae7f20a16628e073ca569cab328"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_24.mp3",
+      "bytes": 281487,
+      "sha256": "5448be9b6a2b182a2583f256992e490ecdbddb2341ddb35a7df0263babca3275"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_25.mp3",
+      "bytes": 156956,
+      "sha256": "498939a0021146ad867ab6db3dcda30eb52f839ff27c7a0163f3849f64bef909"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_26.mp3",
+      "bytes": 270521,
+      "sha256": "9fd09f0fb6a042b9bd92367bd188e6d2f9b9111b9aca9164fac9821f772d6036"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_27.mp3",
+      "bytes": 272798,
+      "sha256": "021bdfc2c725d5009ca0ebd08cf6e049328fad5aacf9c5313ec16cf0497fa503"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_28.mp3",
+      "bytes": 260729,
+      "sha256": "5603d348db9b1323473be7384752f18fe59b0c5b82e17185897530048925f229"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_29.mp3",
+      "bytes": 211723,
+      "sha256": "bead877f1032754d36140a5058156db5d57e897362e2161e5de5ff784f13c56d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frases.txt",
+      "bytes": 4231,
+      "sha256": "8bd0d344dea390dcc418ea1257fc16f2317f62970e9e6e6c44dded35b1b32c7b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/brand/README.md",
+      "bytes": 1707,
+      "sha256": "8b2ad939fa1d7cfbc257416bc10ff79161da6668be28980503b977623b1d6201"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/brand/red-nova-master.png",
+      "bytes": 1211674,
+      "sha256": "c6abc564ba5bfe9be15e92d59c5ac5136c5920e7269a4df69b96f54f609dd9e0"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/CREDITS.md",
+      "bytes": 6748,
+      "sha256": "f3651c7c7453b4c8949cdf29bd763672241681420b25b5baefdc2985fa940c20"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/branding/windows-flag.webp",
+      "bytes": 98902,
+      "sha256": "616deaf0b74601cf9ed3364c0d54559348043054c3ff6b1df5527329a35b3225"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/fonts/tahoma-bold.ttf",
+      "bytes": 243684,
+      "sha256": "d4808235d09c73e312452ea69db1f18ffd12d4073be1123792f10e2d04f088a0"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/fonts/tahoma-regular.ttf",
+      "bytes": 265528,
+      "sha256": "6c699c428b608679c7ade6d9c0ff76664a1b59274c394cf0aba0ee2c33f89848"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/backup-16.png",
+      "bytes": 170,
+      "sha256": "a4cb2a2589d05dddf10819565f91a51d478d50d1c9a431348d2f4e3105d45abc"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/backup-32.png",
+      "bytes": 218,
+      "sha256": "42f9abc59db2433ce648b14a4c579ae47b2934bdf187fd368a5ad5669ceb38ab"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/backup-48.png",
+      "bytes": 263,
+      "sha256": "cec6d7465d49f01ade3f87246ddb5f36aa572bfceb4db003bfa897088bcb9d2d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/document-16.png",
+      "bytes": 157,
+      "sha256": "fe851e426af7574bd73f4431070eb5457fee6bd75f7096b1f51d56081f7e41f6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/document-32.png",
+      "bytes": 228,
+      "sha256": "1485b5b9840f5aeb7e31b9cac2c338ea1e95f24997a86b48855a933cccc88825"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/document-48.png",
+      "bytes": 304,
+      "sha256": "5d87838643393303807aa2c2168f19ecd066d45eed0a397f731d01c19e78e997"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/explorer-16.png",
+      "bytes": 209,
+      "sha256": "31bb1246d4f92626d682d19507b7d9b8eb64fbe012bad33268fd659e7935cdbf"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/explorer-32.png",
+      "bytes": 299,
+      "sha256": "5309db1f906d8ea43d3c897463f84bc99e38bb9805bf43b524eeb9d75db35850"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/explorer-48.png",
+      "bytes": 373,
+      "sha256": "fe95eec21cb7affb85abc61b581d865a44a404320c630e28a5c829b8fb9c8d90"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/folder-16.png",
+      "bytes": 182,
+      "sha256": "3c658399e91dbce2920c294fc262cbf948f78bc618f95d7beed9a6ba0de66481"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/folder-32.png",
+      "bytes": 205,
+      "sha256": "5597abe8dcf60f82d1012ce050826359fa2cdf3b0b20bc5efb219779dfab9044"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/folder-48.png",
+      "bytes": 271,
+      "sha256": "c1774676796e3c32d6bb53a7ff6c064672e8e2e6bdf45d2eb4251351513b69c9"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/help-16.png",
+      "bytes": 237,
+      "sha256": "e28e268b0caf0663ea65f37f9bd0aae73675e131a999d1be1b53de805eb27c1e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/help-32.png",
+      "bytes": 365,
+      "sha256": "dde07305bef73ac25863d934194efdc1ef02848e239dd6acfe06035105013b4e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/help-48.png",
+      "bytes": 520,
+      "sha256": "e004b601f066c53300b258152ba62a6783ce72d5df5607abc938b6ef9a44b2d6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/recovery-16.png",
+      "bytes": 163,
+      "sha256": "cd1fdb635722a50581bbdca50987b387fa86c0a8148d79f6e76574590e88d290"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/recovery-32.png",
+      "bytes": 202,
+      "sha256": "48cff56b0f306dbea2c21c7a49002f0129b22fcf6a428c5e11dd502efe90d8c7"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/report-16.png",
+      "bytes": 157,
+      "sha256": "fe851e426af7574bd73f4431070eb5457fee6bd75f7096b1f51d56081f7e41f6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/report-32.png",
+      "bytes": 228,
+      "sha256": "1485b5b9840f5aeb7e31b9cac2c338ea1e95f24997a86b48855a933cccc88825"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/report-48.png",
+      "bytes": 304,
+      "sha256": "5d87838643393303807aa2c2168f19ecd066d45eed0a397f731d01c19e78e997"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/search-16.png",
+      "bytes": 252,
+      "sha256": "2dc499ea62b074bb051517039703f91e103a6738e93a793778eaffc4a825ce9d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/search-32.png",
+      "bytes": 474,
+      "sha256": "bea015ddde84ef76664c4d13c0a2bd1cdaea23bc5b6e8e25d0907512af71f7c4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/search-48.png",
+      "bytes": 610,
+      "sha256": "70269d69c7d6fbbfe4d1ba40e85213a1233cbd4ea4dbd7e1d086b061d8686e3c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/backup-16.png",
+      "bytes": 210,
+      "sha256": "a9237d38e046fe264d18cad119bb8d5325d2a07bae7fcaf7b685e794595110f9"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/backup-32.png",
+      "bytes": 308,
+      "sha256": "632f702f71359e572495a2b6352b8b2209f46c2ad2a408a5de409f4a3ff58f86"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/backup-48.png",
+      "bytes": 2992,
+      "sha256": "12d13ce123d162efbced8a322b6309ac8e61cd4a41aee00bc9031495e856d2a9"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/changes-16.png",
+      "bytes": 597,
+      "sha256": "8807e60699d64a3a597027daa069defd2727bcb4eb353aa7bba2bf02b7009bef"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/changes-32.png",
+      "bytes": 1735,
+      "sha256": "60c76d0c28cf5e1219f092f230e728abd9e66ca5e4a7e01e25bd2f748a494a4f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/changes-48.png",
+      "bytes": 2595,
+      "sha256": "c95c4f1689a654fdf93eb782cab0cd8f8f406e6bf2ea68fbd0ea0178e0d89e35"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/directory-16.png",
+      "bytes": 261,
+      "sha256": "af4698f37d28261de1b07367657aa28f93ceeb0f600571f38a047de96747cddc"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/directory-32.png",
+      "bytes": 564,
+      "sha256": "01f2b138a4a933df2dcbf6125314a0b6f960d1fda0bf5d6323afd27ef5e537c3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/directory-48.png",
+      "bytes": 857,
+      "sha256": "4b05364c357d7c1675cc872c97b1cf2d8800061a258b916fa2526a82cc5babc5"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/document-16.png",
+      "bytes": 179,
+      "sha256": "cb8aec73dc9989af963b1d1c2a4ac8674bb0075cb71d3d9a390b844d81070954"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/document-32.png",
+      "bytes": 281,
+      "sha256": "631522e37bd459f628517f52a1c97285a3a97aeca1404225487824b3ee2b33ac"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/events-16.png",
+      "bytes": 211,
+      "sha256": "3b08d03fac8d749d466f89b3a3c29b1aae44b3592d917baaa9fe59d6ee44c7c0"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/events-32.png",
+      "bytes": 338,
+      "sha256": "3ff676985da0481f97e5b952c9e201cc6e4ecd830370cdff954da487035c64b2"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/events-48.png",
+      "bytes": 508,
+      "sha256": "903632acf96fe44a26d1399097476f1d6cbc9ce51ad2b2e167b048ca7a82782c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/explorer-16.png",
+      "bytes": 209,
+      "sha256": "31bb1246d4f92626d682d19507b7d9b8eb64fbe012bad33268fd659e7935cdbf"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/explorer-32.png",
+      "bytes": 299,
+      "sha256": "5309db1f906d8ea43d3c897463f84bc99e38bb9805bf43b524eeb9d75db35850"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/explorer-48.png",
+      "bytes": 373,
+      "sha256": "fe95eec21cb7affb85abc61b581d865a44a404320c630e28a5c829b8fb9c8d90"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/folder-16.png",
+      "bytes": 182,
+      "sha256": "3c658399e91dbce2920c294fc262cbf948f78bc618f95d7beed9a6ba0de66481"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/folder-32.png",
+      "bytes": 205,
+      "sha256": "5597abe8dcf60f82d1012ce050826359fa2cdf3b0b20bc5efb219779dfab9044"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/folder-48.png",
+      "bytes": 271,
+      "sha256": "c1774676796e3c32d6bb53a7ff6c064672e8e2e6bdf45d2eb4251351513b69c9"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/help-16.png",
+      "bytes": 264,
+      "sha256": "ce5d192ec5d8fd80372f02a6b1726ee62544444768ea95a9551ec9e325e412a6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/help-32.png",
+      "bytes": 553,
+      "sha256": "f97fe2a3b0927e9c42da0c12953dd1579ac80c95c027adf0274f431c188cedc6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/help-48.png",
+      "bytes": 771,
+      "sha256": "ab5f3d45fa31b9f38628e6e34b0b5e5c2f59daf5fa045c6bdaa6638052f21423"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/network-16.png",
+      "bytes": 196,
+      "sha256": "f0d5e71a07e2f5d736252a574322a10ac989a96fb3dac1ffaebdb082184e723c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/network-32.png",
+      "bytes": 367,
+      "sha256": "52a782c11d411ace46b0dd9baa4c110e585ee63f1a8a0c7c88a1c83dfb1168c1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/network-48.png",
+      "bytes": 1777,
+      "sha256": "bffc540dccd463aa3a32e0c913e74977790ca4d0e2abcc1c402e9befa96bf06d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/orders-16.png",
+      "bytes": 221,
+      "sha256": "924a9065dbc16d03703215d61d8fdd4309e528c3f2f9543a8797f4763c3acb12"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/orders-32.png",
+      "bytes": 366,
+      "sha256": "95a350323639436f32fd1b1effa9403fc76bbc000f5cef9ca828dc7e8bc38193"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/orders-48.png",
+      "bytes": 517,
+      "sha256": "9eccd36dcef0acc3692a7d02abef03731a9727a615023f5d8d6eb5a5833c8d86"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/query-16.png",
+      "bytes": 210,
+      "sha256": "b1b162248c1f9838d117cbcec17f60058e3e9f2e32a036b6e156b9c449116f95"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/query-32.png",
+      "bytes": 446,
+      "sha256": "931ded9e648c7827effbf1685fafeb50bf34b08d1739d39322f31e1d6c3c4fee"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/recovery-16.png",
+      "bytes": 163,
+      "sha256": "cd1fdb635722a50581bbdca50987b387fa86c0a8148d79f6e76574590e88d290"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/recovery-32.png",
+      "bytes": 202,
+      "sha256": "48cff56b0f306dbea2c21c7a49002f0129b22fcf6a428c5e11dd502efe90d8c7"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/report-16.png",
+      "bytes": 157,
+      "sha256": "fe851e426af7574bd73f4431070eb5457fee6bd75f7096b1f51d56081f7e41f6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/report-32.png",
+      "bytes": 228,
+      "sha256": "1485b5b9840f5aeb7e31b9cac2c338ea1e95f24997a86b48855a933cccc88825"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/report-48.png",
+      "bytes": 1958,
+      "sha256": "aecd58208d4606ec986a263f58c6d53097733f2d3a38605695442743d13acf3f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/search-16.png",
+      "bytes": 217,
+      "sha256": "696d84550d442ca89375ebecdc56df8bf104f5ced3a4522463a38276d7849592"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/search-32.png",
+      "bytes": 422,
+      "sha256": "6562c3302898b63ebf457fb40ec5f9dfc9c5a23c77f40b11df812b7e6a759a1f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/search-48.png",
+      "bytes": 625,
+      "sha256": "3651cff0138f50bf1b15b5c85abf2cea4415779436ae8d99a97c2003a82ff63c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/sessions-16.png",
+      "bytes": 235,
+      "sha256": "4f895dd9d6865fef4e20630af429837c5678f5cf7d5568cf9639c7af48764a68"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/sessions-32.png",
+      "bytes": 566,
+      "sha256": "a7fcd209c3dfe67db9003531c5c9f7e0c363f0a6db97ce7cbda30db1012a896c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/sessions-48.png",
+      "bytes": 938,
+      "sha256": "7f735fcaa87389faa3f567486d78187885451827c71b5f3a4f40fa86fd075b7b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/time-16.png",
+      "bytes": 490,
+      "sha256": "bcf74d2d97959159df5ddda547473da3fed0c1c735a99d6835b84884a37364b6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/time-32.png",
+      "bytes": 1431,
+      "sha256": "b9fc8b635e0cc6a27858f0198f3728e083e2b99a73a6b52d90efec1ea6fbe5fe"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/time-48.png",
+      "bytes": 1992,
+      "sha256": "77f0034c4badcc0195be4da58f0a7733448f4b16add14b2a031950e9668dbf29"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/manifest.json",
+      "bytes": 43766,
+      "sha256": "e35bfd0b30bbce77c3a27850f6b599503a5846d85903dd2311cf932155d22a9f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/wallpapers/camino-otonal.jpg",
+      "bytes": 5447171,
+      "sha256": "3e4be6eaf5f1cb1b52d09db6084df5d8a57da3220144909c0795de2175ff3eac"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/wallpapers/duna-roja-luna.jpg",
+      "bytes": 4401443,
+      "sha256": "a13fe7534d3a06a02f2b1c48e76a4388af22d8250669d9fca78d4a35aaeb865d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/wallpapers/stonehenge.jpg",
+      "bytes": 5817702,
+      "sha256": "619339ac94b02cd797ba30b3f3fb71bd47a50bf5a8b67edcf8aa8fbeb5adeda1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/wallpapers/xp-bliss.jpg",
+      "bytes": 723862,
+      "sha256": "79eec9cc98eb410e070348408b0ddc423e39b1d547da6f20cc763fc04c0486fe"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/wallpapers/xp-isla-tropical.jpg",
+      "bytes": 1470719,
+      "sha256": "5e9e73ce01539851d64a0ca58074f1fac9f8edf78bce4714a0e5dbe71fbd606e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/wallpapers/xp-professional-azul.jpg",
+      "bytes": 154033,
+      "sha256": "87f6afbb4a239c7677b8249cf05c7eba61397578cf76369b37fc81c31c3861f5"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/environment/README.md",
+      "bytes": 2664,
+      "sha256": "36a794dceccf816fa7e96d5402ef474907b8d4ea0c3b85eea1b69dc1186c9ea3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/environment/city-godzilla-chief-samus.png",
+      "bytes": 2730011,
+      "sha256": "a7f314cc8ffb339ac975f745b5cb3873a7ddc7e3146494bf5fa2bc98be6b604a"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/environment/city-godzilla-terrace.png",
+      "bytes": 2540516,
+      "sha256": "99aadd3185b773135f83ce936b86b5b5ef851d8cc79019cb72b71c1418e70714"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/favicon.svg",
+      "bytes": 295,
+      "sha256": "349a14fcfce4a987774f11f2ba9598e5c77539a2eef34ae2ceb73ed0e598a2cd"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/fonts/roboto-mono/OFL.txt",
+      "bytes": 4395,
+      "sha256": "50ab8dd54680d3473f649c9db86fece88434d097c7834475c1c72d2f8c429215"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/fonts/roboto-mono/RobotoMono-Variable.ttf",
+      "bytes": 183700,
+      "sha256": "66a80e79d17e4c7cabd162e2916578a4cc08fd19eef6e2a643305eae9c567b2b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/chair.glb",
+      "bytes": 1144792,
+      "sha256": "b751a772d7384b4e11f369c90b306a8e25261513ba9ab00ecb772a37abbaa5b4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/desk.glb",
+      "bytes": 1098624,
+      "sha256": "9bc98842503df6cb85a968e513add5001114112a2552173437944c72433fc2fc"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/license.txt",
+      "bytes": 714,
+      "sha256": "7d26a234da129dbc132ff065c034bd75bd1d3a489cd69c751c93bb969bc0bcaf"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/scene.bin",
+      "bytes": 1481680,
+      "sha256": "cc036bb1f68b8e5df4c8fbad11dec0145519683bd7cbef272f6a0db646ef3616"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/scene.gltf",
+      "bytes": 61249,
+      "sha256": "afb5a4ead1921b8fc38f06fc0f18c31d34d3ea7cd310407fa9352c02ad9f4d53"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_body_varianta.002_baseColor.png",
+      "bytes": 2483204,
+      "sha256": "9e53694a99e2f858daf777564db10cf6876a96d6f895ac33fbb8284f3f68b947"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_body_varianta.002_metallicRoughness.png",
+      "bytes": 3192306,
+      "sha256": "469ab440a53d127242f3cf4fa4ddd543db0bc0c706c2a39272a510ade340d555"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_body_varianta.002_normal.png",
+      "bytes": 4898710,
+      "sha256": "2d54a71b65ea5a0edeb4dab54599377fea86d4a9f996d4a8a1632c89e5644f69"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_hat_glasses_radio_varianta.002_baseColor.png",
+      "bytes": 477976,
+      "sha256": "545df2900fd604e9308742aa92a75be81e72426b0e0da149ba7985fd4a24cd25"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_hat_glasses_radio_varianta.002_metallicRoughness.png",
+      "bytes": 449399,
+      "sha256": "c26a9978a63f13ba602a12aa13170f4bc18610fd63594b0e1922a41df7755d38"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_hat_glasses_radio_varianta.002_normal.png",
+      "bytes": 769213,
+      "sha256": "94b4ee74ad7665244a6cbfe086a3904040ed9fed3c3d3a65691b7b65d489895c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_head_varianta.002_baseColor.png",
+      "bytes": 1077840,
+      "sha256": "d69fff80f635253292d4791f3edb47bdd3324b41584d300da4f51645ab1a9997"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_head_varianta.002_metallicRoughness.png",
+      "bytes": 203006,
+      "sha256": "4e2983186ab8d4566c64090533d072df69188612af13105b6e4bb82258e0f03d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_head_varianta.002_normal.png",
+      "bytes": 471498,
+      "sha256": "bf3ce400e9e746c76ff3dfcbc2801159580a9b78ff3be344fd5e6f3670f66be0"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_lower_body_varianta.003_baseColor.png",
+      "bytes": 758126,
+      "sha256": "6ade8464709a55e3f3a7800f62ac91f99c7f19c49a3bab5dc7f0bdee46776190"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_lower_body_varianta.003_metallicRoughness.png",
+      "bytes": 791109,
+      "sha256": "731387e7fcdacc45657533c5ffa009730ae7d8bb9b789a82cc4da2f96c0e4fc1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_lower_body_varianta.003_normal.png",
+      "bytes": 1555871,
+      "sha256": "592fcd393276a8597de1d5c083cd44a40ab599979227e78e07a6647a9755977c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/glove_hardknuckle_black.004_baseColor.png",
+      "bytes": 2655658,
+      "sha256": "5c75f06e0d1e9e0bcfc567100e873368c43340dd27def76e90e5d87aac51f4fe"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/glove_hardknuckle_black.004_metallicRoughness.png",
+      "bytes": 5020610,
+      "sha256": "4f6b6fde4697ae450b29007f5ffef7f7df101d633deafec0453246f8f2b7f56b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/glove_hardknuckle_black.004_normal.png",
+      "bytes": 5893310,
+      "sha256": "70b1124094b437c0c69132af35c0bfbd37238fda5a576cf0b991db6bbae24ec3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/filing-cabinet.glb",
+      "bytes": 243076,
+      "sha256": "009543ab2627f48b43c7125484b525f68bc41a3435b7c811d4302788e1bcd96e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/lamp.glb",
+      "bytes": 1650296,
+      "sha256": "64ebea835468172cdedfae33ab868f5d4c26457cf1482328c5199ad8b4e370d3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/License.txt",
+      "bytes": 614,
+      "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/books.glb",
+      "bytes": 6864,
+      "sha256": "b8dc56e5d29f6fc1f4727fccb1b9642627fee9942c48060a00034e98df02701c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/cardboardBoxClosed.glb",
+      "bytes": 5400,
+      "sha256": "4af079dca52960912764574950f0549ff2ae1224b3db1528718629473a2d5d81"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/cardboardBoxOpen.glb",
+      "bytes": 5404,
+      "sha256": "960da412564774c75e7b32f9af0100895e1edb877fc1e70dd34ee2422a2196d4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/computerKeyboard.glb",
+      "bytes": 3476,
+      "sha256": "9d9135789de2120e9f41ce3f0a56dd1b15f40adcc7888739bb842a2d820da322"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/computerMouse.glb",
+      "bytes": 5868,
+      "sha256": "d3ad1a923f0f7707ef367bb969eb94c9076e211c98c830ba52e133fadc5cdfc0"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/radio.glb",
+      "bytes": 25020,
+      "sha256": "1ba93d6ba6f049750853b4652b92f286f2898e527695a0705b75cc7615897fed"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/rack-monitor/license.txt",
+      "bytes": 648,
+      "sha256": "0dc864d7963c4735521fa7c0ecaf89345b3dcc03361a54436722fd57deacef90"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/rack-monitor/scene.bin",
+      "bytes": 28528,
+      "sha256": "4384f1d89bf827e6911ac426ce3ff6d25a75b04605a7ff048d671f0cc76ad696"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/rack-monitor/scene.gltf",
+      "bytes": 13528,
+      "sha256": "7ea4c1d46e83fdb4080a40cd61d03be4a7c410d66973df0edbabb7e2f4d1a39e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/rack-monitor/textures/RenderMonitor_baseColor.png",
+      "bytes": 821885,
+      "sha256": "8771d8c03280acb77825510acd9ee5ea6d586de2b0453c5e6b626b57716eea50"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/rack.glb",
+      "bytes": 1406204,
+      "sha256": "aade081eb9ffe12b5190f81516203dc41e820d0bc9a98505eeb7fdd3dc7fe191"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/check-desktop-stage1.mjs",
+      "bytes": 16955,
+      "sha256": "ec43a25ef6c8dc4d7253717dcc7097bed4b929438014590b4f68b8d3bdfc03ee"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/check-office-environment.mjs",
+      "bytes": 3375,
+      "sha256": "146ffa52f04de4899647c204d359320bce417ed8143ef1c33eff627d55f5a2bd"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/diagnose-intro.mjs",
+      "bytes": 4617,
+      "sha256": "c9de34abe1fb8e700e363dc56e1e99f8647835cdd518347e5364f11b63f00014"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/diagnose-render-scale.mjs",
+      "bytes": 5099,
+      "sha256": "17564c36b0a7d18c7ed916391b4c2bb7d7f35872787dfb1a4061ace2fa49031f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/profile-intro.mjs",
+      "bytes": 2188,
+      "sha256": "c8db90d0f7bb14a090ee9daa8d2e5f8fb6d509cc8262c9792c3d94cc4837c134"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/record-walkthrough.mjs",
+      "bytes": 6173,
+      "sha256": "f2b63a44fbccf6f84723da761a6e816238ddb04e2637c52b8e8c935b590a89cd"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/walkthrough.mjs",
+      "bytes": 4642,
+      "sha256": "58255cf208566d080b19802edb72fd8806109cf5bbcce1c84294cde87f7d42ea"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/audit/evaluate.ts",
+      "bytes": 5059,
+      "sha256": "e84e57860aab470c19bc16a2eac975f735b19feb0634c52188a49b7f0127a78b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/audit/rules.ts",
+      "bytes": 18065,
+      "sha256": "33dc808ef0ea121fe157bad2fe2465bf3feee1dc1205aed1c0211a5a589458ae"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/audit/store.ts",
+      "bytes": 11738,
+      "sha256": "15f3851940c37a372fa87ef49314958848aad943310ccc46af20bda6105d47dc"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/audit/types.ts",
+      "bytes": 1575,
+      "sha256": "4ac7cf56c3a6b7bcf08bc30f6e64c94e4e61e84e18621ef7999297a08a0ab642"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/computer/registry.ts",
+      "bytes": 1720,
+      "sha256": "5a0f83547bcd96c03e061d80bab0b0fc176bac842de2f699b4722e8faae033ea"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/computer/reviewBridge.ts",
+      "bytes": 5728,
+      "sha256": "40dbdfd24fd6219ac87902118100056d564ae6b81d43b84cd9ff9ac47c2f655e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/computer/taskProgress.ts",
+      "bytes": 2198,
+      "sha256": "cd49aab4c3057743d3f299c7878e8cee03e8fe6eaff9a23bb448b2278d4af217"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/computer/types.ts",
+      "bytes": 6191,
+      "sha256": "7b6385bfc63aacc4f9acc8ed18db527dd191fad0befcc28cd5413ccd7d8f2df6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/computer/workspace.ts",
+      "bytes": 17005,
+      "sha256": "f86d59df8ff74df1cf63559a3f1c0d4fbf31d73e943376538e66276faf24d474"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/computer.css",
+      "bytes": 19947,
+      "sha256": "a7ee711d4c05c91328991cdb647f4d346a3febb747856f0372695e21f10fac7e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/canon.json",
+      "bytes": 17868,
+      "sha256": "e07c41258769469a0ba5a0a041707a3ee065852480baf02afcf9c4d5b0a7345c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/canon.ts",
+      "bytes": 2979,
+      "sha256": "ad6a7d9a9e7b373191a867f689971a7a71ae2c164f82799f109d92b55968c544"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/computerAssets.ts",
+      "bytes": 5997,
+      "sha256": "b01dbc8b6a830757bbd9fc8b258976be84de567f444ea09c8f215356a5fc5a8d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/computers.ts",
+      "bytes": 5951,
+      "sha256": "25774d578bcb2eed76c5ea2cdd769c98464e3aaee6e6cae95cfcc7096eb6a150"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/documents.ts",
+      "bytes": 6267,
+      "sha256": "b01d1fc0f61b37ee6bebcc825203222c2a846ddf88fa8a189db829ace18c1584"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/guidance.ts",
+      "bytes": 3531,
+      "sha256": "559323306a327a9ec6246cabca6af0cb852e39634e700bcd0de9581606bfe7ac"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/interview.ts",
+      "bytes": 8443,
+      "sha256": "6850d71b006ff40b6c824a4771f2329c8ac0053382414e5002f8af28023a19e9"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/interviewAudio.ts",
+      "bytes": 1106,
+      "sha256": "b9e5aaa958a1a17c847b803beb1e1ca351841d0e9de8464848e5335437d41552"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/intro.ts",
+      "bytes": 5415,
+      "sha256": "009af7ec2e580431dcbdbe965ff83de23f54dafae7a8de9168ec24013bf57bf4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/investigation.ts",
+      "bytes": 5428,
+      "sha256": "0724b5f0b1c227cfbb996c9ea9c5cd6d39e5f9e92daefef6ca3d3a59ec44ebe5"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/simulation.ts",
+      "bytes": 4780,
+      "sha256": "d23c2f74056171f8b858bc5d461f7ff804cec17ae80421a1239ed922ee0abe1c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/stations.ts",
+      "bytes": 2272,
+      "sha256": "7721420b71d23797226d46a2debbfcb4664250c450538df00c3600f8a0800225"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/desktop.css",
+      "bytes": 17655,
+      "sha256": "375bea72afab364547afde5e68d002a9a4ff2d2ae716cd804bb8c8c274cac727"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/export/report.ts",
+      "bytes": 6755,
+      "sha256": "e83cfb90829116e88d98b9869001fa7a67ec9480e79f976d37e72914e67a9940"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/interview.css",
+      "bytes": 5858,
+      "sha256": "e918e6a95a0672dfb091dc795e24b4b191f2fb3cc0290b913503d505e2e0f64b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/investigation/query.ts",
+      "bytes": 8585,
+      "sha256": "0755b81d2adfe8fd83c3e52e3dc1103ad555e04ba88a165ccdeb05e7938eda80"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/main.ts",
+      "bytes": 19481,
+      "sha256": "f93a0c711f48ddade30080d9f1cddfa903fc15bee1c77a54e5329b7cb9ed91a8"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/overlays.css",
+      "bytes": 16888,
+      "sha256": "748695cda1a9356320575494a8639d0861e4b8dc4ce657f557f0fd5399348e72"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/LiaisonAnimator.ts",
+      "bytes": 7527,
+      "sha256": "a25211c98ffd8f516d4c20108e90cc0e4fa77c29013bca48ec7d0be1aeb1c0e9"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/OfficeEnvironment.ts",
+      "bytes": 16957,
+      "sha256": "211593baf53ef10fb82fe1059e58b092df0501dae1cf748865f6622cf511baad"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/OfficeScene.ts",
+      "bytes": 33164,
+      "sha256": "c82169ab8e7f7ad26f47ce5c338a7cc56b4de4c393b3c0112bd36c247b72529b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/branding.ts",
+      "bytes": 1586,
+      "sha256": "edf0c984696d75ba73690546c87484f9e2dd4b043ccdfc4866d132111d7f800b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/chairPhysics.ts",
+      "bytes": 3911,
+      "sha256": "3fb10df46591024c0e533b33b9f5a23987c91cfda826d2498b32d5c4df500ee6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/collision.ts",
+      "bytes": 2111,
+      "sha256": "501199f7580fb16abf66e0bc5adda88373a6eceb782d2deb61f415d78aa1563b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/models.ts",
+      "bytes": 2381,
+      "sha256": "c820bdb368cd4f1506b335aa59be30a322452866df3d6055fbffb45be6dba9c9"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/screens.ts",
+      "bytes": 13629,
+      "sha256": "cf02914f52d765ae1915a2b91bb7f23ccaba3c58b393ee282feadadc21a2da92"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/styles.css",
+      "bytes": 25612,
+      "sha256": "536543427a5b4c5377a5c04d6943e393f48c45039bb2ae024048356bfed48842"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/ComputerPanel.ts",
+      "bytes": 29057,
+      "sha256": "89fe03b9c624bba850b75e3ffb922e93d23b8d9fe28e7fd5deb4b007b1cfff59"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/InterviewPanel.ts",
+      "bytes": 9676,
+      "sha256": "cc434a166282370c2f1d7d96d431d66db2da4bbfc5f740d7462f9080af001822"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/IntroPlayer.ts",
+      "bytes": 11602,
+      "sha256": "aee795b75cd59431528009bf5d5cd9437f753d9608e537cd087f799f192c25b6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/Notebook.ts",
+      "bytes": 8743,
+      "sha256": "47cb86a4f05da052cba86c8c56e029b76dc3daf4676c1e1abdb98c353dbede9b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/ReviewPanel.ts",
+      "bytes": 15347,
+      "sha256": "ca010344f1e8f30cb9c8ce793fc9ae026a762b3ab3f766d5250a4b99764cf1dc"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/SourcePanel.ts",
+      "bytes": 2617,
+      "sha256": "f90aaea481ab442ee226fa267063bab89de3eb02f6a192275f81cf2f0f9aeb25"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/AccountDirectory.ts",
+      "bytes": 696,
+      "sha256": "97c935f60dd34f32d68643794620715eceab52e214cd2bc2548d782a2f4e188e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/BackupManager.ts",
+      "bytes": 706,
+      "sha256": "ac43ff34519ebfe15433250f21a51101cfeab8f8606eee8b126cb51a9b7f0c3b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/ChangeManager.ts",
+      "bytes": 687,
+      "sha256": "817bfb70089699ffcc05c2ffcb1864940ffb86b1872fc310afafb6d26c2097b3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/ClockComparator.ts",
+      "bytes": 5338,
+      "sha256": "d87979707b9d1203837b0e82c436ca602bbaeb231abe4013d827c6c44a18830b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/EventDesk.ts",
+      "bytes": 6173,
+      "sha256": "8f8f78e953b8d0ee0c8845f861af32dba97651feda525a9603d1828936d472e3"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/FileExplorer.ts",
+      "bytes": 5619,
+      "sha256": "878f74d0428efcc851ead073bff5583907d04af32f86e218927a56069fd28788"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/LocalDossier.ts",
+      "bytes": 635,
+      "sha256": "ac344ddbefa9a86022c265a5b2e1ff04b3f3031d2ed39c097f0da03dc643b869"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/NetworkMonitor.ts",
+      "bytes": 669,
+      "sha256": "91cd77fe37e4f21424da661196a587522434440cb9381aea573990e2434476e0"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/OrderHistory.ts",
+      "bytes": 681,
+      "sha256": "9c3da45fbe7c9e37efdf4f907dab95b7f8674b062e76bddbea29e604223dd2c5"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/QueryStudio.ts",
+      "bytes": 8749,
+      "sha256": "0b9da52f87f54bbe16069af4aa59bb600c9da0c04fd1f43577252062edbbeb64"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/RecordBrowser.ts",
+      "bytes": 6242,
+      "sha256": "c1b475fa8e3a267e55d79a69a208b57c17f6ea0420b986d55cdc291c6da9ae6e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/RecordComparison.ts",
+      "bytes": 7763,
+      "sha256": "3714e661a891172dbc6dc4e51f8b4a06f092d38c19211e7958f6b31b3a621e7c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/RecordViewer.ts",
+      "bytes": 7363,
+      "sha256": "fc9dd00ca7f9b343cf71bfe1990bafd38195f9c6256320daa1e3e62cc949c9f6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/RecoveryConsole.ts",
+      "bytes": 5417,
+      "sha256": "8b7074f87abfde481a5e035260ba658c35856b8adfa50910f00c0df675db5fcf"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/SessionViewer.ts",
+      "bytes": 690,
+      "sha256": "7faf84e0458117daeeec244c4637b0a9d7a4a0452b05b3dcb27b4038c285ce37"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/StationReport.ts",
+      "bytes": 7692,
+      "sha256": "7d8f8d83704908403370ad3893c5c5fe452aa8d0b65578720b8aca66699d0b44"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/TimeTracker.ts",
+      "bytes": 678,
+      "sha256": "d9ffd9733ffbcf67f52107621613b28e3cb5b9f2d61f468c9b09b80ecf9eef2b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/apps.css",
+      "bytes": 13804,
+      "sha256": "c5c49b1a3e934b2667f78ec59eda10653b924cb6a7793f741f3dd7a49b2bad2b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/utils.ts",
+      "bytes": 5219,
+      "sha256": "6d9ba43d44959c91d0e31f36777b55de59751ed8ceee7fddc92555ca8e46f1b1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/desktop/ComputerDesktop.ts",
+      "bytes": 28397,
+      "sha256": "186dbb972c59570fd31b01f6c502a1b8227e23aba3f96d819d17cfe84ddd25b1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/desktop/geometry.ts",
+      "bytes": 1715,
+      "sha256": "b02983fbcd32fa8092f1ad3c7664a532d53d09b6a9114eb00018766af30a6696"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/dom.ts",
+      "bytes": 1782,
+      "sha256": "9075fb1dc856710279f57240d0782955ddb8a01cf43a70c6529debb31d233576"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/guidance.ts",
+      "bytes": 498,
+      "sha256": "596f59a2038a74df15db58bfe6bdc658cf1cb0c0d06a2cb717ae8d707f3e440e"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/chairPhysics.test.ts",
+      "bytes": 4572,
+      "sha256": "1ee8ccdcc75dbcde0140cf8faff15234a4db141c2bbdd90fa1de5f4f702e03d4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/collision.test.ts",
+      "bytes": 1379,
+      "sha256": "c9d3bbae68d88ba850d8dac122af11d0588469c8aeb7530400126b8a1e0b97e4"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/computer-apps.test.ts",
+      "bytes": 7610,
+      "sha256": "3aeff443750da604f48c90d950b8779bc2d47af824a1058cde557360884d208b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/computer-assets.test.mjs",
+      "bytes": 5868,
+      "sha256": "30d3a7a525e04cb22e7be6824353aef4914e8efd485efc3b645d10267ebf9c99"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/desktop.test.ts",
+      "bytes": 1986,
+      "sha256": "83ba8c520416e84c0759864b696ea95e3b64212ea88d63c9b80c99490386cdc8"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/acceptance.spec.ts",
+      "bytes": 11936,
+      "sha256": "9d9ad4e7c50f34f11522f044eb83a1011b1d61dbd8bc85b86ed588dca89cb2f9"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/chairs.spec.ts",
+      "bytes": 3171,
+      "sha256": "fbbad951ef90c46ae2c4f223923dc48611a12e09fbce98b3812c5edaf5bcc713"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/desktop-b.spec.ts",
+      "bytes": 16447,
+      "sha256": "318f33823192713db9f97ba10157c099ff8ff6f88b877e78c33f5ea2e0ad422f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/desktop-helpers.ts",
+      "bytes": 962,
+      "sha256": "68dc79156464b579b1b9a5bed25c93c22ae05040c246a755d4767e6159063e44"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/desktop-stage3.spec.ts",
+      "bytes": 6146,
+      "sha256": "f1bcb3ef2413ed6ceb6f6f655e7d1634ab85256e453a4920d42ddcae233f3840"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/i5.spec.ts",
+      "bytes": 6216,
+      "sha256": "03261f938fccb097b4b78f4914558e06f1b1068341b20fcc56a124228c40eba6"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/interview-audio.spec.ts",
+      "bytes": 3091,
+      "sha256": "f99105b65944516737b958441c561e6e0b11c6baa46822fcda77f1384c0acb50"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/interview-helpers.ts",
+      "bytes": 695,
+      "sha256": "52990846ca2a8dfee42261227092c9dd135d6b076d0443d36aa57fec0b5c48e2"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/interview.spec.ts",
+      "bytes": 5797,
+      "sha256": "d55c59dfa26127ccfc0b3d84da9e59c3327a0b350e32d0403ecd3c43304c180f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/investigation.spec.ts",
+      "bytes": 9920,
+      "sha256": "aed7edc1653256260efba865b757dcb56c859edfa462a69d8af2086112ed2e28"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/office.spec.ts",
+      "bytes": 17950,
+      "sha256": "ca1663a71b92e51a3cb61966397ae703b14fee8d17083c42fe3bee7427981302"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/evaluation.test.ts",
+      "bytes": 10463,
+      "sha256": "2a9bc6ef6ebf0f267b52dd922f4ab23465f1098da9cef24494e17e0f6729540a"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/interview.test.ts",
+      "bytes": 2954,
+      "sha256": "e5738f921258af86edf49c1ac5dae91ca1b7172fc792edc75cb5a9437cdb862f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/intro.test.ts",
+      "bytes": 4357,
+      "sha256": "7d0cee6eba6712daf2954da689161389a75e5957d535407871ca65bd6e7f4dc5"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/liaisonAnimator.test.ts",
+      "bytes": 3892,
+      "sha256": "f0ace07c767a3439619e767e2ef04279bb44787b3fbb953b764cd4f740e4dcff"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/models.test.ts",
+      "bytes": 3516,
+      "sha256": "7318adbd9f352e4e2857dd78a86dfd516097f6dfc409a83640d04a7f9b172fd1"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/query.test.ts",
+      "bytes": 3528,
+      "sha256": "79e9e411b8b22fb5675777b0c5f584d8d2e4c543c869ee2fdebeed8d07cf23ab"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/report.test.ts",
+      "bytes": 4238,
+      "sha256": "80c81723761c5929c1f1aa14eb8f5122d7ae20f2243adf86667a76f785ac0653"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/reviewBridge.test.ts",
+      "bytes": 5737,
+      "sha256": "dd43d0c341f4de7dd486b8e579372c136ae538f30ba1e2a2bd56a9460e99356c"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/store.test.ts",
+      "bytes": 5426,
+      "sha256": "d2d9e1f31e49c2df91d614780d842ac438214afd1c3e86b18775366a17e57e13"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/taskProgress.test.ts",
+      "bytes": 2705,
+      "sha256": "214fb4eee72903d4d3dab62fdb92c78f7665cd3148262c53e3c8d0c11d578144"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/workspace.test.ts",
+      "bytes": 8480,
+      "sha256": "3651efb4ff259f853f52b2d336ab6f29596fab3c869c5901e9a054deca7bf47d"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tsconfig.json",
+      "bytes": 557,
+      "sha256": "b017b7cdf897dee5b53a80c6a687565494ca88c1f2ceb02e3953d9eabfd3988b"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/vite.config.ts",
+      "bytes": 170,
+      "sha256": "fd1bdbadbcb241d50455c85104247eb4ebac603e4f652559cefd7bc3d7a1cc44"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/vitest.config.ts",
+      "bytes": 136,
+      "sha256": "7d798b65516294ce0c88d0a77f2006b844fa073be4a2c97421ec3a04f3cc7233"
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "bytes": 23018,
+      "sha256": "0c53f34ba906d6986a1d656d1359da422bf71a0563ac3737d85043d7436ffede"
+    },
+    {
+      "ruta": "07_Referencias/Registro_uso_IA_v1.csv",
+      "bytes": 7120,
+      "sha256": "cbdf6a1d7a2a27574e562da05f449b27078ae21b7bb52977cfdc6e0acf7c6945"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/index.html",
+      "bytes": 799,
+      "sha256": "8f87690d7e49f4847242ed5fce2b4723a0bf5a3cb11fda90309504548db41c1f"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/assets/index-CgmbNTmN.css",
+      "bytes": 86974,
+      "sha256": "ff0f1987285755086e7f0c3b6e9b6151890506a1fd693982546cf13cb3d9eb10"
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/assets/index-DhB4j2GW.js",
+      "bytes": 847723,
+      "sha256": "c507b57302a1c03e1ec51c53a6c5923609e9dc717eb67867198857bb478710a7"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+UsuarioBD,LoginConexion,PuedeSelect,PuedeUpdate,PuedeDelete,PuedeAlter,ControlBD,ControlServidor,EsDbOwner,EsSysadmin
+admin_bitacora_lab,sa,1,1,1,0,0,\N,0,0
+control_bitacora_lab,sa,1,0,0,0,0,\N,0,0
+auditor_lectura,auditor_lectura,1,0,0,0,0,\N,0,0

@@ -1,0 +1,7 @@
+UsuarioID,NombreUsuario,EmpleadoID,TipoCuenta,Sistema,EsPrivilegiada,MFAHabilitado,Estado,FechaCreacion,UltimaRecertificacion,ClaseOrigen,ReferenciaExpediente,SupuestosAplicados,FechaBaja,DiasDesdeBaja
+33,lab_baja_01,33,Personal,Identidad,0,1,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,2026-09-10,35
+34,lab_baja_02,34,Personal,Identidad,0,1,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,2026-09-10,35
+35,lab_baja_03,35,Personal,Identidad,0,1,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,2026-09-10,35
+36,lab_baja_04,36,Personal,Identidad,0,1,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,2026-09-10,35
+37,lab_baja_05,37,Personal,Identidad,0,1,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,2026-09-10,35
+38,lab_baja_06,38,Personal,Identidad,0,1,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,2026-09-10,35

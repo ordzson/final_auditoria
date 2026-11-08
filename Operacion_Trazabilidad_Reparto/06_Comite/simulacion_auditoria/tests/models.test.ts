@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import { expect, it, vi } from 'vitest';
-import { placeModel } from '../src/scene/models';
+import { placeModel, modelsLoading } from '../src/scene/models';
 
 const { loadAsync, setMeshoptDecoder } = vi.hoisted(() => ({ loadAsync: vi.fn(), setMeshoptDecoder: vi.fn() }));
 vi.mock('three/addons/loaders/GLTFLoader.js', () => ({
@@ -50,4 +50,19 @@ it('coloca personajes a escala con esqueletos independientes, incluso desde cach
   const secondSkin = second.getObjectsByProperty('isSkinnedMesh', true)[0] as THREE.SkinnedMesh;
   expect(firstSkin.skeleton.bones[0]).not.toBe(secondSkin.skeleton.bones[0]);
   expect(loadAsync).toHaveBeenCalledTimes(1);
+});
+
+
+it('libera la carga pendiente si falta un modelo y conserva el respaldo', async () => {
+  const warning = vi.spyOn(console, 'warn').mockImplementation(() => undefined);
+  loadAsync.mockRejectedValueOnce(new Error('Recurso ausente para la prueba'));
+  const parent = new THREE.Group();
+  const failed = new Promise<void>((resolve) => placeModel(parent, {
+    path: '/modelo-ausente.gltf', size: { x: 1, y: 1, z: 1 }, position: { x: 0, z: 0 }, onError: resolve,
+  }));
+  expect(modelsLoading()).toBe(true);
+  await failed;
+  expect(modelsLoading()).toBe(false);
+  expect(parent.children).toHaveLength(0);
+  warning.mockRestore();
 });

@@ -1,0 +1,175 @@
+{
+  "fecha_utc": "2026-11-07T22:56:50.823388+00:00",
+  "archivos": [
+    {
+      "ruta": "entregables/Informe_equipo_parcial_P1_v1.pdf",
+      "sha256": "506479196564fcda0b15a82ca77e8c84ed52cbff6a85cf9e5872d6d6cc0f928a",
+      "bytes": 153291
+    },
+    {
+      "ruta": "entregables/Seccion_forense_P1_v1.pdf",
+      "sha256": "e600a486a906520d0d71462fb9c067cfb7f4f0bf7b8e0a70620782b4c1ca5b36",
+      "bytes": 79701
+    },
+    {
+      "ruta": "entregables/Programa_pruebas_P1_v1.xlsx",
+      "sha256": "38777e207d6d3d65b14e13fa9193d95f7a72cb8d21d73f9ea1cf552fd545d9de",
+      "bytes": 13198
+    },
+    {
+      "ruta": "entregables/Acciones_P1_0_72h_v1.csv",
+      "sha256": "cd9103bfd7e815d0ffa25a9f3cc948bf585e459dd0ceb75019be20a0dd808a44",
+      "bytes": 10359
+    },
+    {
+      "ruta": "entregables/Presentacion_P1_v1.pdf",
+      "sha256": "1421e9942949a254b0e8d72ddf8c0d7ac7486c9a367744e520538de02c45496c",
+      "bytes": 50378
+    },
+    {
+      "ruta": "entregables/Cronologia_investigada_v1.xlsx",
+      "sha256": "f50e5e8d82cf83a6d26bf8507d6eb4d80379ec7e239eaac929698da960f4ccfd",
+      "bytes": 12918
+    },
+    {
+      "ruta": "entregables/LEEME.md",
+      "sha256": "be2f614da4aca3271cc583d43bc10ce192510d583a95155f7ce1a310cd636e43",
+      "bytes": 2622
+    },
+    {
+      "ruta": "entregables/manifest_copias.json",
+      "sha256": "e47604b045bf2c1691b3e70a8eb89d16eed0c815adcc92f90e37bcdf70c8d14f",
+      "bytes": 3784
+    },
+    {
+      "ruta": "entregables/Uso_IA.pdf",
+      "sha256": "1ced022e9b14472015b6dc77f64eaa8b8cd1dcf1060390f683c561525535ef49",
+      "bytes": 58698
+    },
+    {
+      "ruta": "entregables/Fuentes_P1_v1.pdf",
+      "sha256": "0a00f4ddcff6489ea331e61bfd9e3a082da7c619cadf0d73674cd0b0dea20fa6",
+      "bytes": 52464
+    },
+    {
+      "ruta": "entregables/Borradores_hallazgos_P1_v1.md",
+      "sha256": "005b35243266aef73de458b2bc690ea7e9be30cf684bcd54506145546cc55ea0",
+      "bytes": 7887
+    },
+    {
+      "ruta": "entregables/Papeles_Trabajo_P1_v1.pdf",
+      "sha256": "5053f234224c56538cb9b0ab78b5918b5bed37b8ab76f04f0e5f5768d186b6a6",
+      "bytes": 63053
+    },
+    {
+      "ruta": "entregables/indice_evidencias.xlsx",
+      "sha256": "65d9ad48618597a509fda348e234351b919a061d002fd0ed7fc04860d450b8cd",
+      "bytes": 52781
+    },
+    {
+      "ruta": "entregables/Guion_defensa_P1_v1.md",
+      "sha256": "8911734284b62c7f9cdd23ae20f373bb243a7dcfbc8724044d208aac00993e91",
+      "bytes": 9856
+    },
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.md",
+      "sha256": "e8f3e8a6168a4c1bdb73af85d5d6fdbece9235dc2ce29ac4133c78a9d30d8bdc",
+      "bytes": 14001
+    },
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.docx",
+      "sha256": "a27174d9f230b2b853906bb56ef3d7c863bc823501c5186040d592c72405377d",
+      "bytes": 166462
+    },
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.pdf",
+      "sha256": "e600a486a906520d0d71462fb9c067cfb7f4f0bf7b8e0a70620782b4c1ca5b36",
+      "bytes": 79701
+    },
+    {
+      "ruta": "01_Informe/Informe_equipo_parcial_P1_v1.docx",
+      "sha256": "e3c347b2b6341b3277c09f70076dafeea2ae87713cac1ffe59f42d8d98b03453",
+      "bytes": 167083
+    },
+    {
+      "ruta": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "sha256": "506479196564fcda0b15a82ca77e8c84ed52cbff6a85cf9e5872d6d6cc0f928a",
+      "bytes": 153291
+    },
+    {
+      "ruta": "03_Evidencias/Papeles_P1_v1.md",
+      "sha256": "1aaeb69727b46f4c981db56d145fece81b6b9dc45441b8eaa12dfa9f78834ecb",
+      "bytes": 16674
+    },
+    {
+      "ruta": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "sha256": "5053f234224c56538cb9b0ab78b5918b5bed37b8ab76f04f0e5f5768d186b6a6",
+      "bytes": 63053
+    },
+    {
+      "ruta": "03_Evidencias/Borradores_hallazgos_P1_v1.md",
+      "sha256": "005b35243266aef73de458b2bc690ea7e9be30cf684bcd54506145546cc55ea0",
+      "bytes": 7887
+    },
+    {
+      "ruta": "03_Evidencias/indice_evidencias.xlsx",
+      "sha256": "65d9ad48618597a509fda348e234351b919a061d002fd0ed7fc04860d450b8cd",
+      "bytes": 52781
+    },
+    {
+      "ruta": "03_Evidencias/Cronologia_investigada_v1.xlsx",
+      "sha256": "f50e5e8d82cf83a6d26bf8507d6eb4d80379ec7e239eaac929698da960f4ccfd",
+      "bytes": 12918
+    },
+    {
+      "ruta": "03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "sha256": "38777e207d6d3d65b14e13fa9193d95f7a72cb8d21d73f9ea1cf552fd545d9de",
+      "bytes": 13198
+    },
+    {
+      "ruta": "05_Plan/Acciones_P1_0_72h_v1.csv",
+      "sha256": "cd9103bfd7e815d0ffa25a9f3cc948bf585e459dd0ceb75019be20a0dd808a44",
+      "bytes": 10359
+    },
+    {
+      "ruta": "06_Comite/Presentacion_P1_v1.json",
+      "sha256": "e0b35856b2acd3ef12f57361da6fa65fd7a501d2d82f06a986ea80d20787d473",
+      "bytes": 4235
+    },
+    {
+      "ruta": "06_Comite/Presentacion_P1_v1.pdf",
+      "sha256": "1421e9942949a254b0e8d72ddf8c0d7ac7486c9a367744e520538de02c45496c",
+      "bytes": 50378
+    },
+    {
+      "ruta": "06_Comite/Guion_defensa_P1_v1.md",
+      "sha256": "8911734284b62c7f9cdd23ae20f373bb243a7dcfbc8724044d208aac00993e91",
+      "bytes": 9856
+    },
+    {
+      "ruta": "07_Referencias/Fuentes_P1_v1.md",
+      "sha256": "96a310288dd521020b560daaf12e0af61ac21ad396200a30d6aeadceb45775ac",
+      "bytes": 8141
+    },
+    {
+      "ruta": "07_Referencias/Fuentes_P1_v1.pdf",
+      "sha256": "0a00f4ddcff6489ea331e61bfd9e3a082da7c619cadf0d73674cd0b0dea20fa6",
+      "bytes": 52464
+    },
+    {
+      "ruta": "07_Referencias/Uso_IA.pdf",
+      "sha256": "1ced022e9b14472015b6dc77f64eaa8b8cd1dcf1060390f683c561525535ef49",
+      "bytes": 58698
+    },
+    {
+      "ruta": "07_Referencias/Registro_uso_IA_v1.csv",
+      "sha256": "370a3100076a852955e8c797ac52b5825b142a4156fa4299f1b1f64176711531",
+      "bytes": 7900
+    },
+    {
+      "ruta": "03_Evidencias/hashes_sha256_v1.csv",
+      "sha256": "32e61804d640c2d4c942f48f8be07898b4afc38f49d2e0b3914b7730c614f468",
+      "bytes": 362501
+    }
+  ]
+}

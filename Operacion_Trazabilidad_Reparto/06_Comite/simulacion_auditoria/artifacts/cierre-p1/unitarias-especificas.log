@@ -1,0 +1,15 @@
+Already up to date
+Done in 52ms using pnpm v11.2.2
+
+ RUN  v3.2.4 /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria
+
+ ✓ tests/store.test.ts (8 tests) 22ms
+ ✓ tests/intro.test.ts (8 tests) 41ms
+ ✓ tests/models.test.ts (2 tests) 23ms
+ ✓ tests/report.test.ts (4 tests) 14ms
+
+ Test Files  4 passed (4)
+      Tests  22 passed (22)
+   Start at  09:02:27
+   Duration  711ms (transform 519ms, setup 0ms, collect 997ms, tests 101ms, environment 2ms, prepare 440ms)
+

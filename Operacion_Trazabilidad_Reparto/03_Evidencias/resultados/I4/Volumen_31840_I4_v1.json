@@ -1,0 +1,83 @@
+{
+  "muestra": "Primeros 31,840 ClienteID sintéticos en orden numérico; no los registros leídos en producción.",
+  "campos": [
+    "ClienteID",
+    "Nombre",
+    "Departamento",
+    "Plan",
+    "FechaAlta",
+    "Estado",
+    "Clasificacion"
+  ],
+  "formatos": [
+    {
+      "formato": "CSV UTF-8",
+      "bytes": 2058909,
+      "bytes_por_fila": 64.66422738693467,
+      "GB": 0.002058909,
+      "GiB": 0.0019175084307789803,
+      "sha256": "905477af2e74006dd704e11f80099f050d8c5a60975c7ac35b027fab13ac40cc",
+      "factores": [
+        {
+          "unidad": "1.6 GB decimal",
+          "volumen_bytes": 1600000000,
+          "volumen_dividido_serializado": 777.1105959515452
+        },
+        {
+          "unidad": "1.6 GiB (alternativa de unidad)",
+          "volumen_bytes": 1717986918.4,
+          "volumen_dividido_serializado": 834.4161487467392
+        }
+      ]
+    },
+    {
+      "formato": "JSON Lines UTF-8",
+      "bytes": 5115483,
+      "bytes_por_fila": 160.66215452261306,
+      "GB": 0.005115483,
+      "GiB": 0.004764164797961712,
+      "sha256": "0bc47d02a83591d4c6dedccfb92836e33af66317de19f88fd8fff2b5ec09ed3a",
+      "factores": [
+        {
+          "unidad": "1.6 GB decimal",
+          "volumen_bytes": 1600000000,
+          "volumen_dividido_serializado": 312.7759392417099
+        },
+        {
+          "unidad": "1.6 GiB (alternativa de unidad)",
+          "volumen_bytes": 1717986918.4,
+          "volumen_dividido_serializado": 335.8406075047068
+        }
+      ]
+    }
+  ],
+  "convenciones": "UTF-8 sin BOM; LF; CSV coma/cabecera/QUOTE_MINIMAL, NULL literal \\N. JSONL compacto; claves en orden, IDs/campos no nulos como cadenas; NULL JSON null. Sin compresión ni red.",
+  "bytes_necesarios_por_registro": [
+    {
+      "unidad": "1.6 GB decimal",
+      "bytes_por_registro": 50251.25628140703
+    },
+    {
+      "unidad": "1.6 GiB (alternativa de unidad)",
+      "bytes_por_registro": 53956.87557788945
+    }
+  ],
+  "escenarios_hipoteticos": [
+    {
+      "bytes_por_registro": 1000,
+      "total_bytes": 31840000,
+      "GB": 0.03184
+    },
+    {
+      "bytes_por_registro": 10000,
+      "total_bytes": 318400000,
+      "GB": 0.3184
+    },
+    {
+      "bytes_por_registro": 50000,
+      "total_bytes": 1592000000,
+      "GB": 1.592
+    }
+  ],
+  "limites": "No se conoce esquema de producción, exportación, adjuntos, codificación, compresión, cifrado, repetición ni contenido del flujo. No se deriva tasa: 4 min entre marcas no es duración de transferencia. GB aproximado, bytes exactos ausentes."
+}

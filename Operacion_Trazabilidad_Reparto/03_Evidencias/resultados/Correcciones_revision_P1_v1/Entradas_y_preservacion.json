@@ -1,0 +1,262 @@
+{
+  "fecha_utc": "2026-11-07T22:29:33.039457+00:00",
+  "autorizacion": "Usuario: ok sigue tus recomendaciones. RI-P1-01 y 04; incorporar 03 ya corregida; 02 se conserva. Juego excluido.",
+  "archivos_preservados": [
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.md",
+      "sha256": "8649d2a6928f87cb3f5eb48a718bf98eb3702b34e89c33d8263f5f24d22daf84",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/01_Informe/Seccion_forense_P1_v1.md",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.docx",
+      "sha256": "2b5ff855a6d2b431b7bdd40b656601695e1449e1a8a10fc97f2cb7323ea5fa24",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/01_Informe/Seccion_forense_P1_v1.docx",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.pdf",
+      "sha256": "f20b8e7a6bb78b220c7707aab7babb2157a1ca5d0970a975a31c9ce9651b2de1",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/01_Informe/Seccion_forense_P1_v1.pdf",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "01_Informe/Informe_equipo_parcial_P1_v1.docx",
+      "sha256": "4b4e865ca60b1456b98ba2a44c1cdc0c7ba8d51a01dfbb8f9ea568c04d63eb67",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/01_Informe/Informe_equipo_parcial_P1_v1.docx",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "sha256": "d75805c67a9424831beb6b6dfe4d4b5818349e1c35d8892731e55cb83676cbbb",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "04_SQL/Analisis_Auditoria.sql",
+      "sha256": "2314364fbaa9e18995a5b8211045e94acd3d9c29ad440929cfe333cc014c1da6",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/04_SQL/Analisis_Auditoria.sql",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "04_SQL/README.md",
+      "sha256": "a100097ea0c41813f9130e8b28abadeab9d369637f44b63d7a1cf4fd8830b239",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/04_SQL/README.md",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "03_Evidencias/Consultas_resultados_v1.md",
+      "sha256": "a08dca3604aed30d9647d25739f5a2095bd2b7f30a9cd948f06a9d0a2a84700f",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/03_Evidencias/Consultas_resultados_v1.md",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "03_Evidencias/Papeles_P1_v1.md",
+      "sha256": "ba3fcd69cae68687c26319c49f42c3f9bcf90fc53039beae2fa7da6a6a04090c",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/03_Evidencias/Papeles_P1_v1.md",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "sha256": "f2edd836704499a23cb1645a58da3264b8b5c6dc8559b892caf2e0e6dfacf766",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "sha256": "53591dcef22670fd482be370c448c89e1430d9f7e3bedf8ea840f60cbbfe5015",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "sha256": "7564edef83048f193ffdad3398a612ae8fe82f1529c34119f38c2ed2af93b4bc",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "03_Evidencias/Indice_evidencias_v1.csv",
+      "sha256": "df88179acb988f2ec6ecda4c71995607e217b0f65ec58ac3d7f1034441b0fde6",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/03_Evidencias/Indice_evidencias_v1.csv",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "03_Evidencias/indice_evidencias.xlsx",
+      "sha256": "9440fc173928392d4d7a1c4b7b127c8430f32e4338207a6a298226012a1065d8",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/03_Evidencias/indice_evidencias.xlsx",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Ejecuciones_v1.csv",
+      "sha256": "36262b40e30c03a9bb4f9b3e63b7d28f5b75ba5650aa8d98b461f8147fcaf402",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/03_Evidencias/resultados/Ejecuciones_v1.csv",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "03_Evidencias/hashes_sha256_v1.csv",
+      "sha256": "58e1edad1e03f0e8401e95839c13e1d6776d1c6e37d853a09cbe4e2d2a35abb6",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/03_Evidencias/hashes_sha256_v1.csv",
+      "coincide_registro": false
+    },
+    {
+      "ruta": "LEEME_P1.md",
+      "sha256": "f16659850df615d36382351f17bec59543dbbe803958356c6f197bd80f68e85f",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/LEEME_P1.md",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "index.html",
+      "sha256": "f19bad4167db332ca1f1156e3ff87f8558ffedf75e85b8175bed603992750833",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/index.html",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "sha256": "a5789b6545bad295375c10c25deb30c2c82368fb88c2c163689dc3b2a8dfff42",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "03_Evidencias/analizar_I4.py",
+      "sha256": "debfc22bb1e0aad6a8b13577039c3682614718ff28d8af55a5682e3290f3874a",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/03_Evidencias/analizar_I4.py",
+      "coincide_registro": true
+    },
+    {
+      "ruta": "03_Evidencias/verificar_I6.py",
+      "sha256": "eac021a0e7b4e6d2b02498739c9cf2ddece2f4a5753224561b1c24fccc23372b",
+      "copia": "03_Evidencias/originales/previos_correcciones_revision_P1_v1/03_Evidencias/verificar_I6.py",
+      "coincide_registro": true
+    }
+  ],
+  "entradas_que_no_deben_cambiar": [
+    {
+      "ruta": "07_Referencias/Registro_uso_IA_v1.csv",
+      "sha256": "370a3100076a852955e8c797ac52b5825b142a4156fa4299f1b1f64176711531"
+    },
+    {
+      "ruta": "07_Referencias/Uso_IA.pdf",
+      "sha256": "1ced022e9b14472015b6dc77f64eaa8b8cd1dcf1060390f683c561525535ef49"
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/manifest.json",
+      "sha256": "e5cd569814bb9d84ff45ec220b141d9f2ea12485406f8eb2ea2f855d80fbf231"
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/integridad-cierre.json",
+      "sha256": "15c1309e0ca7469916d282467d7e791cbdb8a85832865026ddaa3b4408d3497a"
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/Revision_contenido_I6.json",
+      "sha256": "31db05132e9b9975f4172f2d38b4ed609cb68c3ebbe40ef4f656220a32588ccf"
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/Verificacion_paquete_I6.json",
+      "sha256": "571d716f52773d0ccfc6d5843e6f392c0c3812143f64796a52eb4f0ea26e14e4"
+    },
+    {
+      "ruta": "06_Comite/Paquete_portatil_P1_v1.zip",
+      "sha256": "a7230e9280582a8e07555fec18c74e5e8d6bfc03acd6454b21943c83c950aab9"
+    },
+    {
+      "ruta": "06_Comite/Paquete_portatil_P1_v1.zip.sha256",
+      "sha256": "0ce60ba9f0785485c58e2a361db32c360a158e85b0eb7451ab5b1a298e64fe50"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Sesiones.csv",
+      "sha256": "3e9fe5d0d06162c5e56df5c47be10f9954cefacd2346be61604a71f3b31e0a48"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Alertas.csv",
+      "sha256": "6ff35be519f7f1ed60b069c0c5da6869996a823b58513b6d92a8175310b588e8"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/FuentesTiempo.csv",
+      "sha256": "d1c47f604bbc5f9f59b483e45d5e3bb9039d2c14453cf7f79d73b2200779fce6"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Validacion_generacion_v2.json",
+      "sha256": "0943dfcb99bf713334e5a41f67a6829d093be462099f4d366ae57e1902917eaa"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/TransferenciasRed.csv",
+      "sha256": "01df5bcb3167fb8dbf4e1833d772ea2c1ae10535679592ef32fda18cd92b257d"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Registro_generacion_IA_v2.md",
+      "sha256": "67c236d54d8a23eefff7ab6d3b03347552f72288c726a5d343fa9795ef95656a"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Empleados.csv",
+      "sha256": "fe8916347d033d58609c1a5322627372316845b187fd69ff3945db9b8cc2cd29"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Diccionario_campos_sinteticos_v2.md",
+      "sha256": "0dbc59ad613af84b6fad9ac4980e2e18daff955bedae44ebc4a03b60401ac57b"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/CambiosSistema.csv",
+      "sha256": "bf27a9b89912c472991417d712f5ab091e2bb8b891840d70ff4b6ac1363ea80f"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/PruebasRestauracion.csv",
+      "sha256": "973e042e96832c641d66f66517a873149db1ab1c58086416bfcfb0d986609fea"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Privilegios.csv",
+      "sha256": "66977a95c7bcac313049ba74ce727d76c17aadb58db5a5228a19db0a4074cf62"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/ProgramacionBackups.csv",
+      "sha256": "33801254fb8fe85cf335d9ec135f3cbb7990e0529de8175a3dce54fb7ad78b13"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/BitacoraSQL.csv",
+      "sha256": "bb8c2ba2856566854160616f3e7d578772edf26f1bdd15e2efd40f95ed2fc2af"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Clientes.csv",
+      "sha256": "8f4c973845aeeb31b22d386181b5dde673d608f91732766deef3dd2642da4bc1"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Ordenes.csv",
+      "sha256": "bc7f4f249f752eabf1ab04e4e7db53c36dc4161f75aa3d032eeeb458fc49cda2"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/EventosExpediente.csv",
+      "sha256": "760d01d25fe03cefbbd3a5480c5605059cfa09513a3c63e00f0e3876b389b70a"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Backups.csv",
+      "sha256": "e9da4a06548ba650d573a29375e8767fbaf1d15c69c76818d6fad9e3d497f4fd"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Manifest_datos_v2.json",
+      "sha256": "d5692448f8e6525bba0e34a497c12f81b32ba34bc1dce72c9f0b4fea20737747"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/HistorialOrdenes.csv",
+      "sha256": "42f48dde1b1330b56d937b47032a4e3c1367ffe35333297cf7d2bdac208478ec"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Usuarios.csv",
+      "sha256": "30e70ad30e6b2afbc4b7efc3c446ffe8cd6651c902f9b4a87c209a0a1f48d7da"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "sha256": "04045b50a8a227d2de7b9d40f4ea3d343a23a8b836c7c39170762255ca755a8e"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "sha256": "7a358b3c868dffba04a769601ac0dcd2ad4d2b3631548ec9646bb89479d4715d"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "sha256": "0afc3809dc1c7217edf428dc71d993064ce69e4a4b0760b43083287e720e4865"
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "sha256": "26024306fbdd408e55fd55b50afe04f19265c4388c4ee5aa1c385883b25c69bb"
+    }
+  ]
+}

@@ -20,6 +20,14 @@ beforeEach(() => {
 afterEach(() => vi.unstubAllGlobals());
 
 describe('guardado local versionado', () => {
+  it('conserva el plazo opcional y admite recomendaciones anteriores sin plazo', () => {
+    const store = new AuditStore();
+    store.setRecommendation('AU-02', { deadline: '24 h desde T0 futuro', action: 'Preservar copias' });
+    const restored = new AuditStore();
+    expect(restored.state.recommendations['AU-02'].deadline).toBe('24 h desde T0 futuro');
+    expect(restored.state.recommendations['AU-01'].deadline).toBe('');
+    expect(restored.state.recommendations['AU-02'].action).toBe('Preservar copias');
+  });
   it('conserva entrega, inspección, referencias y anotaciones al recargar', () => {
     const store = new AuditStore();
     store.receiveClipboard();

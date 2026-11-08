@@ -1,0 +1,5 @@
+# Solo para regenerar/verificar documentos; no necesarios para usar el paquete portátil.
+python-docx==1.2.0
+openpyxl==3.1.5
+reportlab==5.1.0
+pymupdf==2.1

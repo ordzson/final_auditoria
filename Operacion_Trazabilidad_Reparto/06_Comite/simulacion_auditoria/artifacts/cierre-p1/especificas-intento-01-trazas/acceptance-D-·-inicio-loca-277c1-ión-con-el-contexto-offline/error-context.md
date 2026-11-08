@@ -1,0 +1,43 @@
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - generic "Oficina 3D de revisión del incidente RedNova" [ref=e5]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - strong [ref=e8]: Operación Trazabilidad
+      - generic [ref=e9]: La oficina después del incidente
+    - generic [ref=e10]:
+      - 'button "Abrir tablita: 0 de 6 revisiones documentadas" [ref=e11] [cursor=pointer]':
+        - img [ref=e12]
+        - text: Tablita
+        - generic [ref=e14]: J
+      - button "Reconstrucción" [ref=e15] [cursor=pointer]
+      - group [ref=e16]:
+        - generic "Accesibilidad y controles" [active] [ref=e17] [cursor=pointer]
+        - generic [ref=e18]:
+          - heading "Controles de la visita" [level=2] [ref=e19]
+          - generic [ref=e20]:
+            - checkbox "Modo proyector · texto mayor" [ref=e21]
+            - text: Modo proyector · texto mayor
+          - generic [ref=e22]:
+            - checkbox "Reducir movimiento" [ref=e23]
+            - text: Reducir movimiento
+          - generic [ref=e24]:
+            - checkbox "Aviso sonoro opcional" [ref=e25]
+            - text: Aviso sonoro opcional
+          - generic [ref=e26]:
+            - checkbox "Modo plano sin WebGL" [ref=e27]
+            - text: Modo plano sin WebGL
+          - generic [ref=e28]:
+            - text: Sensibilidad del mouse
+            - slider "Sensibilidad del mouse" [ref=e29]: "1"
+          - paragraph [ref=e30]:
+            - text: WASD o flechas · Mouse para mirar
+            - text: E interactuar · J tablita · Esc liberar/cerrar
+  - region "Controles de exploración"
+  - generic [ref=e31]:
+    - button "Entrar / continuar explorando" [ref=e32] [cursor=pointer]
+    - paragraph [ref=e33]: Un clic activa el mouse. Esc lo libera; tus documentos detienen la caminata.
+  - status
+```

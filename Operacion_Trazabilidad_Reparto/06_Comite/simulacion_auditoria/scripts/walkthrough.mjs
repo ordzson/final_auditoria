@@ -36,12 +36,32 @@ const reviewPaths = {
 export async function closePanel(page) {
   const dialog = page.locator('dialog[open]');
   if (await dialog.count()) {
-    await dialog.locator('.dialog-header [data-action="close"]').click();
+    if (await page.locator('.computer-session').count()) {
+      await page.locator('.computer-hud [data-desktop-action="exit"]').click();
+    } else if (await page.getByRole('button', { name: 'Volver al ordenador', exact: true }).count()) {
+      await page.getByRole('button', { name: 'Volver al ordenador', exact: true }).click();
+      await closePanel(page);
+    } else await dialog.locator('.dialog-header [data-action="close"]').click();
     await expect(dialog).toHaveCount(0);
   }
 }
 
+export async function openPcApp(page, id, title) {
+  await page.locator('.pc-start').click();
+  await page.locator('.pc-start-menu').getByRole('button', { name: title, exact: true }).click();
+  await expect(page.locator(`.pc-window[data-app-id="${id}"]`)).toBeVisible();
+}
+
 export async function pinSource(page, sourceId) {
+  if (await page.locator('.computer-session').count()) {
+    await openPcApp(page, 'local-dossier', 'Expediente local');
+    const dossier = page.locator('.pc-window[data-app-id="local-dossier"]');
+    await dossier.locator(`[data-pc-open="${sourceId}"]`).click();
+    await expect(dossier.locator('.pc-app-document')).toHaveAttribute('data-document', sourceId);
+    const use = dossier.locator('[data-pc-viewer="use"]');
+    if (await use.isEnabled()) await use.click();
+    return;
+  }
   await page.locator(`.source-link[data-action="select-source"][data-source="${sourceId}"]`).first().click();
   const pin = page.locator(`[data-action="pin-source"][data-source="${sourceId}"]`);
   if (await pin.isEnabled()) await pin.click();
@@ -65,7 +85,7 @@ export async function openInterviewSource(page, sourceId) {
   const pin = page.locator('[data-action="pin-source"]');
   if (await pin.isEnabled()) await pin.click();
   await page.locator('[data-action="contrast"]').click();
-  await expect(page.locator('#panel-dialog .source-link').first()).toBeVisible();
+  await expect(page.locator('.computer-session')).toBeVisible();
 }
 
 export async function completeReview(page, reviewId) {
@@ -75,13 +95,15 @@ export async function completeReview(page, reviewId) {
   await page.locator(`[data-flat="${path.station}"]`).click();
   for (const sourceId of path.sources) await pinSource(page, sourceId);
   for (const sourceId of path.declarations) await openInterviewSource(page, sourceId);
-  await page.locator('[data-action="open-review"]').click();
+  await openPcApp(page, 'local-dossier', 'Expediente local');
+  const dossier = page.locator('.pc-window[data-app-id="local-dossier"]');
   for (const [checkId, answerId] of Object.entries(path.answers)) {
-    await page.locator(`input[name="${checkId}"][value="${answerId}"]`).check();
-    await page.locator(`[data-action="save-check"][data-check="${checkId}"]`).click();
+    await dossier.locator(`[data-pc-check="${checkId}"]`).selectOption(answerId);
   }
-  await page.locator(`input[name="conclusion"][value="${path.conclusion}"]`).check();
-  for (const id of path.limitations) await page.locator(`[data-limitation="${id}"]`).check();
-  await page.locator(`[data-request="${path.request}"]`).check();
-  await expect(page.locator(`[data-review-status="${reviewId}"]`)).toHaveText('Documentado');
+  await openPcApp(page, 'station-report', 'Informe del puesto');
+  const report = page.locator('.pc-window[data-app-id="station-report"]');
+  await report.locator(`[data-pc-conclusion][value="${path.conclusion}"]`).check();
+  for (const id of path.limitations) await report.locator(`[data-pc-limitation="${id}"]`).check();
+  await report.locator(`[data-pc-request="${path.request}"]`).check();
+  await expect(page.locator('.computer-hud [data-progress]')).toHaveText('Documentado');
 }

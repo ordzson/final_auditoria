@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import type { SimulationFrame } from '../data/simulation';
+import { simulationVisualKey, type SimulationFrame } from '../data/simulation';
 
 export type ScreenTone = 'normal' | 'warning' | 'critical';
 
@@ -48,7 +48,7 @@ export class ScreenPainter {
   }
 
   animate(frame: SimulationFrame): void {
-    const key = `simulation:${frame.kind}:${frame.reportedValue}:${frame.settled ? 'done' : frame.tick}`;
+    const key = `simulation:${simulationVisualKey(frame)}`;
     if (key === this.lastKey) return;
     this.lastKey = key;
     const ctx = this.context;
@@ -176,7 +176,7 @@ export class ScreenPainter {
       this.text(step, 166, 291 + i * 49, 25, complete ? ink : '#a5bdbf');
     });
     this.bar(32, 474, 960, frame.progress, accent);
-    this.text(frame.settled ? identity ? 'Elevación reportada · identidad sin atribuir' : 'Sesión sin segundo factor · SIN MFA' : frame.operation, 32, 522, 27, identity ? accent : '#e6bd76', true);
+    this.text(frame.settled ? identity ? 'Elevación reportada · identidad sin atribuir' : 'Sin verificación adicional a la contraseña' : frame.operation, 32, 522, 27, identity ? accent : '#e6bd76', true);
   }
 
   private drawPipeline(frame: SimulationFrame, ink: string, muted: string, accent: string): void {

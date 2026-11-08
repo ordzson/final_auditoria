@@ -1,0 +1,19 @@
+UsuarioID,NombreUsuario,EmpleadoID,TipoCuenta,Sistema,EsPrivilegiada,MFAHabilitado,Estado,FechaCreacion,UltimaRecertificacion,ClaseOrigen,ReferenciaExpediente,SupuestosAplicados,SinMFA,Compartida,Recertificacion
+1,ext_ops_04,\N,Externa,Identidad,1,0,Activa,2025-01-01,2026-10-01,laboratorio,E-02,S-03;S-09;S-P1-PER;S-P1-ACC,1,0,vigente
+2,lab_priv_nomfa_02,2,Personal,Identidad,1,0,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,1,0,vigente
+3,lab_priv_nomfa_03,3,Personal,Identidad,1,0,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,1,0,vigente
+4,lab_priv_nomfa_04,4,Personal,Identidad,1,0,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,1,0,vigente
+5,lab_priv_nomfa_05,5,Personal,Identidad,1,0,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,1,0,vigente
+6,lab_priv_nomfa_06,6,Personal,Identidad,1,0,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,1,0,vigente
+7,lab_priv_nomfa_07,7,Personal,Identidad,1,0,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,1,0,vigente
+8,lab_priv_nomfa_08,8,Personal,Identidad,1,0,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,1,0,vigente
+9,lab_admin_comp_01,\N,Compartida,Identidad,1,1,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,0,1,vigente
+10,lab_admin_comp_02,\N,Compartida,Identidad,1,1,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,0,1,vigente
+11,lab_admin_comp_03,\N,Compartida,Identidad,1,1,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,0,1,vigente
+12,lab_admin_comp_04,\N,Compartida,Identidad,1,1,Activa,2025-01-01,2026-10-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,0,1,vigente
+13,lab_priv_sinrec_01,13,Personal,Identidad,1,1,Activa,2025-01-01,2026-03-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,0,0,vencida
+14,lab_priv_sinrec_02,14,Personal,Identidad,1,1,Activa,2025-01-01,2026-03-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,0,0,vencida
+15,lab_priv_sinrec_03,15,Personal,Identidad,1,1,Activa,2025-01-01,2026-03-01,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,0,0,vencida
+16,lab_priv_sinrec_04,16,Personal,Identidad,1,1,Activa,2025-01-01,\N,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,0,0,sin registro
+17,lab_priv_sinrec_05,17,Personal,Identidad,1,1,Activa,2025-01-01,\N,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,0,0,sin registro
+18,lab_priv_sinrec_06,18,Personal,Identidad,1,1,Activa,2025-01-01,\N,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-ACC,0,0,sin registro

@@ -1,0 +1,4239 @@
+{
+  "fecha_utc": "2026-11-07T16:28:37.466534+00:00",
+  "registro_entradas": 1046,
+  "documentales": 5,
+  "total_cotejos_registros": 1051,
+  "discrepancias": 0,
+  "manifest_archivos": 1042,
+  "manifest_sha256": "e5cd569814bb9d84ff45ec220b141d9f2ea12485406f8eb2ea2f855d80fbf231",
+  "registro_sha256": "9519393d70ef7908b8d04dde1205e8764329dbcad5659316ac426330d47a225a",
+  "zip_sha256": "a7230e9280582a8e07555fec18c74e5e8d6bfc03acd6454b21943c83c950aab9",
+  "zip_archivos": 1043,
+  "contenido_aprobadas": 98,
+  "reproduccion_video": "ended sin error; 32.68 s; WebM VP8",
+  "versiones_anteriores_preservadas": true,
+  "integracion_equipo": false,
+  "aprobacion_academica": false,
+  "comprobaciones": [
+    {
+      "ruta": "00_Material_del_curso/Guia_Entregables_Operacion_Trazabilidad.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "00_Material_del_curso/Proyecto_Operacion_Trazabilidad_Auditoria_Sistemas.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "01_Informe/Informe_equipo_parcial_P1_v1.docx",
+      "coincide": true
+    },
+    {
+      "ruta": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "01_Informe/Plantilla_UdeO_v1.docx",
+      "coincide": true
+    },
+    {
+      "ruta": "01_Informe/Plantilla_UdeO_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "01_Informe/Plantilla_UdeO_v2.docx",
+      "coincide": true
+    },
+    {
+      "ruta": "01_Informe/Plantilla_UdeO_v2.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.docx",
+      "coincide": true
+    },
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "01_Informe/borradores/LEEME.md",
+      "coincide": true
+    },
+    {
+      "ruta": "01_Informe/borradores/Plantilla_UdeO_previa_I1_01.docx",
+      "coincide": true
+    },
+    {
+      "ruta": "01_Informe/borradores/Plantilla_UdeO_previa_I1_01.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "01_Informe/preparar_plantilla_UdeO_v1.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Borradores_hallazgos_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Consultas_resultados_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Cronologia_investigada_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Cronologia_investigada_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Cronologia_investigada_v1.xlsx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Diccionario_datos_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Fuentes_curso_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Indice_evidencias_inicial_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Indice_evidencias_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Laboratorio_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Mapa_causal_P1_v1.dot",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Mapa_causal_P1_v1.svg",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Metodo_evidencia_y_laboratorio_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Papeles_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Relaciones_v1.dot",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Relaciones_v1.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Responsables_equipo_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Supuestos_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/analizar_I4.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/cerrar_I6.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/empaquetar_I6.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/formulario_custodia.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/generar_I6.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/hashes_documentales_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/indice_evidencias.xlsx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Consultas_resultados_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Diccionario_datos_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Fuentes_curso_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Indice_evidencias_inicial_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Indice_evidencias_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Laboratorio_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Metodo_evidencia_y_laboratorio_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Relaciones_v1.dot",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Relaciones_v1.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Responsables_equipo_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Supuestos_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/formulario_custodia.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/hashes_documentales_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/00_preparar_base.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/01_esquema.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/02_generar_datos.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/02_generar_datos_v2.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/03_carga.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/04_usuario_lectura.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/Analisis_Auditoria.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/Diseno_laboratorio_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/Instrucciones_generacion_datos_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/Permisos_bitacora.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/laboratorio.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/validar_datos.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/validar_datos_v2.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/verificar_laboratorio.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/07_Referencias/Registro_uso_IA_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/documentos/Plantilla_referencia_UdeO_recibida_v1.docx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I2_I3/04_SQL/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I2_I3/07_Referencias/Registro_uso_IA_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/03_Evidencias/Indice_evidencias_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/03_Evidencias/formulario_custodia.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/03_Evidencias/hashes_sha256_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/07_Referencias/Fuentes_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/07_Referencias/Registro_uso_IA_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/Preservacion.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/01_Informe/Seccion_forense_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/03_Evidencias/hashes_sha256_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/06_Comite/simulacion_auditoria/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/06_Comite/simulacion_auditoria/artifacts/entrega/libreta-ejemplo.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/06_Comite/simulacion_auditoria/artifacts/entrega/libreta-respaldo.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/06_Comite/simulacion_auditoria/artifacts/entrega/recorrido.webm",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/06_Comite/simulacion_auditoria/scripts/record-walkthrough.mjs",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/06_Comite/simulacion_auditoria/scripts/walkthrough.mjs",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/07_Referencias/Fuentes_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/07_Referencias/Registro_uso_IA_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/exportaciones-intento-01/01_Informe/Informe_equipo_parcial_P1_v1.docx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/exportaciones-intento-01/01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/exportaciones-intento-01/01_Informe/Seccion_forense_P1_v1.docx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/exportaciones-intento-01/01_Informe/Seccion_forense_P1_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/exportaciones-intento-01/03_Evidencias/Cronologia_investigada_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/exportaciones-intento-01/03_Evidencias/Cronologia_investigada_v1.xlsx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/exportaciones-intento-01/03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/exportaciones-intento-01/03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/exportaciones-intento-01/03_Evidencias/indice_evidencias.xlsx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/exportaciones-intento-01/06_Comite/Presentacion_P1_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/exportaciones-intento-01/07_Referencias/Fuentes_P1_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/exportaciones-intento-01/07_Referencias/Uso_IA.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/medios-intento-01/libreta-ejemplo.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/medios-intento-01/libreta-respaldo.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/medios-intento-01/recorrido.webm",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/03_Evidencias/Supuestos_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/01_esquema.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/02_generar_datos.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/02_generar_datos_v2.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/Diseno_laboratorio_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Alertas.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Backups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/BitacoraSQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/CambiosSistema.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Clientes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Diccionario_campos_sinteticos_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Empleados.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/EventosExpediente.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/FuentesTiempo.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/HistorialOrdenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Manifest_datos_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Ordenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Privilegios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/ProgramacionBackups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/PruebasRestauracion.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Registro_generacion_IA_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Sesiones.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/TransferenciasRed.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Usuarios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Validacion_generacion_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Alertas.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Backups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/BitacoraSQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/CambiosSistema.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Clientes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Diccionario_campos_sinteticos_v2.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Empleados.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/EventosExpediente.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/FuentesTiempo.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/HistorialOrdenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Manifest_datos_v2.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Ordenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Privilegios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/ProgramacionBackups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/PruebasRestauracion.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Registro_generacion_IA_v2.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Sesiones.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/TransferenciasRed.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Usuarios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Validacion_generacion_v2.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/validar_datos.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/validar_datos_v2.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/Preservacion.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/requisitos_I6.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Comparacion_reconstruccion.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Comprobacion_I1_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Comprobacion_integrantes_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Concesiones_SQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Conexion_auditor.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Contraste_independiente_I3.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Ejecuciones_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Concesiones_SQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Conexion_auditor.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Ejecuciones_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Limites_umbrales.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Permisos_rechazos.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-02.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-03.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-04.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-05.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-06.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-07.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-08.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-09.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-10.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-11.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-12.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-S01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Validacion_laboratorio_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Validacion_laboratorio_v1.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_ejecucion_02/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_ejecucion_03/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_final/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_final_validada/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_final_validada/Conexion_auditor.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_final_validada/Fallo.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_reconstruccion_01/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Concesiones_SQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Conexion_auditor.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Ejecuciones_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Limites_umbrales.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Permisos_rechazos.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-02.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-03.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-04.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-05.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-06.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-07.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-08.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-09.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-10.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-11.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-12.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-S01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Validacion_laboratorio_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Validacion_laboratorio_v1.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Concesiones_SQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Conexion_auditor.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Ejecuciones_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Limites_umbrales.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Permisos_rechazos.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-02.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-03.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-04.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-05.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-06.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-07.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-08.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-09.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-10.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-11.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-12.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-S01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Validacion_laboratorio_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Validacion_laboratorio_v1.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Analisis_ordenes_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Cierre_hashes_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Comprobacion_archivos_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Entradas_adicionales_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Intervalos_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Sensibilidad_relojes_I4_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Validacion_entregables_I4_intento_01.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Validacion_entregables_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Verificacion_entradas_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Volumen_31840_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/Conservacion_juego_I6.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/Entradas_verificadas_I6.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/Indice_PT_paginas.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/Preservacion_y_conservacion_I6.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/Reproduccion_video_I6.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/Revision_contenido_I6.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/Verificacion_paquete_I6.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/apertura-xlsx.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/arranque-portatil.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/build-juego.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/decodificacion-video.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/exportacion-docx.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/generacion.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/grabacion-intento-01.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/grabacion-intento-02.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/grabacion.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/intento-01-Revision_contenido_I6.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/intento-01-verificacion-contenido.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/manifest.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/reapertura-xlsx/Cronologia_investigada_v1.xlsx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/reapertura-xlsx/Programa_pruebas_P1_v1.xlsx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/reapertura-xlsx/indice_evidencias.xlsx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/render/Cronologia_investigada_v1.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/render/Fuentes_P1_v1.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/render/Informe_equipo_parcial_P1_v1.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/render/Papeles_Trabajo_P1_v1.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/render/Presentacion_P1_v1.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/render/Programa_pruebas_P1_v1.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/render/Seccion_forense_P1_v1.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/render/Uso_IA.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/render/indice_evidencias.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/render/libreta-respaldo.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/reproduccion-intento-01.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/reproduccion-intento-02.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/reproduccion-intento-03.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/reproduccion.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/verificacion-contenido.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/video-20.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/video-50.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/video-95.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/vistas-xlsx.log",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/vistas-xlsx/Cronologia_investigada_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/vistas-xlsx/Cronologia_investigada_v1.xlsx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/vistas-xlsx/Programa_pruebas_P1_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/vistas-xlsx/Programa_pruebas_P1_v1.xlsx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/vistas-xlsx/indice_evidencias.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I6/vistas-xlsx/indice_evidencias.xlsx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Incidencias_ejecucion_I2_I3.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Limites_umbrales.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Permisos_rechazos.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-02.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-03.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-04.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-05.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-06.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-07.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-08.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-09.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-10.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-11.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-12.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-S01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Rechazo_base_existente.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Revision_recepcion_datos_v2.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Validacion_contrato_I1_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Validacion_contrato_I1_v1.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Validacion_laboratorio_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Validacion_laboratorio_v1.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Verificacion_documentales_I2_I3.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Verificacion_entradas_I1_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/verificar_I4.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/verificar_I6.py",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/.env.example",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/00_preparar_base.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/01_esquema.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/02_generar_datos.py",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/02_generar_datos_v2.py",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/03_carga.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/04_usuario_lectura.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/Analisis_Auditoria.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/Diseno_laboratorio_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/Instrucciones_generacion_datos_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/Permisos_bitacora.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/compose.yaml",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Alertas.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Backups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/BitacoraSQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/CambiosSistema.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Clientes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Diccionario_campos_sinteticos_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Empleados.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/EventosExpediente.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/FuentesTiempo.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/HistorialOrdenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Manifest_datos_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Ordenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Privilegios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/ProgramacionBackups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/PruebasRestauracion.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Registro_generacion_IA_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Sesiones.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/TransferenciasRed.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Usuarios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Validacion_generacion_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Alertas.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Backups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/BitacoraSQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/CambiosSistema.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Clientes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Diccionario_campos_sinteticos_v2.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Empleados.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/EventosExpediente.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/FuentesTiempo.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/HistorialOrdenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Manifest_datos_v2.json",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Ordenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Privilegios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/ProgramacionBackups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/PruebasRestauracion.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Registro_generacion_IA_v2.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Sesiones.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/TransferenciasRed.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Usuarios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Validacion_generacion_v2.json",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/laboratorio.py",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/validar_datos.py",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/validar_datos_v2.py",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/verificar_laboratorio.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "05_Plan/Acciones_P1_0_72h_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/Guion_defensa_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/Paquete_portatil_P1_v1.zip",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/Paquete_portatil_P1_v1.zip.sha256",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/Presentacion_P1_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/Presentacion_P1_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/design.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/direction-contract.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/desktop.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/investigation/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/investigation/archivo-sesion.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/investigation/archivo.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/investigation/crm-comparacion.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/investigation/inspector-mobile.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/investigation/recuperacion.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/investigation/sesiones.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/investigation/siem-cuenta.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/investigation/siem.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/investigation/sql-1280.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/investigation/sql-desktop.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/investigation/sql-mobile.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/mobile.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/user-1280.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/review/user-1920.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/surfaces/computer-desktop.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/.impeccable/surfaces/src-main-ts.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/DESIGN.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/PRODUCT.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/I6/capturas/libreta-completa.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/I6/capturas/oficina-visita.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/I6/capturas/recorrido-au02.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/I6/capturas/recorrido-p08.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/.gitignore",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/apertura-1280.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/apertura-1920.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/build-especifico-intento-01.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/build-especifico.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/capturas-historicas-preservadas.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/conservacion-recursos.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/conservacion-reglas.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/conservacion-voz.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/copias-previas-verificadas.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/detector-diseno.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-apertura.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-apertura.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-resolucion.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/diagnostico-resolucion.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/ejecuciones.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/entrada-y-navegacion-intento-01.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/entradas-verificadas.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/impresion-muestra.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/impresion-verificada.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/integridad-cierre.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/intro-cpu-profile.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/juego-antes.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/libreta-seis-revisiones.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/libreta-texto.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/manifest.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/metadatos-1440.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/metadatos-390.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/metadatos-y-reloj.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/movil-plano.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/oficina-1280.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/oficina-1920.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/perfil-apertura.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/perfil-apertura.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/03_Evidencias/hashes_sha256_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/07_Referencias/Registro_uso_IA_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/PRODUCT.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/aceptacion-pc-b.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/assets-pcs.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/contratos-escritorios-pc.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/guion-voz-enlace-ti.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/inventario-assets.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/inventario-assets.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/plan-escritorios-pc.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/docs/voz-enlace-ti.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/package.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/playwright.config.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/audit/evaluate.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/audit/rules.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/audit/store.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/audit/types.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/computer.css",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/computer/registry.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/computer/reviewBridge.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/computer/taskProgress.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/computer/types.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/computer/workspace.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/canon.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/canon.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/computerAssets.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/computers.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/documents.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/interview.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/interviewAudio.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/intro.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/investigation.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/simulation.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/data/stations.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/desktop.css",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/export/report.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/interview.css",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/investigation/query.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/main.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/overlays.css",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/LiaisonAnimator.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/OfficeEnvironment.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/OfficeScene.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/branding.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/chairPhysics.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/collision.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/models.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/scene/screens.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/styles.css",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/ComputerPanel.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/InterviewPanel.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/IntroPlayer.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/Notebook.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/ReviewPanel.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/SourcePanel.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/AccountDirectory.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/BackupManager.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/ChangeManager.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/ClockComparator.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/EventDesk.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/FileExplorer.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/LocalDossier.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/NetworkMonitor.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/OrderHistory.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/QueryStudio.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/RecordBrowser.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/RecordComparison.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/RecordViewer.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/RecoveryConsole.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/SessionViewer.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/StationReport.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/TimeTracker.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/apps.css",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/apps/utils.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/desktop/ComputerDesktop.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/desktop/geometry.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/src/ui/dom.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/chairPhysics.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/collision.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/computer-apps.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/computer-assets.test.mjs",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/desktop.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/acceptance.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/chairs.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/desktop-b.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/desktop-helpers.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/desktop-stage3.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/interview-audio.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/interview-helpers.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/interview.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/investigation.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/e2e/office.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/evaluation.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/interview.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/intro.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/liaisonAnimator.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/models.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/query.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/report.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/reviewBridge.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/store.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/taskProgress.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/juego/tests/workspace.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/pruebas-especificas-intento-01.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/pruebas-especificas-intento-02.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/recuperacion-ayuda-1440.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/recuperacion-ayuda-390.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/revision-au02.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/seis-documentadas.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/unitarias-especificas-intento-01.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/unitarias-especificas.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-antes.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-baseline.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-final-intento-01.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/verify-final.log",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/entrega/libreta-ejemplo.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/entrega/libreta-respaldo.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/entrega/recorrido.webm",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/assets/index-CgmbNTmN.css",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/assets/index-DhB4j2GW.js",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_01.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_02.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_03.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_04.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_05.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_06.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_07.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_08.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_09.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_10.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_11.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_12.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_13.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_14.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_15.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_16.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_17.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_18.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_19.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_20.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_21.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_22.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_23.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_24.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_25.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_26.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_27.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_28.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frase_29.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/audio/enlace-ti/frases.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/brand/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/brand/red-nova-master.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/CREDITS.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/branding/windows-flag.webp",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/fonts/tahoma-bold.ttf",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/fonts/tahoma-regular.ttf",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/backup-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/backup-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/backup-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/document-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/document-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/document-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/explorer-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/explorer-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/explorer-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/folder-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/folder-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/folder-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/help-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/help-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/help-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/recovery-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/recovery-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/report-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/report-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/report-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/search-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/search-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/classic/search-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/backup-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/backup-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/backup-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/changes-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/changes-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/changes-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/directory-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/directory-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/directory-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/document-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/document-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/events-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/events-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/events-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/explorer-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/explorer-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/explorer-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/folder-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/folder-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/folder-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/help-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/help-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/help-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/network-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/network-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/network-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/orders-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/orders-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/orders-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/query-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/query-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/recovery-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/recovery-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/report-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/report-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/report-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/search-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/search-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/search-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/sessions-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/sessions-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/sessions-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/time-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/time-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/icons/xp/time-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/manifest.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/wallpapers/camino-otonal.jpg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/wallpapers/duna-roja-luna.jpg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/wallpapers/stonehenge.jpg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/wallpapers/xp-bliss.jpg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/wallpapers/xp-isla-tropical.jpg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/computers/wallpapers/xp-professional-azul.jpg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/environment/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/environment/city-godzilla-chief-samus.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/environment/city-godzilla-terrace.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/favicon.svg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/fonts/roboto-mono/OFL.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/fonts/roboto-mono/RobotoMono-Variable.ttf",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/index.html",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/chair.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/desk.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/license.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/scene.bin",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/scene.gltf",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/ctm_fbi_v2_body_varianta.002_baseColor.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/ctm_fbi_v2_body_varianta.002_metallicRoughness.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/ctm_fbi_v2_body_varianta.002_normal.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/ctm_fbi_v2_hat_glasses_radio_varianta.002_baseColor.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/ctm_fbi_v2_hat_glasses_radio_varianta.002_metallicRoughness.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/ctm_fbi_v2_hat_glasses_radio_varianta.002_normal.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/ctm_fbi_v2_head_varianta.002_baseColor.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/ctm_fbi_v2_head_varianta.002_metallicRoughness.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/ctm_fbi_v2_head_varianta.002_normal.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/ctm_fbi_v2_lower_body_varianta.003_baseColor.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/ctm_fbi_v2_lower_body_varianta.003_metallicRoughness.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/ctm_fbi_v2_lower_body_varianta.003_normal.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/glove_hardknuckle_black.004_baseColor.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/glove_hardknuckle_black.004_metallicRoughness.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/fbi-agent/textures/glove_hardknuckle_black.004_normal.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/filing-cabinet.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/lamp.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/office-props/License.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/office-props/books.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/office-props/cardboardBoxClosed.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/office-props/cardboardBoxOpen.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/office-props/computerKeyboard.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/office-props/computerMouse.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/office-props/radio.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/rack-monitor/license.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/rack-monitor/scene.bin",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/rack-monitor/scene.gltf",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/rack-monitor/textures/RenderMonitor_baseColor.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/dist/models/rack.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/aceptacion-pc-b.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/assets-pcs.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/contratos-escritorios-pc.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/guion-voz-enlace-ti.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/inventario-assets.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/inventario-assets.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/plan-escritorios-pc.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/docs/voz-enlace-ti.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/index.html",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/package.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/playwright.config.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/pnpm-lock.yaml",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/pnpm-workspace.yaml",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_01.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_02.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_03.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_04.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_05.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_06.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_07.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_08.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_09.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_10.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_11.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_12.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_13.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_14.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_15.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_16.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_17.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_18.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_19.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_20.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_21.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_22.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_23.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_24.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_25.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_26.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_27.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_28.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frase_29.mp3",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/audio/enlace-ti/frases.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/brand/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/brand/red-nova-master.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/CREDITS.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/branding/windows-flag.webp",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/fonts/tahoma-bold.ttf",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/fonts/tahoma-regular.ttf",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/backup-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/backup-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/backup-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/document-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/document-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/document-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/explorer-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/explorer-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/explorer-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/folder-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/folder-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/folder-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/help-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/help-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/help-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/recovery-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/recovery-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/report-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/report-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/report-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/search-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/search-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/classic/search-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/backup-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/backup-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/backup-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/changes-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/changes-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/changes-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/directory-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/directory-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/directory-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/document-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/document-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/events-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/events-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/events-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/explorer-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/explorer-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/explorer-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/folder-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/folder-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/folder-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/help-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/help-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/help-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/network-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/network-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/network-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/orders-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/orders-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/orders-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/query-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/query-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/recovery-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/recovery-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/report-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/report-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/report-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/search-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/search-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/search-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/sessions-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/sessions-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/sessions-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/time-16.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/time-32.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/icons/xp/time-48.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/manifest.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/wallpapers/camino-otonal.jpg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/wallpapers/duna-roja-luna.jpg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/wallpapers/stonehenge.jpg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/wallpapers/xp-bliss.jpg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/wallpapers/xp-isla-tropical.jpg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/computers/wallpapers/xp-professional-azul.jpg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/environment/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/environment/city-godzilla-chief-samus.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/environment/city-godzilla-terrace.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/favicon.svg",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/fonts/roboto-mono/OFL.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/fonts/roboto-mono/RobotoMono-Variable.ttf",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/chair.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/desk.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/license.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/scene.bin",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/scene.gltf",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_body_varianta.002_baseColor.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_body_varianta.002_metallicRoughness.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_body_varianta.002_normal.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_hat_glasses_radio_varianta.002_baseColor.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_hat_glasses_radio_varianta.002_metallicRoughness.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_hat_glasses_radio_varianta.002_normal.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_head_varianta.002_baseColor.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_head_varianta.002_metallicRoughness.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_head_varianta.002_normal.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_lower_body_varianta.003_baseColor.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_lower_body_varianta.003_metallicRoughness.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/ctm_fbi_v2_lower_body_varianta.003_normal.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/glove_hardknuckle_black.004_baseColor.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/glove_hardknuckle_black.004_metallicRoughness.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/fbi-agent/textures/glove_hardknuckle_black.004_normal.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/filing-cabinet.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/lamp.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/License.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/books.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/cardboardBoxClosed.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/cardboardBoxOpen.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/computerKeyboard.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/computerMouse.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/office-props/radio.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/rack-monitor/license.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/rack-monitor/scene.bin",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/rack-monitor/scene.gltf",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/rack-monitor/textures/RenderMonitor_baseColor.png",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/public/models/rack.glb",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/check-desktop-stage1.mjs",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/check-office-environment.mjs",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/diagnose-intro.mjs",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/diagnose-render-scale.mjs",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/profile-intro.mjs",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/record-walkthrough.mjs",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/verify-i6-media.mjs",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/scripts/walkthrough.mjs",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/audit/evaluate.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/audit/rules.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/audit/store.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/audit/types.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/computer.css",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/computer/registry.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/computer/reviewBridge.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/computer/taskProgress.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/computer/types.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/computer/workspace.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/canon.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/canon.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/computerAssets.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/computers.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/documents.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/guidance.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/interview.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/interviewAudio.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/intro.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/investigation.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/simulation.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/data/stations.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/desktop.css",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/export/report.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/interview.css",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/investigation/query.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/main.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/overlays.css",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/LiaisonAnimator.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/OfficeEnvironment.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/OfficeScene.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/branding.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/chairPhysics.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/collision.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/models.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/scene/screens.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/styles.css",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/ComputerPanel.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/InterviewPanel.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/IntroPlayer.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/Notebook.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/ReviewPanel.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/SourcePanel.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/AccountDirectory.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/BackupManager.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/ChangeManager.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/ClockComparator.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/EventDesk.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/FileExplorer.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/LocalDossier.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/NetworkMonitor.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/OrderHistory.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/QueryStudio.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/RecordBrowser.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/RecordComparison.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/RecordViewer.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/RecoveryConsole.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/SessionViewer.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/StationReport.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/TimeTracker.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/apps.css",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/apps/utils.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/desktop/ComputerDesktop.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/desktop/geometry.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/dom.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/src/ui/guidance.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/chairPhysics.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/collision.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/computer-apps.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/computer-assets.test.mjs",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/desktop.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/acceptance.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/chairs.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/desktop-b.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/desktop-helpers.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/desktop-stage3.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/i5.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/interview-audio.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/interview-helpers.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/interview.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/investigation.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/e2e/office.spec.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/evaluation.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/interview.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/intro.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/liaisonAnimator.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/models.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/query.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/report.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/reviewBridge.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/store.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/taskProgress.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tests/workspace.test.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/tsconfig.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/vite.config.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/vitest.config.ts",
+      "coincide": true
+    },
+    {
+      "ruta": "07_Referencias/Fuentes_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "07_Referencias/Fuentes_P1_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "07_Referencias/Fuentes_adicionales_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "07_Referencias/Prompt_I6_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "07_Referencias/Registro_uso_IA_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "07_Referencias/Uso_IA.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "07_Referencias/copias_consulta_I6/procedencia.json",
+      "coincide": true
+    },
+    {
+      "ruta": "LEEME_P1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Agente_IA_P1_Incidente_evidencia_simulacion_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Diseno_Simulacion_3D/Analisis_y_direccion_simulacion_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Diseno_Simulacion_3D/Caso_RedNova_base_v2.json",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Diseno_Simulacion_3D/Diseno_auditoria_oficina_v2.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Diseno_Simulacion_3D/Diseno_simulacion_3D_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Diseno_Simulacion_3D/Plan_construccion_y_reparto_v2.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Diseno_Simulacion_3D/Prompt_Kimi_auditoria_oficina_v2.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Diseno_Simulacion_3D/Prompt_Kimi_simulacion_3D_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Diseno_Simulacion_3D/Prompt_revision_independiente_v2.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Diseno_Simulacion_3D/Reglas_evaluacion_auditoria_v2.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Diseno_Simulacion_3D/Storyboard_auditoria_oficina_v2.png",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Diseno_Simulacion_3D/Storyboard_auditoria_oficina_v2.svg",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Ejecucion_P1_por_instancias_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Guia_P1_Incidente_evidencia_simulacion_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Plan_cierre_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Revision_P1_coherencia_y_entregables_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P2_Planeacion_riesgos_controles/Agente_IA_P2_Planeacion_riesgos_controles_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P2_Planeacion_riesgos_controles/Guia_P2_Planeacion_riesgos_controles_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "P3_Terceros_IA_hallazgos_plan/Agente_IA_P3_Terceros_IA_hallazgos_plan_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P3_Terceros_IA_hallazgos_plan/Guia_P3_Terceros_IA_hallazgos_plan_v1.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "index.html",
+      "coincide": true
+    },
+    {
+      "ruta": "servir_P1.py",
+      "coincide": true
+    },
+    {
+      "ruta": "verificar_paquete_P1.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/cierre-intento-01/03_Evidencias/hashes_sha256_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/cierre-intento-01/03_Evidencias/resultados/I6/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/cierre-intento-01/03_Evidencias/resultados/I6/Verificacion_paquete_I6.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/cierre-intento-01/03_Evidencias/resultados/I6/integridad-cierre.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/cierre-intento-01/03_Evidencias/resultados/I6/manifest.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I6/cierre-intento-01/06_Comite/Guion_defensa_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "00_Material_del_curso/Proyecto_Operacion_Trazabilidad_Auditoria_Sistemas.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "00_Material_del_curso/Guia_Entregables_Operacion_Trazabilidad.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Fuentes_curso_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Indice_evidencias_inicial_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Metodo_evidencia_y_laboratorio_v1.md",
+      "coincide": true
+    }
+  ],
+  "prueba_copia_zip_extraida": {
+    "copia": "/tmp/i6-paquete-extraido/P1",
+    "puerto": 8766,
+    "indice_enlaces": 20,
+    "arranque_juego_y_entrevista": true,
+    "errores": [],
+    "red_externa": "bloqueada",
+    "equipo_fisico": false,
+    "comando_servidor": "python3 /tmp/i6-paquete-extraido/P1/servir_P1.py --puerto 8766"
+  },
+  "cotejo_terminal_repetido": {
+    "manifest_archivos": 1042,
+    "registro_entradas": 1046,
+    "discrepancias": 0
+  },
+  "fecha_prueba_extraida_utc": "2026-11-07T16:30:05.771037+00:00"
+}

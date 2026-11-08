@@ -90,6 +90,7 @@ export function restoreState(raw: string | null): GameState {
       recommendations: Object.fromEntries(reviewIds.map((id) => {
         const recommendation = saved.recommendations?.[id] as Partial<Recommendation> | undefined;
         return [id, {
+          deadline: typeof recommendation?.deadline === 'string' ? recommendation.deadline : '',
           action: typeof recommendation?.action === 'string' ? recommendation.action : '',
           owner: typeof recommendation?.owner === 'string' ? recommendation.owner : '',
           verification: typeof recommendation?.verification === 'string' ? recommendation.verification : '',

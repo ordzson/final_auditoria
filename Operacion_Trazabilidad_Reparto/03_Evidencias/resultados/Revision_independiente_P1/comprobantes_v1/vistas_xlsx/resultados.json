@@ -1,0 +1,145 @@
+[
+  {
+    "archivo": "Cronologia_investigada_v1.pdf",
+    "paginas": 3,
+    "detalle": [
+      {
+        "pagina": 1,
+        "min_pt": 2.2980000972747803,
+        "palabras": 963
+      },
+      {
+        "pagina": 2,
+        "min_pt": 8.798999786376953,
+        "palabras": 356
+      },
+      {
+        "pagina": 3,
+        "min_pt": 10.395000457763672,
+        "palabras": 81
+      }
+    ]
+  },
+  {
+    "archivo": "indice_evidencias.pdf",
+    "paginas": 18,
+    "detalle": [
+      {
+        "pagina": 1,
+        "min_pt": 1.8990000486373901,
+        "palabras": 3431
+      },
+      {
+        "pagina": 2,
+        "min_pt": 1.8990000486373901,
+        "palabras": 3053
+      },
+      {
+        "pagina": 3,
+        "min_pt": 1.8990000486373901,
+        "palabras": 1633
+      },
+      {
+        "pagina": 4,
+        "min_pt": 8.798999786376953,
+        "palabras": 248
+      },
+      {
+        "pagina": 5,
+        "min_pt": 8.798999786376953,
+        "palabras": 260
+      },
+      {
+        "pagina": 6,
+        "min_pt": 8.798999786376953,
+        "palabras": 267
+      },
+      {
+        "pagina": 7,
+        "min_pt": 8.798999786376953,
+        "palabras": 211
+      },
+      {
+        "pagina": 8,
+        "min_pt": 8.798999786376953,
+        "palabras": 211
+      },
+      {
+        "pagina": 9,
+        "min_pt": 8.798999786376953,
+        "palabras": 212
+      },
+      {
+        "pagina": 10,
+        "min_pt": 8.798999786376953,
+        "palabras": 261
+      },
+      {
+        "pagina": 11,
+        "min_pt": 8.798999786376953,
+        "palabras": 306
+      },
+      {
+        "pagina": 12,
+        "min_pt": 8.798999786376953,
+        "palabras": 284
+      },
+      {
+        "pagina": 13,
+        "min_pt": 8.798999786376953,
+        "palabras": 280
+      },
+      {
+        "pagina": 14,
+        "min_pt": 8.798999786376953,
+        "palabras": 281
+      },
+      {
+        "pagina": 15,
+        "min_pt": 8.798999786376953,
+        "palabras": 281
+      },
+      {
+        "pagina": 16,
+        "min_pt": 8.798999786376953,
+        "palabras": 280
+      },
+      {
+        "pagina": 17,
+        "min_pt": 8.798999786376953,
+        "palabras": 122
+      },
+      {
+        "pagina": 18,
+        "min_pt": 10.395000457763672,
+        "palabras": 81
+      }
+    ]
+  },
+  {
+    "archivo": "Programa_pruebas_P1_v1.pdf",
+    "paginas": 4,
+    "detalle": [
+      {
+        "pagina": 1,
+        "min_pt": 3.3949999809265137,
+        "palabras": 942
+      },
+      {
+        "pagina": 2,
+        "min_pt": 8.798999786376953,
+        "palabras": 296
+      },
+      {
+        "pagina": 3,
+        "min_pt": 8.798999786376953,
+        "palabras": 127
+      },
+      {
+        "pagina": 4,
+        "min_pt": 10.395000457763672,
+        "palabras": 81
+      }
+    ]
+  }
+]

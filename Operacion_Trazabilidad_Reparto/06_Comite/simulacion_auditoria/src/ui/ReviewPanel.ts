@@ -7,6 +7,7 @@ import { displayCell, getSourceDocument, type SourceDocument } from '../data/doc
 import { stationById } from '../data/stations';
 import { sourceName, sourceContext, readableReferences } from '../data/investigation';
 import { escapeHtml, icon, refLabel } from './dom';
+import { reviewHelpMarkup } from './guidance';
 
 export function sourceDocumentMarkup(document: SourceDocument, reviewId: ReviewId, linked: boolean, showAll = false): string {
   const pertinent = reviewRules[reviewId].sourceGroups.some((group) => group.alternatives.includes(document.id));
@@ -19,7 +20,7 @@ export function sourceDocumentMarkup(document: SourceDocument, reviewId: ReviewI
           <p class="document-kind">${escapeHtml(document.kindLabel)}</p>
         </div>
       </div>
-      <p class="source-summary">${escapeHtml(document.summary)}</p>
+      <p class="source-summary">${escapeHtml(document.summary)}</p>${document.readingNote ? `<p class="source-reading-note">${escapeHtml(document.readingNote)}</p>` : ''}
       <div class="table-wrap">
         <table>
           <thead><tr>${document.columns.map((column) => `<th scope="col">${escapeHtml(column)}</th>`).join('')}</tr></thead>
@@ -33,7 +34,7 @@ export function sourceDocumentMarkup(document: SourceDocument, reviewId: ReviewI
         <p>${escapeHtml(document.provenanceText)}</p>
         ${document.notes.map((note) => `<p>${escapeHtml(note)}</p>`).join('')}
       </details>
-      ${document.queryIds.length ? `<details class="query-card"><summary>Consultas previstas: ${document.queryIds.map(escapeHtml).join(', ')}</summary><p>Referencias Q-xx del plan P1. No hay sentencias ni resultados exportados en el canon.</p><p>Query Studio permite consultar localmente estos resúmenes. Esa exploración no ejecuta SQL Server ni valida las consultas previstas del plan.</p></details>` : ''}
+      ${document.queryIds.length ? `<details class="query-card"><summary>Referencias SQL académicas: ${document.queryIds.map(escapeHtml).join(', ')}</summary><p>Las consultas académicas se ejecutaron sobre datos ficticios; sus sentencias y resultados están en los anexos de laboratorio. El juego consulta resúmenes del caso.</p><p>Query Studio permite consultar localmente estos resúmenes. Esa exploración no ejecuta SQL Server ni valida las consultas académicas del plan.</p></details>` : ''}
       ${pertinent ? `<button class="primary-button" data-action="pin-source" data-source="${escapeHtml(document.id)}" ${linked ? 'disabled' : ''}>${linked ? 'Pista guardada en la libreta' : 'Guardar pista en la libreta'}</button>` : '<p class="context-note">Registro de contexto para esta revisión.</p>'}
     </article>`;
 }
@@ -118,6 +119,7 @@ export class ReviewPanel {
             <h3>${escapeHtml(rule.title)}</h3>
             <p>${escapeHtml(rule.question)}</p>
           </div>
+          ${reviewHelpMarkup(station.reviewId)}
           <div class="review-progress"><span>${evaluation.gatheredGroups}/${evaluation.totalGroups} grupos de fuentes</span><strong>${evaluation.status}</strong></div>
           ${this.reviewForm(station.reviewId)}
           ${attempted && evaluation.missingReasons.length ? `<details class="pending-details" ${assessment.checkAnswers.length || assessment.conclusionId ? 'open' : ''}><summary>Qué falta para documentar</summary><ul>${evaluation.missingReasons.map((reason) => `<li>${escapeHtml(rule.checks.reduce((text, check) => text.replaceAll(check.id, `«${check.question}»`), reason))}</li>`).join('')}</ul></details>` : ''}
@@ -141,7 +143,7 @@ export class ReviewPanel {
       : reviewId === 'AU-04'
         ? `Cálculo local sobre horas reportadas: ${minutesBetween('EVT-02', 'EVT-08')} minutos entre acceso y alerta.`
         : reviewId === 'AU-05'
-          ? `Cálculos locales: ${minutesBetween('EVT-09', 'EVT-11')} min hasta solo consulta; ${minutesBetween('EVT-09', 'EVT-12')} min hasta escritura. No son una evaluación de RTO/RPO.`
+          ? `Cálculos locales: ${minutesBetween('EVT-09', 'EVT-11')} min hasta solo consulta; ${minutesBetween('EVT-09', 'EVT-12')} min hasta escritura. No prueban integridad ni cumplimiento de objetivos de recuperación.`
           : '';
     return `
       <section class="review-section">

@@ -1,0 +1,4 @@
+SesionID,UsuarioID,FuenteID,HoraReportadaLocal,HoraOriginal,ZonaOriginal,IPOrigen,Dispositivo,Metodo,Resultado,ClaseOrigen,ReferenciaExpediente,SupuestosAplicados,Observaciones,DiasReferencia,Evaluacion
+2873,44,LAB_VPN,2026-10-14T02:10:00,2026-10-14T02:10:00-06:00,-06:00,198.51.100.10,Equipo_LAB,Clave+MFA,Exitoso,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-NOR,14,7,fuera de patron
+2874,1,CURSO_VPN,2026-10-14T02:17:00,\N,\N,\N,\N,Clave,Exitoso,reproduccion_expediente,E-02,S-03,14,7,fuera de patron
+2939,44,LAB_VPN,2026-10-15T04:10:00,2026-10-15T04:10:00-06:00,-06:00,198.51.100.10,Equipo_LAB,Clave+MFA,Exitoso,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-NOR,14,7,fuera de patron

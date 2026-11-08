@@ -1,16 +1,185 @@
 {
   "schema": "rednova_libreta_v2",
-  "exportedAt": "2026-11-05T05:22:28.484Z",
+  "exportedAt": "2026-11-08T00:10:48.115Z",
   "contentVersion": "auditoria_oficina_v2.1",
   "rulesVersion": "auditoria_reglas_v2.1",
   "scope": "Actividad educativa de revisión. No es un informe académico aprobado ni una conexión a SQL Server.",
+  "readingGuide": {
+    "caseOverview": "RedNova es una empresa ficticia de internet y televisión. El caso reporta la caída de su sistema comercial y archivos aparentemente cifrados. Investiga qué puede sostenerse y qué falta comprobar: no hay registros originales de la empresa.",
+    "evidenceKinds": "Distingue cinco clases de información: datos reportados por el caso; declaraciones que deben contrastarse; resultados ficticios del laboratorio; hipótesis por investigar; y datos desconocidos. La oficina y sus animaciones son ilustrativas.",
+    "documentedMeaning": "«Documentado» significa que se reunieron las fuentes y respuestas estructuradas exigidas para esta actividad educativa. Puede conservar una conclusión no concluyente; no aprueba hallazgos académicos, causalidad ni autoría.",
+    "hypotheses": [
+      {
+        "title": "Posible robo de credenciales",
+        "explanation": "Una persona no autorizada pudo obtener la contraseña. La sesión sin verificación adicional es compatible con ello, pero no conecta las demás acciones.",
+        "distinguish": "Buscar registros originales que conecten sesión, equipo, proceso y archivos enviados. Una transferencia autorizada o procesos independientes debilitarían esa cadena."
+      },
+      {
+        "title": "Posible uso indebido de un acceso legítimo",
+        "explanation": "Alguien que tenía acceso pudo exceder sus autorizaciones. El nombre de la cuenta no identifica a la persona ni su intención.",
+        "distinguish": "Obtener asignación histórica de la cuenta, dispositivo, autorizaciones y acciones. Un robo de credenciales documentado ajeno al titular debilitaría esa atribución."
+      },
+      {
+        "title": "Posible actividad autorizada coincidente con un ataque por otra vía",
+        "explanation": "La lectura, el envío o la instalación pudieron tener una finalidad legítima. La aprobación verbal y un destino sin clasificar no acreditan autorización.",
+        "distinguish": "Obtener tarea programada, archivos, destino, aprobación y evidencia de la otra vía de ataque. Contenido no autorizado conectado técnicamente al ataque refutaría la legitimidad de esa actividad."
+      }
+    ],
+    "laboratoryComparison": "Cálculo de laboratorio: siete campos de 31,840 clientes ficticios ocupan 2,058,909 bytes en CSV (tabla de texto), unos 2.06 megabytes; o 5,115,483 bytes en JSON Lines (nombres de campo repetidos), unos 5.12 megabytes. Es mucho menos que los aproximadamente 1.6 GB reportados. No reconstruye el envío ni confirma o descarta una extracción sin autorización: faltan contenido, destino, proceso y autorización. Los cuatro minutos entre lectura y transferencia no indican la duración del envío.",
+    "pendingObservations": [
+      {
+        "title": "Seguimiento de la alerta pendiente de comprobar",
+        "detail": "Faltan asignación, primera acción, escalamiento y cierre documentados. Un registro íntegro podría retirar o reformular esta observación. No se ha probado inacción."
+      },
+      {
+        "title": "Protección de los registros pendiente de comprobar",
+        "detail": "Faltan permisos históricos, reglas de conservación y copias independientes. Una copia protegida con permisos verificados podría acotar la observación. No se ha probado manipulación."
+      }
+    ],
+    "actionBoundary": "Las once acciones siguen siendo propuestas. Los plazos máximos se cuentan desde la futura activación del plan por la administración. La administración decide y ejecuta; el auditor recomienda y evalúa. Preservar y contener se coordinan: una medida urgente ante daño activo no espera una recopilación perfecta; se documenta qué se conserva o pierde. Recuperar y volver a escribir dependen de respaldo limpio, validación, comparación de órdenes y aceptación del negocio. Faltan costos y evaluación del riesgo restante; estas 72 horas no sustituyen el plan completo de 90 días.",
+    "proposedActions": [
+      {
+        "number": 1,
+        "title": "Organizar la respuesta y registrar decisiones",
+        "owner": "Administración y Seguridad",
+        "hours": 4,
+        "closure": "Decisiones y asignaciones con responsable y hora, contrastadas con comunicaciones."
+      },
+      {
+        "number": 2,
+        "title": "Obtener el registro original de atención de la alerta crítica",
+        "owner": "Seguridad y monitoreo",
+        "hours": 12,
+        "closure": "Registro original contrastado con acciones, escalamiento y aceptación del cierre."
+      },
+      {
+        "number": 3,
+        "title": "Preservar registros, memoria e imágenes de equipos disponibles",
+        "owner": "Equipo forense y custodio designado por la empresa",
+        "hours": 6,
+        "closure": "Copias con origen, fecha, huella y acceso registrado; pérdidas justificadas."
+      },
+      {
+        "number": 4,
+        "title": "Decidir aislamiento selectivo y revocar accesos en riesgo",
+        "owner": "Seguridad, identidades e Infraestructura, bajo la administración",
+        "hours": 6,
+        "closure": "Cambio autorizado y prueba de rechazo del acceso revocado; excepciones registradas."
+      },
+      {
+        "number": 5,
+        "title": "Obtener permisos, conservación y configuración de relojes",
+        "owner": "Infraestructura, base de datos y Seguridad",
+        "hours": 24,
+        "closure": "Configuración y originales; cobertura y desfases comprobados o desconocidos explícitos."
+      },
+      {
+        "number": 6,
+        "title": "Investigar contenido y autorización de la transferencia externa",
+        "owner": "Seguridad, nube y proveedor autorizado",
+        "hours": 24,
+        "closure": "Originales que conecten sesión, proceso y objetos; destino y autorización comprobados."
+      },
+      {
+        "number": 7,
+        "title": "Restaurar un respaldo validado en un entorno separado",
+        "owner": "Administración, Continuidad y base de datos",
+        "hours": 48,
+        "closure": "Prueba real autorizada de restauración, integridad y revisión de señales de compromiso."
+      },
+      {
+        "number": 8,
+        "title": "Comparar órdenes afectadas con historial, facturación y respaldo",
+        "owner": "Sistema comercial, Finanzas y base de datos",
+        "hours": 72,
+        "closure": "Todas las órdenes identificadas comparadas, con fuentes y diferencias justificadas o excepción expresa."
+      },
+      {
+        "number": 9,
+        "title": "Probar seguimiento completo con una alerta controlada",
+        "owner": "Seguridad y monitoreo",
+        "hours": 72,
+        "closure": "Alerta de prueba con asignación, acciones, escalamiento y cierre; objetivo aprobado antes del ensayo."
+      },
+      {
+        "number": 10,
+        "title": "Probar conservación de registros y rechazo de modificaciones",
+        "owner": "Infraestructura y Seguridad",
+        "hours": 72,
+        "closure": "Evento controlado recibido completo y cambios no autorizados rechazados, sin alterar registros del incidente."
+      },
+      {
+        "number": 11,
+        "title": "Decidir retorno progresivo del servicio con aceptación del negocio",
+        "owner": "Administración, negocio y Continuidad",
+        "hours": 72,
+        "closure": "Pruebas de seguridad, integridad y comparación de órdenes antes de habilitar escritura; excepciones aceptadas con responsable."
+      }
+    ]
+  },
   "reviews": [
     {
       "reviewId": "AU-01",
+      "title": "Acceso remoto y autorizaciones",
+      "guidance": {
+        "terms": "MFA (autenticación multifactor) exige factores distintos, como contraseña y código de una aplicación. VPN es una conexión privada a la red; API es una interfaz entre programas. Recertificar es revisar con el responsable qué cuentas y permisos siguen justificados.",
+        "limit": "La sesión de ext_ops_04 no identifica a una persona ni enlaza por sí sola la elevación o la lectura SQL. La política y sus excepciones siguen pendientes."
+      },
+      "proposedActionNumbers": [
+        1,
+        4,
+        5
+      ],
+      "sources": [
+        {
+          "sourceId": "E-01",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Usuarios y permisos"
+        },
+        {
+          "sourceId": "E-02",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Acceso remoto"
+        }
+      ],
+      "checks": [
+        {
+          "checkId": "C01-ALCANCE",
+          "answerId": "FALTAN_IDENTIDAD_Y_CRITERIO",
+          "sourceRefs": [
+            {
+              "sourceId": "E-01",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "E-02",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ],
+          "question": "¿Estos datos identifican a la persona que entró y bastan para declarar un incumplimiento de política?",
+          "selectedAnswer": "No; faltan atribución personal y criterio aplicable."
+        }
+      ],
+      "limitations": [
+        {
+          "id": "L01-ATRIBUCION",
+          "text": "La cuenta no equivale a la persona que la utilizó."
+        },
+        {
+          "id": "L01-CRITERIO",
+          "text": "No se aportó política aplicable ni su alcance."
+        }
+      ],
+      "requests": [
+        {
+          "id": "S01-POLITICA",
+          "text": "Solicitar política de acceso y alcance aprobado."
+        }
+      ],
       "status": "Documentado",
       "isDocumented": true,
       "conclusionId": "A01-OBSERVACION",
-      "conclusionText": "Se reporta una sesión sin MFA y cuentas sin recertificación reciente; faltan criterio aplicable y atribución personal.",
+      "conclusionText": "Se reporta una sesión sin verificación adicional a la contraseña (MFA) y cuentas sin revisión de permisos reciente; faltan política aplicable, autorizaciones, identidad personal y conexión con las demás acciones.",
       "sourceRefs": [
         {
           "sourceId": "E-01",
@@ -54,6 +223,74 @@
     },
     {
       "reviewId": "AU-02",
+      "title": "Lectura y transferencia",
+      "guidance": {
+        "terms": "SQL es el lenguaje de consulta de datos; SELECT permite leerlos. Exfiltración significa salida no autorizada de información: el volumen de tráfico no identifica el contenido ni su autorización.",
+        "limit": "El caso reporta una lectura de 31,840 registros y aproximadamente 1.6 GB de tráfico. No se demuestra que esos registros fueran enviados ni que la salida careciera de autorización. El editor consulta resúmenes locales; las consultas de los anexos se probaron con datos ficticios y no corroboran el incidente."
+      },
+      "proposedActionNumbers": [
+        3,
+        6
+      ],
+      "sources": [
+        {
+          "sourceId": "DECL-05",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Declaración de Seguridad Informática"
+        },
+        {
+          "sourceId": "E-03",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Lectura masiva de clientes"
+        },
+        {
+          "sourceId": "E-04",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Transferencia externa"
+        }
+      ],
+      "checks": [
+        {
+          "checkId": "C02-CONTENIDO",
+          "answerId": "SIN_VINCULO_NI_CONTENIDO",
+          "sourceRefs": [
+            {
+              "sourceId": "DECL-05",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "E-03",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "E-04",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ],
+          "question": "¿Estos registros identifican el contenido transferido y lo conectan con la lectura SQL?",
+          "selectedAnswer": "No; falta correlación entre los eventos y el contenido."
+        }
+      ],
+      "limitations": [
+        {
+          "id": "L02-CONTENIDO",
+          "text": "El contenido transferido está sin identificar."
+        },
+        {
+          "id": "L02-VINCULO",
+          "text": "No se demuestra que lo leído sea lo transferido."
+        },
+        {
+          "id": "L02-ATRIBUCION",
+          "text": "La sesión conocida no atribuye todas las operaciones a la misma persona o cuenta."
+        }
+      ],
+      "requests": [
+        {
+          "id": "S02-FLUJO",
+          "text": "Solicitar registros de flujo, destino y proceso de origen correlacionables."
+        }
+      ],
       "status": "Documentado",
       "isDocumented": true,
       "conclusionId": "A02-TRANSFERENCIA",
@@ -110,10 +347,113 @@
     },
     {
       "reviewId": "AU-03",
+      "title": "Órdenes e instalación de software",
+      "guidance": {
+        "terms": "CRM es el sistema de gestión de clientes y órdenes. Conciliar significa comparar historial de órdenes y facturación para identificar y explicar diferencias. BD significa base de datos.",
+        "limit": "El caso reporta 216 órdenes. Los 144 cambios de monto y 72 de estado son supuestos del laboratorio, sin cuenta, sesión ni vía conocidas. Los diez pares candidatos a duplicidad son otras veinte órdenes ficticias y no prueban doble cobro. Falta comparar las órdenes con facturas, pagos, autorizaciones y un respaldo validado."
+      },
+      "proposedActionNumbers": [
+        7,
+        8,
+        11
+      ],
+      "sources": [
+        {
+          "sourceId": "EVT-06",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Modificación de órdenes"
+        },
+        {
+          "sourceId": "EVT-07",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Instalación de una nueva versión de integración"
+        },
+        {
+          "sourceId": "E-06",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Autorización de instalación de software"
+        },
+        {
+          "sourceId": "DECL-03",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Declaración de Desarrollo"
+        },
+        {
+          "sourceId": "DECL-04",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Declaración de Administrador de base de datos"
+        }
+      ],
+      "checks": [
+        {
+          "checkId": "C03-ORDEN",
+          "answerId": "ORDENES_ANTES",
+          "sourceRefs": [
+            {
+              "sourceId": "EVT-06",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "EVT-07",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ],
+          "question": "¿Qué orden muestran las horas reportadas de cambios y instalación de software?",
+          "selectedAnswer": "Los cambios ocurrieron antes del instalación de software."
+        },
+        {
+          "checkId": "C03-SOPORTES",
+          "answerId": "FALTAN_CONCILIACION_Y_APROBACION",
+          "sourceRefs": [
+            {
+              "sourceId": "EVT-06",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "E-06",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "DECL-03",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "DECL-04",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ],
+          "question": "¿Las declaraciones bastan para dar por verificadas la integridad y la aprobación formal?",
+          "selectedAnswer": "No; faltan comparación de órdenes y facturas concluida y aprobación formal."
+        }
+      ],
+      "limitations": [
+        {
+          "id": "L03-CAUSA",
+          "text": "El orden de las horas no demuestra que el instalación de software causara el incidente ni que fuera ajeno a él."
+        },
+        {
+          "id": "L03-INTEGRIDAD",
+          "text": "La comparación de órdenes y facturas no ha concluido."
+        },
+        {
+          "id": "L03-ATRIBUCION",
+          "text": "Los cambios no tienen atribución probada."
+        },
+        {
+          "id": "L03-APROBACION",
+          "text": "La falta de aprobación documentada no prueba que jamás se autorizó."
+        }
+      ],
+      "requests": [
+        {
+          "id": "S03-CONCILIACION",
+          "text": "Solicitar historial y comparación de órdenes y facturas reproducible de órdenes y facturación."
+        }
+      ],
       "status": "Documentado",
       "isDocumented": true,
       "conclusionId": "A03-PENDIENTES",
-      "conclusionText": "Los cambios reportados preceden al despliegue; integridad, aprobación formal, autoría y relación causal siguen sin demostrarse.",
+      "conclusionText": "Los cambios reportados preceden al instalación de software; integridad, aprobación formal, autoría y relación causal siguen sin demostrarse.",
       "sourceRefs": [
         {
           "sourceId": "EVT-06",
@@ -193,6 +533,75 @@
     },
     {
       "reviewId": "AU-04",
+      "title": "Alerta y atención",
+      "guidance": {
+        "terms": "SIEM es el sistema que reúne registros y genera alertas de seguridad. La alerta reportada de las 03:18 no incluye asignación, primera acción ni cierre documentados.",
+        "limit": "Seguimiento de la alerta pendiente de comprobar. Los 61 minutos entre sesión y alerta y los 24 hasta la caída son diferencias de horas reportadas. No prueban tiempo de detección, inacción ni pérdida de registros; los relojes no están verificados."
+      },
+      "proposedActionNumbers": [
+        1,
+        2,
+        9
+      ],
+      "sources": [
+        {
+          "sourceId": "EVT-02",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Sesión remota sin verificación adicional"
+        },
+        {
+          "sourceId": "EVT-08",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Alerta crítica de seguridad"
+        },
+        {
+          "sourceId": "E-07",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Alerta crítica de seguridad"
+        }
+      ],
+      "checks": [
+        {
+          "checkId": "C04-INTERVALO",
+          "answerId": "INTERVALO_ENTRE_REGISTROS",
+          "sourceRefs": [
+            {
+              "sourceId": "EVT-02",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "EVT-08",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "E-07",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ],
+          "question": "El sistema calcula 61 minutos entre 02:17 y 03:18. ¿Qué significa ese intervalo?",
+          "selectedAnswer": "Es el intervalo entre dos registros preliminares."
+        }
+      ],
+      "limitations": [
+        {
+          "id": "L04-INICIO",
+          "text": "No se conoce el inicio real del ataque."
+        },
+        {
+          "id": "L04-ATENCION",
+          "text": "Sin cierre documentado no equivale a ausencia de acción."
+        },
+        {
+          "id": "L04-OBJETIVO",
+          "text": "No hay objetivo aplicable de detección o atención aportado."
+        }
+      ],
+      "requests": [
+        {
+          "id": "S04-ATENCION",
+          "text": "Solicitar asignación, primera acción, escalamiento y cierre."
+        }
+      ],
       "status": "Documentado",
       "isDocumented": true,
       "conclusionId": "A04-INTERVALO",
@@ -249,10 +658,97 @@
     },
     {
       "reviewId": "AU-05",
+      "title": "Respaldo y recuperación",
+      "guidance": {
+        "terms": "RTO es el tiempo objetivo para restablecer el servicio. RPO es la pérdida de datos tolerable expresada en tiempo. BIA es el análisis del impacto de una interrupción en el negocio.",
+        "limit": "Los 315 minutos hasta consulta y los 355 hasta escritura describen el retorno reportado. No demuestran integridad ni cumplimiento de los objetivos de recuperación. Faltan objetivos aprobados, el respaldo usado y pruebas de datos recuperados. El registro de julio del laboratorio es ficticio; no se ejecutó una restauración real."
+      },
+      "proposedActionNumbers": [
+        7,
+        8,
+        11
+      ],
+      "sources": [
+        {
+          "sourceId": "E-08",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Respaldos"
+        },
+        {
+          "sourceId": "EVT-09",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Caída del sistema comercial"
+        },
+        {
+          "sourceId": "EVT-11",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Sistema comercial disponible para consulta"
+        },
+        {
+          "sourceId": "EVT-12",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Escritura restablecida"
+        },
+        {
+          "sourceId": "DECL-07",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Declaración de Continuidad"
+        }
+      ],
+      "checks": [
+        {
+          "checkId": "C05-RECUPERACION",
+          "answerId": "FALTAN_PRUEBA_Y_OBJETIVOS",
+          "sourceRefs": [
+            {
+              "sourceId": "E-08",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "EVT-09",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "EVT-11",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "EVT-12",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            },
+            {
+              "sourceId": "DECL-07",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ],
+          "question": "Los intervalos son 315 minutos hasta solo consulta y 355 hasta escritura. ¿Esto demuestra una restauración validada dentro de los objetivos del negocio?",
+          "selectedAnswer": "No; faltan prueba de restauración y objetivos aplicables."
+        }
+      ],
+      "limitations": [
+        {
+          "id": "L05-EJECUCION",
+          "text": "La programación no acredita una ejecución exitosa."
+        },
+        {
+          "id": "L05-RESTAURACION",
+          "text": "Faltan respaldo usado, punto recuperable e integridad verificada."
+        },
+        {
+          "id": "L05-OBJETIVOS",
+          "text": "Faltan objetivos aprobados de tiempo de recuperación (RTO) y de pérdida temporal de datos tolerable (RPO)."
+        }
+      ],
+      "requests": [
+        {
+          "id": "S05-PRUEBA",
+          "text": "Solicitar informe de restauración, respaldo utilizado, validación y comparación de órdenes y facturas."
+        }
+      ],
       "status": "Documentado",
       "isDocumented": true,
       "conclusionId": "A05-NO_VERIFICADA",
-      "conclusionText": "Hay respaldos programados y recuperación por etapas reportada; no se demuestra restauración validada ni cumplimiento de RTO/RPO.",
+      "conclusionText": "Hay respaldos programados y recuperación por etapas reportada; no se demuestra restauración validada ni cumplimiento de objetivos de recuperación del negocio.",
       "sourceRefs": [
         {
           "sourceId": "E-08",
@@ -321,6 +817,74 @@
     },
     {
       "reviewId": "AU-06",
+      "title": "Protección de registros y horarios",
+      "guidance": {
+        "terms": "Metadatos son datos sobre un archivo, como su ruta y procedencia. SHA-256 es una huella calculada de sus bytes. Compararla con una referencia previamente registrada permite detectar cambios; no demuestra verdad ni completitud. Hay que conservar el origen de esa referencia.",
+        "limit": "Aquí se consultan metadatos del resumen, sin leer archivos ni calcular huellas digitales ni comprobar permisos efectivos. Los permisos se probaron solo en el laboratorio ficticio. La protección de los registros y el seguimiento de la alerta siguen pendientes de comprobar; faltan originales y relojes verificados. Las huellas de los anexos no autentican el incidente."
+      },
+      "proposedActionNumbers": [
+        3,
+        5,
+        10
+      ],
+      "sources": [
+        {
+          "sourceId": "META-CUSTODIA",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Inventario de archivos y custodia"
+        },
+        {
+          "sourceId": "META-TIEMPO",
+          "sourceVersion": "auditoria_oficina_v2.1",
+          "title": "Relojes y horas originales"
+        }
+      ],
+      "checks": [
+        {
+          "checkId": "C06-CUSTODIA",
+          "answerId": "CUSTODIA_NO_ACREDITADA",
+          "sourceRefs": [
+            {
+              "sourceId": "META-CUSTODIA",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ],
+          "question": "¿Puede tratarse este resumen como una extracción con custodia acreditada?",
+          "selectedAnswer": "No; faltan originales, método de obtención, responsable de custodia y huellas digitales."
+        },
+        {
+          "checkId": "C06-RELOJ",
+          "answerId": "SINCRONIZACION_NO_VERIFICADA",
+          "sourceRefs": [
+            {
+              "sourceId": "META-TIEMPO",
+              "sourceVersion": "auditoria_oficina_v2.1"
+            }
+          ],
+          "question": "¿Qué muestra la comparación entre hora reportada, original, desfase y verificación?",
+          "selectedAnswer": "La sincronización de las fuentes no está verificada."
+        }
+      ],
+      "limitations": [
+        {
+          "id": "L06-RESUMEN",
+          "text": "Un resumen no equivale a una extracción."
+        },
+        {
+          "id": "L06-HASH",
+          "text": "Comparar la huella digital SHA-256 de un archivo con una referencia previamente registrada permite detectar cambios; no demuestra verdad ni completitud. Debe conservarse el origen de la referencia."
+        },
+        {
+          "id": "L06-TIEMPO",
+          "text": "Un desfase desconocido no es cero verificado."
+        }
+      ],
+      "requests": [
+        {
+          "id": "S06-EXTRACCIONES",
+          "text": "Solicitar originales preservados, método de obtención, responsable de custodia y huellas digitales."
+        }
+      ],
       "status": "Documentado",
       "isDocumented": true,
       "conclusionId": "A06-LIMITACION",

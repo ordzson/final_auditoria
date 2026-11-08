@@ -1,0 +1,32 @@
+{
+  "fecha_utc": "2026-11-07T22:46:11.091122+00:00",
+  "motivo": "Ajustar la etiqueta de validación de los XLSX para identificar esta comprobación posterior, manteniendo sus datos y enlaces. Se conserva el primer ZIP v2 técnicamente verificado en temporal; el paquete final se vuelve a verificar.",
+  "copias_previas": [
+    {
+      "ruta": "06_Comite/Paquete_portatil_P1_v2.zip",
+      "sha256": "6a9a83e5c89e7df239dfc161234be43c5d7445d06ac115d31efcd6d08ddc55ee",
+      "copia": "/tmp/p1-correcciones-metadatos-previos/Paquete_portatil_P1_v2.zip"
+    },
+    {
+      "ruta": "06_Comite/Paquete_portatil_P1_v2.zip.sha256",
+      "sha256": "b4726f994e15362afc87831d59cda5f8ef18bfffa07b14af648813fa58fa4a9b",
+      "copia": "/tmp/p1-correcciones-metadatos-previos/Paquete_portatil_P1_v2.zip.sha256"
+    },
+    {
+      "ruta": "03_Evidencias/indice_evidencias.xlsx",
+      "sha256": "f74f67b924cbcaa3bf5ab3ee725741e79d3ddba8667afad32786f1f65b9f3642",
+      "copia": "/tmp/p1-correcciones-metadatos-previos/indice_evidencias.xlsx"
+    },
+    {
+      "ruta": "03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "sha256": "284ff6707d029d0042b5d6d925982aebdfe84d495e3ede249b0c6c0a702a4b38",
+      "copia": "/tmp/p1-correcciones-metadatos-previos/Programa_pruebas_P1_v1.xlsx"
+    },
+    {
+      "ruta": "03_Evidencias/hashes_sha256_v1.csv",
+      "sha256": "9976cf4d55bf182031537344708998850e9c461652ca1574bb1e89b91025a686",
+      "copia": "/tmp/p1-correcciones-metadatos-previos/hashes_sha256_v1.csv"
+    }
+  ],
+  "alcance": "Solo metadatos de dos libros y exclusión explícita del log HTTP externo en el empaquetador. Sin SQL adicional."
+}

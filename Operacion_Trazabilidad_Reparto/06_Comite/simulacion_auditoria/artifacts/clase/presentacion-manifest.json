@@ -1,0 +1,791 @@
+{
+  "generatedAt": "2026-11-08T00:12:26.309552+00:00",
+  "scope": "Paquete construido y archivos de demostración. Las huellas detectan cambios de estos archivos, no autentican el incidente.",
+  "files": [
+    {
+      "path": "dist/favicon.svg",
+      "bytes": 295,
+      "sha256": "349a14fcfce4a987774f11f2ba9598e5c77539a2eef34ae2ceb73ed0e598a2cd"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 799,
+      "sha256": "0d434e2532754a6948f1ccaeddf7e3ec2b4cd48ebdfe072a6e3ec38c6458cc2f"
+    },
+    {
+      "path": "dist/assets/index-DN9i1Ddc.css",
+      "bytes": 88927,
+      "sha256": "77c8a7f0352d6471388919ce32306846a65250a9bc2d9b619d4166f3626d2b6b"
+    },
+    {
+      "path": "dist/assets/index-CEWv0GjX.js",
+      "bytes": 862428,
+      "sha256": "8b4ea1a099a4a98dab62513aa99ea6bc9be2408b10ec8f75b84bdf4cedc55c44"
+    },
+    {
+      "path": "dist/environment/README.md",
+      "bytes": 2664,
+      "sha256": "36a794dceccf816fa7e96d5402ef474907b8d4ea0c3b85eea1b69dc1186c9ea3"
+    },
+    {
+      "path": "dist/environment/city-godzilla-chief-samus.png",
+      "bytes": 2730011,
+      "sha256": "a7f314cc8ffb339ac975f745b5cb3873a7ddc7e3146494bf5fa2bc98be6b604a"
+    },
+    {
+      "path": "dist/environment/city-godzilla-terrace.png",
+      "bytes": 2540516,
+      "sha256": "99aadd3185b773135f83ce936b86b5b5ef851d8cc79019cb72b71c1418e70714"
+    },
+    {
+      "path": "dist/computers/manifest.json",
+      "bytes": 43766,
+      "sha256": "e35bfd0b30bbce77c3a27850f6b599503a5846d85903dd2311cf932155d22a9f"
+    },
+    {
+      "path": "dist/computers/CREDITS.md",
+      "bytes": 6748,
+      "sha256": "f3651c7c7453b4c8949cdf29bd763672241681420b25b5baefdc2985fa940c20"
+    },
+    {
+      "path": "dist/brand/README.md",
+      "bytes": 1707,
+      "sha256": "8b2ad939fa1d7cfbc257416bc10ff79161da6668be28980503b977623b1d6201"
+    },
+    {
+      "path": "dist/brand/red-nova-master.png",
+      "bytes": 1211674,
+      "sha256": "c6abc564ba5bfe9be15e92d59c5ac5136c5920e7269a4df69b96f54f609dd9e0"
+    },
+    {
+      "path": "dist/models/filing-cabinet.glb",
+      "bytes": 243076,
+      "sha256": "009543ab2627f48b43c7125484b525f68bc41a3435b7c811d4302788e1bcd96e"
+    },
+    {
+      "path": "dist/models/chair.glb",
+      "bytes": 1144792,
+      "sha256": "b751a772d7384b4e11f369c90b306a8e25261513ba9ab00ecb772a37abbaa5b4"
+    },
+    {
+      "path": "dist/models/desk.glb",
+      "bytes": 1098624,
+      "sha256": "9bc98842503df6cb85a968e513add5001114112a2552173437944c72433fc2fc"
+    },
+    {
+      "path": "dist/models/rack.glb",
+      "bytes": 1406204,
+      "sha256": "aade081eb9ffe12b5190f81516203dc41e820d0bc9a98505eeb7fdd3dc7fe191"
+    },
+    {
+      "path": "dist/models/lamp.glb",
+      "bytes": 1650296,
+      "sha256": "64ebea835468172cdedfae33ab868f5d4c26457cf1482328c5199ad8b4e370d3"
+    },
+    {
+      "path": "dist/computers/fonts/tahoma-bold.ttf",
+      "bytes": 243684,
+      "sha256": "d4808235d09c73e312452ea69db1f18ffd12d4073be1123792f10e2d04f088a0"
+    },
+    {
+      "path": "dist/computers/fonts/tahoma-regular.ttf",
+      "bytes": 265528,
+      "sha256": "6c699c428b608679c7ade6d9c0ff76664a1b59274c394cf0aba0ee2c33f89848"
+    },
+    {
+      "path": "dist/computers/wallpapers/stonehenge.jpg",
+      "bytes": 5817702,
+      "sha256": "619339ac94b02cd797ba30b3f3fb71bd47a50bf5a8b67edcf8aa8fbeb5adeda1"
+    },
+    {
+      "path": "dist/computers/wallpapers/xp-isla-tropical.jpg",
+      "bytes": 1470719,
+      "sha256": "5e9e73ce01539851d64a0ca58074f1fac9f8edf78bce4714a0e5dbe71fbd606e"
+    },
+    {
+      "path": "dist/computers/wallpapers/xp-professional-azul.jpg",
+      "bytes": 154033,
+      "sha256": "87f6afbb4a239c7677b8249cf05c7eba61397578cf76369b37fc81c31c3861f5"
+    },
+    {
+      "path": "dist/computers/wallpapers/xp-bliss.jpg",
+      "bytes": 723862,
+      "sha256": "79eec9cc98eb410e070348408b0ddc423e39b1d547da6f20cc763fc04c0486fe"
+    },
+    {
+      "path": "dist/computers/wallpapers/duna-roja-luna.jpg",
+      "bytes": 4401443,
+      "sha256": "a13fe7534d3a06a02f2b1c48e76a4388af22d8250669d9fca78d4a35aaeb865d"
+    },
+    {
+      "path": "dist/computers/wallpapers/camino-otonal.jpg",
+      "bytes": 5447171,
+      "sha256": "3e4be6eaf5f1cb1b52d09db6084df5d8a57da3220144909c0795de2175ff3eac"
+    },
+    {
+      "path": "dist/computers/branding/windows-flag.webp",
+      "bytes": 98902,
+      "sha256": "616deaf0b74601cf9ed3364c0d54559348043054c3ff6b1df5527329a35b3225"
+    },
+    {
+      "path": "dist/computers/icons/classic/explorer-16.png",
+      "bytes": 209,
+      "sha256": "31bb1246d4f92626d682d19507b7d9b8eb64fbe012bad33268fd659e7935cdbf"
+    },
+    {
+      "path": "dist/computers/icons/classic/document-16.png",
+      "bytes": 157,
+      "sha256": "fe851e426af7574bd73f4431070eb5457fee6bd75f7096b1f51d56081f7e41f6"
+    },
+    {
+      "path": "dist/computers/icons/classic/document-32.png",
+      "bytes": 228,
+      "sha256": "1485b5b9840f5aeb7e31b9cac2c338ea1e95f24997a86b48855a933cccc88825"
+    },
+    {
+      "path": "dist/computers/icons/classic/explorer-32.png",
+      "bytes": 299,
+      "sha256": "5309db1f906d8ea43d3c897463f84bc99e38bb9805bf43b524eeb9d75db35850"
+    },
+    {
+      "path": "dist/computers/icons/classic/report-48.png",
+      "bytes": 304,
+      "sha256": "5d87838643393303807aa2c2168f19ecd066d45eed0a397f731d01c19e78e997"
+    },
+    {
+      "path": "dist/computers/icons/classic/folder-16.png",
+      "bytes": 182,
+      "sha256": "3c658399e91dbce2920c294fc262cbf948f78bc618f95d7beed9a6ba0de66481"
+    },
+    {
+      "path": "dist/computers/icons/classic/backup-16.png",
+      "bytes": 170,
+      "sha256": "a4cb2a2589d05dddf10819565f91a51d478d50d1c9a431348d2f4e3105d45abc"
+    },
+    {
+      "path": "dist/computers/icons/classic/search-16.png",
+      "bytes": 252,
+      "sha256": "2dc499ea62b074bb051517039703f91e103a6738e93a793778eaffc4a825ce9d"
+    },
+    {
+      "path": "dist/computers/icons/classic/search-32.png",
+      "bytes": 474,
+      "sha256": "bea015ddde84ef76664c4d13c0a2bd1cdaea23bc5b6e8e25d0907512af71f7c4"
+    },
+    {
+      "path": "dist/computers/icons/classic/recovery-32.png",
+      "bytes": 202,
+      "sha256": "48cff56b0f306dbea2c21c7a49002f0129b22fcf6a428c5e11dd502efe90d8c7"
+    },
+    {
+      "path": "dist/computers/icons/classic/backup-32.png",
+      "bytes": 218,
+      "sha256": "42f9abc59db2433ce648b14a4c579ae47b2934bdf187fd368a5ad5669ceb38ab"
+    },
+    {
+      "path": "dist/computers/icons/classic/help-16.png",
+      "bytes": 237,
+      "sha256": "e28e268b0caf0663ea65f37f9bd0aae73675e131a999d1be1b53de805eb27c1e"
+    },
+    {
+      "path": "dist/computers/icons/classic/folder-32.png",
+      "bytes": 205,
+      "sha256": "5597abe8dcf60f82d1012ce050826359fa2cdf3b0b20bc5efb219779dfab9044"
+    },
+    {
+      "path": "dist/computers/icons/classic/recovery-16.png",
+      "bytes": 163,
+      "sha256": "cd1fdb635722a50581bbdca50987b387fa86c0a8148d79f6e76574590e88d290"
+    },
+    {
+      "path": "dist/computers/icons/classic/help-32.png",
+      "bytes": 365,
+      "sha256": "dde07305bef73ac25863d934194efdc1ef02848e239dd6acfe06035105013b4e"
+    },
+    {
+      "path": "dist/computers/icons/classic/explorer-48.png",
+      "bytes": 373,
+      "sha256": "fe95eec21cb7affb85abc61b581d865a44a404320c630e28a5c829b8fb9c8d90"
+    },
+    {
+      "path": "dist/computers/icons/classic/report-32.png",
+      "bytes": 228,
+      "sha256": "1485b5b9840f5aeb7e31b9cac2c338ea1e95f24997a86b48855a933cccc88825"
+    },
+    {
+      "path": "dist/computers/icons/classic/report-16.png",
+      "bytes": 157,
+      "sha256": "fe851e426af7574bd73f4431070eb5457fee6bd75f7096b1f51d56081f7e41f6"
+    },
+    {
+      "path": "dist/computers/icons/classic/folder-48.png",
+      "bytes": 271,
+      "sha256": "c1774676796e3c32d6bb53a7ff6c064672e8e2e6bdf45d2eb4251351513b69c9"
+    },
+    {
+      "path": "dist/computers/icons/classic/help-48.png",
+      "bytes": 520,
+      "sha256": "e004b601f066c53300b258152ba62a6783ce72d5df5607abc938b6ef9a44b2d6"
+    },
+    {
+      "path": "dist/computers/icons/classic/search-48.png",
+      "bytes": 610,
+      "sha256": "70269d69c7d6fbbfe4d1ba40e85213a1233cbd4ea4dbd7e1d086b061d8686e3c"
+    },
+    {
+      "path": "dist/computers/icons/classic/backup-48.png",
+      "bytes": 263,
+      "sha256": "cec6d7465d49f01ade3f87246ddb5f36aa572bfceb4db003bfa897088bcb9d2d"
+    },
+    {
+      "path": "dist/computers/icons/classic/document-48.png",
+      "bytes": 304,
+      "sha256": "5d87838643393303807aa2c2168f19ecd066d45eed0a397f731d01c19e78e997"
+    },
+    {
+      "path": "dist/computers/icons/xp/directory-16.png",
+      "bytes": 261,
+      "sha256": "af4698f37d28261de1b07367657aa28f93ceeb0f600571f38a047de96747cddc"
+    },
+    {
+      "path": "dist/computers/icons/xp/explorer-16.png",
+      "bytes": 209,
+      "sha256": "31bb1246d4f92626d682d19507b7d9b8eb64fbe012bad33268fd659e7935cdbf"
+    },
+    {
+      "path": "dist/computers/icons/xp/document-16.png",
+      "bytes": 179,
+      "sha256": "cb8aec73dc9989af963b1d1c2a4ac8674bb0075cb71d3d9a390b844d81070954"
+    },
+    {
+      "path": "dist/computers/icons/xp/network-32.png",
+      "bytes": 367,
+      "sha256": "52a782c11d411ace46b0dd9baa4c110e585ee63f1a8a0c7c88a1c83dfb1168c1"
+    },
+    {
+      "path": "dist/computers/icons/xp/query-32.png",
+      "bytes": 446,
+      "sha256": "931ded9e648c7827effbf1685fafeb50bf34b08d1739d39322f31e1d6c3c4fee"
+    },
+    {
+      "path": "dist/computers/icons/xp/document-32.png",
+      "bytes": 281,
+      "sha256": "631522e37bd459f628517f52a1c97285a3a97aeca1404225487824b3ee2b33ac"
+    },
+    {
+      "path": "dist/computers/icons/xp/explorer-32.png",
+      "bytes": 299,
+      "sha256": "5309db1f906d8ea43d3c897463f84bc99e38bb9805bf43b524eeb9d75db35850"
+    },
+    {
+      "path": "dist/computers/icons/xp/report-48.png",
+      "bytes": 1958,
+      "sha256": "aecd58208d4606ec986a263f58c6d53097733f2d3a38605695442743d13acf3f"
+    },
+    {
+      "path": "dist/computers/icons/xp/folder-16.png",
+      "bytes": 182,
+      "sha256": "3c658399e91dbce2920c294fc262cbf948f78bc618f95d7beed9a6ba0de66481"
+    },
+    {
+      "path": "dist/computers/icons/xp/time-48.png",
+      "bytes": 1992,
+      "sha256": "77f0034c4badcc0195be4da58f0a7733448f4b16add14b2a031950e9668dbf29"
+    },
+    {
+      "path": "dist/computers/icons/xp/directory-32.png",
+      "bytes": 564,
+      "sha256": "01f2b138a4a933df2dcbf6125314a0b6f960d1fda0bf5d6323afd27ef5e537c3"
+    },
+    {
+      "path": "dist/computers/icons/xp/sessions-16.png",
+      "bytes": 235,
+      "sha256": "4f895dd9d6865fef4e20630af429837c5678f5cf7d5568cf9639c7af48764a68"
+    },
+    {
+      "path": "dist/computers/icons/xp/network-16.png",
+      "bytes": 196,
+      "sha256": "f0d5e71a07e2f5d736252a574322a10ac989a96fb3dac1ffaebdb082184e723c"
+    },
+    {
+      "path": "dist/computers/icons/xp/orders-16.png",
+      "bytes": 221,
+      "sha256": "924a9065dbc16d03703215d61d8fdd4309e528c3f2f9543a8797f4763c3acb12"
+    },
+    {
+      "path": "dist/computers/icons/xp/events-16.png",
+      "bytes": 211,
+      "sha256": "3b08d03fac8d749d466f89b3a3c29b1aae44b3592d917baaa9fe59d6ee44c7c0"
+    },
+    {
+      "path": "dist/computers/icons/xp/backup-16.png",
+      "bytes": 210,
+      "sha256": "a9237d38e046fe264d18cad119bb8d5325d2a07bae7fcaf7b685e794595110f9"
+    },
+    {
+      "path": "dist/computers/icons/xp/search-16.png",
+      "bytes": 217,
+      "sha256": "696d84550d442ca89375ebecdc56df8bf104f5ced3a4522463a38276d7849592"
+    },
+    {
+      "path": "dist/computers/icons/xp/orders-32.png",
+      "bytes": 366,
+      "sha256": "95a350323639436f32fd1b1effa9403fc76bbc000f5cef9ca828dc7e8bc38193"
+    },
+    {
+      "path": "dist/computers/icons/xp/time-32.png",
+      "bytes": 1431,
+      "sha256": "b9fc8b635e0cc6a27858f0198f3728e083e2b99a73a6b52d90efec1ea6fbe5fe"
+    },
+    {
+      "path": "dist/computers/icons/xp/sessions-32.png",
+      "bytes": 566,
+      "sha256": "a7fcd209c3dfe67db9003531c5c9f7e0c363f0a6db97ce7cbda30db1012a896c"
+    },
+    {
+      "path": "dist/computers/icons/xp/search-32.png",
+      "bytes": 422,
+      "sha256": "6562c3302898b63ebf457fb40ec5f9dfc9c5a23c77f40b11df812b7e6a759a1f"
+    },
+    {
+      "path": "dist/computers/icons/xp/recovery-32.png",
+      "bytes": 202,
+      "sha256": "48cff56b0f306dbea2c21c7a49002f0129b22fcf6a428c5e11dd502efe90d8c7"
+    },
+    {
+      "path": "dist/computers/icons/xp/backup-32.png",
+      "bytes": 308,
+      "sha256": "632f702f71359e572495a2b6352b8b2209f46c2ad2a408a5de409f4a3ff58f86"
+    },
+    {
+      "path": "dist/computers/icons/xp/sessions-48.png",
+      "bytes": 938,
+      "sha256": "7f735fcaa87389faa3f567486d78187885451827c71b5f3a4f40fa86fd075b7b"
+    },
+    {
+      "path": "dist/computers/icons/xp/changes-16.png",
+      "bytes": 597,
+      "sha256": "8807e60699d64a3a597027daa069defd2727bcb4eb353aa7bba2bf02b7009bef"
+    },
+    {
+      "path": "dist/computers/icons/xp/help-16.png",
+      "bytes": 264,
+      "sha256": "ce5d192ec5d8fd80372f02a6b1726ee62544444768ea95a9551ec9e325e412a6"
+    },
+    {
+      "path": "dist/computers/icons/xp/events-32.png",
+      "bytes": 338,
+      "sha256": "3ff676985da0481f97e5b952c9e201cc6e4ecd830370cdff954da487035c64b2"
+    },
+    {
+      "path": "dist/computers/icons/xp/folder-32.png",
+      "bytes": 205,
+      "sha256": "5597abe8dcf60f82d1012ce050826359fa2cdf3b0b20bc5efb219779dfab9044"
+    },
+    {
+      "path": "dist/computers/icons/xp/changes-48.png",
+      "bytes": 2595,
+      "sha256": "c95c4f1689a654fdf93eb782cab0cd8f8f406e6bf2ea68fbd0ea0178e0d89e35"
+    },
+    {
+      "path": "dist/computers/icons/xp/recovery-16.png",
+      "bytes": 163,
+      "sha256": "cd1fdb635722a50581bbdca50987b387fa86c0a8148d79f6e76574590e88d290"
+    },
+    {
+      "path": "dist/computers/icons/xp/help-32.png",
+      "bytes": 553,
+      "sha256": "f97fe2a3b0927e9c42da0c12953dd1579ac80c95c027adf0274f431c188cedc6"
+    },
+    {
+      "path": "dist/computers/icons/xp/explorer-48.png",
+      "bytes": 373,
+      "sha256": "fe95eec21cb7affb85abc61b581d865a44a404320c630e28a5c829b8fb9c8d90"
+    },
+    {
+      "path": "dist/computers/icons/xp/report-32.png",
+      "bytes": 228,
+      "sha256": "1485b5b9840f5aeb7e31b9cac2c338ea1e95f24997a86b48855a933cccc88825"
+    },
+    {
+      "path": "dist/computers/icons/xp/network-48.png",
+      "bytes": 1777,
+      "sha256": "bffc540dccd463aa3a32e0c913e74977790ca4d0e2abcc1c402e9befa96bf06d"
+    },
+    {
+      "path": "dist/computers/icons/xp/query-16.png",
+      "bytes": 210,
+      "sha256": "b1b162248c1f9838d117cbcec17f60058e3e9f2e32a036b6e156b9c449116f95"
+    },
+    {
+      "path": "dist/computers/icons/xp/report-16.png",
+      "bytes": 157,
+      "sha256": "fe851e426af7574bd73f4431070eb5457fee6bd75f7096b1f51d56081f7e41f6"
+    },
+    {
+      "path": "dist/computers/icons/xp/folder-48.png",
+      "bytes": 271,
+      "sha256": "c1774676796e3c32d6bb53a7ff6c064672e8e2e6bdf45d2eb4251351513b69c9"
+    },
+    {
+      "path": "dist/computers/icons/xp/directory-48.png",
+      "bytes": 857,
+      "sha256": "4b05364c357d7c1675cc872c97b1cf2d8800061a258b916fa2526a82cc5babc5"
+    },
+    {
+      "path": "dist/computers/icons/xp/help-48.png",
+      "bytes": 771,
+      "sha256": "ab5f3d45fa31b9f38628e6e34b0b5e5c2f59daf5fa045c6bdaa6638052f21423"
+    },
+    {
+      "path": "dist/computers/icons/xp/time-16.png",
+      "bytes": 490,
+      "sha256": "bcf74d2d97959159df5ddda547473da3fed0c1c735a99d6835b84884a37364b6"
+    },
+    {
+      "path": "dist/computers/icons/xp/search-48.png",
+      "bytes": 625,
+      "sha256": "3651cff0138f50bf1b15b5c85abf2cea4415779436ae8d99a97c2003a82ff63c"
+    },
+    {
+      "path": "dist/computers/icons/xp/backup-48.png",
+      "bytes": 2992,
+      "sha256": "12d13ce123d162efbced8a322b6309ac8e61cd4a41aee00bc9031495e856d2a9"
+    },
+    {
+      "path": "dist/computers/icons/xp/events-48.png",
+      "bytes": 508,
+      "sha256": "903632acf96fe44a26d1399097476f1d6cbc9ce51ad2b2e167b048ca7a82782c"
+    },
+    {
+      "path": "dist/computers/icons/xp/changes-32.png",
+      "bytes": 1735,
+      "sha256": "60c76d0c28cf5e1219f092f230e728abd9e66ca5e4a7e01e25bd2f748a494a4f"
+    },
+    {
+      "path": "dist/computers/icons/xp/orders-48.png",
+      "bytes": 517,
+      "sha256": "9eccd36dcef0acc3692a7d02abef03731a9727a615023f5d8d6eb5a5833c8d86"
+    },
+    {
+      "path": "dist/fonts/roboto-mono/OFL.txt",
+      "bytes": 4395,
+      "sha256": "50ab8dd54680d3473f649c9db86fece88434d097c7834475c1c72d2f8c429215"
+    },
+    {
+      "path": "dist/fonts/roboto-mono/RobotoMono-Variable.ttf",
+      "bytes": 183700,
+      "sha256": "66a80e79d17e4c7cabd162e2916578a4cc08fd19eef6e2a643305eae9c567b2b"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_05.mp3",
+      "bytes": 176005,
+      "sha256": "c13220c4acd1ddefc9936a32dffe0da6074a21cb334ffd2d93bb021822b195a1"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_26.mp3",
+      "bytes": 270521,
+      "sha256": "9fd09f0fb6a042b9bd92367bd188e6d2f9b9111b9aca9164fac9821f772d6036"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_22.mp3",
+      "bytes": 146009,
+      "sha256": "19f4bf39881b4f40fa9548c92bb2831586f30d4fba5f3c96897eb337ae2b758c"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_07.mp3",
+      "bytes": 227872,
+      "sha256": "95c1ea24a761e12a8eb2d4830bbabe2ddd19a0251eb515fdf7d57bdde930e56f"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_01.mp3",
+      "bytes": 162161,
+      "sha256": "dcf7779d10f7f6e2c05bad358de5177e320d0e5bfcffeb6fee5aabd3518efd4d"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_04.mp3",
+      "bytes": 92986,
+      "sha256": "e10325990d0a75ffed43acb3e4a917ed476ba42315f491f81b2a856558ce142d"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_28.mp3",
+      "bytes": 260729,
+      "sha256": "5603d348db9b1323473be7384752f18fe59b0c5b82e17185897530048925f229"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_20.mp3",
+      "bytes": 265927,
+      "sha256": "42f01edcebaa7d93026033f2a141c5e6b7f3cad7aa789d48e300ca98ab33e273"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_27.mp3",
+      "bytes": 272798,
+      "sha256": "021bdfc2c725d5009ca0ebd08cf6e049328fad5aacf9c5313ec16cf0497fa503"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_21.mp3",
+      "bytes": 271636,
+      "sha256": "9f4ad78da8c42fe44d36dfe414ecdef2bac2f5e89291644268890e2ff2a66542"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_15.mp3",
+      "bytes": 235950,
+      "sha256": "31242a3fd82525d87a12eed2dc7829bdf68452a55ec281cfaf0695b7b0e627b6"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_11.mp3",
+      "bytes": 256095,
+      "sha256": "ff2340bae7fed01fa4b00b6c30a96c38c21c72fc65994663d6594b01274717c1"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_23.mp3",
+      "bytes": 194455,
+      "sha256": "f1410bae2548515c55f05af05c74cd2f21c6eae7f20a16628e073ca569cab328"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_10.mp3",
+      "bytes": 281460,
+      "sha256": "bb25ded1677245e6c18c24062a77accf3e5c38d79be77c206cbc70a6d53a498b"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_03.mp3",
+      "bytes": 19778,
+      "sha256": "53172aaadfed5713c362d778f12e8962aa9bb7c2f73fb3a9f3896aba96bef47e"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_14.mp3",
+      "bytes": 229033,
+      "sha256": "eddee4806728dde8806d982e1daab25e5f0d2a9bc025c888ed371854d5d1543a"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_08.mp3",
+      "bytes": 169079,
+      "sha256": "80d6748f5372b61f474e70f38b0acdf3c66a533412e160333442e51c5f266e89"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_17.mp3",
+      "bytes": 162719,
+      "sha256": "1f9ea0b4b68683d555cb14a284f720bd5aaddb3908a4de66e284316c553be5da"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_06.mp3",
+      "bytes": 201917,
+      "sha256": "c8b1b336ac29fcd9820f3869c9bf937f33907199ed6b46d6c2d612468b56dacd"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frases.txt",
+      "bytes": 4231,
+      "sha256": "8bd0d344dea390dcc418ea1257fc16f2317f62970e9e6e6c44dded35b1b32c7b"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_12.mp3",
+      "bytes": 250335,
+      "sha256": "7e4eb46e2e772990214b8751509ddc3e08d678287a7c740993c840f4c961dbf0"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_13.mp3",
+      "bytes": 171945,
+      "sha256": "176ccb4a56677a0ef8cca8abe9e5fc31bc14acac0e949656f835f7fb1bdc5dfc"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_29.mp3",
+      "bytes": 211723,
+      "sha256": "bead877f1032754d36140a5058156db5d57e897362e2161e5de5ff784f13c56d"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_09.mp3",
+      "bytes": 96437,
+      "sha256": "7b68cdd1daf3d272973d356226dbe1bd5124eaafa0a92e3296e0835c9f00e44b"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_18.mp3",
+      "bytes": 267618,
+      "sha256": "bc7b3ecdb06f5aa189a08d0311335844ef3c2ad32a1f415622e2801a3b690799"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_16.mp3",
+      "bytes": 243431,
+      "sha256": "875e0cce3e13880858fd86358b6a310188960b667718baa92e5b873c80704c8a"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_19.mp3",
+      "bytes": 101044,
+      "sha256": "12dbfbcc493444171c8908411f48dd27e6195cf01601c27af38cd6e7f5cdb584"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_25.mp3",
+      "bytes": 156956,
+      "sha256": "498939a0021146ad867ab6db3dcda30eb52f839ff27c7a0163f3849f64bef909"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_02.mp3",
+      "bytes": 111420,
+      "sha256": "9d5c10a85dd50382de0386e14631492995ebee74f9efaf1129be609fe1db102a"
+    },
+    {
+      "path": "dist/audio/enlace-ti/frase_24.mp3",
+      "bytes": 281487,
+      "sha256": "5448be9b6a2b182a2583f256992e490ecdbddb2341ddb35a7df0263babca3275"
+    },
+    {
+      "path": "dist/models/fbi-agent/license.txt",
+      "bytes": 714,
+      "sha256": "7d26a234da129dbc132ff065c034bd75bd1d3a489cd69c751c93bb969bc0bcaf"
+    },
+    {
+      "path": "dist/models/fbi-agent/scene.bin",
+      "bytes": 1481680,
+      "sha256": "cc036bb1f68b8e5df4c8fbad11dec0145519683bd7cbef272f6a0db646ef3616"
+    },
+    {
+      "path": "dist/models/fbi-agent/scene.gltf",
+      "bytes": 61249,
+      "sha256": "afb5a4ead1921b8fc38f06fc0f18c31d34d3ea7cd310407fa9352c02ad9f4d53"
+    },
+    {
+      "path": "dist/models/rack-monitor/license.txt",
+      "bytes": 648,
+      "sha256": "0dc864d7963c4735521fa7c0ecaf89345b3dcc03361a54436722fd57deacef90"
+    },
+    {
+      "path": "dist/models/rack-monitor/scene.bin",
+      "bytes": 28528,
+      "sha256": "4384f1d89bf827e6911ac426ce3ff6d25a75b04605a7ff048d671f0cc76ad696"
+    },
+    {
+      "path": "dist/models/rack-monitor/scene.gltf",
+      "bytes": 13528,
+      "sha256": "7ea4c1d46e83fdb4080a40cd61d03be4a7c410d66973df0edbabb7e2f4d1a39e"
+    },
+    {
+      "path": "dist/models/office-props/computerKeyboard.glb",
+      "bytes": 3476,
+      "sha256": "9d9135789de2120e9f41ce3f0a56dd1b15f40adcc7888739bb842a2d820da322"
+    },
+    {
+      "path": "dist/models/office-props/cardboardBoxClosed.glb",
+      "bytes": 5400,
+      "sha256": "4af079dca52960912764574950f0549ff2ae1224b3db1528718629473a2d5d81"
+    },
+    {
+      "path": "dist/models/office-props/cardboardBoxOpen.glb",
+      "bytes": 5404,
+      "sha256": "960da412564774c75e7b32f9af0100895e1edb877fc1e70dd34ee2422a2196d4"
+    },
+    {
+      "path": "dist/models/office-props/books.glb",
+      "bytes": 6864,
+      "sha256": "b8dc56e5d29f6fc1f4727fccb1b9642627fee9942c48060a00034e98df02701c"
+    },
+    {
+      "path": "dist/models/office-props/radio.glb",
+      "bytes": 25020,
+      "sha256": "1ba93d6ba6f049750853b4652b92f286f2898e527695a0705b75cc7615897fed"
+    },
+    {
+      "path": "dist/models/office-props/License.txt",
+      "bytes": 614,
+      "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29"
+    },
+    {
+      "path": "dist/models/office-props/computerMouse.glb",
+      "bytes": 5868,
+      "sha256": "d3ad1a923f0f7707ef367bb969eb94c9076e211c98c830ba52e133fadc5cdfc0"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/ctm_fbi_v2_hat_glasses_radio_varianta.002_baseColor.png",
+      "bytes": 477976,
+      "sha256": "545df2900fd604e9308742aa92a75be81e72426b0e0da149ba7985fd4a24cd25"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/ctm_fbi_v2_head_varianta.002_metallicRoughness.png",
+      "bytes": 203006,
+      "sha256": "4e2983186ab8d4566c64090533d072df69188612af13105b6e4bb82258e0f03d"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/ctm_fbi_v2_hat_glasses_radio_varianta.002_metallicRoughness.png",
+      "bytes": 449399,
+      "sha256": "c26a9978a63f13ba602a12aa13170f4bc18610fd63594b0e1922a41df7755d38"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/ctm_fbi_v2_hat_glasses_radio_varianta.002_normal.png",
+      "bytes": 769213,
+      "sha256": "94b4ee74ad7665244a6cbfe086a3904040ed9fed3c3d3a65691b7b65d489895c"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/glove_hardknuckle_black.004_normal.png",
+      "bytes": 5893310,
+      "sha256": "70b1124094b437c0c69132af35c0bfbd37238fda5a576cf0b991db6bbae24ec3"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/ctm_fbi_v2_body_varianta.002_normal.png",
+      "bytes": 4898710,
+      "sha256": "2d54a71b65ea5a0edeb4dab54599377fea86d4a9f996d4a8a1632c89e5644f69"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/ctm_fbi_v2_lower_body_varianta.003_metallicRoughness.png",
+      "bytes": 791109,
+      "sha256": "731387e7fcdacc45657533c5ffa009730ae7d8bb9b789a82cc4da2f96c0e4fc1"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/ctm_fbi_v2_head_varianta.002_baseColor.png",
+      "bytes": 1077840,
+      "sha256": "d69fff80f635253292d4791f3edb47bdd3324b41584d300da4f51645ab1a9997"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/ctm_fbi_v2_lower_body_varianta.003_normal.png",
+      "bytes": 1555871,
+      "sha256": "592fcd393276a8597de1d5c083cd44a40ab599979227e78e07a6647a9755977c"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/ctm_fbi_v2_lower_body_varianta.003_baseColor.png",
+      "bytes": 758126,
+      "sha256": "6ade8464709a55e3f3a7800f62ac91f99c7f19c49a3bab5dc7f0bdee46776190"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/glove_hardknuckle_black.004_baseColor.png",
+      "bytes": 2655658,
+      "sha256": "5c75f06e0d1e9e0bcfc567100e873368c43340dd27def76e90e5d87aac51f4fe"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/ctm_fbi_v2_body_varianta.002_metallicRoughness.png",
+      "bytes": 3192306,
+      "sha256": "469ab440a53d127242f3cf4fa4ddd543db0bc0c706c2a39272a510ade340d555"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/ctm_fbi_v2_body_varianta.002_baseColor.png",
+      "bytes": 2483204,
+      "sha256": "9e53694a99e2f858daf777564db10cf6876a96d6f895ac33fbb8284f3f68b947"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/glove_hardknuckle_black.004_metallicRoughness.png",
+      "bytes": 5020610,
+      "sha256": "4f6b6fde4697ae450b29007f5ffef7f7df101d633deafec0453246f8f2b7f56b"
+    },
+    {
+      "path": "dist/models/fbi-agent/textures/ctm_fbi_v2_head_varianta.002_normal.png",
+      "bytes": 471498,
+      "sha256": "bf3ce400e9e746c76ff3dfcbc2801159580a9b78ff3be344fd5e6f3670f66be0"
+    },
+    {
+      "path": "dist/models/rack-monitor/textures/RenderMonitor_baseColor.png",
+      "bytes": 821885,
+      "sha256": "8771d8c03280acb77825510acd9ee5ea6d586de2b0453c5e6b626b57716eea50"
+    },
+    {
+      "path": "artifacts/entrega/libreta-respaldo.pdf",
+      "bytes": 176986,
+      "sha256": "b65a9bac4881d93073251e3269134c15b36ccfb104b92bb4f22d36a18dc0f644"
+    },
+    {
+      "path": "artifacts/entrega/libreta-ejemplo.json",
+      "bytes": 35281,
+      "sha256": "68921786e76c3e1a15b5231d9274161a22b6703e3cc665bf023c4bd5be398613"
+    },
+    {
+      "path": "artifacts/entrega/recorrido.webm",
+      "bytes": 4855217,
+      "sha256": "91b2db7962d0828a74028a1bdf6aa8c6f25b8437ebcf95a6bacd021014031c07"
+    }
+  ]
+}

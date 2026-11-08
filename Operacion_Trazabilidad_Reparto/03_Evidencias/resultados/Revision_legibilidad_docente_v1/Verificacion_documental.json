@@ -1,0 +1,337 @@
+{
+  "fecha_utc": "2026-11-07T23:13:00.784102+00:00",
+  "alcance": "Verificación documental automática de la edición docente; no valida hechos del incidente ni acredita revisión humana.",
+  "comprobaciones": [
+    {
+      "comprobacion": "Doce documentos identificados",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia exacta: Seccion_forense_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "PDF abierto y sin páginas vacías: Seccion_forense_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": 5
+    },
+    {
+      "comprobacion": "Texto dentro de página: Seccion_forense_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Copia exacta: Papeles_Trabajo_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "PDF abierto y sin páginas vacías: Papeles_Trabajo_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": 8
+    },
+    {
+      "comprobacion": "Texto dentro de página: Papeles_Trabajo_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Copia exacta: Cronologia_investigada_v1.xlsx",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia exacta: indice_evidencias.xlsx",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia exacta: Programa_pruebas_P1_v1.xlsx",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia exacta: Borradores_hallazgos_P1_v1.md",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia exacta: Acciones_P1_0_72h_v1.csv",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia exacta: Presentacion_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "PDF abierto y sin páginas vacías: Presentacion_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": 6
+    },
+    {
+      "comprobacion": "Texto dentro de página: Presentacion_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Copia exacta: Guion_defensa_P1_v1.md",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Copia exacta: Fuentes_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "PDF abierto y sin páginas vacías: Fuentes_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": 3
+    },
+    {
+      "comprobacion": "Texto dentro de página: Fuentes_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Copia exacta: Uso_IA.pdf",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "PDF abierto y sin páginas vacías: Uso_IA.pdf",
+      "aprobada": true,
+      "detalle": 10
+    },
+    {
+      "comprobacion": "Texto dentro de página: Uso_IA.pdf",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Copia exacta: Informe_equipo_parcial_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "PDF abierto y sin páginas vacías: Informe_equipo_parcial_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": 7
+    },
+    {
+      "comprobacion": "Texto dentro de página: Informe_equipo_parcial_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Texto completo del editable: Seccion_forense_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Texto completo del editable: Papeles_Trabajo_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Texto completo del editable: Fuentes_P1_v1.pdf",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Análisis completo en informe parcial",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Claves de trabajo retiradas del informe principal",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Dato o límite conservado: 2,058,909",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Dato o límite conservado: 5,115,483",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Dato o límite conservado: 777.11",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Dato o límite conservado: 312.78",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Dato o límite conservado: 216",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Dato o límite conservado: 144",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Dato o límite conservado: 72",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Dato o límite conservado: 315",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Dato o límite conservado: 355",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Dato o límite conservado: no concluyentes",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Vista inicial descriptiva: indice_evidencias",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Todos los datos técnicos conservados: indice_evidencias",
+      "aprobada": true,
+      "detalle": {
+        "filas": 188,
+        "columnas": 25
+      }
+    },
+    {
+      "comprobacion": "Enlaces locales válidos: indice_evidencias",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Vista de impresión sin texto perdido: indice_evidencias",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Vista inicial descriptiva: Programa_pruebas_P1_v1",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Todos los datos técnicos conservados: Programa_pruebas_P1_v1",
+      "aprobada": true,
+      "detalle": {
+        "filas": 14,
+        "columnas": 15
+      }
+    },
+    {
+      "comprobacion": "Enlaces locales válidos: Programa_pruebas_P1_v1",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Vista de impresión sin texto perdido: Programa_pruebas_P1_v1",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Vista inicial descriptiva: Cronologia_investigada_v1",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Todos los datos técnicos conservados: Cronologia_investigada_v1",
+      "aprobada": true,
+      "detalle": {
+        "filas": 13,
+        "columnas": 25
+      }
+    },
+    {
+      "comprobacion": "Enlaces locales válidos: Cronologia_investigada_v1",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Vista de impresión sin texto perdido: Cronologia_investigada_v1",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Índice enlazado a seis papeles",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Destinos del índice correctos",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Seis diapositivas completas",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Registro histórico de IA conservado literalmente",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Trece entradas previas de IA intactas y nueva edición registrada",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Once acciones con los mismos plazos y prioridades",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Responsable de verificación en todas las acciones",
+      "aprobada": true,
+      "detalle": null
+    },
+    {
+      "comprobacion": "Referencias de documento válidas: LEEME.md",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Referencias de documento válidas: Guion_defensa_P1_v1.md",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Referencias de documento válidas: Borradores_hallazgos_P1_v1.md",
+      "aprobada": true,
+      "detalle": []
+    },
+    {
+      "comprobacion": "Copias previas conservadas",
+      "aprobada": true,
+      "detalle": 34
+    },
+    {
+      "comprobacion": "Datos ficticios de origen sin cambios",
+      "aprobada": true,
+      "detalle": 24
+    }
+  ],
+  "aprobadas": 64,
+  "total": 64
+}

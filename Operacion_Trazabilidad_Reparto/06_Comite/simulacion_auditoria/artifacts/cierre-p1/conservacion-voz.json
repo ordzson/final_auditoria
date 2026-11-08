@@ -1,0 +1,208 @@
+{
+  "mp3": 29,
+  "comprobaciones": [
+    {
+      "ruta": "src/data/interview.ts",
+      "antes": "6850d71b006ff40b6c824a4771f2329c8ac0053382414e5002f8af28023a19e9",
+      "despues": "6850d71b006ff40b6c824a4771f2329c8ac0053382414e5002f8af28023a19e9",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "src/data/interviewAudio.ts",
+      "antes": "b9e5aaa958a1a17c847b803beb1e1ca351841d0e9de8464848e5335437d41552",
+      "despues": "b9e5aaa958a1a17c847b803beb1e1ca351841d0e9de8464848e5335437d41552",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "docs/guion-voz-enlace-ti.md",
+      "antes": "7da52d7639506dacf79597f0e1d81c9a0191c0266c1b8ffe1674f612ee87a4c2",
+      "despues": "7da52d7639506dacf79597f0e1d81c9a0191c0266c1b8ffe1674f612ee87a4c2",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frases.txt",
+      "antes": "8bd0d344dea390dcc418ea1257fc16f2317f62970e9e6e6c44dded35b1b32c7b",
+      "despues": "8bd0d344dea390dcc418ea1257fc16f2317f62970e9e6e6c44dded35b1b32c7b",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_01.mp3",
+      "antes": "dcf7779d10f7f6e2c05bad358de5177e320d0e5bfcffeb6fee5aabd3518efd4d",
+      "despues": "dcf7779d10f7f6e2c05bad358de5177e320d0e5bfcffeb6fee5aabd3518efd4d",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_02.mp3",
+      "antes": "9d5c10a85dd50382de0386e14631492995ebee74f9efaf1129be609fe1db102a",
+      "despues": "9d5c10a85dd50382de0386e14631492995ebee74f9efaf1129be609fe1db102a",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_03.mp3",
+      "antes": "53172aaadfed5713c362d778f12e8962aa9bb7c2f73fb3a9f3896aba96bef47e",
+      "despues": "53172aaadfed5713c362d778f12e8962aa9bb7c2f73fb3a9f3896aba96bef47e",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_04.mp3",
+      "antes": "e10325990d0a75ffed43acb3e4a917ed476ba42315f491f81b2a856558ce142d",
+      "despues": "e10325990d0a75ffed43acb3e4a917ed476ba42315f491f81b2a856558ce142d",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_05.mp3",
+      "antes": "c13220c4acd1ddefc9936a32dffe0da6074a21cb334ffd2d93bb021822b195a1",
+      "despues": "c13220c4acd1ddefc9936a32dffe0da6074a21cb334ffd2d93bb021822b195a1",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_06.mp3",
+      "antes": "c8b1b336ac29fcd9820f3869c9bf937f33907199ed6b46d6c2d612468b56dacd",
+      "despues": "c8b1b336ac29fcd9820f3869c9bf937f33907199ed6b46d6c2d612468b56dacd",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_07.mp3",
+      "antes": "95c1ea24a761e12a8eb2d4830bbabe2ddd19a0251eb515fdf7d57bdde930e56f",
+      "despues": "95c1ea24a761e12a8eb2d4830bbabe2ddd19a0251eb515fdf7d57bdde930e56f",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_08.mp3",
+      "antes": "80d6748f5372b61f474e70f38b0acdf3c66a533412e160333442e51c5f266e89",
+      "despues": "80d6748f5372b61f474e70f38b0acdf3c66a533412e160333442e51c5f266e89",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_09.mp3",
+      "antes": "7b68cdd1daf3d272973d356226dbe1bd5124eaafa0a92e3296e0835c9f00e44b",
+      "despues": "7b68cdd1daf3d272973d356226dbe1bd5124eaafa0a92e3296e0835c9f00e44b",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_10.mp3",
+      "antes": "bb25ded1677245e6c18c24062a77accf3e5c38d79be77c206cbc70a6d53a498b",
+      "despues": "bb25ded1677245e6c18c24062a77accf3e5c38d79be77c206cbc70a6d53a498b",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_11.mp3",
+      "antes": "ff2340bae7fed01fa4b00b6c30a96c38c21c72fc65994663d6594b01274717c1",
+      "despues": "ff2340bae7fed01fa4b00b6c30a96c38c21c72fc65994663d6594b01274717c1",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_12.mp3",
+      "antes": "7e4eb46e2e772990214b8751509ddc3e08d678287a7c740993c840f4c961dbf0",
+      "despues": "7e4eb46e2e772990214b8751509ddc3e08d678287a7c740993c840f4c961dbf0",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_13.mp3",
+      "antes": "176ccb4a56677a0ef8cca8abe9e5fc31bc14acac0e949656f835f7fb1bdc5dfc",
+      "despues": "176ccb4a56677a0ef8cca8abe9e5fc31bc14acac0e949656f835f7fb1bdc5dfc",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_14.mp3",
+      "antes": "eddee4806728dde8806d982e1daab25e5f0d2a9bc025c888ed371854d5d1543a",
+      "despues": "eddee4806728dde8806d982e1daab25e5f0d2a9bc025c888ed371854d5d1543a",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_15.mp3",
+      "antes": "31242a3fd82525d87a12eed2dc7829bdf68452a55ec281cfaf0695b7b0e627b6",
+      "despues": "31242a3fd82525d87a12eed2dc7829bdf68452a55ec281cfaf0695b7b0e627b6",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_16.mp3",
+      "antes": "875e0cce3e13880858fd86358b6a310188960b667718baa92e5b873c80704c8a",
+      "despues": "875e0cce3e13880858fd86358b6a310188960b667718baa92e5b873c80704c8a",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_17.mp3",
+      "antes": "1f9ea0b4b68683d555cb14a284f720bd5aaddb3908a4de66e284316c553be5da",
+      "despues": "1f9ea0b4b68683d555cb14a284f720bd5aaddb3908a4de66e284316c553be5da",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_18.mp3",
+      "antes": "bc7b3ecdb06f5aa189a08d0311335844ef3c2ad32a1f415622e2801a3b690799",
+      "despues": "bc7b3ecdb06f5aa189a08d0311335844ef3c2ad32a1f415622e2801a3b690799",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_19.mp3",
+      "antes": "12dbfbcc493444171c8908411f48dd27e6195cf01601c27af38cd6e7f5cdb584",
+      "despues": "12dbfbcc493444171c8908411f48dd27e6195cf01601c27af38cd6e7f5cdb584",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_20.mp3",
+      "antes": "42f01edcebaa7d93026033f2a141c5e6b7f3cad7aa789d48e300ca98ab33e273",
+      "despues": "42f01edcebaa7d93026033f2a141c5e6b7f3cad7aa789d48e300ca98ab33e273",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_21.mp3",
+      "antes": "9f4ad78da8c42fe44d36dfe414ecdef2bac2f5e89291644268890e2ff2a66542",
+      "despues": "9f4ad78da8c42fe44d36dfe414ecdef2bac2f5e89291644268890e2ff2a66542",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_22.mp3",
+      "antes": "19f4bf39881b4f40fa9548c92bb2831586f30d4fba5f3c96897eb337ae2b758c",
+      "despues": "19f4bf39881b4f40fa9548c92bb2831586f30d4fba5f3c96897eb337ae2b758c",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_23.mp3",
+      "antes": "f1410bae2548515c55f05af05c74cd2f21c6eae7f20a16628e073ca569cab328",
+      "despues": "f1410bae2548515c55f05af05c74cd2f21c6eae7f20a16628e073ca569cab328",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_24.mp3",
+      "antes": "5448be9b6a2b182a2583f256992e490ecdbddb2341ddb35a7df0263babca3275",
+      "despues": "5448be9b6a2b182a2583f256992e490ecdbddb2341ddb35a7df0263babca3275",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_25.mp3",
+      "antes": "498939a0021146ad867ab6db3dcda30eb52f839ff27c7a0163f3849f64bef909",
+      "despues": "498939a0021146ad867ab6db3dcda30eb52f839ff27c7a0163f3849f64bef909",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_26.mp3",
+      "antes": "9fd09f0fb6a042b9bd92367bd188e6d2f9b9111b9aca9164fac9821f772d6036",
+      "despues": "9fd09f0fb6a042b9bd92367bd188e6d2f9b9111b9aca9164fac9821f772d6036",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_27.mp3",
+      "antes": "021bdfc2c725d5009ca0ebd08cf6e049328fad5aacf9c5313ec16cf0497fa503",
+      "despues": "021bdfc2c725d5009ca0ebd08cf6e049328fad5aacf9c5313ec16cf0497fa503",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_28.mp3",
+      "antes": "5603d348db9b1323473be7384752f18fe59b0c5b82e17185897530048925f229",
+      "despues": "5603d348db9b1323473be7384752f18fe59b0c5b82e17185897530048925f229",
+      "sin_cambios": true
+    },
+    {
+      "ruta": "public/audio/enlace-ti/frase_29.mp3",
+      "antes": "bead877f1032754d36140a5058156db5d57e897362e2161e5de5ff784f13c56d",
+      "despues": "bead877f1032754d36140a5058156db5d57e897362e2161e5de5ff784f13c56d",
+      "sin_cambios": true
+    },
+    {
+      "fragmento": "tres saludos de InterviewPanel.ts",
+      "sin_cambios": true
+    }
+  ],
+  "reemplazos_pendientes_por_I5": []
+}

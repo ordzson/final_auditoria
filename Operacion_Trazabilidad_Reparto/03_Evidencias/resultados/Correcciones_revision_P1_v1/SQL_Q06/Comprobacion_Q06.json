@@ -1,0 +1,24 @@
+{
+  "inicio_utc": "2026-11-07T22:31:14.091273+00:00",
+  "fin_utc": "2026-11-07T22:31:14.795624+00:00",
+  "conexion": {
+    "Login": "auditor_lectura",
+    "Usuario": "auditor_lectura",
+    "Base": "RedNova_P1_Lab_v2",
+    "Motor": "16.0.4305.5"
+  },
+  "datos": "v2 existentes; no regenerados",
+  "filas": 3,
+  "repeticion_identica": true,
+  "csv_identico_al_previo": true,
+  "sha256_csv": "2e1b331de39de4d77cf96cf3ca590b5aa8de5096c8a99cfff4b13d91c995e43a",
+  "sha256_sql": "6be304d39d4caa85c25240fb892626dd098f3ff676a0ac1647ed045a553f1d2d",
+  "sha256_consulta": "1b09a581576e9ce7f39e3cbd847a2d69e3fbdd577d096235eb92fa9bdaa73aad",
+  "sha256_script": "f8c15a6a0a69085c415ae14a3519264d4dbfa9a164bef39f1154301a2cbbcba4",
+  "controles_aprobados": 10,
+  "controles_total": 10,
+  "filas_red_antes_y_despues": 73,
+  "red_sin_cambios": true,
+  "alcance": "Solo SELECT; no reconstrucción, carga ni restauración.",
+  "revision_humana": "Pendiente"
+}

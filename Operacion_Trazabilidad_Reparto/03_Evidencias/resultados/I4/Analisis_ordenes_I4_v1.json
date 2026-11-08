@@ -1,0 +1,38 @@
+{
+  "metodo": "CSV/Counter/sets Python; cotejo de 216 filas y todos los campos comunes con HistorialOrdenes.csv. Sin SQL nuevo.",
+  "cambios": 216,
+  "ordenes_distintas": 216,
+  "campos": {
+    "Monto": 144,
+    "Estado": 72
+  },
+  "marcas": {
+    "2026-10-14T02:42:00": 216
+  },
+  "desconocidos": {
+    "UsuarioID": 216,
+    "SesionID": 216,
+    "Via": 216
+  },
+  "origen": {
+    "laboratorio": 216
+  },
+  "estados_sinteticos": [
+    [
+      "Pendiente",
+      "Confirmada"
+    ]
+  ],
+  "grupos_candidatos": 10,
+  "ordenes_en_grupos": 20,
+  "interseccion_con_216": [],
+  "facturacion_recibida": false,
+  "conciliacion_con_respaldo": false,
+  "perdida_monetaria": null,
+  "muestra": {
+    "CambioID": "1",
+    "OrdenID": "1",
+    "ClaseOrigen": "laboratorio",
+    "SupuestosAplicados": "S-03;S-09;S-P1-PER;S-P1-ORD"
+  }
+}

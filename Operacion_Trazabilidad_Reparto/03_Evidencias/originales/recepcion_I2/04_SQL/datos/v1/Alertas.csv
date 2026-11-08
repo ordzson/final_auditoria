@@ -1,0 +1,7 @@
+AlertaID,HoraReportadaLocal,FechaHoraUTC,Severidad,Regla,Activo,Estado,AsignadoA,PrimeraAccion,FechaCierre,NotaCierre,FuenteID,ClaseOrigen,ReferenciaExpediente,SupuestosAplicados
+1,2026-10-07T10:00:00,2026-10-07T16:00:00+00:00,Critica,Control_sintetico,CRM_LAB,Cerrada,equipo_seguridad_LAB,2026-10-07T10:05:00,2026-10-07T10:30:00,Cierre ficticio de control,LAB_SIEM,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-CAS
+2,2026-10-08T10:00:00,2026-10-08T16:00:00+00:00,Critica,Control_sintetico,CRM_LAB,Cerrada,equipo_seguridad_LAB,2026-10-08T10:05:00,2026-10-08T10:30:00,Cierre ficticio de control,LAB_SIEM,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-CAS
+3,2026-10-09T10:00:00,2026-10-09T16:00:00+00:00,Critica,Control_sintetico,CRM_LAB,Cerrada,\N,2026-10-09T10:05:00,2026-10-09T10:30:00,Cierre ficticio de control,LAB_SIEM,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-CAS
+4,2026-10-10T10:00:00,2026-10-10T16:00:00+00:00,Critica,Control_sintetico,CRM_LAB,Cerrada,equipo_seguridad_LAB,\N,2026-10-10T10:30:00,Cierre ficticio de control,LAB_SIEM,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-CAS
+5,2026-10-11T10:00:00,2026-10-11T16:00:00+00:00,Critica,Control_sintetico,CRM_LAB,Abierta,equipo_seguridad_LAB,2026-10-11T10:05:00,\N,\N,LAB_SIEM,laboratorio,\N,S-03;S-09;S-P1-PER;S-P1-CAS
+6,2026-10-14T03:18:00,\N,Critica,Alerta crítica reportada; regla no aportada,No aportado,Sin_documentar,\N,\N,\N,\N,CURSO_SEGURIDAD,reproduccion_expediente,E-07,S-03

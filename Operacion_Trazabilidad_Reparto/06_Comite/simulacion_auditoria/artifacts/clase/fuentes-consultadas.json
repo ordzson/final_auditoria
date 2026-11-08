@@ -1,0 +1,70 @@
+{
+  "scope": "Identifica las fuentes académicas leídas; sus huellas no autentican registros del incidente. Solo se modificó el juego.",
+  "files": [
+    {
+      "path": "entregables/LEEME.md",
+      "bytes": 4712,
+      "sha256": "f24b3e6371586bf96483db8678baf7e3e589839314cb765f712d83bea6e1f9db"
+    },
+    {
+      "path": "00_Material_del_curso/Guia_Entregables_Operacion_Trazabilidad.pdf",
+      "bytes": 91313,
+      "sha256": "4158bae4b6c1acf11c5e506ad834b4ba0b953bf72c53fbec1c42784f25ba247f"
+    },
+    {
+      "path": "00_Material_del_curso/Proyecto_Operacion_Trazabilidad_Auditoria_Sistemas.pdf",
+      "bytes": 96721,
+      "sha256": "85db978c0f3caa7d535971f637cc21379990ef6868107fdc8bb758ca54e1005f"
+    },
+    {
+      "path": "01_Informe/Seccion_forense_P1_v1.md",
+      "bytes": 13889,
+      "sha256": "0e249a8a799f904fb674c8cee9d90d0b32f61af1122633d626a681fd7cdae6bc"
+    },
+    {
+      "path": "03_Evidencias/Papeles_P1_v1.md",
+      "bytes": 16084,
+      "sha256": "e198df329a72d1a37bdf6922dcf35f17a9684a94077aaf54e11ca02857f5765b"
+    },
+    {
+      "path": "03_Evidencias/Borradores_hallazgos_P1_v1.md",
+      "bytes": 7580,
+      "sha256": "a5865755ec85a38f32d8d949c4a7730b4d52e5cd7194bb8cbe02a966692500c0"
+    },
+    {
+      "path": "entregables/Cronologia_investigada_v1.xlsx",
+      "bytes": 16627,
+      "sha256": "06edb906a38f4426d6419056a8311a03312495eafdcc9c219cb2ef4239cd7b9f"
+    },
+    {
+      "path": "entregables/indice_evidencias.xlsx",
+      "bytes": 56578,
+      "sha256": "c5d97fab2678a90342b2e34cdbbea5019434c41a5334724ff3199a0458d7649b"
+    },
+    {
+      "path": "entregables/Programa_pruebas_P1_v1.xlsx",
+      "bytes": 17942,
+      "sha256": "19d6ef779b45dbe8d572ea5dd7a2ac7082e44cd8ca4a9b255c732f3e92305da8"
+    },
+    {
+      "path": "05_Plan/Acciones_P1_0_72h_v1.csv",
+      "bytes": 10504,
+      "sha256": "7da584bb252703b595b835437a3a4bb92999607591f878626a2849295c4ccb36"
+    },
+    {
+      "path": "06_Comite/Guion_defensa_P1_v1.md",
+      "bytes": 9670,
+      "sha256": "069e4838657628ad295976b81c144cc8f91c1a25d6d5adb2e2ba7c0e0b1a9e9c"
+    },
+    {
+      "path": "06_Comite/Presentacion_P1_v1.json",
+      "bytes": 4216,
+      "sha256": "12f453f6fb1c506b6692826cdc30011fae6b2a4d1695f6aa9f281ef1e87111d2"
+    },
+    {
+      "path": "07_Referencias/Fuentes_P1_v1.md",
+      "bytes": 7277,
+      "sha256": "017d64bd5e410afd36c8d791e55a2098eaa249e5116fd92b680623ed7bcb7f6e"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+# Page snapshot
+
+```yaml
+- main [ref=e3]:
+  - generic "Oficina 3D de revisión del incidente RedNova" [ref=e5]
+  - generic:
+    - region "Reconstrucción del incidente":
+      - generic:
+        - generic:
+          - generic: 12 oct 2026
+          - strong: 16:15
+          - generic: UTC−6 · Hora reportada
+        - generic:
+          - generic: P01 · 1/10
+          - generic: Reconstrucción del expediente · puesta en escena ilustrativa
+      - generic:
+        - generic: Solicitud de acceso
+        - generic: Registro del caso
+      - generic:
+        - paragraph: "RedNova: servicios de internet y televisión. Una solicitud de acceso seguía pendiente."
+        - paragraph: EVT-01 · Registro preliminar del curso, p. 4 · Hora reportada UTC−6
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Pausar reconstrucción" [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+            - text: Pausar
+          - button "Plano anterior" [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+            - text: Plano anterior
+          - button "Plano siguiente" [ref=e14] [cursor=pointer]:
+            - img [ref=e15]
+            - text: Plano siguiente
+          - button "Repetir" [ref=e17] [cursor=pointer]
+          - button "1×" [ref=e18] [cursor=pointer]
+          - button "Sin sonido" [ref=e19] [cursor=pointer]:
+            - img [ref=e20]
+            - text: Sin sonido
+        - generic [ref=e22]:
+          - generic [ref=e23]: Tiempo de la reconstrucción
+          - slider "Tiempo de la reconstrucción 0:01 / 1:50" [ref=e24]: "1.8"
+          - generic [ref=e25]: 0:01 / 1:50
+        - button "Omitir y entrar a la oficina" [ref=e26] [cursor=pointer]
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - strong [ref=e29]: Operación Trazabilidad
+      - generic [ref=e30]: La oficina después del incidente
+    - generic [ref=e31]:
+      - button "Reconstrucción" [ref=e32] [cursor=pointer]
+      - group [ref=e33]:
+        - generic "Accesibilidad y controles" [ref=e34] [cursor=pointer]
+  - status
+```

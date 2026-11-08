@@ -1,0 +1,1280 @@
+{
+  "fecha_utc": "2026-11-07T15:29:08.841119+00:00",
+  "registro_entradas": 312,
+  "documentales": 5,
+  "total_cotejos_registros": 317,
+  "discrepancias": 0,
+  "manifest_archivos": 492,
+  "manifest_sha256": "f8843a3407e312acca15a9175078d6efa9685f5e63d60751bbd8a5213bcc81c4",
+  "registro_sha256": "874f46144a1dfdaae1f430b8e0652f5e462c4984c994b5470e47384bc5fc053c",
+  "comprobaciones": [
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Borradores_hallazgos_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Consultas_resultados_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Cronologia_investigada_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Diccionario_datos_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Fuentes_curso_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Indice_evidencias_inicial_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Indice_evidencias_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Laboratorio_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Mapa_causal_P1_v1.dot",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Mapa_causal_P1_v1.svg",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Metodo_evidencia_y_laboratorio_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Papeles_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Relaciones_v1.dot",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Relaciones_v1.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Responsables_equipo_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Supuestos_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/analizar_I4.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/formulario_custodia.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/hashes_documentales_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Consultas_resultados_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Diccionario_datos_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Fuentes_curso_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Indice_evidencias_inicial_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Indice_evidencias_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Laboratorio_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Metodo_evidencia_y_laboratorio_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Relaciones_v1.dot",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Relaciones_v1.png",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Responsables_equipo_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/Supuestos_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/formulario_custodia.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/03_Evidencias/hashes_documentales_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/00_preparar_base.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/01_esquema.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/02_generar_datos.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/02_generar_datos_v2.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/03_carga.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/04_usuario_lectura.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/Analisis_Auditoria.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/Diseno_laboratorio_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/Instrucciones_generacion_datos_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/Permisos_bitacora.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/laboratorio.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/validar_datos.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/validar_datos_v2.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/04_SQL/verificar_laboratorio.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/07_Referencias/Registro_uso_IA_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/artefactos_I2_I3/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/documentos/Plantilla_referencia_UdeO_recibida_v1.docx",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I2_I3/04_SQL/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I2_I3/07_Referencias/Registro_uso_IA_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/03_Evidencias/Indice_evidencias_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/03_Evidencias/formulario_custodia.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/03_Evidencias/hashes_sha256_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/07_Referencias/Fuentes_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/07_Referencias/Registro_uso_IA_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/previos_I4/Preservacion.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/03_Evidencias/Programa_pruebas_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/03_Evidencias/Supuestos_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/01_esquema.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/02_generar_datos.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/02_generar_datos_v2.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/Diseno_laboratorio_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Alertas.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Backups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/BitacoraSQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/CambiosSistema.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Clientes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Diccionario_campos_sinteticos_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Empleados.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/EventosExpediente.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/FuentesTiempo.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/HistorialOrdenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Manifest_datos_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Ordenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Privilegios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/ProgramacionBackups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/PruebasRestauracion.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Registro_generacion_IA_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Sesiones.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/TransferenciasRed.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Usuarios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/Validacion_generacion_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Alertas.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Backups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/BitacoraSQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/CambiosSistema.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Clientes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Diccionario_campos_sinteticos_v2.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Empleados.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/EventosExpediente.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/FuentesTiempo.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/HistorialOrdenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Manifest_datos_v2.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Ordenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Privilegios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/ProgramacionBackups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/PruebasRestauracion.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Registro_generacion_IA_v2.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Sesiones.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/TransferenciasRed.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Usuarios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/Validacion_generacion_v2.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/validar_datos.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/04_SQL/validar_datos_v2.py",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/originales/recepcion_I2/Preservacion.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Comparacion_reconstruccion.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Comprobacion_I1_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Comprobacion_integrantes_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Concesiones_SQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Conexion_auditor.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Contraste_independiente_I3.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Ejecuciones_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Concesiones_SQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Conexion_auditor.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Ejecuciones_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Limites_umbrales.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Permisos_rechazos.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-02.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-03.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-04.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-05.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-06.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-07.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-08.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-09.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-10.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-11.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-12.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Q-S01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Validacion_laboratorio_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_cierre/Validacion_laboratorio_v1.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_ejecucion_02/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_ejecucion_03/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_final/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_final_validada/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_final_validada/Conexion_auditor.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_final_validada/Fallo.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_reconstruccion_01/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Concesiones_SQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Conexion_auditor.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Ejecuciones_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Limites_umbrales.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Permisos_rechazos.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-02.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-03.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-04.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-05.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-06.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-07.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-08.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-09.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-10.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-11.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-12.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Q-S01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Validacion_laboratorio_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_repeticion/Validacion_laboratorio_v1.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Columnas_SQL.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Concesiones_SQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Conexion_auditor.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Ejecuciones_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Limites_umbrales.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Permisos_rechazos.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-02.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-03.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-04.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-05.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-06.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-07.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-08.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-09.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-10.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-11.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-12.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Q-S01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Validacion_laboratorio_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I2_I3_verificacion_cierre/Validacion_laboratorio_v1.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Analisis_ordenes_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Cierre_hashes_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Comprobacion_archivos_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Entradas_adicionales_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Intervalos_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Sensibilidad_relojes_I4_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Validacion_entregables_I4_intento_01.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Validacion_entregables_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Verificacion_entradas_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/I4/Volumen_31840_I4_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Incidencias_ejecucion_I2_I3.md",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Limites_umbrales.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Permisos_rechazos.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-02.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-03.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-04.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-05.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-06.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-07.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-08.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-09.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-10.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-11.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-12.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Q-S01.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Rechazo_base_existente.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Revision_recepcion_datos_v2.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Validacion_contrato_I1_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Validacion_contrato_I1_v1.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Validacion_laboratorio_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Validacion_laboratorio_v1.txt",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Verificacion_documentales_I2_I3.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Verificacion_entradas_I1_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/verificar_I4.py",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/00_preparar_base.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/01_esquema.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/02_generar_datos.py",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/02_generar_datos_v2.py",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/03_carga.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/04_usuario_lectura.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/Analisis_Auditoria.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/Diseno_laboratorio_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/Instrucciones_generacion_datos_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/Permisos_bitacora.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/compose.yaml",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Alertas.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Backups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/BitacoraSQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/CambiosSistema.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Clientes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Diccionario_campos_sinteticos_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Empleados.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/EventosExpediente.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/FuentesTiempo.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/HistorialOrdenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Manifest_datos_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Ordenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Privilegios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/ProgramacionBackups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/PruebasRestauracion.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Registro_generacion_IA_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Sesiones.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/TransferenciasRed.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Usuarios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/Validacion_generacion_v1.json",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Alertas.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Backups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/BitacoraSQL.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/CambiosSistema.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Clientes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Diccionario_campos_sinteticos_v2.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Empleados.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/EventosExpediente.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/FuentesTiempo.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/HistorialOrdenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Manifest_datos_v2.json",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Ordenes.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Privilegios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/ProgramacionBackups.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/PruebasRestauracion.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Registro_generacion_IA_v2.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Sesiones.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/TransferenciasRed.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Usuarios.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/Validacion_generacion_v2.json",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_01.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_02.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_03.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/datos/v2/soportes_sinteticos/Pruebas_Cambio_04.md",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/laboratorio.py",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/validar_datos.py",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/validar_datos_v2.py",
+      "coincide": true
+    },
+    {
+      "ruta": "04_SQL/verificar_laboratorio.sql",
+      "coincide": true
+    },
+    {
+      "ruta": "05_Plan/Acciones_P1_0_72h_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "07_Referencias/Fuentes_P1_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "07_Referencias/Fuentes_adicionales_P1_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "07_Referencias/Registro_uso_IA_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Agente_IA_P1_Incidente_evidencia_simulacion_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "P1_Incidente_evidencia_simulacion/Ejecucion_P1_por_instancias_v1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/README.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/manifest.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/entradas-verificadas.json",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/P1_Incidente_evidencia_simulacion/ESTADO_P1.md",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/07_Referencias/Registro_uso_IA_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "06_Comite/simulacion_auditoria/artifacts/cierre-p1/previos/03_Evidencias/hashes_sha256_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "00_Material_del_curso/Proyecto_Operacion_Trazabilidad_Auditoria_Sistemas.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "00_Material_del_curso/Guia_Entregables_Operacion_Trazabilidad.pdf",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Fuentes_curso_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Indice_evidencias_inicial_v1.csv",
+      "coincide": true
+    },
+    {
+      "ruta": "03_Evidencias/Metodo_evidencia_y_laboratorio_v1.md",
+      "coincide": true
+    }
+  ]
+}

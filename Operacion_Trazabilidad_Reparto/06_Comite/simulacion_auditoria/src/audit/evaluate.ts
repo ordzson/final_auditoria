@@ -68,11 +68,11 @@ export function evaluateReview(assessment: Assessment, inspected: SourceRef[]): 
   for (const check of rule.checks) {
     const answer = assessment.checkAnswers.find((item) => item.checkId === check.id);
     if (!answer) {
-      missingReasons.push(`Resuelve la comprobación ${check.id} con las fuentes vinculadas.`);
+      missingReasons.push(`Resuelve con las fuentes vinculadas: «${check.question}»`);
       continue;
     }
     if (!checkSourcesAreValid(assessment, check.sourceGroupIds, answer.sourceRefs, inspected)) {
-      missingReasons.push(`Repite ${check.id}: cambiaron o se retiraron las fuentes con las que se comprobó.`);
+      missingReasons.push(`Repite «${check.question}»: cambiaron o se retiraron las fuentes con las que se comprobó.`);
     }
     if (answer.answerId !== check.acceptedAnswerId) {
       missingReasons.push(rule.feedback);

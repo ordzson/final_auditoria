@@ -1,0 +1,96 @@
+Already up to date
+Done in 33ms using pnpm v11.2.2
+
+Running 9 tests using 1 worker
+
+(node:2558706) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2558706) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/acceptance.spec.ts:28:3 › D · apertura legible y encuadrada a 1280×720 (8.2s)
+  ✓  2 tests/e2e/acceptance.spec.ts:28:3 › D · apertura legible y encuadrada a 1920×1080 (9.3s)
+  ✓  3 tests/e2e/acceptance.spec.ts:68:1 › D · acceso plano móvil, teclado, J y Esc (1.1s)
+  ✓  4 tests/e2e/acceptance.spec.ts:99:1 › D · silencio, aviso opcional y reducción de movimiento (16.7s)
+  ✓  5 tests/e2e/acceptance.spec.ts:138:1 › D · WebGL denegado conserva los seis accesos y la entrevista (1.5s)
+  ✓  6 tests/e2e/acceptance.spec.ts:161:1 › D · bloqueo del puntero denegado activa la alternativa completa (13.7s)
+  ✓  7 tests/e2e/acceptance.spec.ts:181:1 › D · inicio local sin acceso externo y revisión con el contexto offline (15.0s)
+  ✘  8 tests/e2e/classroom.spec.ts:13:3 › Clase · lectura, fuentes y libreta con partida anterior, proyector y sin audio a 1280×720 (2.0m)
+(node:2575001) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2575001) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  9 tests/e2e/classroom.spec.ts:13:3 › Clase · lectura, fuentes y libreta con partida anterior, proyector y sin audio a 1920×1080 (2.0m)
+
+
+  1) tests/e2e/classroom.spec.ts:13:3 › Clase · lectura, fuentes y libreta con partida anterior, proyector y sin audio a 1280×720 
+
+    [31mTest timeout of 120000ms exceeded.[39m
+
+    Error: locator.isEnabled: Test timeout of 120000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('.pc-window[data-app-id="local-dossier"]').locator('[data-pc-viewer="use"]')[22m
+
+
+       at desktop-helpers.ts:18
+
+      16 |   await expect(dossier.locator('.pc-app-document')).toHaveAttribute('data-document', sourceId);
+      17 |   const use = dossier.locator('[data-pc-viewer="use"]');
+    > 18 |   if (await use.isEnabled()) await use.click();
+         |                 ^
+      19 | }
+      20 |
+        at usePcSource (/home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/desktop-helpers.ts:18:17)
+        at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/classroom.spec.ts:36:7
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    artifacts/test-results/classroom-Clase-·-lectura--53899-ctor-y-sin-audio-a-1280×720/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: artifacts/test-results/classroom-Clase-·-lectura--53899-ctor-y-sin-audio-a-1280×720/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    artifacts/test-results/classroom-Clase-·-lectura--53899-ctor-y-sin-audio-a-1280×720/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace artifacts/test-results/classroom-Clase-·-lectura--53899-ctor-y-sin-audio-a-1280×720/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/e2e/classroom.spec.ts:13:3 › Clase · lectura, fuentes y libreta con partida anterior, proyector y sin audio a 1920×1080 
+
+    [31mTest timeout of 120000ms exceeded.[39m
+
+    Error: locator.isEnabled: Test timeout of 120000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('.pc-window[data-app-id="local-dossier"]').locator('[data-pc-viewer="use"]')[22m
+
+
+       at desktop-helpers.ts:18
+
+      16 |   await expect(dossier.locator('.pc-app-document')).toHaveAttribute('data-document', sourceId);
+      17 |   const use = dossier.locator('[data-pc-viewer="use"]');
+    > 18 |   if (await use.isEnabled()) await use.click();
+         |                 ^
+      19 | }
+      20 |
+        at usePcSource (/home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/desktop-helpers.ts:18:17)
+        at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/classroom.spec.ts:36:7
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    artifacts/test-results/classroom-Clase-·-lectura--4d450-tor-y-sin-audio-a-1920×1080/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: artifacts/test-results/classroom-Clase-·-lectura--4d450-tor-y-sin-audio-a-1920×1080/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    artifacts/test-results/classroom-Clase-·-lectura--4d450-tor-y-sin-audio-a-1920×1080/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace artifacts/test-results/classroom-Clase-·-lectura--4d450-tor-y-sin-audio-a-1920×1080/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests/e2e/classroom.spec.ts:13:3 › Clase · lectura, fuentes y libreta con partida anterior, proyector y sin audio a 1280×720 
+    tests/e2e/classroom.spec.ts:13:3 › Clase · lectura, fuentes y libreta con partida anterior, proyector y sin audio a 1920×1080 
+  7 passed (5.2m)

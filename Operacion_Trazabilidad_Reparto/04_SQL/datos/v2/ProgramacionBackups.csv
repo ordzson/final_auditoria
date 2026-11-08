@@ -1,0 +1,10 @@
+ProgramacionID,BaseDatos,Tipo,HoraProgramada,Destino,ClaseOrigen,ReferenciaExpediente,SupuestosAplicados
+1,CRM_LAB,Completo,2026-10-07T00:30:00,backup-lab.example/CRM_LAB,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+2,CRM_LAB,Completo,2026-10-08T00:30:00,backup-lab.example/CRM_LAB,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+3,CRM_LAB,Completo,2026-10-09T00:30:00,backup-lab.example/CRM_LAB,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+4,CRM_LAB,Completo,2026-10-10T00:30:00,backup-lab.example/CRM_LAB,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+5,CRM_LAB,Completo,2026-10-11T00:30:00,backup-lab.example/CRM_LAB,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+6,CRM_LAB,Completo,2026-10-12T00:30:00,backup-lab.example/CRM_LAB,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+7,CRM_LAB,Completo,2026-10-13T00:30:00,backup-lab.example/CRM_LAB,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+8,CRM_LAB,Completo,2026-10-14T00:30:00,backup-lab.example/CRM_LAB,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+9,CRM_LAB,Completo,2026-10-15T00:30:00,backup-lab.example/CRM_LAB,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04

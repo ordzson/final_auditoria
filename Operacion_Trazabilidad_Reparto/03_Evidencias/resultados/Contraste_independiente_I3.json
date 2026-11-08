@@ -1,0 +1,52 @@
+{
+  "metodo": "Python estándar csv/sets/Counter, independiente de SELECT; misma fuente sintética, no corroboración del caso",
+  "cambios": 216,
+  "ordenes_distintas": 216,
+  "campos": {
+    "Monto": 144,
+    "Estado": 72
+  },
+  "grupos_duplicados": [
+    [
+      "1001",
+      "1002"
+    ],
+    [
+      "1003",
+      "1004"
+    ],
+    [
+      "1005",
+      "1006"
+    ],
+    [
+      "1007",
+      "1008"
+    ],
+    [
+      "1009",
+      "1010"
+    ],
+    [
+      "1011",
+      "1012"
+    ],
+    [
+      "1013",
+      "1014"
+    ],
+    [
+      "1015",
+      "1016"
+    ],
+    [
+      "1017",
+      "1018"
+    ],
+    [
+      "1019",
+      "1020"
+    ]
+  ],
+  "concordancia_SQL": true
+}

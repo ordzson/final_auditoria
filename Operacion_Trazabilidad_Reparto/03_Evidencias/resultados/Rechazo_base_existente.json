@@ -1,0 +1,7 @@
+{
+  "momento_utc": "2026-11-07T06:13:34.294353+00:00",
+  "base": "RedNova_P1_Lab_v2",
+  "rechazo_esperado": true,
+  "mensaje_motor": "Msg 51000, Level 16, State 1, Server p1-trazabilidad-sql2022, Line 3\nLa base ya existe; usar otro nombre propio.\n",
+  "base_conservada": true
+}

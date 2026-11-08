@@ -1,0 +1,13 @@
+{
+  "fecha_utc": "2026-11-07T16:27:44.234160+00:00",
+  "zip": "06_Comite/Paquete_portatil_P1_v1.zip",
+  "bytes": 165711752,
+  "sha256": "42000cbf452d3edd2718b22e063a602fe2623d1b2d0b746521da2a83724186a7",
+  "archivos_verificados": 1037,
+  "miembros_zip": 1038,
+  "discrepancias": [],
+  "zip_crc": "aprobado",
+  "extraccion_y_verificador": "{\"archivos\": 1037, \"discrepancias\": []}",
+  "incluye_credenciales": false,
+  "integracion_equipo": false
+}

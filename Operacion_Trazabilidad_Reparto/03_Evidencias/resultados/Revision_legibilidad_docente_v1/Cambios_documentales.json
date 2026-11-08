@@ -1,0 +1,226 @@
+{
+  "fecha_utc": "2026-11-07T23:13:21.244793+00:00",
+  "alcance": "Revisión de legibilidad de entregables para el docente. Cifras y evidencia sintética conservadas; revisión humana e integración del equipo pendientes.",
+  "archivos": [
+    {
+      "ruta": "01_Informe/Informe_equipo_parcial_P1_v1.docx",
+      "sha256": "bb18d51976145f4ada184c500c4f0f0c406d1a33752cb7fe34bd076f8f6d6686",
+      "bytes": 167227
+    },
+    {
+      "ruta": "01_Informe/Informe_equipo_parcial_P1_v1.pdf",
+      "sha256": "a3cd841e1609f21cf09c2431dbef62b20ac113cdb87e69d98478b0b935880b53",
+      "bytes": 143400
+    },
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.docx",
+      "sha256": "6b7f66fbefaa8a1e7d9dfd21543f1a398f771412ec3588d545b533ec3853b651",
+      "bytes": 165629
+    },
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.md",
+      "sha256": "0e249a8a799f904fb674c8cee9d90d0b32f61af1122633d626a681fd7cdae6bc",
+      "bytes": 13889
+    },
+    {
+      "ruta": "01_Informe/Seccion_forense_P1_v1.pdf",
+      "sha256": "a2b0bf9804eb3323e9f2f649d9ab07cbfeadf557959e997a06751b2d9b1b841d",
+      "bytes": 70287
+    },
+    {
+      "ruta": "03_Evidencias/Borradores_hallazgos_P1_v1.md",
+      "sha256": "a5865755ec85a38f32d8d949c4a7730b4d52e5cd7194bb8cbe02a966692500c0",
+      "bytes": 7580
+    },
+    {
+      "ruta": "03_Evidencias/Cronologia_investigada_v1.xlsx",
+      "sha256": "06edb906a38f4426d6419056a8311a03312495eafdcc9c219cb2ef4239cd7b9f",
+      "bytes": 16627
+    },
+    {
+      "ruta": "03_Evidencias/Papeles_P1_v1.md",
+      "sha256": "e198df329a72d1a37bdf6922dcf35f17a9684a94077aaf54e11ca02857f5765b",
+      "bytes": 16084
+    },
+    {
+      "ruta": "03_Evidencias/Papeles_Trabajo_P1_v1.pdf",
+      "sha256": "6694026107c77c257c1750ea0b89d3451403d06b264f12c694a803c8c704875c",
+      "bytes": 62017
+    },
+    {
+      "ruta": "03_Evidencias/Programa_pruebas_P1_v1.xlsx",
+      "sha256": "19d6ef779b45dbe8d572ea5dd7a2ac7082e44cd8ca4a9b255c732f3e92305da8",
+      "bytes": 17942
+    },
+    {
+      "ruta": "03_Evidencias/indice_evidencias.xlsx",
+      "sha256": "c5d97fab2678a90342b2e34cdbbea5019434c41a5334724ff3199a0458d7649b",
+      "bytes": 56578
+    },
+    {
+      "ruta": "03_Evidencias/preparar_entrega_docente.py",
+      "sha256": "6b3ff5d8ecfb7f020760f818f4d11732e62b7adcf44e9adf990cd28f257c6561",
+      "bytes": 23017
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Revision_legibilidad_docente_v1/Declaracion_lectura.pdf",
+      "sha256": "add86afd3aba36c11447160a6224cb5dbbad122c82257ad6b0edeb013f4d90fc",
+      "bytes": 47957
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Revision_legibilidad_docente_v1/Entradas_preservadas.json",
+      "sha256": "1ddd300cb09ceed6f3d5c6a0789e1b0b2d7e3bad32db61970d0ac2863e8cd6d8",
+      "bytes": 5891
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Revision_legibilidad_docente_v1/Indice_paginas.json",
+      "sha256": "cd97975e4f844ea4362b5755f8ee138dbdab702d9d35668650054dc73b251b20",
+      "bytes": 87
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Revision_legibilidad_docente_v1/README.md",
+      "sha256": "1bfd6e86e6ada9f26cb2bb0924350f1da7bea9a37ea011d870d56736c002e11d",
+      "bytes": 5594
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Revision_legibilidad_docente_v1/Verificacion_documental.json",
+      "sha256": "7a74a312a0156f5d6c98201edafa3a962ce8d1217de7481a8635d7ff1765ec74",
+      "bytes": 8637
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Revision_legibilidad_docente_v1/vistas_lectura/Cronologia_investigada_v1.pdf",
+      "sha256": "8550caa683155384ea2eff0bf833d8d98f9108c7b44389ddc066620e58ae65b5",
+      "bytes": 26843
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Revision_legibilidad_docente_v1/vistas_lectura/Programa_pruebas_P1_v1.pdf",
+      "sha256": "c213c0dc6f83b1a33e763443f15b348d4215def8bd6bb28c4c0fd4b587afee17",
+      "bytes": 37882
+    },
+    {
+      "ruta": "03_Evidencias/resultados/Revision_legibilidad_docente_v1/vistas_lectura/indice_evidencias.pdf",
+      "sha256": "e79eb0ccd34056af57b1fd63f9f668c83cae071aa61f7f2b1f84c85040f380c1",
+      "bytes": 38692
+    },
+    {
+      "ruta": "03_Evidencias/verificar_entrega_docente.py",
+      "sha256": "b9b932bcda5044c164e4517d77876e0989cc70973145d21dc8878532edba358c",
+      "bytes": 8057
+    },
+    {
+      "ruta": "05_Plan/Acciones_P1_0_72h_v1.csv",
+      "sha256": "7da584bb252703b595b835437a3a4bb92999607591f878626a2849295c4ccb36",
+      "bytes": 10504
+    },
+    {
+      "ruta": "06_Comite/Guion_defensa_P1_v1.md",
+      "sha256": "069e4838657628ad295976b81c144cc8f91c1a25d6d5adb2e2ba7c0e0b1a9e9c",
+      "bytes": 9670
+    },
+    {
+      "ruta": "06_Comite/Presentacion_P1_v1.json",
+      "sha256": "12f453f6fb1c506b6692826cdc30011fae6b2a4d1695f6aa9f281ef1e87111d2",
+      "bytes": 4216
+    },
+    {
+      "ruta": "06_Comite/Presentacion_P1_v1.pdf",
+      "sha256": "316514040b6f859a4f082d0b00ccf7f2edf8300fb7c7312c936889d6987b08d5",
+      "bytes": 50068
+    },
+    {
+      "ruta": "07_Referencias/Declaracion_uso_IA_docente_v1.md",
+      "sha256": "8945909c779ae12adf40760db6d121e9820c58a7850060c14f1df9ec8ed05d97",
+      "bytes": 4608
+    },
+    {
+      "ruta": "07_Referencias/Fuentes_P1_v1.md",
+      "sha256": "017d64bd5e410afd36c8d791e55a2098eaa249e5116fd92b680623ed7bcb7f6e",
+      "bytes": 7277
+    },
+    {
+      "ruta": "07_Referencias/Fuentes_P1_v1.pdf",
+      "sha256": "14da58de51caca4e8647ab123f679c81c30eeecbb19e9efdb122a3ec9728e187",
+      "bytes": 51039
+    },
+    {
+      "ruta": "07_Referencias/Registro_uso_IA_v1.csv",
+      "sha256": "a9d96655ba6997ff13c4aa903aead6e61d20cde6e915d9fe853a088fcba9d60f",
+      "bytes": 8988
+    },
+    {
+      "ruta": "07_Referencias/Uso_IA.pdf",
+      "sha256": "013eb50fac7b0161c317972c527f7b61214cd5b0298fd7cec41ceffeb7a331ce",
+      "bytes": 104988
+    },
+    {
+      "ruta": "entregables/Acciones_P1_0_72h_v1.csv",
+      "sha256": "7da584bb252703b595b835437a3a4bb92999607591f878626a2849295c4ccb36",
+      "bytes": 10504
+    },
+    {
+      "ruta": "entregables/Borradores_hallazgos_P1_v1.md",
+      "sha256": "a5865755ec85a38f32d8d949c4a7730b4d52e5cd7194bb8cbe02a966692500c0",
+      "bytes": 7580
+    },
+    {
+      "ruta": "entregables/Cronologia_investigada_v1.xlsx",
+      "sha256": "06edb906a38f4426d6419056a8311a03312495eafdcc9c219cb2ef4239cd7b9f",
+      "bytes": 16627
+    },
+    {
+      "ruta": "entregables/Fuentes_P1_v1.pdf",
+      "sha256": "14da58de51caca4e8647ab123f679c81c30eeecbb19e9efdb122a3ec9728e187",
+      "bytes": 51039
+    },
+    {
+      "ruta": "entregables/Guion_defensa_P1_v1.md",
+      "sha256": "069e4838657628ad295976b81c144cc8f91c1a25d6d5adb2e2ba7c0e0b1a9e9c",
+      "bytes": 9670
+    },
+    {
+      "ruta": "entregables/Informe_equipo_parcial_P1_v1.pdf",
+      "sha256": "a3cd841e1609f21cf09c2431dbef62b20ac113cdb87e69d98478b0b935880b53",
+      "bytes": 143400
+    },
+    {
+      "ruta": "entregables/LEEME.md",
+      "sha256": "f24b3e6371586bf96483db8678baf7e3e589839314cb765f712d83bea6e1f9db",
+      "bytes": 4712
+    },
+    {
+      "ruta": "entregables/Papeles_Trabajo_P1_v1.pdf",
+      "sha256": "6694026107c77c257c1750ea0b89d3451403d06b264f12c694a803c8c704875c",
+      "bytes": 62017
+    },
+    {
+      "ruta": "entregables/Presentacion_P1_v1.pdf",
+      "sha256": "316514040b6f859a4f082d0b00ccf7f2edf8300fb7c7312c936889d6987b08d5",
+      "bytes": 50068
+    },
+    {
+      "ruta": "entregables/Programa_pruebas_P1_v1.xlsx",
+      "sha256": "19d6ef779b45dbe8d572ea5dd7a2ac7082e44cd8ca4a9b255c732f3e92305da8",
+      "bytes": 17942
+    },
+    {
+      "ruta": "entregables/Seccion_forense_P1_v1.pdf",
+      "sha256": "a2b0bf9804eb3323e9f2f649d9ab07cbfeadf557959e997a06751b2d9b1b841d",
+      "bytes": 70287
+    },
+    {
+      "ruta": "entregables/Uso_IA.pdf",
+      "sha256": "013eb50fac7b0161c317972c527f7b61214cd5b0298fd7cec41ceffeb7a331ce",
+      "bytes": 104988
+    },
+    {
+      "ruta": "entregables/indice_evidencias.xlsx",
+      "sha256": "c5d97fab2678a90342b2e34cdbbea5019434c41a5334724ff3199a0458d7649b",
+      "bytes": 56578
+    },
+    {
+      "ruta": "entregables/manifest_copias.json",
+      "sha256": "2853dcd5dc60b238c4a81ee6a97555d21f275984a66034b5b32da8ac5b945e42",
+      "bytes": 3776
+    }
+  ]
+}

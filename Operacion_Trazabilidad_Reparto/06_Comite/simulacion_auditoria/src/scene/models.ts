@@ -6,10 +6,14 @@ import { clone } from 'three/addons/utils/SkeletonUtils.js';
 const loader = new GLTFLoader();
 loader.setMeshoptDecoder(MeshoptDecoder);
 const cache = new Map<string, Promise<THREE.Group>>();
+let pendingLoads = 0;
+
+export function modelsLoading(): boolean { return pendingLoads > 0; }
 
 function load(path: string): Promise<THREE.Group> {
   if (!cache.has(path)) {
-    cache.set(path, loader.loadAsync(path).then((gltf) => gltf.scene));
+    pendingLoads++;
+    cache.set(path, loader.loadAsync(path).then((gltf) => gltf.scene).finally(() => { pendingLoads--; }));
   }
   return cache.get(path)!;
 }

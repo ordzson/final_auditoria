@@ -1,3 +1,4 @@
+import { classroomText } from '../data/language';
 import type { ReviewId } from './types';
 
 export const RULES_VERSION = 'auditoria_reglas_v2.1';
@@ -34,7 +35,7 @@ export type ReviewRule = {
 export const reviewRules: Record<ReviewId, ReviewRule> = {
   'AU-01': {
     id: 'AU-01',
-    title: 'Acceso y MFA',
+    title: 'Acceso remoto y autorizaciones',
     question: '¿El acceso estaba controlado?',
     sourceGroups: [
       { id: 'cuentas', label: 'Resumen de cuentas y privilegios', alternatives: ['E-01'] },
@@ -52,7 +53,7 @@ export const reviewRules: Record<ReviewId, ReviewRule> = {
       acceptedAnswerId: 'FALTAN_IDENTIDAD_Y_CRITERIO',
     }],
     conclusions: [
-      { id: 'A01-OBSERVACION', text: 'Se reporta una sesión sin MFA y cuentas sin recertificación reciente; faltan criterio aplicable y atribución personal.' },
+      { id: 'A01-OBSERVACION', text: 'Se reporta una sesión sin MFA y cuentas sin recertificación reciente; faltan política aplicable, autorizaciones, identidad personal y conexión con las demás acciones.' },
       { id: 'A01-AUTOR_IDENTIFICADO', text: 'El nombre de cuenta identifica al responsable.' },
       { id: 'A01-CUMPLIMIENTO_RESUELTO', text: 'La política de acceso ya fue evaluada.' },
     ],
@@ -83,16 +84,16 @@ export const reviewRules: Record<ReviewId, ReviewRule> = {
       question: '¿Estos registros identifican el contenido transferido y lo conectan con la lectura SQL?',
       sourceGroupIds: ['lectura', 'flujo', 'seguridad'],
       options: [
-        { id: 'VOLUMEN_DEMUESTRA_EXFILTRACION', text: 'Sí; el volumen demuestra exfiltración de la lectura.' },
+        { id: 'VOLUMEN_DEMUESTRA_EXFILTRACION', text: 'Sí; el volumen demuestra extracción de información sin autorización de la lectura.' },
         { id: 'SIN_VINCULO_NI_CONTENIDO', text: 'No; falta correlación entre los eventos y el contenido.' },
-        { id: 'TRAFICO_LEGITIMO_DEMOSTRADO', text: 'No hay exfiltración; el tráfico legítimo está demostrado.' },
+        { id: 'TRAFICO_LEGITIMO_DEMOSTRADO', text: 'No hay extracción de información sin autorización; el tráfico legítimo está demostrado.' },
       ],
       acceptedAnswerId: 'SIN_VINCULO_NI_CONTENIDO',
     }],
     conclusions: [
       { id: 'A02-TRANSFERENCIA', text: 'Se reportan lectura de 31,840 registros y transferencia de ~1.6 GB; contenido y vínculo no identificados.' },
-      { id: 'A02-NO_CONCLUYENTE', text: 'La exfiltración no puede confirmarse ni descartarse con estas fuentes.' },
-      { id: 'A02-EXFILTRACION_CONFIRMADA', text: 'Los 1.6 GB confirman la exfiltración de los registros de clientes.' },
+      { id: 'A02-NO_CONCLUYENTE', text: 'La extracción de información sin autorización no puede confirmarse ni descartarse con estas fuentes.' },
+      { id: 'A02-EXFILTRACION_CONFIRMADA', text: 'Los 1.6 GB confirman la extracción de información sin autorización de los registros de clientes.' },
       { id: 'A02-TRAFICO_LEGITIMO_CONFIRMADO', text: 'La transferencia fue tráfico legítimo y no requiere más revisión.' },
     ],
     acceptedConclusionIds: ['A02-TRANSFERENCIA', 'A02-NO_CONCLUYENTE'],
@@ -111,7 +112,7 @@ export const reviewRules: Record<ReviewId, ReviewRule> = {
   },
   'AU-03': {
     id: 'AU-03',
-    title: 'Órdenes, integridad y despliegue',
+    title: 'Órdenes e instalación de software',
     question: '¿Las órdenes estaban intactas y qué relación hay con el cambio?',
     sourceGroups: [
       { id: 'cambios', label: 'Cambios de órdenes con hora reportada', alternatives: ['EVT-06'] },
@@ -152,7 +153,7 @@ export const reviewRules: Record<ReviewId, ReviewRule> = {
     ],
     acceptedConclusionIds: ['A03-PENDIENTES'],
     limitations: [
-      { id: 'L03-CAUSA', text: 'El orden temporal no demuestra causalidad ni inocuidad.' },
+      { id: 'L03-CAUSA', text: 'El orden de las horas no demuestra que el despliegue causara el incidente ni que fuera ajeno a él.' },
       { id: 'L03-INTEGRIDAD', text: 'La conciliación no ha concluido.' },
       { id: 'L03-ATRIBUCION', text: 'Los cambios no tienen atribución probada.' },
       { id: 'L03-APROBACION', text: 'La falta de aprobación documentada no prueba que jamás se autorizó.' },
@@ -228,28 +229,28 @@ export const reviewRules: Record<ReviewId, ReviewRule> = {
       acceptedAnswerId: 'FALTAN_PRUEBA_Y_OBJETIVOS',
     }],
     conclusions: [
-      { id: 'A05-NO_VERIFICADA', text: 'Hay respaldos programados y recuperación por etapas reportada; no se demuestra restauración validada ni cumplimiento de RTO/RPO.' },
+      { id: 'A05-NO_VERIFICADA', text: 'Hay respaldos programados y recuperación por etapas reportada; no se demuestra restauración validada ni cumplimiento de objetivos de recuperación del negocio.' },
       { id: 'A05-RESPALDO_EXITOSO_PROBADO', text: 'La programación demuestra que el respaldo usado se ejecutó correctamente.' },
-      { id: 'A05-RTO_RPO_CUMPLIDOS', text: 'Los tiempos reportados demuestran el cumplimiento de RTO y RPO.' },
+      { id: 'A05-RTO_RPO_CUMPLIDOS', text: 'Los tiempos reportados demuestran el cumplimiento del tiempo objetivo de recuperación y de la pérdida de datos tolerable.' },
       { id: 'A05-NO_EXISTEN_RESPALDOS', text: 'La falta de una prueba reciente demuestra que no existen respaldos.' },
     ],
     acceptedConclusionIds: ['A05-NO_VERIFICADA'],
     limitations: [
       { id: 'L05-EJECUCION', text: 'La programación no acredita una ejecución exitosa.' },
       { id: 'L05-RESTAURACION', text: 'Faltan respaldo usado, punto recuperable e integridad verificada.' },
-      { id: 'L05-OBJETIVOS', text: 'Faltan RTO/RPO aplicables.' },
+      { id: 'L05-OBJETIVOS', text: 'Faltan objetivos aprobados de tiempo de recuperación (RTO) y de pérdida temporal de datos tolerable (RPO).' },
     ],
     requiredLimitationIds: ['L05-EJECUCION', 'L05-RESTAURACION', 'L05-OBJETIVOS'],
     requests: [
       { id: 'S05-PRUEBA', text: 'Solicitar informe de restauración, respaldo utilizado, validación y conciliación.' },
-      { id: 'S05-BIA', text: 'Solicitar BIA y objetivos RTO/RPO aprobados.' },
+      { id: 'S05-BIA', text: 'Solicitar análisis de impacto al negocio (BIA) y objetivos aprobados de tiempo de recuperación (RTO) y pérdida temporal de datos tolerable (RPO).' },
     ],
     feedback: 'Volver a operar y tener respaldos programados no certifica la restauración. Registra qué prueba u objetivo necesitas.',
     hints: ['En E reúne E-08 y los tres estados EVT-09, EVT-11 y EVT-12. Continuidad se consulta con el enlace.', 'Contrastar los cinco grupos permite calcular tiempos, pero todavía debes documentar la prueba y los objetivos ausentes.'],
   },
   'AU-06': {
     id: 'AU-06',
-    title: 'Custodia y tiempo',
+    title: 'Protección de registros y horarios',
     question: '¿Podemos confiar en las copias y en el orden de los registros?',
     sourceGroups: [
       { id: 'custodia', label: 'Vista calculada de custodia', alternatives: ['META-CUSTODIA'] },
@@ -262,7 +263,7 @@ export const reviewRules: Record<ReviewId, ReviewRule> = {
         sourceGroupIds: ['custodia'],
         options: [
           { id: 'SI_POR_TENER_CODIGO_E', text: 'Sí; el código E acredita la extracción y custodia.' },
-          { id: 'CUSTODIA_NO_ACREDITADA', text: 'No; faltan originales, método, custodio y hashes.' },
+          { id: 'CUSTODIA_NO_ACREDITADA', text: 'No; faltan originales, método de obtención, responsable de custodia y huellas digitales.' },
           { id: 'NULOS_PRUEBAN_MANIPULACION', text: 'Los campos no aportados demuestran manipulación.' },
         ],
         acceptedAnswerId: 'CUSTODIA_NO_ACREDITADA',
@@ -288,17 +289,30 @@ export const reviewRules: Record<ReviewId, ReviewRule> = {
     acceptedConclusionIds: ['A06-LIMITACION'],
     limitations: [
       { id: 'L06-RESUMEN', text: 'Un resumen no equivale a una extracción.' },
-      { id: 'L06-HASH', text: 'Un hash, si se aporta, verifica bytes y no verdad o completitud.' },
+      { id: 'L06-HASH', text: 'Comparar la huella digital SHA-256 de un archivo con una referencia previamente registrada permite detectar cambios; no demuestra verdad ni completitud. Debe conservarse el origen de la referencia.' },
       { id: 'L06-TIEMPO', text: 'Un desfase desconocido no es cero verificado.' },
     ],
     requiredLimitationIds: ['L06-RESUMEN', 'L06-HASH', 'L06-TIEMPO'],
     requests: [
-      { id: 'S06-EXTRACCIONES', text: 'Solicitar originales preservados, método, custodio y hashes.' },
+      { id: 'S06-EXTRACCIONES', text: 'Solicitar originales preservados, método de obtención, responsable de custodia y huellas digitales.' },
       { id: 'S06-TIEMPO', text: 'Solicitar horas originales y evidencia de zona y sincronización por fuente.' },
     ],
     feedback: 'La ausencia de metadatos limita la revisión; no prueba manipulación. Puedes documentar esa limitación sin fabricar archivos ni un desfase.',
     hints: ['En F abre META-CUSTODIA. META-TIEMPO está en F y también en D.', 'Vincula ambas vistas y responde una comprobación con cada una. Los campos «No aportado» documentan límites, no manipulación.'],
   },
 };
+
+// Solo cambia la lectura; claves, respuestas admitidas y requisitos se conservan.
+for (const rule of Object.values(reviewRules)) {
+  rule.title = classroomText(rule.title);
+  rule.question = classroomText(rule.question);
+  rule.feedback = classroomText(rule.feedback);
+  for (const group of rule.sourceGroups) group.label = classroomText(group.label);
+  for (const check of rule.checks) {
+    check.question = classroomText(check.question);
+    for (const option of check.options) option.text = classroomText(option.text);
+  }
+  for (const item of [...rule.conclusions, ...rule.limitations, ...rule.requests]) item.text = classroomText(item.text);
+}
 
 export const reviewIds = Object.keys(reviewRules) as ReviewId[];

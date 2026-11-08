@@ -1,4 +1,4 @@
-import rawCanon from './canon.json';
+import rawCanon from './canon.json' with { type: 'json' };
 
 export type Provenance = {
   sourceId: string;

@@ -1,0 +1,10 @@
+BackupID,ProgramacionID,BaseDatos,Tipo,Inicio,Fin,TamanoGiB,Estado,ChecksumDeclarado,ClaseOrigen,ReferenciaExpediente,SupuestosAplicados
+1,\N,CRM_LAB,Completo,2026-06-30T00:30:00,2026-06-30T01:00:00,8.000,Completado,1,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+2,1,CRM_LAB,Completo,2026-10-07T00:30:00,2026-10-07T01:00:00,8.000,Completado,1,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+3,2,CRM_LAB,Completo,2026-10-08T00:30:00,2026-10-08T01:00:00,8.100,Completado,1,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+4,3,CRM_LAB,Completo,2026-10-09T00:30:00,2026-10-09T01:00:00,8.200,Completado,1,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+5,4,CRM_LAB,Completo,2026-10-10T00:30:00,2026-10-10T01:00:00,8.300,Completado,1,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+6,5,CRM_LAB,Completo,2026-10-11T00:30:00,2026-10-11T01:00:00,8.000,Completado,1,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+7,6,CRM_LAB,Completo,2026-10-12T00:30:00,2026-10-12T01:00:00,8.100,Completado,1,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+8,7,CRM_LAB,Completo,2026-10-13T00:30:00,2026-10-13T01:00:00,8.200,Completado,1,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04
+9,8,CRM_LAB,Completo,2026-10-14T00:30:00,2026-10-14T01:00:00,3.200,Completado,1,laboratorio,E-08,S-03;S-09;S-P1-PER;S-04

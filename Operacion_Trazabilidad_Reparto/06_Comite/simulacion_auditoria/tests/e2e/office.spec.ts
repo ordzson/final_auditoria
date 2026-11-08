@@ -100,6 +100,9 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('A · navegación real, entrega, AU-02 y dependencia de fuentes', async ({ page }) => {
+  // El recorrido completo supera 120 s en Chrome por software; cada acción
+  // conserva el límite de 15 s y las aserciones originales.
+  test.setTimeout(180_000);
   const errors: string[] = [];
   page.on('pageerror', (error) => errors.push(error.message));
   await page.goto('/');
@@ -168,7 +171,19 @@ test('B · seis revisiones en distinto orden, entrevistas y libreta', async ({ p
   await page.locator('input[data-review="AU-02"][data-field="action"]').blur();
   await page.locator('input[data-review="AU-02"][data-field="owner"]').fill('Seguridad');
   await page.locator('input[data-review="AU-02"][data-field="owner"]').blur();
+  await page.locator('input[data-review="AU-02"][data-field="deadline"]').fill('24 h desde la activación futura del plan');
+  await page.locator('input[data-review="AU-02"][data-field="deadline"]').blur();
   await screenshot(page, 'b-seis-documentadas');
+  await page.evaluate(() => { window.print = () => undefined; });
+  await page.locator('[data-action="print"]').click();
+  await expect(page.locator('#print-report .print-review')).toHaveCount(6);
+  await expect(page.locator('#print-report')).toContainText('Respuesta elegida:');
+  await expect(page.locator('#print-report')).toContainText('SIN_VINCULO_NI_CONTENIDO');
+  await expect(page.locator('#print-report')).toContainText('24 h desde la activación futura del plan');
+  await page.evaluate(() => document.fonts.ready);
+  await page.emulateMedia({ media: 'print' });
+  await page.pdf({ path: 'artifacts/cierre-p1/libreta-seis-revisiones.pdf', format: 'A4', printBackground: true });
+  await page.emulateMedia({ media: 'screen' });
   expect(errors).toEqual([]);
 });
 
@@ -184,24 +199,25 @@ test('C · diez planos, transporte, nota ilustrativa y estado intacto', async ({
       input.dispatchEvent(new Event('input', { bubbles: true }));
     }, time);
   };
-  await expect(page.locator('#intro-shot')).toHaveText('P01 · 1/10');
+  await seek(0);
+  await expect(page.locator('#intro-shot')).toHaveText('Plano 1 de 10');
   const plan = [['P01', 0], ['P02', 8], ['P03', 16], ['P04', 23], ['P05', 37], ['P06', 45], ['P07', 53], ['P08', 61], ['P09', 77], ['P10', 95]];
   for (const [id, start] of plan) {
     await seek(Number(start));
-    await expect(page.locator('#intro-shot')).toContainText(String(id));
+    await expect(page.locator('#intro-shot')).toHaveText(`Plano ${Number(String(id).slice(1))} de 10`);
   }
   await page.locator('[data-action="previous"]').click();
-  await expect(page.locator('#intro-shot')).toContainText('P09');
+  await expect(page.locator('#intro-shot')).toHaveText('Plano 9 de 10');
   await page.locator('[data-action="next"]').click();
-  await expect(page.locator('#intro-shot')).toContainText('P10');
+  await expect(page.locator('#intro-shot')).toHaveText('Plano 10 de 10');
   await seek(16.5);
   await expect(page.locator('#intro-time')).toHaveText('02:26');
-  await expect(page.locator('#intro-message')).toContainText('La cuenta no está aportada');
+  await expect(page.locator('#intro-message')).toContainText('No se identifica la cuenta');
   await page.waitForTimeout(300);
   await expect(page.locator('#intro-timeline')).toHaveValue('16.5');
   await seek(53);
   await expect(page.locator('#intro-time')).toHaveText('03:18');
-  await expect(page.locator('#intro-message')).toHaveText('Se emite una alerta crítica.');
+  await expect(page.locator('#intro-message')).toHaveText('Se reporta una alerta crítica de seguridad. Faltan asignación, primera acción y cierre documentados.');
   await seek(63.95);
   await expect(page.locator('#ransom-note')).toBeHidden();
   await seek(64);
@@ -209,7 +225,7 @@ test('C · diez planos, transporte, nota ilustrativa y estado intacto', async ({
   await expect(page.locator('#ransom-note')).toContainText('Sus archivos están bloqueados.');
   await expect(page.locator('#ransom-note')).toContainText('Para recuperarlos, debe realizar un pago.');
   await expect(page.locator('#ransom-note')).toContainText('Recreación ilustrativa · no es el texto original');
-  await expect(page.locator('#intro-provenance')).toContainText('EVT-09');
+  await expect(page.locator('#intro-provenance')).toContainText('Dato reportado por el caso');
   await screenshot(page, 'c-p08-nota-ilustrativa');
   await seek(74);
   await expect(page.locator('#ransom-note')).toBeHidden();
@@ -225,7 +241,7 @@ test('C · diez planos, transporte, nota ilustrativa y estado intacto', async ({
   await page.locator('.intro-history > summary').click();
   await expect(page.locator('#intro-history-list li')).toHaveCount(6);
   await page.locator('[data-action="replay"]').click();
-  await expect(page.locator('#intro-shot')).toContainText('P01');
+  await expect(page.locator('#intro-shot')).toHaveText('Plano 1 de 10');
   await page.getByRole('button', { name: 'Pausar reconstrucción' }).click();
   await page.getByRole('button', { name: 'Omitir y entrar a la oficina' }).click();
   await expect(page.locator('#intro-root')).toBeHidden();
@@ -252,7 +268,7 @@ test('C · guardar, editar, reevaluar versión, exportar JSON e imprimir', async
   await page.locator('#free-note').fill('Falta la política aplicable; no atribuyo la sesión a una persona.');
   await page.locator('#free-note').press('Tab');
   await page.locator('[data-action="hint"]').click();
-  await expect(page.locator('.hint-block')).toContainText('Usuarios y privilegios');
+  await expect(page.locator('.hint-block')).toContainText('Usuarios y permisos');
   await page.reload();
   await openStation(page, 'accesos');
   await expect(page.locator('.computer-hud [data-progress]')).toHaveText('Por contrastar');

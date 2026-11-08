@@ -28,7 +28,7 @@ const tasks: Record<StationId, readonly DesktopTask[]> = {
   crm_cambios: [
     inspected('c-ordenes', 'Revisar modificaciones de órdenes', 'Abre CRM · Historial de órdenes y examina las modificaciones registradas.', ['EVT-06']),
     inspected('c-cambio', 'Consultar el despliegue y el ticket', 'Gestor de cambios reúne el despliegue y el ticket; examina ambos soportes.', ['EVT-07', 'E-06'], 'all'),
-    inspected('c-declaraciones', 'Contrastar BD y Desarrollo', 'Solicita las declaraciones de BD y Desarrollo al enlace de TI y examínalas en Expediente local.', ['DECL-03', 'DECL-04'], 'all'),
+    inspected('c-declaraciones', 'Contrastar base de datos y Desarrollo', 'Solicita las declaraciones de base de datos y Desarrollo al enlace de TI y examínalas en Expediente local.', ['DECL-03', 'DECL-04'], 'all'),
   ],
   siem: [
     inspected('d-alerta', 'Revisar la alerta de seguridad', 'Abre Event Desk y examina la alerta crítica.', ['EVT-08']),
@@ -36,12 +36,12 @@ const tasks: Record<StationId, readonly DesktopTask[]> = {
     inspected('d-relojes', 'Comparar las horas disponibles', 'Visor de seguimiento y relojes muestra los campos temporales y su procedencia.', ['META-TIEMPO']),
   ],
   respaldos: [
-    inspected('e-recuperacion', 'Recorrer la recuperación', 'Recovery Console permite recorrer los estados reportados del CRM.', ['EVT-09', 'EVT-11', 'EVT-12'], 'all'),
+    inspected('e-recuperacion', 'Recorrer la recuperación', 'Recovery Console permite recorrer los estados reportados del sistema comercial.', ['EVT-09', 'EVT-11', 'EVT-12'], 'all'),
     inspected('e-respaldo', 'Revisar respaldo y pruebas', 'Abre Gestor de respaldos y examina el resumen y los soportes disponibles.', ['E-08']),
     inspected('e-continuidad', 'Contrastar Continuidad', 'Solicita la declaración de Continuidad al enlace de TI y consúltala en Expediente local.', ['DECL-07']),
   ],
   mesa_auditor: [
-    inspected('f-custodia', 'Revisar originales y hashes', 'Explorador del expediente muestra el inventario y los campos de custodia disponibles.', ['META-CUSTODIA']),
+    inspected('f-custodia', 'Revisar originales y huellas digitales', 'Explorador del expediente muestra el inventario y los campos de custodia disponibles.', ['META-CUSTODIA']),
     inspected('f-procedencia', 'Inspeccionar la procedencia', 'Examina los soportes de contexto del Explorador del expediente y sus referencias.', ['E-09', 'E-10'], 'all'),
     inspected('f-relojes', 'Comprobar los campos temporales', 'Comparador de relojes permite revisar horas originales y verificación por fuente.', ['META-TIEMPO']),
   ],

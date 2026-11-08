@@ -1,0 +1,150 @@
+Already up to date
+Done in 52ms using pnpm v11.2.2
+$ playwright test tests/e2e/acceptance.spec.ts tests/e2e/office.spec.ts tests/e2e/i5.spec.ts tests/e2e/desktop-stage3.spec.ts
+
+Running 21 tests using 1 worker
+
+(node:1894114) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1894114) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/e2e/acceptance.spec.ts:28:3 › D · apertura legible y encuadrada a 1280×720 (16.4s)
+  ✓   2 tests/e2e/acceptance.spec.ts:28:3 › D · apertura legible y encuadrada a 1920×1080 (22.9s)
+  ✓   3 tests/e2e/acceptance.spec.ts:68:1 › D · acceso plano móvil, teclado, J y Esc (1.8s)
+  ✓   4 tests/e2e/acceptance.spec.ts:99:1 › D · silencio, aviso opcional y reducción de movimiento (30.4s)
+  ✓   5 tests/e2e/acceptance.spec.ts:138:1 › D · WebGL denegado conserva los seis accesos y la entrevista (2.0s)
+  ✘   6 tests/e2e/acceptance.spec.ts:161:1 › D · bloqueo del puntero denegado activa la alternativa completa (48.6s)
+(node:1898131) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1898131) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   7 tests/e2e/acceptance.spec.ts:181:1 › D · inicio local sin acceso externo y revisión con el contexto offline (42.1s)
+(node:1899529) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1899529) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · accesos: dos programas propios, estado y recursos locales (2.5s)
+  ✓   9 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · crm_cambios: dos programas propios, estado y recursos locales (2.5s)
+  ✓  10 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · siem: dos programas propios, estado y recursos locales (2.6s)
+  ✓  11 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · respaldos: dos programas propios, estado y recursos locales (2.7s)
+  ✓  12 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · mesa_auditor: dos programas propios, estado y recursos locales (2.6s)
+  ✓  13 tests/e2e/desktop-stage3.spec.ts:69:1 › etapa 3 · Recovery Console móvil conserva controles y lectura dentro del monitor (1.6s)
+  ✓  14 tests/e2e/desktop-stage3.spec.ts:81:1 › etapa 3 · monitor físico junto al rack abre Server sin atravesar muebles (48.8s)
+  ✓  15 tests/e2e/i5.spec.ts:13:1 › I5 · ayuda escrita, retorno PC/libreta/TI y persistencia en los seis puestos (13.8s)
+  ✓  16 tests/e2e/i5.spec.ts:50:3 › I5 · metadatos y ayuda legibles a 1440px (2.2s)
+  ✓  17 tests/e2e/i5.spec.ts:50:3 › I5 · metadatos y ayuda legibles a 390px (1.8s)
+  ✘  18 tests/e2e/office.spec.ts:102:1 › A · navegación real, entrega, AU-02 y dependencia de fuentes (1.0m)
+(node:1903762) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1903762) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  19 tests/e2e/office.spec.ts:154:1 › B · seis revisiones en distinto orden, entrevistas y libreta (22.1s)
+  ✓  20 tests/e2e/office.spec.ts:188:1 › C · diez planos, transporte, nota ilustrativa y estado intacto (1.0m)
+  ✓  21 tests/e2e/office.spec.ts:253:1 › C · guardar, editar, reevaluar versión, exportar JSON e imprimir (7.1s)
+
+
+  1) tests/e2e/acceptance.spec.ts:161:1 › D · bloqueo del puntero denegado activa la alternativa completa 
+
+    TimeoutError: locator.click: Timeout 15000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('#enter-office')[22m
+    [2m    - locator resolved to <button id="enter-office" class="primary-button">Entrar / continuar explorando</button>[22m
+    [2m  - attempting click action[22m
+    [2m    - waiting for element to be visible, enabled and stable[22m
+    [2m    - element is visible, enabled and stable[22m
+    [2m    - scrolling into view if needed[22m
+    [2m    - done scrolling[22m
+
+
+      168 |   await page.goto('/');
+      169 |   await page.getByRole('button', { name: 'Omitir y entrar a la oficina' }).click();
+    > 170 |   await page.locator('#enter-office').click();
+          |                                       ^
+      171 |   await expect(page.locator('#flat-office')).toBeVisible();
+      172 |   await expect(page.locator('#toast')).toContainText('toda la revisión sigue disponible');
+      173 |   await expect(page.locator('.flat-station')).toHaveCount(6);
+        at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/acceptance.spec.ts:170:39
+
+    Error Context: artifacts/test-results/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    artifacts/test-results/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace artifacts/test-results/acceptance-D-·-bloqueo-del-26a56-iva-la-alternativa-completa/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/e2e/acceptance.spec.ts:181:1 › D · inicio local sin acceso externo y revisión con el contexto offline 
+
+    TimeoutError: locator.click: Timeout 15000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('.settings-menu > summary')[22m
+    [2m    - locator resolved to <summary>Accesibilidad y controles</summary>[22m
+    [2m  - attempting click action[22m
+    [2m    - waiting for element to be visible, enabled and stable[22m
+    [2m    - element is visible, enabled and stable[22m
+    [2m    - scrolling into view if needed[22m
+    [2m    - done scrolling[22m
+    [2m    - performing click action[22m
+    [2m    - click action done[22m
+    [2m    - waiting for scheduled navigations to finish[22m
+
+
+      214 |   await page.getByRole('button', { name: 'Pausar reconstrucción' }).click();
+      215 |   await page.getByRole('button', { name: 'Omitir y entrar a la oficina' }).click();
+    > 216 |   await page.locator('.settings-menu > summary').click();
+          |                                                  ^
+      217 |   await page.locator('[data-setting="flatMode"]').check();
+      218 |   offline = true;
+      219 |   await context.setOffline(true);
+        at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/acceptance.spec.ts:216:50
+
+    Error Context: artifacts/test-results/acceptance-D-·-inicio-loca-277c1-ión-con-el-contexto-offline/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    artifacts/test-results/acceptance-D-·-inicio-loca-277c1-ión-con-el-contexto-offline/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace artifacts/test-results/acceptance-D-·-inicio-loca-277c1-ión-con-el-contexto-offline/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) tests/e2e/office.spec.ts:102:1 › A · navegación real, entrega, AU-02 y dependencia de fuentes ─
+
+    TimeoutError: locator.click: Timeout 15000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('#enter-office')[22m
+    [2m    - locator resolved to <button id="enter-office" class="primary-button">Entrar / continuar explorando</button>[22m
+    [2m  - attempting click action[22m
+    [2m    - waiting for element to be visible, enabled and stable[22m
+    [2m    - element is visible, enabled and stable[22m
+    [2m    - scrolling into view if needed[22m
+    [2m    - done scrolling[22m
+
+
+      108 |   await expect(page.locator('#toast')).toContainText('Primero acércate al enlace');
+      109 |   await expect(page.locator('#notebook-dialog')).not.toBeVisible();
+    > 110 |   await page.locator('#enter-office').click();
+          |                                       ^
+      111 |   await expect.poll(() => page.evaluate(() => Boolean(document.pointerLockElement))).toBe(true);
+      112 |   await page.keyboard.down('KeyW');
+      113 |   await page.waitForTimeout(5000);
+        at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/office.spec.ts:110:39
+
+    Error Context: artifacts/test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    artifacts/test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace artifacts/test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    tests/e2e/acceptance.spec.ts:161:1 › D · bloqueo del puntero denegado activa la alternativa completa 
+    tests/e2e/acceptance.spec.ts:181:1 › D · inicio local sin acceso externo y revisión con el contexto offline 
+    tests/e2e/office.spec.ts:102:1 › A · navegación real, entrega, AU-02 y dependencia de fuentes ──
+  18 passed (6.9m)
+[ELIFECYCLE] Command failed with exit code 1.

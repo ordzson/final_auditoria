@@ -1,0 +1,989 @@
+{
+  "alcance": "Inspección de archivos locales, contrato DDL y reproducibilidad; no incluye SQL Server ni Q-01–Q-12.",
+  "comprobaciones": [
+    {
+      "esperado": [
+        "Alertas",
+        "Backups",
+        "BitacoraSQL",
+        "CambiosSistema",
+        "Clientes",
+        "Empleados",
+        "EventosExpediente",
+        "FuentesTiempo",
+        "HistorialOrdenes",
+        "Ordenes",
+        "Privilegios",
+        "ProgramacionBackups",
+        "PruebasRestauracion",
+        "Sesiones",
+        "TransferenciasRed",
+        "Usuarios"
+      ],
+      "estado": "aprobado",
+      "nombre": "DDL contiene las 16 tablas esperadas",
+      "observado": [
+        "Alertas",
+        "Backups",
+        "BitacoraSQL",
+        "CambiosSistema",
+        "Clientes",
+        "Empleados",
+        "EventosExpediente",
+        "FuentesTiempo",
+        "HistorialOrdenes",
+        "Ordenes",
+        "Privilegios",
+        "ProgramacionBackups",
+        "PruebasRestauracion",
+        "Sesiones",
+        "TransferenciasRed",
+        "Usuarios"
+      ]
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "FuenteID",
+          "Nombre",
+          "ZonaOriginal",
+          "DesfaseSegundos",
+          "Metodo",
+          "Verificado",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 18
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: FuentesTiempo.csv",
+      "observado": {
+        "errores": [],
+        "filas": 18
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "EmpleadoID",
+          "Nombre",
+          "Area",
+          "Relacion",
+          "Empresa",
+          "FechaIngreso",
+          "FechaBaja",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 114
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: Empleados.csv",
+      "observado": {
+        "errores": [],
+        "filas": 114
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "UsuarioID",
+          "NombreUsuario",
+          "EmpleadoID",
+          "TipoCuenta",
+          "Sistema",
+          "EsPrivilegiada",
+          "MFAHabilitado",
+          "Estado",
+          "FechaCreacion",
+          "UltimaRecertificacion",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 120
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: Usuarios.csv",
+      "observado": {
+        "errores": [],
+        "filas": 120
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "SesionID",
+          "UsuarioID",
+          "FuenteID",
+          "HoraReportadaLocal",
+          "HoraOriginal",
+          "ZonaOriginal",
+          "IPOrigen",
+          "Dispositivo",
+          "Metodo",
+          "Resultado",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 3000
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: Sesiones.csv",
+      "observado": {
+        "errores": [],
+        "filas": 3000
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "AsignacionID",
+          "UsuarioID",
+          "Rol",
+          "Sistema",
+          "FechaHora",
+          "AsignadoPor",
+          "Ticket",
+          "Vence",
+          "FuenteID",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 13
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: Privilegios.csv",
+      "observado": {
+        "errores": [],
+        "filas": 13
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "ClienteID",
+          "Nombre",
+          "Departamento",
+          "Plan",
+          "FechaAlta",
+          "Estado",
+          "Clasificacion",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 85000
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: Clientes.csv",
+      "observado": {
+        "errores": [],
+        "filas": 85000
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "OrdenID",
+          "ClienteID",
+          "VendedorID",
+          "Sucursal",
+          "FechaCreacion",
+          "Estado",
+          "Plan",
+          "Monto",
+          "Moneda",
+          "Canal",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 3000
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: Ordenes.csv",
+      "observado": {
+        "errores": [],
+        "filas": 3000
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "CambioID",
+          "OrdenID",
+          "FechaHora",
+          "UsuarioID",
+          "SesionID",
+          "Campo",
+          "ValorAnterior",
+          "ValorNuevo",
+          "Via",
+          "FuenteID",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 276
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: HistorialOrdenes.csv",
+      "observado": {
+        "errores": [],
+        "filas": 276
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "CambioSistemaID",
+          "Ticket",
+          "Sistema",
+          "Version",
+          "SolicitadoPor",
+          "AprobadoPor",
+          "FechaAprobacion",
+          "FechaHoraDespliegue",
+          "EjecutadoPor",
+          "EvidenciaPruebas",
+          "HashArtefacto",
+          "FuenteID",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 6
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: CambiosSistema.csv",
+      "observado": {
+        "errores": [],
+        "filas": 6
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "ProgramacionID",
+          "BaseDatos",
+          "Tipo",
+          "HoraProgramada",
+          "Destino",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 9
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: ProgramacionBackups.csv",
+      "observado": {
+        "errores": [],
+        "filas": 9
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "BackupID",
+          "ProgramacionID",
+          "BaseDatos",
+          "Tipo",
+          "Inicio",
+          "Fin",
+          "TamanoGiB",
+          "Estado",
+          "ChecksumDeclarado",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 9
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: Backups.csv",
+      "observado": {
+        "errores": [],
+        "filas": 9
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "PruebaID",
+          "BackupID",
+          "Fecha",
+          "Resultado",
+          "MinutosRestauracion",
+          "Responsable",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 1
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: PruebasRestauracion.csv",
+      "observado": {
+        "errores": [],
+        "filas": 1
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "EventoSQLID",
+          "FechaHora",
+          "UsuarioID",
+          "Objeto",
+          "Accion",
+          "Filas",
+          "Aplicacion",
+          "IPOrigen",
+          "FuenteID",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 142
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: BitacoraSQL.csv",
+      "observado": {
+        "errores": [],
+        "filas": 142
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "FlujoID",
+          "HoraReportadaLocal",
+          "InicioUTC",
+          "FinUTC",
+          "IPOrigen",
+          "IPDestino",
+          "Puerto",
+          "Protocolo",
+          "BytesEnviados",
+          "VolumenReportado",
+          "ClasificacionDestino",
+          "FuenteID",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 73
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: TransferenciasRed.csv",
+      "observado": {
+        "errores": [],
+        "filas": 73
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "AlertaID",
+          "HoraReportadaLocal",
+          "FechaHoraUTC",
+          "Severidad",
+          "Regla",
+          "Activo",
+          "Estado",
+          "AsignadoA",
+          "PrimeraAccion",
+          "FechaCierre",
+          "NotaCierre",
+          "FuenteID",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 6
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: Alertas.csv",
+      "observado": {
+        "errores": [],
+        "filas": 6
+      }
+    },
+    {
+      "esperado": {
+        "UTF-8 sin BOM/LF": true,
+        "encabezado": [
+          "EventoID",
+          "HoraReportadaLocal",
+          "FuenteID",
+          "Descripcion",
+          "CuentaReportada",
+          "Activo",
+          "PaginaPDF",
+          "HoraOriginal",
+          "ZonaOriginal",
+          "DesfaseSegundos",
+          "ClaseOrigen",
+          "ReferenciaExpediente",
+          "SupuestosAplicados"
+        ],
+        "filas": 13
+      },
+      "estado": "aprobado",
+      "nombre": "Archivo, encabezado y formato: EventosExpediente.csv",
+      "observado": {
+        "errores": [],
+        "filas": 13
+      }
+    },
+    {
+      "esperado": [],
+      "estado": "aprobado",
+      "nombre": "Encabezados CSV coinciden con columnas y orden del DDL",
+      "observado": []
+    },
+    {
+      "esperado": 91800,
+      "estado": "aprobado",
+      "nombre": "Total de filas de las 16 tablas",
+      "observado": 91800
+    },
+    {
+      "esperado": "cero errores",
+      "estado": "aprobado",
+      "nombre": "Tipos, nulabilidad, longitudes, bits, montos, fechas y límites SQL",
+      "observado": []
+    },
+    {
+      "esperado": "cero errores",
+      "estado": "aprobado",
+      "nombre": "Restricciones CHECK del esquema",
+      "observado": []
+    },
+    {
+      "esperado": "cero duplicados o nulos",
+      "estado": "aprobado",
+      "nombre": "Claves primarias únicas y no nulas",
+      "observado": []
+    },
+    {
+      "esperado": "cero referencias huérfanas",
+      "estado": "aprobado",
+      "nombre": "Claves foráneas no nulas apuntan a filas existentes",
+      "observado": []
+    },
+    {
+      "esperado": {
+        "activas": 6,
+        "deshabilitadas": 4
+      },
+      "estado": "aprobado",
+      "nombre": "Casos de baja: seis activas y cuatro deshabilitadas",
+      "observado": {
+        "activas": 6,
+        "deshabilitadas": 4
+      }
+    },
+    {
+      "esperado": {
+        "compartidas_9_12_con_mfa": 4,
+        "privilegiadas_19_30_vigentes": 12,
+        "privilegiadas_ids_1_8_sin_mfa": 8,
+        "recertificacion_ausente_16_18": 3,
+        "recertificacion_vencida_13_15": 3
+      },
+      "estado": "aprobado",
+      "nombre": "Grupos de cuentas privilegiadas sin solapamiento",
+      "observado": {
+        "compartidas_9_12_con_mfa": 4,
+        "privilegiadas_19_30_vigentes": 12,
+        "privilegiadas_ids_1_8_sin_mfa": 8,
+        "recertificacion_ausente_16_18": 3,
+        "recertificacion_vencida_13_15": 3
+      }
+    },
+    {
+      "esperado": 0,
+      "estado": "aprobado",
+      "nombre": "Sin sesiones de cuentas dadas de baja 33–42",
+      "observado": 0
+    },
+    {
+      "esperado": "110 cuentas; cada una ≥5 sesiones en ≥3 días",
+      "estado": "aprobado",
+      "nombre": "Cobertura habitual por cuenta elegible",
+      "observado": {
+        "cuentas": 110,
+        "faltantes": {}
+      }
+    },
+    {
+      "esperado": [
+        [
+          1,
+          "2026-10-14T02:17:00"
+        ],
+        [
+          44,
+          "2026-10-14T02:10:00"
+        ],
+        [
+          44,
+          "2026-10-15T04:10:00"
+        ]
+      ],
+      "estado": "aprobado",
+      "nombre": "Tres sesiones fuera del patrón habitual documentado",
+      "observado": [
+        [
+          1,
+          "2026-10-14T02:17:00"
+        ],
+        [
+          44,
+          "2026-10-14T02:10:00"
+        ],
+        [
+          44,
+          "2026-10-15T04:10:00"
+        ]
+      ]
+    },
+    {
+      "esperado": true,
+      "estado": "aprobado",
+      "nombre": "Turnos nocturnos legítimos de servicio y soporte",
+      "observado": true
+    },
+    {
+      "esperado": "una fila; hora/zona original, IP y dispositivo nulos",
+      "estado": "aprobado",
+      "nombre": "Sesión E-02 conserva desconocidos",
+      "observado": {
+        "campos_nulos": true,
+        "filas": 1
+      }
+    },
+    {
+      "esperado": {
+        "cambios": 216,
+        "ordenes_distintas": 216
+      },
+      "estado": "aprobado",
+      "nombre": "E-05: 216 órdenes y cambios distintos en ventana",
+      "observado": {
+        "cambios": 216,
+        "ordenes_distintas": 216
+      }
+    },
+    {
+      "esperado": {
+        "Estado": 72,
+        "Monto": 144
+      },
+      "estado": "aprobado",
+      "nombre": "E-05: composición de cambios",
+      "observado": {
+        "Estado": 72,
+        "Monto": 144
+      }
+    },
+    {
+      "esperado": {
+        "dentro": [],
+        "filas": 60
+      },
+      "estado": "aprobado",
+      "nombre": "60 controles de historial fuera de ventana",
+      "observado": {
+        "dentro": [],
+        "filas": 60
+      }
+    },
+    {
+      "esperado": [],
+      "estado": "aprobado",
+      "nombre": "Valor actual de cada orden coincide con su cambio",
+      "observado": []
+    },
+    {
+      "esperado": {
+        "grupos": 10,
+        "tamanos": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "estado": "aprobado",
+      "nombre": "Regla de duplicidad: diez grupos candidatos de dos",
+      "observado": {
+        "grupos": 10,
+        "tamanos": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "esperado": true,
+      "estado": "aprobado",
+      "nombre": "Diez pares similares legítimos excluidos por Plan",
+      "observado": true
+    },
+    {
+      "esperado": "una; usuario/aplicación/IP nulos",
+      "estado": "aprobado",
+      "nombre": "SQL: 31,840 reproducido una vez y sin atribución",
+      "observado": {
+        "desconocidos_nulos": true,
+        "filas": 1
+      }
+    },
+    {
+      "esperado": 1,
+      "estado": "aprobado",
+      "nombre": "SQL: control sintético separado",
+      "observado": 1
+    },
+    {
+      "esperado": 140,
+      "estado": "aprobado",
+      "nombre": "SQL: observaciones normales",
+      "observado": 140
+    },
+    {
+      "esperado": "una; bytes/IP/puerto/protocolo/UTC/clasificación nulos",
+      "estado": "aprobado",
+      "nombre": "Red: ~1.6 GB reproducido sin convertir a bytes",
+      "observado": {
+        "detalles_nulos": true,
+        "filas": 1
+      }
+    },
+    {
+      "esperado": 1,
+      "estado": "aprobado",
+      "nombre": "Red: control exacto sintético separado",
+      "observado": 1
+    },
+    {
+      "esperado": 70,
+      "estado": "aprobado",
+      "nombre": "Red: observaciones normales",
+      "observado": 70
+    },
+    {
+      "esperado": {
+        "ejecuciones": 9,
+        "programaciones": 9,
+        "sin_dia_15": true
+      },
+      "estado": "aprobado",
+      "nombre": "Respaldos: nueve programaciones, ocho ejecuciones de octubre y una histórica; sin día 15",
+      "observado": {
+        "ejecuciones": 9,
+        "programaciones": 9,
+        "sin_dia_15": true
+      }
+    },
+    {
+      "esperado": "backup 1 del 30-jun; registro 1-jul",
+      "estado": "aprobado",
+      "nombre": "Restauración histórica ficticia ligada al respaldo de junio",
+      "observado": true
+    },
+    {
+      "esperado": [
+        [
+          "EVT-01",
+          "2026-10-12T16:15:00",
+          "CURSO_PROVEEDOR",
+          "\\N"
+        ],
+        [
+          "EVT-02",
+          "2026-10-14T02:17:00",
+          "CURSO_VPN",
+          "E-02"
+        ],
+        [
+          "EVT-03",
+          "2026-10-14T02:26:00",
+          "CURSO_IDENTIDAD",
+          "\\N"
+        ],
+        [
+          "EVT-04",
+          "2026-10-14T02:31:00",
+          "CURSO_SQL",
+          "E-03"
+        ],
+        [
+          "EVT-05",
+          "2026-10-14T02:35:00",
+          "CURSO_RED",
+          "E-04"
+        ],
+        [
+          "EVT-06",
+          "2026-10-14T02:42:00",
+          "CURSO_CRM",
+          "E-05"
+        ],
+        [
+          "EVT-07",
+          "2026-10-14T03:02:00",
+          "CURSO_CAMBIOS",
+          "E-06"
+        ],
+        [
+          "EVT-08",
+          "2026-10-14T03:18:00",
+          "CURSO_SEGURIDAD",
+          "E-07"
+        ],
+        [
+          "EVT-09",
+          "2026-10-14T03:42:00",
+          "CURSO_CRM",
+          "\\N"
+        ],
+        [
+          "EVT-10",
+          "2026-10-14T04:05:00",
+          "CURSO_TI",
+          "\\N"
+        ],
+        [
+          "EVT-11",
+          "2026-10-14T08:57:00",
+          "CURSO_CRM",
+          "\\N"
+        ],
+        [
+          "EVT-12",
+          "2026-10-14T09:37:00",
+          "CURSO_CRM",
+          "\\N"
+        ],
+        [
+          "EVT-13",
+          "2026-10-14T11:15:00",
+          "CURSO_FINANZAS",
+          "\\N"
+        ]
+      ],
+      "estado": "aprobado",
+      "nombre": "13 eventos, orden, horas, fuentes y referencias",
+      "observado": [
+        [
+          "EVT-01",
+          "2026-10-12T16:15:00",
+          "CURSO_PROVEEDOR",
+          "\\N"
+        ],
+        [
+          "EVT-02",
+          "2026-10-14T02:17:00",
+          "CURSO_VPN",
+          "E-02"
+        ],
+        [
+          "EVT-03",
+          "2026-10-14T02:26:00",
+          "CURSO_IDENTIDAD",
+          "\\N"
+        ],
+        [
+          "EVT-04",
+          "2026-10-14T02:31:00",
+          "CURSO_SQL",
+          "E-03"
+        ],
+        [
+          "EVT-05",
+          "2026-10-14T02:35:00",
+          "CURSO_RED",
+          "E-04"
+        ],
+        [
+          "EVT-06",
+          "2026-10-14T02:42:00",
+          "CURSO_CRM",
+          "E-05"
+        ],
+        [
+          "EVT-07",
+          "2026-10-14T03:02:00",
+          "CURSO_CAMBIOS",
+          "E-06"
+        ],
+        [
+          "EVT-08",
+          "2026-10-14T03:18:00",
+          "CURSO_SEGURIDAD",
+          "E-07"
+        ],
+        [
+          "EVT-09",
+          "2026-10-14T03:42:00",
+          "CURSO_CRM",
+          "\\N"
+        ],
+        [
+          "EVT-10",
+          "2026-10-14T04:05:00",
+          "CURSO_TI",
+          "\\N"
+        ],
+        [
+          "EVT-11",
+          "2026-10-14T08:57:00",
+          "CURSO_CRM",
+          "\\N"
+        ],
+        [
+          "EVT-12",
+          "2026-10-14T09:37:00",
+          "CURSO_CRM",
+          "\\N"
+        ],
+        [
+          "EVT-13",
+          "2026-10-14T11:15:00",
+          "CURSO_FINANZAS",
+          "\\N"
+        ]
+      ]
+    },
+    {
+      "esperado": true,
+      "estado": "aprobado",
+      "nombre": "Eventos: hora/zona/desfase originales desconocidos; atribución limitada a EVT-02",
+      "observado": true
+    },
+    {
+      "esperado": [],
+      "estado": "aprobado",
+      "nombre": "Fuentes CURSO no declaran desfase cero",
+      "observado": []
+    },
+    {
+      "esperado": true,
+      "estado": "aprobado",
+      "nombre": "Elevación reportada conserva cuenta/rol/asignador/ticket/vencimiento desconocidos",
+      "observado": true
+    },
+    {
+      "esperado": true,
+      "estado": "aprobado",
+      "nombre": "E-05 conserva usuario, sesión y vía desconocidos",
+      "observado": true
+    },
+    {
+      "esperado": true,
+      "estado": "aprobado",
+      "nombre": "E-06 conserva detalles no aportados como nulos",
+      "observado": true
+    },
+    {
+      "esperado": true,
+      "estado": "aprobado",
+      "nombre": "E-07 conserva marcas de atención y cierre desconocidas",
+      "observado": true
+    },
+    {
+      "esperado": 4,
+      "estado": "aprobado",
+      "nombre": "Cuatro soportes declarativos con advertencia obligatoria",
+      "observado": 4
+    },
+    {
+      "esperado": [
+        "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_01.md",
+        "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_02.md",
+        "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_03.md",
+        "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_04.md"
+      ],
+      "estado": "aprobado",
+      "nombre": "EvidenciaPruebas apunta a los cuatro soportes entregados",
+      "observado": [
+        "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_01.md",
+        "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_02.md",
+        "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_03.md",
+        "04_SQL/datos/v1/soportes_sinteticos/Pruebas_Cambio_04.md"
+      ]
+    },
+    {
+      "esperado": {
+        "archivos_comparados": 20,
+        "diferencias": []
+      },
+      "estado": "aprobado",
+      "nombre": "Reproducibilidad: dos generaciones independientes de CSV y soportes",
+      "observado": {
+        "archivos_comparados": 20,
+        "diferencias": []
+      }
+    },
+    {
+      "esperado": {
+        "codigo_salida": "distinto de cero",
+        "hashes_iguales": true
+      },
+      "estado": "aprobado",
+      "nombre": "Segundo intento de generación en carpeta existente se rechaza sin cambiar hashes",
+      "observado": {
+        "codigo_salida": 2,
+        "hashes_iguales": true,
+        "mensaje": "usage: 02_generar_datos.py [-h] --salida SALIDA [--semilla SEMILLA]\n02_generar_datos.py: error: La ruta de salida ya existe; no se sobrescribe: /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/04_SQL/datos/v1"
+      }
+    }
+  ],
+  "datos": "/home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/04_SQL/datos/v1",
+  "esquema": "/home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/04_SQL/01_esquema.sql",
+  "momento_validacion_utc": "2026-11-07T05:47:28Z",
+  "resumen": {
+    "aprobadas": 55,
+    "estado": "aprobado",
+    "fallidas": 0
+  },
+  "version": "v1"
+}

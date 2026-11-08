@@ -1,0 +1,36 @@
+{
+  "docx": {
+    "comando": [
+      "libreoffice",
+      "-env:UserInstallation=file:///tmp/revision_p1/perfil-runtime-docx",
+      "--headless",
+      "--convert-to",
+      "pdf",
+      "--outdir",
+      "/tmp/revision_p1/reapertura/salida",
+      "/tmp/revision_p1/reapertura/entrada/Plantilla_UdeO_v2.docx",
+      "/tmp/revision_p1/reapertura/entrada/Informe_equipo_parcial_P1_v1.docx",
+      "/tmp/revision_p1/reapertura/entrada/Seccion_forense_P1_v1.docx"
+    ],
+    "codigo": 0,
+    "stdout": "convert /tmp/revision_p1/reapertura/entrada/Plantilla_UdeO_v2.docx as a Writer document -> /tmp/revision_p1/reapertura/salida/Plantilla_UdeO_v2.pdf using filter : writer_pdf_Export\nconvert /tmp/revision_p1/reapertura/entrada/Informe_equipo_parcial_P1_v1.docx as a Writer document -> /tmp/revision_p1/reapertura/salida/Informe_equipo_parcial_P1_v1.pdf using filter : writer_pdf_Export\nconvert /tmp/revision_p1/reapertura/entrada/Seccion_forense_P1_v1.docx as a Writer document -> /tmp/revision_p1/reapertura/salida/Seccion_forense_P1_v1.pdf using filter : writer_pdf_Export\n",
+    "stderr": "Warning: failed to launch javaldx - java may not function correctly\n"
+  },
+  "xlsx": {
+    "comando": [
+      "libreoffice",
+      "-env:UserInstallation=file:///tmp/revision_p1/perfil-runtime-xlsx",
+      "--headless",
+      "--convert-to",
+      "xlsx",
+      "--outdir",
+      "/tmp/revision_p1/reapertura/salida",
+      "/tmp/revision_p1/reapertura/entrada/Programa_pruebas_P1_v1.xlsx",
+      "/tmp/revision_p1/reapertura/entrada/Cronologia_investigada_v1.xlsx",
+      "/tmp/revision_p1/reapertura/entrada/indice_evidencias.xlsx"
+    ],
+    "codigo": 0,
+    "stdout": "convert /tmp/revision_p1/reapertura/entrada/Programa_pruebas_P1_v1.xlsx as a Calc document -> /tmp/revision_p1/reapertura/salida/Programa_pruebas_P1_v1.xlsx using filter : Calc Office Open XML\nconvert /tmp/revision_p1/reapertura/entrada/Cronologia_investigada_v1.xlsx as a Calc document -> /tmp/revision_p1/reapertura/salida/Cronologia_investigada_v1.xlsx using filter : Calc Office Open XML\nconvert /tmp/revision_p1/reapertura/entrada/indice_evidencias.xlsx as a Calc document -> /tmp/revision_p1/reapertura/salida/indice_evidencias.xlsx using filter : Calc Office Open XML\n",
+    "stderr": "Warning: failed to launch javaldx - java may not function correctly\n"
+  }
+}

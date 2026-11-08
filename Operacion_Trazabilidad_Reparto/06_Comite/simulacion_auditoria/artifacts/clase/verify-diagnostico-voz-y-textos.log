@@ -1,0 +1,319 @@
+Already up to date
+Done in 32ms using pnpm v11.2.2
+$ pnpm test && pnpm build && pnpm test:e2e
+$ vitest run
+
+ RUN  v3.2.4 /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria
+
+ ✓ tests/query.test.ts (15 tests) 30ms
+ ✓ tests/intro.test.ts (8 tests) 26ms
+ ✓ tests/computer-assets.test.mjs (5 tests) 70ms
+ ✓ tests/store.test.ts (8 tests) 23ms
+ ✓ tests/liaisonAnimator.test.ts (4 tests) 40ms
+ ✓ tests/evaluation.test.ts (34 tests) 30ms
+ ✓ tests/taskProgress.test.ts (3 tests) 23ms
+ ✓ tests/reviewBridge.test.ts (4 tests) 24ms
+ ✓ tests/workspace.test.ts (7 tests) 42ms
+ ✓ tests/chairPhysics.test.ts (8 tests) 320ms
+ ✓ tests/computer-apps.test.ts (8 tests) 49ms
+ ✓ tests/desktop.test.ts (4 tests) 6ms
+ ✓ tests/collision.test.ts (3 tests) 4ms
+ ✓ tests/interview.test.ts (4 tests) 13ms
+ ✓ tests/report.test.ts (4 tests) 16ms
+ ✓ tests/classroom.test.ts (3 tests) 19ms
+ ✓ tests/models.test.ts (2 tests) 14ms
+
+ Test Files  17 passed (17)
+      Tests  124 passed (124)
+   Start at  17:44:30
+   Duration  1.03s (transform 1.11s, setup 0ms, collect 2.92s, tests 750ms, environment 4ms, prepare 2.13s)
+
+$ tsc --noEmit && vite build
+vite v7.1.9 building for production...
+transforming...
+✓ 72 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.80 kB │ gzip:   0.46 kB
+dist/assets/index-B81UQpe5.css   88.78 kB │ gzip:  18.60 kB
+dist/assets/index-pM-AV73U.js   862.38 kB │ gzip: 233.14 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 1.37s
+$ playwright test
+
+Running 44 tests using 1 worker
+
+(node:2639954) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2639954) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/e2e/acceptance.spec.ts:28:3 › D · apertura legible y encuadrada a 1280×720 (8.0s)
+  ✓   2 tests/e2e/acceptance.spec.ts:28:3 › D · apertura legible y encuadrada a 1920×1080 (9.6s)
+  ✓   3 tests/e2e/acceptance.spec.ts:75:1 › D · acceso plano móvil, teclado, J y Esc (1.2s)
+  ✓   4 tests/e2e/acceptance.spec.ts:106:1 › D · silencio, aviso opcional y reducción de movimiento (16.5s)
+  ✓   5 tests/e2e/acceptance.spec.ts:145:1 › D · WebGL denegado conserva los seis accesos y la entrevista (1.2s)
+  ✓   6 tests/e2e/acceptance.spec.ts:168:1 › D · bloqueo del puntero denegado activa la alternativa completa (11.5s)
+  ✓   7 tests/e2e/acceptance.spec.ts:188:1 › D · inicio local sin acceso externo y revisión con el contexto offline (12.0s)
+  ✓   8 tests/e2e/chairs.spec.ts:3:1 › las sillas cargadas conservan su hitbox, orientación y posición al deslizarse (4.3s)
+  ✓   9 tests/e2e/classroom.spec.ts:13:3 › Clase · lectura, fuentes y libreta con partida anterior, proyector y sin audio a 1280×720 (5.2s)
+  ✓  10 tests/e2e/classroom.spec.ts:13:3 › Clase · lectura, fuentes y libreta con partida anterior, proyector y sin audio a 1920×1080 (5.7s)
+  ✓  11 tests/e2e/desktop-b.spec.ts:33:1 › B integrada: acceso físico, pista, dos programas, TI, autosave, libreta y restauración (22.0s)
+  ✓  12 tests/e2e/desktop-b.spec.ts:168:1 › B a 1920: oficina y bisel visibles, retorno de TI y foco contenido (15.3s)
+  ✓  13 tests/e2e/desktop-b.spec.ts:185:1 › B móvil táctil: nota, aplicaciones, última frase y restauración (2.3s)
+  ✓  14 tests/e2e/desktop-b.spec.ts:222:1 › B sin WebGL y con almacenamiento bloqueado: trabajo en sesión sin falso guardado (1.2s)
+  ✓  15 tests/e2e/desktop-b.spec.ts:245:1 › B: reiniciar desde la tablita limpia la auditoría y el escritorio (9.6s)
+  ✓  16 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · accesos: dos programas propios, estado y recursos locales (1.4s)
+  ✓  17 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · crm_cambios: dos programas propios, estado y recursos locales (1.4s)
+  ✓  18 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · siem: dos programas propios, estado y recursos locales (1.7s)
+  ✓  19 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · respaldos: dos programas propios, estado y recursos locales (1.7s)
+  ✓  20 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · mesa_auditor: dos programas propios, estado y recursos locales (1.5s)
+  ✓  21 tests/e2e/desktop-stage3.spec.ts:69:1 › etapa 3 · Recovery Console móvil conserva controles y lectura dentro del monitor (918ms)
+  ✓  22 tests/e2e/desktop-stage3.spec.ts:81:1 › etapa 3 · monitor físico junto al rack abre Server sin atravesar muebles (39.6s)
+  ✓  23 tests/e2e/i5.spec.ts:13:1 › I5 · ayuda escrita, retorno PC/libreta/TI y persistencia en los seis puestos (8.2s)
+  ✓  24 tests/e2e/i5.spec.ts:50:3 › I5 · metadatos y ayuda legibles a 1440px (1.3s)
+  ✓  25 tests/e2e/i5.spec.ts:50:3 › I5 · metadatos y ayuda legibles a 390px (1.1s)
+  ✓  26 tests/e2e/i5.spec.ts:76:1 › I5 · el reloj conserva el tiempo de un fotograma retrasado y la pausa lo congela (868ms)
+  ✘  27 tests/e2e/interview-audio.spec.ts:3:1 › reproduce la voz local, cambia de frase y detiene el audio al salir (1.2s)
+(node:2656906) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2656906) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  28 tests/e2e/interview-audio.spec.ts:38:1 › los 29 MP3 se pueden cargar y decodificar (598ms)
+  ✓  29 tests/e2e/interview.spec.ts:19:1 › conversación por teclado: respuestas por turno, ramas y temas ya hablados (1.2s)
+  ✓  30 tests/e2e/interview.spec.ts:50:1 › consultar documentos conserva el turno y desbloquea solo las repreguntas pertinentes (1.3s)
+  ✓  31 tests/e2e/interview.spec.ts:76:3 › entrevista legible a 1280×720, con modo proyector (12.3s)
+  ✓  32 tests/e2e/interview.spec.ts:76:3 › entrevista legible a 1920×1080, con modo proyector (15.0s)
+  ✓  33 tests/e2e/interview.spec.ts:76:3 › entrevista legible a 390×844, con modo proyector (1.1s)
+  ✓  34 tests/e2e/investigation.spec.ts:19:1 › SQL editable: filtros reales, NULL, errores y trazabilidad sin completar por clics (1.2s)
+  ✓  35 tests/e2e/investigation.spec.ts:55:1 › comparar órdenes y despliegue permite descubrir el orden reportado (1.0s)
+  ✓  36 tests/e2e/investigation.spec.ts:71:1 › sesiones: buscar una cuenta conserva foco y no atribuye la elevación sin usuario (807ms)
+  ✓  37 tests/e2e/investigation.spec.ts:89:1 › recuperación: recorrer estados no acredita integridad ni ejecuta restauraciones (1.2s)
+  ✓  38 tests/e2e/investigation.spec.ts:110:1 › archivo: consultar metadatos ausentes documenta un límite, sin hashes inventados (1.2s)
+  ✓  39 tests/e2e/investigation.spec.ts:127:1 › SIEM: seguir la cuenta conserva una cronología válida y permite reabrir el puesto (1.3s)
+  ✘  40 tests/e2e/investigation.spec.ts:143:1 › móvil: editor, inspector y guardado funcionan sin desbordar la pantalla (13.2s)
+(node:2661962) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2661962) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  41 tests/e2e/office.spec.ts:102:1 › A · navegación real, entrega, AU-02 y dependencia de fuentes (1.4m)
+(node:2669533) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2669533) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  42 tests/e2e/office.spec.ts:157:1 › B · seis revisiones en distinto orden, entrevistas y libreta (12.7s)
+  ✘  43 tests/e2e/office.spec.ts:191:1 › C · diez planos, transporte, nota ilustrativa y estado intacto (21.2s)
+(node:2673083) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2673083) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  44 tests/e2e/office.spec.ts:257:1 › C · guardar, editar, reevaluar versión, exportar JSON e imprimir (13.6s)
+
+
+  1) tests/e2e/interview-audio.spec.ts:3:1 › reproduce la voz local, cambia de frase y detiene el audio al salir 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      30 |   await expect(voice).toHaveAttribute('src', /frase_03.mp3$/);
+      31 |   await page.locator('.dialogue-exit').click();
+    > 32 |   expect(await handle!.evaluate((audio: HTMLAudioElement) => audio.paused)).toBe(true);
+         |                                                                             ^
+      33 |   await page.locator('[data-flat="liaison"]').click();
+      34 |   await expect(voice).toHaveAttribute('src', /frase_02.mp3$/);
+      35 |   expect(await voice.evaluate((audio: HTMLAudioElement) => audio.muted)).toBe(true);
+        at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/interview-audio.spec.ts:32:77
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    artifacts/test-results/interview-audio-reproduce--6db16-y-detiene-el-audio-al-salir/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: artifacts/test-results/interview-audio-reproduce--6db16-y-detiene-el-audio-al-salir/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    artifacts/test-results/interview-audio-reproduce--6db16-y-detiene-el-audio-al-salir/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace artifacts/test-results/interview-audio-reproduce--6db16-y-detiene-el-audio-al-salir/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/e2e/investigation.spec.ts:143:1 › móvil: editor, inspector y guardado funcionan sin desbordar la pantalla 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeInViewport[2m([22m[2m)[22m failed
+
+    Locator:  locator('.pc-window[data-app-id="query-studio"]').locator('.pc-app-inspector h3')
+    Expected: in viewport
+    Received: viewport ratio 0
+    Timeout:  12000ms
+
+    Call log:
+    [2m  - Expect "toBeInViewport" with timeout 12000ms[22m
+    [2m  - waiting for locator('.pc-window[data-app-id="query-studio"]').locator('.pc-app-inspector h3')[22m
+    [2m    16 × locator resolved to <h3>Lectura de 31,840 registros de clientes</h3>[22m
+    [2m       - unexpected value "viewport ratio 0"[22m
+
+
+      152 |   await query.getByRole('button', { name: 'Usar como sustento', exact: true }).click();
+      153 |   await expect(page.locator('.computer-save-status')).toHaveText('Libreta actualizada');
+    > 154 |   await expect(query.locator('.pc-app-inspector h3')).toBeInViewport();
+          |                                                       ^
+      155 |   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+      156 |   expect(await page.locator('.computer-monitor').evaluate((element) => element.scrollWidth <= element.clientWidth)).toBe(true);
+      157 |   await page.keyboard.press('Escape');
+        at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/investigation.spec.ts:154:55
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    artifacts/test-results/investigation-móvil-editor-76202-n-sin-desbordar-la-pantalla/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: artifacts/test-results/investigation-móvil-editor-76202-n-sin-desbordar-la-pantalla/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    artifacts/test-results/investigation-móvil-editor-76202-n-sin-desbordar-la-pantalla/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace artifacts/test-results/investigation-móvil-editor-76202-n-sin-desbordar-la-pantalla/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) tests/e2e/office.spec.ts:102:1 › A · navegación real, entrega, AU-02 y dependencia de fuentes ─
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoContainText[2m([22m[32mexpected[39m[2m)[22m failed
+
+    Locator: locator('.pending-details')
+    Expected substring: [32m"cambiaron o se retiraron [7mla[27ms fuentes"[39m
+    Received string:    [31m"[7mQué falta para documentarInspecciona y vincula: Declaración atribuida a Seguridad.Repite «¿Estos registros identifican el contenido transferido y lo conectan con la lectura SQL?»: [27mcambiaron o se retiraron [7msu[27ms fuentes[7m.[27m"[39m
+    Timeout: 12000ms
+
+    Call log:
+    [2m  - Expect "toContainText" with timeout 12000ms[22m
+    [2m  - waiting for locator('.pending-details')[22m
+    [2m    16 × locator resolved to <details open="" class="pending-details">…</details>[22m
+    [2m       - unexpected value "Qué falta para documentarInspecciona y vincula: Declaración atribuida a Seguridad.Repite «¿Estos registros identifican el contenido transferido y lo conectan con la lectura SQL?»: cambiaron o se retiraron sus fuentes."[22m
+
+
+      142 |   await page.locator('[data-action="unpin"][data-source="DECL-05"]').click();
+      143 |   await expect(page.locator('[data-review-status="AU-02"]')).toHaveText('Por contrastar');
+    > 144 |   await expect(page.locator('.pending-details')).toContainText('cambiaron o se retiraron las fuentes');
+          |                                                  ^
+      145 |   await page.locator('[data-action="interview"]').click();
+      146 |   await selectInterviewSource(page, 'DECL-05');
+      147 |   await page.locator('[data-action="source"][data-source="DECL-05"]').first().click();
+        at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/office.spec.ts:144:50
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    artifacts/test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: artifacts/test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    artifacts/test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace artifacts/test-results/office-A-·-navegación-real-c0149-02-y-dependencia-de-fuentes/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) tests/e2e/office.spec.ts:191:1 › C · diez planos, transporte, nota ilustrativa y estado intacto 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+    Locator:  locator('#intro-shot')
+    Expected: [32m"P[7m01 · 1/[27m10"[39m
+    Received: [31m"P[7mlano 1 de [27m10"[39m
+    Timeout:  12000ms
+
+    Call log:
+    [2m  - Expect "toHaveText" with timeout 12000ms[22m
+    [2m  - waiting for locator('#intro-shot')[22m
+    [2m    16 × locator resolved to <span id="intro-shot">Plano 1 de 10</span>[22m
+    [2m       - unexpected value "Plano 1 de 10"[22m
+
+
+      201 |   };
+      202 |   await seek(0);
+    > 203 |   await expect(page.locator('#intro-shot')).toHaveText('P01 · 1/10');
+          |                                             ^
+      204 |   const plan = [['P01', 0], ['P02', 8], ['P03', 16], ['P04', 23], ['P05', 37], ['P06', 45], ['P07', 53], ['P08', 61], ['P09', 77], ['P10', 95]];
+      205 |   for (const [id, start] of plan) {
+      206 |     await seek(Number(start));
+        at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/office.spec.ts:203:45
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    artifacts/test-results/office-C-·-diez-planos-tra-d34f6-lustrativa-y-estado-intacto/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: artifacts/test-results/office-C-·-diez-planos-tra-d34f6-lustrativa-y-estado-intacto/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    artifacts/test-results/office-C-·-diez-planos-tra-d34f6-lustrativa-y-estado-intacto/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace artifacts/test-results/office-C-·-diez-planos-tra-d34f6-lustrativa-y-estado-intacto/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) tests/e2e/office.spec.ts:257:1 › C · guardar, editar, reevaluar versión, exportar JSON e imprimir 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoContainText[2m([22m[32mexpected[39m[2m)[22m failed
+
+    Locator: locator('.hint-block')
+    Timeout: 12000ms
+    [32m- Expected substring  - 1[39m
+    [31m+ Received string     + 4[39m
+
+    [32m- Usuarios y privilegios[39m
+    [31m+[39m
+    [31m+             Ver pista siguiente[39m
+    [31m+             En la estación A, abre el resumen Usuarios y permisos y la sesión Acceso remoto o Sesión remota sin verificación adicional.[39m
+    [31m+ [43m          [49m[39m
+
+    Call log:
+    [2m  - Expect "toContainText" with timeout 12000ms[22m
+    [2m  - waiting for locator('.hint-block')[22m
+    [2m    16 × locator resolved to <div class="hint-block">…</div>[22m
+    [2m       - unexpected value "[22m
+    [2m            Ver pista siguiente[22m
+    [2m            En la estación A, abre el resumen Usuarios y permisos y la sesión Acceso remoto o Sesión remota sin verificación adicional.[22m
+    [2m          "[22m
+
+
+      269 |   await page.locator('#free-note').press('Tab');
+      270 |   await page.locator('[data-action="hint"]').click();
+    > 271 |   await expect(page.locator('.hint-block')).toContainText('Usuarios y privilegios');
+          |                                             ^
+      272 |   await page.reload();
+      273 |   await openStation(page, 'accesos');
+      274 |   await expect(page.locator('.computer-hud [data-progress]')).toHaveText('Por contrastar');
+        at /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria/tests/e2e/office.spec.ts:271:45
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    artifacts/test-results/office-C-·-guardar-editar--81662-ón-exportar-JSON-e-imprimir/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: artifacts/test-results/office-C-·-guardar-editar--81662-ón-exportar-JSON-e-imprimir/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    artifacts/test-results/office-C-·-guardar-editar--81662-ón-exportar-JSON-e-imprimir/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace artifacts/test-results/office-C-·-guardar-editar--81662-ón-exportar-JSON-e-imprimir/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5 failed
+    tests/e2e/interview-audio.spec.ts:3:1 › reproduce la voz local, cambia de frase y detiene el audio al salir 
+    tests/e2e/investigation.spec.ts:143:1 › móvil: editor, inspector y guardado funcionan sin desbordar la pantalla 
+    tests/e2e/office.spec.ts:102:1 › A · navegación real, entrega, AU-02 y dependencia de fuentes ──
+    tests/e2e/office.spec.ts:191:1 › C · diez planos, transporte, nota ilustrativa y estado intacto 
+    tests/e2e/office.spec.ts:257:1 › C · guardar, editar, reevaluar versión, exportar JSON e imprimir 
+  39 passed (6.3m)
+[ELIFECYCLE] Command failed with exit code 1.
+[ELIFECYCLE] Command failed with exit code 1.

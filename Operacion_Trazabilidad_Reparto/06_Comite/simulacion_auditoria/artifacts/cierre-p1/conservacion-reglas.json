@@ -1,0 +1,19 @@
+{
+  "versionAnterior": "auditoria_reglas_v2.1",
+  "versionActual": "auditoria_reglas_v2.1",
+  "logicaEvaluableConservada": true,
+  "textosAclarados": [
+    {
+      "reviewId": "AU-03",
+      "id": "L03-CAUSA",
+      "antes": "El orden temporal no demuestra causalidad ni inocuidad.",
+      "despues": "El orden de las horas no demuestra que el despliegue causara el incidente ni que fuera ajeno a él."
+    },
+    {
+      "reviewId": "AU-06",
+      "id": "L06-HASH",
+      "antes": "Un hash, si se aporta, verifica bytes y no verdad o completitud.",
+      "despues": "Comparar el SHA-256 de un archivo con una referencia previamente registrada permite detectar cambios; no demuestra verdad ni completitud. Debe conservarse el origen de la referencia."
+    }
+  ]
+}

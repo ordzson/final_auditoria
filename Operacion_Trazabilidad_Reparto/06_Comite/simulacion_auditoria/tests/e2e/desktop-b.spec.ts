@@ -38,7 +38,7 @@ test('B integrada: acceso físico, pista, dos programas, TI, autosave, libreta y
   await page.setViewportSize({ width: 1280, height: 720 });
   await seed(page, false);
   await page.locator('#enter-office').click();
-  await expect(page.locator('#interaction-prompt')).toContainText('SQL y red');
+  await expect(page.locator('#interaction-prompt')).toContainText('Lectura de datos y red');
   await page.keyboard.press('KeyE');
   await expect(page.locator('#panel-dialog')).toHaveClass('computer-dialog');
   await expect(pcWindow(page, 'query-studio')).toHaveClass(/is-active/);
@@ -139,7 +139,7 @@ test('B integrada: acceso físico, pista, dos programas, TI, autosave, libreta y
   await expect(page.locator('#panel-dialog')).not.toBeVisible();
   expect((await savedAudit(page)).pose).toEqual(pose);
   await page.locator('#enter-office').click();
-  await expect(page.locator('#interaction-prompt')).toContainText('SQL y red');
+  await expect(page.locator('#interaction-prompt')).toContainText('Lectura de datos y red');
   // Chrome headless no libera el puntero con una tecla sintetizada.
   await page.evaluate(() => document.exitPointerLock());
   await expect(page.locator('#entry-overlay')).toBeVisible();
@@ -169,7 +169,7 @@ test('B a 1920: oficina y bisel visibles, retorno de TI y foco contenido', async
   await page.setViewportSize({ width: 1920, height: 1080 });
   await seed(page, false);
   await page.locator('#enter-office').click();
-  await expect(page.locator('#interaction-prompt')).toContainText('SQL y red');
+  await expect(page.locator('#interaction-prompt')).toContainText('Lectura de datos y red');
   await page.keyboard.press('KeyE');
   await expect(pcWindow(page, 'query-studio')).toBeVisible();
   await screenshot(page, 'office-1920');

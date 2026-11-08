@@ -1,0 +1,181 @@
+{
+  "hipoteticos": true,
+  "controles": [
+    {
+      "escenario": "sin_clasificacion_normal",
+      "FlujoID": 10001,
+      "esperado": "sin clasificación; volumen dentro del umbral",
+      "observado": "sin clasificación; volumen dentro del umbral",
+      "aprobado": true
+    },
+    {
+      "escenario": "sin_clasificacion_exactamente_3x",
+      "FlujoID": 10002,
+      "esperado": "sin clasificación; volumen dentro del umbral",
+      "observado": "sin clasificación; volumen dentro del umbral",
+      "aprobado": true
+    },
+    {
+      "escenario": "sin_clasificacion_supera",
+      "FlujoID": 10003,
+      "esperado": "supera 3x",
+      "observado": "supera 3x",
+      "aprobado": true
+    },
+    {
+      "escenario": "clasificado_supera",
+      "FlujoID": 10004,
+      "esperado": "supera 3x",
+      "observado": "supera 3x",
+      "aprobado": true
+    },
+    {
+      "escenario": "clasificado_normal_excluido",
+      "FlujoID": 10005,
+      "esperado": null,
+      "observado": null,
+      "aprobado": true
+    },
+    {
+      "escenario": "clasificado_exactamente_3x_excluido",
+      "FlujoID": 10006,
+      "esperado": null,
+      "observado": null,
+      "aprobado": true
+    },
+    {
+      "escenario": "bytes_desconocidos",
+      "FlujoID": 10007,
+      "esperado": "no evaluable",
+      "observado": "no evaluable",
+      "aprobado": true
+    },
+    {
+      "escenario": "dias_insuficientes",
+      "FlujoID": 10008,
+      "esperado": "no evaluable",
+      "observado": "no evaluable",
+      "aprobado": true
+    },
+    {
+      "escenario": "referencia_sin_bytes",
+      "FlujoID": 10009,
+      "esperado": "no evaluable",
+      "observado": "no evaluable",
+      "aprobado": true
+    },
+    {
+      "escenario": "sin_referencia",
+      "FlujoID": 10010,
+      "esperado": "no evaluable",
+      "observado": "no evaluable",
+      "aprobado": true
+    }
+  ],
+  "resultados_sql": [
+    {
+      "FlujoID": 10001,
+      "HoraReportadaLocal": "2026-10-14T10:00:00",
+      "IPOrigen": "192.0.2.1",
+      "IPDestino": "203.0.113.1",
+      "Puerto": 443,
+      "Protocolo": "TCP",
+      "BytesEnviados": 100,
+      "ClasificacionDestino": null,
+      "MaximoHabitualBytes": 100,
+      "DiasReferencia": 5,
+      "Evaluacion": "sin clasificación; volumen dentro del umbral"
+    },
+    {
+      "FlujoID": 10002,
+      "HoraReportadaLocal": "2026-10-14T10:00:00",
+      "IPOrigen": "192.0.2.2",
+      "IPDestino": "203.0.113.2",
+      "Puerto": 443,
+      "Protocolo": "TCP",
+      "BytesEnviados": 300,
+      "ClasificacionDestino": null,
+      "MaximoHabitualBytes": 100,
+      "DiasReferencia": 5,
+      "Evaluacion": "sin clasificación; volumen dentro del umbral"
+    },
+    {
+      "FlujoID": 10003,
+      "HoraReportadaLocal": "2026-10-14T10:00:00",
+      "IPOrigen": "192.0.2.3",
+      "IPDestino": "203.0.113.3",
+      "Puerto": 443,
+      "Protocolo": "TCP",
+      "BytesEnviados": 301,
+      "ClasificacionDestino": null,
+      "MaximoHabitualBytes": 100,
+      "DiasReferencia": 5,
+      "Evaluacion": "supera 3x"
+    },
+    {
+      "FlujoID": 10004,
+      "HoraReportadaLocal": "2026-10-14T10:00:00",
+      "IPOrigen": "192.0.2.4",
+      "IPDestino": "203.0.113.4",
+      "Puerto": 443,
+      "Protocolo": "TCP",
+      "BytesEnviados": 301,
+      "ClasificacionDestino": "control autorizado",
+      "MaximoHabitualBytes": 100,
+      "DiasReferencia": 5,
+      "Evaluacion": "supera 3x"
+    },
+    {
+      "FlujoID": 10007,
+      "HoraReportadaLocal": "2026-10-14T10:00:00",
+      "IPOrigen": "192.0.2.7",
+      "IPDestino": "203.0.113.7",
+      "Puerto": 443,
+      "Protocolo": "TCP",
+      "BytesEnviados": null,
+      "ClasificacionDestino": "control autorizado",
+      "MaximoHabitualBytes": 100,
+      "DiasReferencia": 5,
+      "Evaluacion": "no evaluable"
+    },
+    {
+      "FlujoID": 10008,
+      "HoraReportadaLocal": "2026-10-14T10:00:00",
+      "IPOrigen": "192.0.2.8",
+      "IPDestino": "203.0.113.8",
+      "Puerto": 443,
+      "Protocolo": "TCP",
+      "BytesEnviados": 100,
+      "ClasificacionDestino": "control autorizado",
+      "MaximoHabitualBytes": 100,
+      "DiasReferencia": 2,
+      "Evaluacion": "no evaluable"
+    },
+    {
+      "FlujoID": 10009,
+      "HoraReportadaLocal": "2026-10-14T10:00:00",
+      "IPOrigen": "192.0.2.9",
+      "IPDestino": "203.0.113.9",
+      "Puerto": 443,
+      "Protocolo": "TCP",
+      "BytesEnviados": 100,
+      "ClasificacionDestino": "control autorizado",
+      "MaximoHabitualBytes": null,
+      "DiasReferencia": 5,
+      "Evaluacion": "no evaluable"
+    },
+    {
+      "FlujoID": 10010,
+      "HoraReportadaLocal": "2026-10-14T10:00:00",
+      "IPOrigen": "192.0.2.10",
+      "IPDestino": "203.0.113.10",
+      "Puerto": 443,
+      "Protocolo": "TCP",
+      "BytesEnviados": 100,
+      "ClasificacionDestino": "control autorizado",
+      "MaximoHabitualBytes": null,
+      "DiasReferencia": null,
+      "Evaluacion": "no evaluable"
+    }
+  ]
+}

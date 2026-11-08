@@ -1,0 +1,1922 @@
+[
+  {
+    "Tabla": "Alertas",
+    "Campo": "AlertaID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "HoraReportadaLocal",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "FechaHoraUTC",
+    "Tipo": "datetimeoffset",
+    "Longitud": 8,
+    "Precision": 26,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "Severidad",
+    "Tipo": "varchar",
+    "Longitud": 16,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "Regla",
+    "Tipo": "nvarchar",
+    "Longitud": 320,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "Activo",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "Estado",
+    "Tipo": "varchar",
+    "Longitud": 20,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "AsignadoA",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "PrimeraAccion",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "FechaCierre",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 10
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "NotaCierre",
+    "Tipo": "nvarchar",
+    "Longitud": 500,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 11
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "FuenteID",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 12
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 13
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 14
+  },
+  {
+    "Tabla": "Alertas",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 15
+  },
+  {
+    "Tabla": "Backups",
+    "Campo": "BackupID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "Backups",
+    "Campo": "ProgramacionID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "Backups",
+    "Campo": "BaseDatos",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "Backups",
+    "Campo": "Tipo",
+    "Tipo": "varchar",
+    "Longitud": 20,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "Backups",
+    "Campo": "Inicio",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "Backups",
+    "Campo": "Fin",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "Backups",
+    "Campo": "TamanoGiB",
+    "Tipo": "decimal",
+    "Longitud": 9,
+    "Precision": 10,
+    "Escala": 3,
+    "Anulable": false,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "Backups",
+    "Campo": "Estado",
+    "Tipo": "varchar",
+    "Longitud": 20,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "Backups",
+    "Campo": "ChecksumDeclarado",
+    "Tipo": "bit",
+    "Longitud": 1,
+    "Precision": 1,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "Backups",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 10
+  },
+  {
+    "Tabla": "Backups",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 11
+  },
+  {
+    "Tabla": "Backups",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 12
+  },
+  {
+    "Tabla": "BitacoraSQL",
+    "Campo": "EventoSQLID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "BitacoraSQL",
+    "Campo": "FechaHora",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "BitacoraSQL",
+    "Campo": "UsuarioID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "BitacoraSQL",
+    "Campo": "Objeto",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "BitacoraSQL",
+    "Campo": "Accion",
+    "Tipo": "varchar",
+    "Longitud": 20,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "BitacoraSQL",
+    "Campo": "Filas",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "BitacoraSQL",
+    "Campo": "Aplicacion",
+    "Tipo": "varchar",
+    "Longitud": 60,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "BitacoraSQL",
+    "Campo": "IPOrigen",
+    "Tipo": "varchar",
+    "Longitud": 45,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "BitacoraSQL",
+    "Campo": "FuenteID",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "BitacoraSQL",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 10
+  },
+  {
+    "Tabla": "BitacoraSQL",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 11
+  },
+  {
+    "Tabla": "BitacoraSQL",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 12
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "CambioSistemaID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "Ticket",
+    "Tipo": "varchar",
+    "Longitud": 60,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "Sistema",
+    "Tipo": "varchar",
+    "Longitud": 60,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "Version",
+    "Tipo": "varchar",
+    "Longitud": 40,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "SolicitadoPor",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "AprobadoPor",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "FechaAprobacion",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "FechaHoraDespliegue",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "EjecutadoPor",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "EvidenciaPruebas",
+    "Tipo": "nvarchar",
+    "Longitud": 520,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 10
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "HashArtefacto",
+    "Tipo": "char",
+    "Longitud": 64,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 11
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "FuenteID",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 12
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 13
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 14
+  },
+  {
+    "Tabla": "CambiosSistema",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 15
+  },
+  {
+    "Tabla": "Clientes",
+    "Campo": "ClienteID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "Clientes",
+    "Campo": "Nombre",
+    "Tipo": "nvarchar",
+    "Longitud": 160,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "Clientes",
+    "Campo": "Departamento",
+    "Tipo": "nvarchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "Clientes",
+    "Campo": "Plan",
+    "Tipo": "varchar",
+    "Longitud": 30,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "Clientes",
+    "Campo": "FechaAlta",
+    "Tipo": "date",
+    "Longitud": 3,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "Clientes",
+    "Campo": "Estado",
+    "Tipo": "varchar",
+    "Longitud": 16,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "Clientes",
+    "Campo": "Clasificacion",
+    "Tipo": "nvarchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "Clientes",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "Clientes",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "Clientes",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 10
+  },
+  {
+    "Tabla": "Empleados",
+    "Campo": "EmpleadoID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "Empleados",
+    "Campo": "Nombre",
+    "Tipo": "nvarchar",
+    "Longitud": 160,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "Empleados",
+    "Campo": "Area",
+    "Tipo": "nvarchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "Empleados",
+    "Campo": "Relacion",
+    "Tipo": "varchar",
+    "Longitud": 10,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "Empleados",
+    "Campo": "Empresa",
+    "Tipo": "nvarchar",
+    "Longitud": 160,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "Empleados",
+    "Campo": "FechaIngreso",
+    "Tipo": "date",
+    "Longitud": 3,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "Empleados",
+    "Campo": "FechaBaja",
+    "Tipo": "date",
+    "Longitud": 3,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "Empleados",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "Empleados",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "Empleados",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 10
+  },
+  {
+    "Tabla": "EventosExpediente",
+    "Campo": "EventoID",
+    "Tipo": "varchar",
+    "Longitud": 6,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "EventosExpediente",
+    "Campo": "HoraReportadaLocal",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "EventosExpediente",
+    "Campo": "FuenteID",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "EventosExpediente",
+    "Campo": "Descripcion",
+    "Tipo": "nvarchar",
+    "Longitud": 1000,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "EventosExpediente",
+    "Campo": "CuentaReportada",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "EventosExpediente",
+    "Campo": "Activo",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "EventosExpediente",
+    "Campo": "PaginaPDF",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "EventosExpediente",
+    "Campo": "HoraOriginal",
+    "Tipo": "datetimeoffset",
+    "Longitud": 8,
+    "Precision": 26,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "EventosExpediente",
+    "Campo": "ZonaOriginal",
+    "Tipo": "varchar",
+    "Longitud": 16,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "EventosExpediente",
+    "Campo": "DesfaseSegundos",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 10
+  },
+  {
+    "Tabla": "EventosExpediente",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 11
+  },
+  {
+    "Tabla": "EventosExpediente",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 12
+  },
+  {
+    "Tabla": "EventosExpediente",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 13
+  },
+  {
+    "Tabla": "FuentesTiempo",
+    "Campo": "FuenteID",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "FuentesTiempo",
+    "Campo": "Nombre",
+    "Tipo": "nvarchar",
+    "Longitud": 200,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "FuentesTiempo",
+    "Campo": "ZonaOriginal",
+    "Tipo": "varchar",
+    "Longitud": 16,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "FuentesTiempo",
+    "Campo": "DesfaseSegundos",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "FuentesTiempo",
+    "Campo": "Metodo",
+    "Tipo": "nvarchar",
+    "Longitud": 500,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "FuentesTiempo",
+    "Campo": "Verificado",
+    "Tipo": "bit",
+    "Longitud": 1,
+    "Precision": 1,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "FuentesTiempo",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "FuentesTiempo",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "FuentesTiempo",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "HistorialOrdenes",
+    "Campo": "CambioID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "HistorialOrdenes",
+    "Campo": "OrdenID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "HistorialOrdenes",
+    "Campo": "FechaHora",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "HistorialOrdenes",
+    "Campo": "UsuarioID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "HistorialOrdenes",
+    "Campo": "SesionID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "HistorialOrdenes",
+    "Campo": "Campo",
+    "Tipo": "varchar",
+    "Longitud": 30,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "HistorialOrdenes",
+    "Campo": "ValorAnterior",
+    "Tipo": "nvarchar",
+    "Longitud": 200,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "HistorialOrdenes",
+    "Campo": "ValorNuevo",
+    "Tipo": "nvarchar",
+    "Longitud": 200,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "HistorialOrdenes",
+    "Campo": "Via",
+    "Tipo": "varchar",
+    "Longitud": 20,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "HistorialOrdenes",
+    "Campo": "FuenteID",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 10
+  },
+  {
+    "Tabla": "HistorialOrdenes",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 11
+  },
+  {
+    "Tabla": "HistorialOrdenes",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 12
+  },
+  {
+    "Tabla": "HistorialOrdenes",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 13
+  },
+  {
+    "Tabla": "Ordenes",
+    "Campo": "OrdenID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "Ordenes",
+    "Campo": "ClienteID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "Ordenes",
+    "Campo": "VendedorID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "Ordenes",
+    "Campo": "Sucursal",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "Ordenes",
+    "Campo": "FechaCreacion",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "Ordenes",
+    "Campo": "Estado",
+    "Tipo": "varchar",
+    "Longitud": 20,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "Ordenes",
+    "Campo": "Plan",
+    "Tipo": "varchar",
+    "Longitud": 30,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "Ordenes",
+    "Campo": "Monto",
+    "Tipo": "decimal",
+    "Longitud": 9,
+    "Precision": 12,
+    "Escala": 2,
+    "Anulable": false,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "Ordenes",
+    "Campo": "Moneda",
+    "Tipo": "char",
+    "Longitud": 3,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "Ordenes",
+    "Campo": "Canal",
+    "Tipo": "varchar",
+    "Longitud": 20,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 10
+  },
+  {
+    "Tabla": "Ordenes",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 11
+  },
+  {
+    "Tabla": "Ordenes",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 12
+  },
+  {
+    "Tabla": "Ordenes",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 13
+  },
+  {
+    "Tabla": "Privilegios",
+    "Campo": "AsignacionID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "Privilegios",
+    "Campo": "UsuarioID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "Privilegios",
+    "Campo": "Rol",
+    "Tipo": "varchar",
+    "Longitud": 60,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "Privilegios",
+    "Campo": "Sistema",
+    "Tipo": "varchar",
+    "Longitud": 40,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "Privilegios",
+    "Campo": "FechaHora",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "Privilegios",
+    "Campo": "AsignadoPor",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "Privilegios",
+    "Campo": "Ticket",
+    "Tipo": "varchar",
+    "Longitud": 60,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "Privilegios",
+    "Campo": "Vence",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "Privilegios",
+    "Campo": "FuenteID",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "Privilegios",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 10
+  },
+  {
+    "Tabla": "Privilegios",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 11
+  },
+  {
+    "Tabla": "Privilegios",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 12
+  },
+  {
+    "Tabla": "ProgramacionBackups",
+    "Campo": "ProgramacionID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "ProgramacionBackups",
+    "Campo": "BaseDatos",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "ProgramacionBackups",
+    "Campo": "Tipo",
+    "Tipo": "varchar",
+    "Longitud": 20,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "ProgramacionBackups",
+    "Campo": "HoraProgramada",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "ProgramacionBackups",
+    "Campo": "Destino",
+    "Tipo": "nvarchar",
+    "Longitud": 320,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "ProgramacionBackups",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "ProgramacionBackups",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "ProgramacionBackups",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "PruebasRestauracion",
+    "Campo": "PruebaID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "PruebasRestauracion",
+    "Campo": "BackupID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "PruebasRestauracion",
+    "Campo": "Fecha",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "PruebasRestauracion",
+    "Campo": "Resultado",
+    "Tipo": "varchar",
+    "Longitud": 20,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "PruebasRestauracion",
+    "Campo": "MinutosRestauracion",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "PruebasRestauracion",
+    "Campo": "Responsable",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "PruebasRestauracion",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "PruebasRestauracion",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "PruebasRestauracion",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "Sesiones",
+    "Campo": "SesionID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "Sesiones",
+    "Campo": "UsuarioID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "Sesiones",
+    "Campo": "FuenteID",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "Sesiones",
+    "Campo": "HoraReportadaLocal",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "Sesiones",
+    "Campo": "HoraOriginal",
+    "Tipo": "datetimeoffset",
+    "Longitud": 8,
+    "Precision": 26,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "Sesiones",
+    "Campo": "ZonaOriginal",
+    "Tipo": "varchar",
+    "Longitud": 16,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "Sesiones",
+    "Campo": "IPOrigen",
+    "Tipo": "varchar",
+    "Longitud": 45,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "Sesiones",
+    "Campo": "Dispositivo",
+    "Tipo": "varchar",
+    "Longitud": 60,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "Sesiones",
+    "Campo": "Metodo",
+    "Tipo": "varchar",
+    "Longitud": 16,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "Sesiones",
+    "Campo": "Resultado",
+    "Tipo": "varchar",
+    "Longitud": 16,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 10
+  },
+  {
+    "Tabla": "Sesiones",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 11
+  },
+  {
+    "Tabla": "Sesiones",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 12
+  },
+  {
+    "Tabla": "Sesiones",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 13
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "FlujoID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "HoraReportadaLocal",
+    "Tipo": "datetime2",
+    "Longitud": 6,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "InicioUTC",
+    "Tipo": "datetimeoffset",
+    "Longitud": 8,
+    "Precision": 26,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "FinUTC",
+    "Tipo": "datetimeoffset",
+    "Longitud": 8,
+    "Precision": 26,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "IPOrigen",
+    "Tipo": "varchar",
+    "Longitud": 45,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "IPDestino",
+    "Tipo": "varchar",
+    "Longitud": 45,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "Puerto",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "Protocolo",
+    "Tipo": "varchar",
+    "Longitud": 10,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "BytesEnviados",
+    "Tipo": "bigint",
+    "Longitud": 8,
+    "Precision": 19,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "VolumenReportado",
+    "Tipo": "nvarchar",
+    "Longitud": 120,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 10
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "ClasificacionDestino",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 11
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "FuenteID",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 12
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 13
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 14
+  },
+  {
+    "Tabla": "TransferenciasRed",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 15
+  },
+  {
+    "Tabla": "Usuarios",
+    "Campo": "UsuarioID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 1
+  },
+  {
+    "Tabla": "Usuarios",
+    "Campo": "NombreUsuario",
+    "Tipo": "varchar",
+    "Longitud": 80,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 2
+  },
+  {
+    "Tabla": "Usuarios",
+    "Campo": "EmpleadoID",
+    "Tipo": "int",
+    "Longitud": 4,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 3
+  },
+  {
+    "Tabla": "Usuarios",
+    "Campo": "TipoCuenta",
+    "Tipo": "varchar",
+    "Longitud": 12,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 4
+  },
+  {
+    "Tabla": "Usuarios",
+    "Campo": "Sistema",
+    "Tipo": "varchar",
+    "Longitud": 40,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 5
+  },
+  {
+    "Tabla": "Usuarios",
+    "Campo": "EsPrivilegiada",
+    "Tipo": "bit",
+    "Longitud": 1,
+    "Precision": 1,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 6
+  },
+  {
+    "Tabla": "Usuarios",
+    "Campo": "MFAHabilitado",
+    "Tipo": "bit",
+    "Longitud": 1,
+    "Precision": 1,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 7
+  },
+  {
+    "Tabla": "Usuarios",
+    "Campo": "Estado",
+    "Tipo": "varchar",
+    "Longitud": 16,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 8
+  },
+  {
+    "Tabla": "Usuarios",
+    "Campo": "FechaCreacion",
+    "Tipo": "date",
+    "Longitud": 3,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 9
+  },
+  {
+    "Tabla": "Usuarios",
+    "Campo": "UltimaRecertificacion",
+    "Tipo": "date",
+    "Longitud": 3,
+    "Precision": 10,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 10
+  },
+  {
+    "Tabla": "Usuarios",
+    "Campo": "ClaseOrigen",
+    "Tipo": "varchar",
+    "Longitud": 32,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 11
+  },
+  {
+    "Tabla": "Usuarios",
+    "Campo": "ReferenciaExpediente",
+    "Tipo": "varchar",
+    "Longitud": 5,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": true,
+    "Posicion": 12
+  },
+  {
+    "Tabla": "Usuarios",
+    "Campo": "SupuestosAplicados",
+    "Tipo": "nvarchar",
+    "Longitud": 800,
+    "Precision": 0,
+    "Escala": 0,
+    "Anulable": false,
+    "Posicion": 13
+  }
+]

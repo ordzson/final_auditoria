@@ -1,0 +1,16 @@
+desde,hasta,escenario,desfase_por_reloj_mas_menos_minutos,modelo,intervalo_minimo,intervalo_maximo,invierte_posible,empate_posible
+EVT-04,EVT-05,HIPOTETICO,5,offsets independientes,-6.0,14.0,True,True
+EVT-04,EVT-05,HIPOTETICO,10,offsets independientes,-16.0,24.0,True,True
+EVT-04,EVT-05,HIPOTETICO,15,offsets independientes,-26.0,34.0,True,True
+EVT-06,EVT-07,HIPOTETICO,5,offsets independientes,10.0,30.0,False,False
+EVT-06,EVT-07,HIPOTETICO,10,offsets independientes,0.0,40.0,False,True
+EVT-06,EVT-07,HIPOTETICO,15,offsets independientes,-10.0,50.0,True,True
+EVT-08,EVT-09,HIPOTETICO,5,offsets independientes,14.0,34.0,False,False
+EVT-08,EVT-09,HIPOTETICO,10,offsets independientes,4.0,44.0,False,False
+EVT-08,EVT-09,HIPOTETICO,15,offsets independientes,-6.0,54.0,True,True
+EVT-09,EVT-11,HIPOTETICO,5,offsets independientes,305.0,325.0,False,False
+EVT-09,EVT-11,HIPOTETICO,5,offset común constante (solo si mismo reloj),315.0,315.0,False,False
+EVT-09,EVT-11,HIPOTETICO,10,offsets independientes,295.0,335.0,False,False
+EVT-09,EVT-11,HIPOTETICO,10,offset común constante (solo si mismo reloj),315.0,315.0,False,False
+EVT-09,EVT-11,HIPOTETICO,15,offsets independientes,285.0,345.0,False,False
+EVT-09,EVT-11,HIPOTETICO,15,offset común constante (solo si mismo reloj),315.0,315.0,False,False

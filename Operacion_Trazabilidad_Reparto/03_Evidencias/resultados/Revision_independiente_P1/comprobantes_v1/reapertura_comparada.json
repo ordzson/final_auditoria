@@ -1,0 +1,59 @@
+{
+  "Informe_equipo_parcial_P1_v1.pdf": {
+    "paginas": [
+      7,
+      7
+    ],
+    "texto_igual": true
+  },
+  "Seccion_forense_P1_v1.pdf": {
+    "paginas": [
+      5,
+      5
+    ],
+    "texto_igual": true
+  },
+  "Plantilla_UdeO_v2.pdf": {
+    "paginas": [
+      2,
+      2
+    ],
+    "texto_igual": true
+  },
+  "Programa_pruebas_P1_v1.xlsx": {
+    "hojas": [
+      "Datos",
+      "Lectura",
+      "Procedencia"
+    ],
+    "celdas_iguales": {
+      "Datos": true,
+      "Lectura": true,
+      "Procedencia": true
+    }
+  },
+  "Cronologia_investigada_v1.xlsx": {
+    "hojas": [
+      "Datos",
+      "Lectura",
+      "Procedencia"
+    ],
+    "celdas_iguales": {
+      "Datos": true,
+      "Lectura": true,
+      "Procedencia": true
+    }
+  },
+  "indice_evidencias.xlsx": {
+    "hojas": [
+      "Datos",
+      "Lectura",
+      "Procedencia"
+    ],
+    "celdas_iguales": {
+      "Datos": true,
+      "Lectura": true,
+      "Procedencia": true
+    }
+  }
+}

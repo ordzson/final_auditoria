@@ -1,0 +1,99 @@
+Already up to date
+Done in 32ms using pnpm v11.2.2
+$ pnpm test && pnpm build && pnpm test:e2e
+$ vitest run
+
+ RUN  v3.2.4 /home/ordson/final auditoria/final_auditoria/Operacion_Trazabilidad_Reparto/06_Comite/simulacion_auditoria
+
+ ✓ tests/query.test.ts (15 tests) 27ms
+ ✓ tests/store.test.ts (8 tests) 17ms
+ ✓ tests/intro.test.ts (8 tests) 43ms
+ ✓ tests/computer-assets.test.mjs (5 tests) 79ms
+ ✓ tests/liaisonAnimator.test.ts (4 tests) 45ms
+ ✓ tests/evaluation.test.ts (34 tests) 31ms
+ ✓ tests/taskProgress.test.ts (3 tests) 12ms
+ ✓ tests/workspace.test.ts (7 tests) 38ms
+ ✓ tests/reviewBridge.test.ts (4 tests) 30ms
+ ✓ tests/chairPhysics.test.ts (8 tests) 319ms
+ ✓ tests/computer-apps.test.ts (8 tests) 49ms
+ ✓ tests/desktop.test.ts (4 tests) 7ms
+ ✓ tests/collision.test.ts (3 tests) 3ms
+ ✓ tests/report.test.ts (4 tests) 7ms
+ ✓ tests/classroom.test.ts (3 tests) 15ms
+ ✓ tests/interview.test.ts (4 tests) 13ms
+ ✓ tests/models.test.ts (2 tests) 17ms
+
+ Test Files  17 passed (17)
+      Tests  124 passed (124)
+   Start at  17:52:49
+   Duration  1.05s (transform 951ms, setup 0ms, collect 2.59s, tests 753ms, environment 5ms, prepare 2.28s)
+
+$ tsc --noEmit && vite build
+vite v7.1.9 building for production...
+transforming...
+✓ 72 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.80 kB │ gzip:   0.46 kB
+dist/assets/index-B81UQpe5.css   88.78 kB │ gzip:  18.60 kB
+dist/assets/index-HhdoFdwN.js   862.43 kB │ gzip: 233.16 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 1.49s
+$ playwright test
+
+Running 44 tests using 1 worker
+
+(node:2685524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2685524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/e2e/acceptance.spec.ts:28:3 › D · apertura legible y encuadrada a 1280×720 (8.3s)
+  ✓   2 tests/e2e/acceptance.spec.ts:28:3 › D · apertura legible y encuadrada a 1920×1080 (9.6s)
+  ✓   3 tests/e2e/acceptance.spec.ts:75:1 › D · acceso plano móvil, teclado, J y Esc (1.2s)
+  ✓   4 tests/e2e/acceptance.spec.ts:106:1 › D · silencio, aviso opcional y reducción de movimiento (17.8s)
+  ✓   5 tests/e2e/acceptance.spec.ts:145:1 › D · WebGL denegado conserva los seis accesos y la entrevista (1.1s)
+  ✓   6 tests/e2e/acceptance.spec.ts:168:1 › D · bloqueo del puntero denegado activa la alternativa completa (11.5s)
+  ✓   7 tests/e2e/acceptance.spec.ts:188:1 › D · inicio local sin acceso externo y revisión con el contexto offline (12.1s)
+  ✓   8 tests/e2e/chairs.spec.ts:3:1 › las sillas cargadas conservan su hitbox, orientación y posición al deslizarse (4.2s)
+  ✓   9 tests/e2e/classroom.spec.ts:13:3 › Clase · lectura, fuentes y libreta con partida anterior, proyector y sin audio a 1280×720 (5.2s)
+  ✓  10 tests/e2e/classroom.spec.ts:13:3 › Clase · lectura, fuentes y libreta con partida anterior, proyector y sin audio a 1920×1080 (5.6s)
+  ✓  11 tests/e2e/desktop-b.spec.ts:33:1 › B integrada: acceso físico, pista, dos programas, TI, autosave, libreta y restauración (21.0s)
+  ✓  12 tests/e2e/desktop-b.spec.ts:168:1 › B a 1920: oficina y bisel visibles, retorno de TI y foco contenido (12.9s)
+  ✓  13 tests/e2e/desktop-b.spec.ts:185:1 › B móvil táctil: nota, aplicaciones, última frase y restauración (2.4s)
+  ✓  14 tests/e2e/desktop-b.spec.ts:222:1 › B sin WebGL y con almacenamiento bloqueado: trabajo en sesión sin falso guardado (1.2s)
+  ✓  15 tests/e2e/desktop-b.spec.ts:245:1 › B: reiniciar desde la tablita limpia la auditoría y el escritorio (9.7s)
+  ✓  16 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · accesos: dos programas propios, estado y recursos locales (1.4s)
+  ✓  17 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · crm_cambios: dos programas propios, estado y recursos locales (1.4s)
+  ✓  18 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · siem: dos programas propios, estado y recursos locales (1.6s)
+  ✓  19 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · respaldos: dos programas propios, estado y recursos locales (1.7s)
+  ✓  20 tests/e2e/desktop-stage3.spec.ts:32:3 › etapa 3 · mesa_auditor: dos programas propios, estado y recursos locales (1.4s)
+  ✓  21 tests/e2e/desktop-stage3.spec.ts:69:1 › etapa 3 · Recovery Console móvil conserva controles y lectura dentro del monitor (928ms)
+  ✓  22 tests/e2e/desktop-stage3.spec.ts:81:1 › etapa 3 · monitor físico junto al rack abre Server sin atravesar muebles (39.9s)
+  ✓  23 tests/e2e/i5.spec.ts:13:1 › I5 · ayuda escrita, retorno PC/libreta/TI y persistencia en los seis puestos (8.0s)
+  ✓  24 tests/e2e/i5.spec.ts:50:3 › I5 · metadatos y ayuda legibles a 1440px (1.3s)
+  ✓  25 tests/e2e/i5.spec.ts:50:3 › I5 · metadatos y ayuda legibles a 390px (1.1s)
+  ✓  26 tests/e2e/i5.spec.ts:76:1 › I5 · el reloj conserva el tiempo de un fotograma retrasado y la pausa lo congela (892ms)
+  ✓  27 tests/e2e/interview-audio.spec.ts:3:1 › reproduce la voz local, cambia de frase y detiene el audio al salir (1.2s)
+  ✓  28 tests/e2e/interview-audio.spec.ts:38:1 › los 29 MP3 se pueden cargar y decodificar (491ms)
+  ✓  29 tests/e2e/interview.spec.ts:19:1 › conversación por teclado: respuestas por turno, ramas y temas ya hablados (930ms)
+  ✓  30 tests/e2e/interview.spec.ts:50:1 › consultar documentos conserva el turno y desbloquea solo las repreguntas pertinentes (1.2s)
+  ✓  31 tests/e2e/interview.spec.ts:76:3 › entrevista legible a 1280×720, con modo proyector (9.9s)
+  ✓  32 tests/e2e/interview.spec.ts:76:3 › entrevista legible a 1920×1080, con modo proyector (14.8s)
+  ✓  33 tests/e2e/interview.spec.ts:76:3 › entrevista legible a 390×844, con modo proyector (1.0s)
+  ✓  34 tests/e2e/investigation.spec.ts:19:1 › SQL editable: filtros reales, NULL, errores y trazabilidad sin completar por clics (1.1s)
+  ✓  35 tests/e2e/investigation.spec.ts:55:1 › comparar órdenes y despliegue permite descubrir el orden reportado (1.1s)
+  ✓  36 tests/e2e/investigation.spec.ts:71:1 › sesiones: buscar una cuenta conserva foco y no atribuye la elevación sin usuario (864ms)
+  ✓  37 tests/e2e/investigation.spec.ts:89:1 › recuperación: recorrer estados no acredita integridad ni ejecuta restauraciones (1.1s)
+  ✓  38 tests/e2e/investigation.spec.ts:110:1 › archivo: consultar metadatos ausentes documenta un límite, sin hashes inventados (1.3s)
+  ✓  39 tests/e2e/investigation.spec.ts:127:1 › SIEM: seguir la cuenta conserva una cronología válida y permite reabrir el puesto (1.2s)
+  ✓  40 tests/e2e/investigation.spec.ts:143:1 › móvil: editor, inspector y guardado funcionan sin desbordar la pantalla (1.2s)
+  ✓  41 tests/e2e/office.spec.ts:102:1 › A · navegación real, entrega, AU-02 y dependencia de fuentes (2.1m)
+  ✓  42 tests/e2e/office.spec.ts:157:1 › B · seis revisiones en distinto orden, entrevistas y libreta (12.2s)
+  ✓  43 tests/e2e/office.spec.ts:191:1 › C · diez planos, transporte, nota ilustrativa y estado intacto (35.0s)
+  ✓  44 tests/e2e/office.spec.ts:257:1 › C · guardar, editar, reevaluar versión, exportar JSON e imprimir (3.2s)
+
+  44 passed (6.6m)

@@ -1,0 +1,20 @@
+{
+  "pdf": "libreta-seis-revisiones.pdf",
+  "sha256": "055ee4b72a8f1b1d5f2740711bdc3ba5443ce56b91c2fd897ee6a9685ac918cd",
+  "preguntas": 8,
+  "respuestas_elegidas": 8,
+  "codigos_conservados": [
+    "FALTAN_IDENTIDAD_Y_CRITERIO",
+    "SIN_VINCULO_NI_CONTENIDO",
+    "ORDENES_ANTES",
+    "FALTAN_CONCILIACION_Y_APROBACION",
+    "INTERVALO_ENTRE_REGISTROS",
+    "FALTAN_PRUEBA_Y_OBJETIVOS",
+    "CUSTODIA_NO_ACREDITADA",
+    "SINCRONIZACION_NO_VERIFICADA"
+  ],
+  "seis_revisiones_documentadas": true,
+  "paginas": 12,
+  "fuentes": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+RobotoMono-Regular            Type 3            Custom           yes yes yes      4  0\nAAAAAA+RobotoMono-Regular            Type 3            Custom           yes yes yes      5  0\nBAAAAA+RobotoMono-Regular            Type 3            Custom           yes yes yes      6  0\nBAAAAA+RobotoMono-Regular            Type 3            Custom           yes yes yes      7  0\nCAAAAA+RobotoMono-Regular            Type 3            Custom           yes yes yes      8  0\nDAAAAA+RobotoMono-Regular            Type 3            Custom           yes yes yes     11  0\nCAAAAA+RobotoMono-Regular            Type 3            Custom           yes yes yes     12  0\nDAAAAA+RobotoMono-Regular            Type 3            Custom           yes yes yes     23  0\n",
+  "impresion_fisica": false
+}

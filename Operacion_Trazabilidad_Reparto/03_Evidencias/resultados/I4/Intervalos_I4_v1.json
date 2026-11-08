@@ -1,0 +1,72 @@
+{
+  "intervalos": [
+    {
+      "tramo": "remoto_a_alerta",
+      "desde": "EVT-02",
+      "hasta": "EVT-08",
+      "minutos": 61.0,
+      "base": "horas reportadas; no normalización comprobada"
+    },
+    {
+      "tramo": "alerta_a_caida",
+      "desde": "EVT-08",
+      "hasta": "EVT-09",
+      "minutos": 24.0,
+      "base": "horas reportadas; no normalización comprobada"
+    },
+    {
+      "tramo": "caida_a_solicitud_DR",
+      "desde": "EVT-09",
+      "hasta": "EVT-10",
+      "minutos": 23.0,
+      "base": "horas reportadas; no normalización comprobada"
+    },
+    {
+      "tramo": "caida_a_consulta",
+      "desde": "EVT-09",
+      "hasta": "EVT-11",
+      "minutos": 315.0,
+      "base": "horas reportadas; no normalización comprobada"
+    },
+    {
+      "tramo": "caida_a_escritura",
+      "desde": "EVT-09",
+      "hasta": "EVT-12",
+      "minutos": 355.0,
+      "base": "horas reportadas; no normalización comprobada"
+    },
+    {
+      "tramo": "consulta_a_escritura",
+      "desde": "EVT-11",
+      "hasta": "EVT-12",
+      "minutos": 40.0,
+      "base": "horas reportadas; no normalización comprobada"
+    },
+    {
+      "tramo": "caida_a_solicitud_conciliacion",
+      "desde": "EVT-09",
+      "hasta": "EVT-13",
+      "minutos": 453.0,
+      "base": "horas reportadas; no normalización comprobada"
+    },
+    {
+      "tramo": "ordenes_a_despliegue",
+      "desde": "EVT-06",
+      "hasta": "EVT-07",
+      "minutos": 20.0,
+      "base": "horas reportadas; no normalización comprobada"
+    },
+    {
+      "tramo": "lectura_a_flujo",
+      "desde": "EVT-04",
+      "hasta": "EVT-05",
+      "minutos": 4.0,
+      "base": "horas reportadas; no normalización comprobada"
+    }
+  ],
+  "formula": "hora_reportada = hora_real + offset; delta_real = delta_reportada - (offset_B-offset_A)",
+  "incertidumbre_real": "Sin cota verificable; ±5/10/15 min son ejercicios, no estimaciones ni intervalos de confianza.",
+  "primera_accion_alerta": null,
+  "asignacion_alerta": null,
+  "cierre_alerta": null
+}
